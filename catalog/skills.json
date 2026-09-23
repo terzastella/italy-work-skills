@@ -1,6 +1,6 @@
 {
   "name": "ai-skills-hub",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "spec": "https://agentskills.io/specification",
   "skills": [
     {
@@ -866,6 +866,266 @@
       "name": "vacanze-pacchetto",
       "path": "skills/vacanze-pacchetto/SKILL.md",
       "description": "Package travel rights with assistance and refunds.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "tari-tassa",
+      "path": "skills/tari-tassa/SKILL.md",
+      "description": "TARI waste tax with base and reductions.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "canone-rai",
+      "path": "skills/canone-rai/SKILL.md",
+      "description": "TV licence fee with exemptions and opt-out.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "successioni-info",
+      "path": "skills/successioni-info/SKILL.md",
+      "description": "Italian inheritance with allowances and deadlines.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "donazioni-info",
+      "path": "skills/donazioni-info/SKILL.md",
+      "description": "Italian donations with notary deed and allowances.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "patente-punti",
+      "path": "skills/patente-punti/SKILL.md",
+      "description": "Licence points with deductions and recovery.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "periodo-prova",
+      "path": "skills/periodo-prova/SKILL.md",
+      "description": "Trial periods with duration and exit rules.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "licenziamento-info",
+      "path": "skills/licenziamento-info/SKILL.md",
+      "description": "Dismissal types with challenge terms and referrals.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "smart-working",
+      "path": "skills/smart-working/SKILL.md",
+      "description": "Lavoro agile with agreement and disconnection.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "part-time",
+      "path": "skills/part-time/SKILL.md",
+      "description": "Part-time forms with pay and conversion rules.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "utenze-voltura",
+      "path": "skills/utenze-voltura/SKILL.md",
+      "description": "Utility takeover vs new connection with costs.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "affitto-breve",
+      "path": "skills/affitto-breve/SKILL.md",
+      "description": "Short rentals with cedolare and CIN rules.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "compravendita-auto",
+      "path": "skills/compravendita-auto/SKILL.md",
+      "description": "Car sales with PRA transfer and checks.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "scuola-iscrizioni",
+      "path": "skills/scuola-iscrizioni/SKILL.md",
+      "description": "School enrollments with windows and criteria.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "universita-tasse",
+      "path": "skills/universita-tasse/SKILL.md",
+      "description": "University fees with ISEE-U bands and aid.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "medico-base",
+      "path": "skills/medico-base/SKILL.md",
+      "description": "GP choice and change with out-of-region rules.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "ticket-esenzioni",
+      "path": "skills/ticket-esenzioni/SKILL.md",
+      "description": "Health copay exemptions with codes.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "invalidita-104",
+      "path": "skills/invalidita-104/SKILL.md",
+      "description": "Disability benefits with commission path.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "residenza-cambio",
+      "path": "skills/residenza-cambio/SKILL.md",
+      "description": "Residence change with 45-day check and effects.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "carta-identita-cie",
+      "path": "skills/carta-identita-cie/SKILL.md",
+      "description": "CIE issuance with costs and validity.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "permesso-soggiorno",
+      "path": "skills/permesso-soggiorno/SKILL.md",
+      "description": "Residence permits with kit and renewal timing.",
       "license": "MIT",
       "compatibility": [
         "claude",

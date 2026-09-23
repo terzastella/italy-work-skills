@@ -99,6 +99,26 @@ One `SKILL.md` for all. Differences only in the loader, not the format.
 | voli-ritardi | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 | banche-reclami | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 | vacanze-pacchetto | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| tari-tassa | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| canone-rai | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| successioni-info | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| donazioni-info | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| patente-punti | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| periodo-prova | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| licenziamento-info | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| smart-working | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| part-time | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| utenze-voltura | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| affitto-breve | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| compravendita-auto | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| scuola-iscrizioni | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| universita-tasse | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| medico-base | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| ticket-esenzioni | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| invalidita-104 | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| residenza-cambio | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| carta-identita-cie | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| permesso-soggiorno | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 
 Archived generic skills (35 in `archive/`) are not tested or installed.
 

@@ -54,13 +54,22 @@ Total: 47 active. Names pagopa-guida/isa-check lowercase per spec (approved as p
 
 Total: 67 active. Deferred still pending: contratto-base-check, ferie-permessi.
 
-## Batch 3-IT — active (20) — 2026-09-23
+## Batch 4-IT — active (20) — 2026-09-23
 
-- IT-Fisco-3: nota-credito, contributi-inps, agevolazioni-assunzioni
-- IT-Impresa-2: ditta-vs-srl, camera-commercio, durc
-- IT-Lavoro-3: maternita-congedi, malattia-certificato, apprendistato, contratto-tipi
-- IT-Casa-2: condominio-spese, mutuo-tassi, compravendita-casa, auto-bollo, assegno-unico
-- IT-PA-2: anagrafe-certificati, passaporto-procedura
-- IT-Tutele-2: voli-ritardi, banche-reclami, vacanze-pacchetto
+- IT-Fisco-4: tari-tassa, canone-rai, successioni-info, donazioni-info
+- IT-Lavoro-4: periodo-prova, licenziamento-info, smart-working, part-time
+- IT-Casa-3: utenze-voltura, affitto-breve, compravendita-auto
+- IT-Scuola-Salute: scuola-iscrizioni, universita-tasse, medico-base, ticket-esenzioni, invalidita-104
+- IT-PA-3: residenza-cambio, carta-identita-cie, patente-punti, permesso-soggiorno
 
-Total: 67 active.
+Total: 87 active.
+
+## Batch 4-IT — active (20) — 2026-09-23
+
+- IT-Fisco-4: tari-tassa, canone-rai, successioni-info, donazioni-info
+- IT-Lavoro-4: periodo-prova, licenziamento-info, smart-working, part-time
+- IT-Casa-3: utenze-voltura, affitto-breve, compravendita-auto
+- IT-Scuola-Salute: scuola-iscrizioni, universita-tasse, medico-base, ticket-esenzioni, invalidita-104
+- IT-PA-3: residenza-cambio, carta-identita-cie, patente-punti, permesso-soggiorno
+
+Total: 87 active.
