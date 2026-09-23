@@ -1,6 +1,6 @@
 {
   "name": "ai-skills-hub",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "spec": "https://agentskills.io/specification",
   "skills": [
     {
@@ -1646,6 +1646,266 @@
       "name": "pensione-reversibilita",
       "path": "skills/pensione-reversibilita/SKILL.md",
       "description": "Survivor pensions with rates and limits.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "accertamento-info",
+      "path": "skills/accertamento-info/SKILL.md",
+      "description": "Tax audits with invites and adhesion paths.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "compensazioni-f24",
+      "path": "skills/compensazioni-f24/SKILL.md",
+      "description": "F24 tax offsets with limits and visti.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "rimborsi-fiscali",
+      "path": "skills/rimborsi-fiscali/SKILL.md",
+      "description": "Tax refund claims with timelines.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "somministrazione",
+      "path": "skills/somministrazione/SKILL.md",
+      "description": "Agency work with parity and missions.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "lavoro-minorile",
+      "path": "skills/lavoro-minorile/SKILL.md",
+      "description": "Underage work rules with bans and hours.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "startup-innovativa",
+      "path": "skills/startup-innovativa/SKILL.md",
+      "description": "Innovative startup perks with registry rules.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "fallimento-crisi-info",
+      "path": "skills/fallimento-crisi-info/SKILL.md",
+      "description": "Business crisis tools with alert duties.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "franchising-info",
+      "path": "skills/franchising-info/SKILL.md",
+      "description": "Franchising with disclosure and fee math.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "usufrutto-nuda",
+      "path": "skills/usufrutto-nuda/SKILL.md",
+      "description": "Usufruct vs bare ownership with value logic.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "spese-notarili",
+      "path": "skills/spese-notarili/SKILL.md",
+      "description": "Notary quotes with taxes vs fees split.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "mantenimento-figli",
+      "path": "skills/mantenimento-figli/SKILL.md",
+      "description": "Child maintenance criteria without verdicts.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "matrimonio-civile",
+      "path": "skills/matrimonio-civile/SKILL.md",
+      "description": "Civil weddings with publications and witnesses.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "cittadinanza",
+      "path": "skills/cittadinanza/SKILL.md",
+      "description": "Citizenship paths with timelines.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "assistenza-anziani",
+      "path": "skills/assistenza-anziani/SKILL.md",
+      "description": "Elder care from home help to RSA with benefits.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "bonus-cultura-18app",
+      "path": "skills/bonus-cultura-18app/SKILL.md",
+      "description": "Youth culture bonus with eligible spending.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "patronato-servizi",
+      "path": "skills/patronato-servizi/SKILL.md",
+      "description": "Free patronato help with when to go.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "concorsi-pubblici",
+      "path": "skills/concorsi-pubblici/SKILL.md",
+      "description": "Public competitions with bando reading.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "leasing-finanziamento",
+      "path": "skills/leasing-finanziamento/SKILL.md",
+      "description": "Leasing vs loans with total cost.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "trasloco-diritti",
+      "path": "skills/trasloco-diritti/SKILL.md",
+      "description": "Moving rights with quotes and damages.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "riscaldamento-contabilizzazione",
+      "path": "skills/riscaldamento-contabilizzazione/SKILL.md",
+      "description": "Heat metering splits with millesimi.",
       "license": "MIT",
       "compatibility": [
         "claude",

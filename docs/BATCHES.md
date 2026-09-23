@@ -5,7 +5,20 @@ All skill content in English. Only `README.md` stays in Italian.
 ## RESTART 2026-09-23 — Italian Work Skills Hub
 
 Generic batches below are archived (`archive/`, 35 skills, frozen).
-Active: 127 skills in `skills/` (9 + Batch 1-IT 18 + Batch 2-IT 20 + Batch 3-IT 20 + Batch 4-IT 20 + Batch 5-IT 20 + Batch 6-IT 20).
+Active: 147 skills in `skills/` (9 + Batch 1-IT 18 + Batch 2-IT 20 + Batch 3-IT 20 + Batch 4-IT 20 + Batch 5-IT 20 + Batch 6-IT 20 + Batch 7-IT 20).
+
+## Batch 7-IT — audits, business, family ✅ 2026-09-23 (147 active)
+
+20 skills, each `SKILL.md` + `references/` + `examples/` (fake data always marked).
+
+- Tax/jobs: accertamento-info, compensazioni-f24, rimborsi-fiscali, somministrazione, lavoro-minorile
+- Business/home: startup-innovativa, fallimento-crisi-info, franchising-info, usufrutto-nuda, spese-notarili
+- Family/health: mantenimento-figli, matrimonio-civile, cittadinanza, assistenza-anziani, bonus-cultura-18app
+- PA/tutele: patronato-servizi, concorsi-pubblici, leasing-finanziamento, trasloco-diritti, riscaldamento-contabilizzazione
+
+Delicate (mantenimento-figli, fallimento-crisi-info): info-only + referral.
+Batch gate: `validate.py` 148 OK zero warnings (147 skills + template),
+`security-check.py` clean, `install.py --all --dest ./tmp-test` 147×9 ok.
 
 ## Batch 6-IT — tax ops, business, home ✅ 2026-09-23 (127 active)
 

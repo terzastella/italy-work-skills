@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.8 (Batch 7-IT, 147 active + 35 archived)
+
+- 20 skills: tax/jobs (accertamento-info, compensazioni-f24, rimborsi-fiscali,
+  somministrazione, lavoro-minorile), business/home (startup-innovativa,
+  fallimento-crisi-info, franchising-info, usufrutto-nuda, spese-notarili),
+  family/health (mantenimento-figli, matrimonio-civile, cittadinanza,
+  assistenza-anziani, bonus-cultura-18app), PA/tutele (patronato-servizi,
+  concorsi-pubblici, leasing-finanziamento, trasloco-diritti,
+  riscaldamento-contabilizzazione).
+- Delicate info-only + referral (mantenimento, crisi).
+- Indexes: `skills.json` 1.8.0 (147 entries), `plugin.json` 1.8.0.
+
 ## 1.7 (Batch 6-IT, 127 active + 35 archived)
 
 - 20 skills: tax (ravvedimento-operoso, cartelle-ader, rateizzazione-debiti,

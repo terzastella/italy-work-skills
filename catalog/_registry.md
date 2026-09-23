@@ -64,7 +64,7 @@ Total: 67 active. Deferred still pending: contratto-base-check, ferie-permessi.
 
 Total: 87 active.
 
-## Batch 5-IT â€” active (20) â€” 2026-09-23
+## Batch 5-IT — active (20) — 2026-09-23
 
 - IT-Lavoro-5: colf-badanti, collaborazioni-occasionali
 - IT-Pensioni: pensione-guida, riscatto-laurea, tfr-fondo
@@ -89,15 +89,30 @@ Total: 107 active. Deferred still pending: contratto-base-check, ferie-permessi.
 
 Total: 127 active. Deferred still pending: contratto-base-check, ferie-permessi.
 
-## Batch 6-IT — active (20) — 2026-09-23
+## Batch 7-IT — active (20) — 2026-09-23
 
-- IT-Fisco-5: ravvedimento-operoso, cartelle-ader, rateizzazione-debiti, cedolare-secca
-- IT-Lavoro-6: cassa-integrazione, welfare-aziendale
-- IT-Impresa-3: ecommerce-adempimenti, sicurezza-lavoro, marchi-info
-- IT-Casa-5: ape-certificazione, edilizia-cila-scia, amministratore-condominio
-- IT-Digitali: firma-digitale, domicilio-digitale-inad, cassetto-fiscale
-- IT-PA-4: elezioni-voto, multe-ricorso
-- IT-Salute-2: assicurazione-sanitaria
-- IT-Ammortizzatori: dis-coll, pensione-reversibilita
+- IT-Fisco-6: accertamento-info, compensazioni-f24, rimborsi-fiscali
+- IT-Lavoro-7: somministrazione, lavoro-minorile
+- IT-Impresa-4: startup-innovativa, fallimento-crisi-info, franchising-info
+- IT-Casa-6: usufrutto-nuda, spese-notarili, riscaldamento-contabilizzazione
+- IT-Famiglia-2: mantenimento-figli, matrimonio-civile, cittadinanza
+- IT-Salute-3: assistenza-anziani
+- IT-PA-5: patronato-servizi, concorsi-pubblici
+- IT-Soldi-2: leasing-finanziamento, trasloco-diritti
+- IT-Cultura: bonus-cultura-18app
 
-Total: 127 active. Deferred still pending: contratto-base-check, ferie-permessi.
+Total: 147 active. Deferred still pending: contratto-base-check, ferie-permessi.
+
+## Batch 7-IT — active (20) — 2026-09-23
+
+- IT-Fisco-6: accertamento-info, compensazioni-f24, rimborsi-fiscali
+- IT-Lavoro-7: somministrazione, lavoro-minorile
+- IT-Impresa-4: startup-innovativa, fallimento-crisi-info, franchising-info
+- IT-Casa-6: usufrutto-nuda, spese-notarili, riscaldamento-contabilizzazione
+- IT-Famiglia-2: mantenimento-figli, matrimonio-civile, cittadinanza
+- IT-Salute-3: assistenza-anziani
+- IT-PA-5: patronato-servizi, concorsi-pubblici
+- IT-Soldi-2: leasing-finanziamento, trasloco-diritti
+- IT-Cultura: bonus-cultura-18app
+
+Total: 147 active. Deferred still pending: contratto-base-check, ferie-permessi.
