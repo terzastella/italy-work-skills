@@ -1,6 +1,6 @@
 {
   "name": "ai-skills-hub",
-  "version": "1.1.0",
+  "version": "1.3.0",
   "spec": "https://agentskills.io/specification",
   "skills": [
     {
@@ -346,6 +346,266 @@
       "name": "visura-leggimi",
       "path": "skills/visura-leggimi/SKILL.md",
       "description": "Read visura camerale sections and what they mean.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "partita-iva-apri",
+      "path": "skills/partita-iva-apri/SKILL.md",
+      "description": "Guide opening an Italian VAT number with regime and ATECO choice.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "ateco-scelta",
+      "path": "skills/ateco-scelta/SKILL.md",
+      "description": "Choose the right ATECO code and know why it matters.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "acconti-calcolo",
+      "path": "skills/acconti-calcolo/SKILL.md",
+      "description": "Compute Italian advance payments with historic method.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "ritenuta-acconto",
+      "path": "skills/ritenuta-acconto/SKILL.md",
+      "description": "Italian withholding tax with forfettari and EU cases.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "operazioni-estero",
+      "path": "skills/operazioni-estero/SKILL.md",
+      "description": "Italy cross-border VAT ops and Intrastat basics.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "fattura-pa",
+      "path": "skills/fattura-pa/SKILL.md",
+      "description": "B2G invoices to Italian public bodies with CIG/CUP.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "imu-calcolo",
+      "path": "skills/imu-calcolo/SKILL.md",
+      "description": "IMU property tax with base and rate method.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "cu-730-guida",
+      "path": "skills/cu-730-guida/SKILL.md",
+      "description": "CU and 730 paths for employees and freelancers.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "busta-paga-leggi",
+      "path": "skills/busta-paga-leggi/SKILL.md",
+      "description": "Italian payslips line by line with net-pay math.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "naspi-guida",
+      "path": "skills/naspi-guida/SKILL.md",
+      "description": "NASpI unemployment benefit requirements and math.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "isee-guida",
+      "path": "skills/isee-guida/SKILL.md",
+      "description": "ISEE with DSU documents and common mistakes.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "bollette-energia",
+      "path": "skills/bollette-energia/SKILL.md",
+      "description": "Italian energy bills read and offers compared.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "bonus-casa",
+      "path": "skills/bonus-casa/SKILL.md",
+      "description": "Italian home bonuses with requirements and papers.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "sanita-digitale",
+      "path": "skills/sanita-digitale/SKILL.md",
+      "description": "FSE, IO app and health bookings in Italy.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "affitto-check",
+      "path": "skills/affitto-check/SKILL.md",
+      "description": "Italian rental contracts with red flags and costs.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "pagopa-guida",
+      "path": "skills/pagopa-guida/SKILL.md",
+      "description": "pagoPA payments with notice codes and receipts.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "garanzie-consumo",
+      "path": "skills/garanzie-consumo/SKILL.md",
+      "description": "Italy's 2-year legal guarantee with burden rules.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "recesso-acquisti",
+      "path": "skills/recesso-acquisti/SKILL.md",
+      "description": "14-day withdrawal for distance and off-premises purchases.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "isa-check",
+      "path": "skills/isa-check/SKILL.md",
+      "description": "ISA reliability indexes with score reading.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "tirocinio-guida",
+      "path": "skills/tirocinio-guida/SKILL.md",
+      "description": "Italian internships with rights and allowances.",
       "license": "MIT",
       "compatibility": [
         "claude",

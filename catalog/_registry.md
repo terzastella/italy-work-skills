@@ -28,5 +28,17 @@ press-release-it, doc-polish-it, case-study
 - IT-Bandi-PA: bandi-pmi, domanda-bando, spid-cie-guida
 - IT-Tutele: privacy-informativa, visura-leggimi
 
-Total: 27/200 (9 + 18). Deferred for later review: contratto-base-check, ferie-permessi.
+Total: 27 active. Deferred for later review: contratto-base-check, ferie-permessi.
 Generic categories frozen.
+
+## Batch 2-IT — active (20) — 2026-09-23
+
+- IT-Fisco-2: partita-iva-apri, ateco-scelta, acconti-calcolo, ritenuta-acconto,
+  operazioni-estero, fattura-pa, imu-calcolo, cu-730-guida
+- IT-Lavoro-2: busta-paga-leggi, naspi-guida, tirocinio-guida
+- IT-Casa: isee-guida, bollette-energia, bonus-casa, sanita-digitale, affitto-check
+- IT-PA-digitale: pagopa-guida
+- IT-Tutele-consumo: garanzie-consumo, recesso-acquisti
+- IT-Impresa: isa-check
+
+Total: 47 active. Names pagopa-guida/isa-check lowercase per spec (approved as pagoPA/ISA).

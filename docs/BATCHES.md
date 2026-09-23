@@ -5,7 +5,22 @@ All skill content in English. Only `README.md` stays in Italian.
 ## RESTART 2026-09-23 — Italian Work Skills Hub
 
 Generic batches below are archived (`archive/`, 35 skills, frozen).
-Active: 27 skills in `skills/` (9 + Batch 1-IT 18). Next: Batch 2-IT (see `catalog/_registry.md`).
+Active: 47 skills in `skills/` (9 + Batch 1-IT 18 + Batch 2-IT 20).
+
+## Batch 2-IT — second-level Italy ✅ 2026-09-23 (47 active)
+
+20 skills, each `SKILL.md` + `references/` (incl. `fonti.md` with official links +
+check date for tax/law/PA) + `examples/` (fake data always marked).
+
+- Tax-2: partita-iva-apri, ateco-scelta, acconti-calcolo, ritenuta-acconto,
+  operazioni-estero, fattura-pa, imu-calcolo, cu-730-guida
+- Jobs-2: busta-paga-leggi, naspi-guida, tirocinio-guida
+- Casa: isee-guida, bollette-energia, bonus-casa, sanita-digitale, affitto-check
+- PA/tutele: pagopa-guida, garanzie-consumo, recesso-acquisti, isa-check
+  (+ tirocinio-guida counted in jobs-2)
+
+Batch gate: `validate.py` 48 OK zero warnings (47 skills + template),
+`security-check.py` clean, `install.py --all --dest ./tmp-test` 47×9 ok.
 
 ## Batch 1-IT — Italy work ✅ 2026-09-23 (27 active)
 
