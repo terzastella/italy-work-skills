@@ -1,4 +1,4 @@
-# Skill name registry v2 — Italy restart (2026-09-23)
+﻿# Skill name registry v2 â€” Italy restart (2026-09-23)
 
 Rule: one name once. Folder names frozen (`-it` = Italian origin or
 Italy-specific domain). All content in English. Only `README.md` in Italian.
@@ -9,7 +9,7 @@ Tooling: hello-agent, skill-creator-it
 Italy core: invoice-it, email-formale-it, xlsx-budget-it, translate-it-en,
 press-release-it, doc-polish-it, case-study
 
-## Archived, frozen (35) — see archive/README.md
+## Archived, frozen (35) â€” see archive/README.md
 
 - archive/batch1-generic/ (17): smart-commit, git-status-express, changelog-gen,
   release-notes, code-review-it, systematic-debug, refactor-plan, test-gen-it,
@@ -20,7 +20,7 @@ press-release-it, doc-polish-it, case-study
   landing-copy, product-desc-it, faq-gen, video-script-it, podcast-outline,
   infographic-brief, cta-optimize, readability-fix, repurpose-content
 
-## Batch 1-IT — active (18) — 2026-09-23
+## Batch 1-IT â€” active (18) â€” 2026-09-23
 
 - IT-Fisco: fattura-elettronica-it, regime-forfettario, scadenze-fiscali, corrispettivi-it
 - IT-Formali: pec-bozza, sollecito-pagamento, verbale-riunione-it, preventivo-it, nota-spese
@@ -31,7 +31,7 @@ press-release-it, doc-polish-it, case-study
 Total: 27 active. Deferred for later review: contratto-base-check, ferie-permessi.
 Generic categories frozen.
 
-## Batch 2-IT — active (20) — 2026-09-23
+## Batch 2-IT â€” active (20) â€” 2026-09-23
 
 - IT-Fisco-2: partita-iva-apri, ateco-scelta, acconti-calcolo, ritenuta-acconto,
   operazioni-estero, fattura-pa, imu-calcolo, cu-730-guida
@@ -43,7 +43,7 @@ Generic categories frozen.
 
 Total: 47 active. Names pagopa-guida/isa-check lowercase per spec (approved as pagoPA/ISA).
 
-## Batch 3-IT — active (20) — 2026-09-23
+## Batch 3-IT â€” active (20) â€” 2026-09-23
 
 - IT-Fisco-3: nota-credito, contributi-inps, agevolazioni-assunzioni
 - IT-Impresa-2: ditta-vs-srl, camera-commercio, durc
@@ -54,7 +54,7 @@ Total: 47 active. Names pagopa-guida/isa-check lowercase per spec (approved as p
 
 Total: 67 active. Deferred still pending: contratto-base-check, ferie-permessi.
 
-## Batch 4-IT — active (20) — 2026-09-23
+## Batch 4-IT â€” active (20) â€” 2026-09-23
 
 - IT-Fisco-4: tari-tassa, canone-rai, successioni-info, donazioni-info
 - IT-Lavoro-4: periodo-prova, licenziamento-info, smart-working, part-time
@@ -64,7 +64,7 @@ Total: 67 active. Deferred still pending: contratto-base-check, ferie-permessi.
 
 Total: 87 active.
 
-## Batch 5-IT — active (20) — 2026-09-23
+## Batch 5-IT â€” active (20) â€” 2026-09-23
 
 - IT-Lavoro-5: colf-badanti, collaborazioni-occasionali
 - IT-Pensioni: pensione-guida, riscatto-laurea, tfr-fondo
@@ -76,14 +76,28 @@ Total: 87 active.
 
 Total: 107 active. Deferred still pending: contratto-base-check, ferie-permessi.
 
-## Batch 5-IT — active (20) — 2026-09-23
+## Batch 6-IT — active (20) — 2026-09-23
 
-- IT-Lavoro-5: colf-badanti, collaborazioni-occasionali
-- IT-Pensioni: pensione-guida, riscatto-laurea, tfr-fondo
-- IT-Casa-4: prima-casa-agevolazioni, affitto-concordato
-- IT-Soldi: conto-corrente-costi, rc-auto, criptovalute-fisco, spese-mediche-detrazioni
-- IT-Famiglia: unioni-convivenze, asilo-nido-bonus, testamento-olografo
-- IT-Estero-PA: aire-estero, certificati-estero
-- IT-Tutele-3: telefonia-reclami, energia-reclami, assicurazione-casa, animali-viaggi
+- IT-Fisco-5: ravvedimento-operoso, cartelle-ader, rateizzazione-debiti, cedolare-secca
+- IT-Lavoro-6: cassa-integrazione, welfare-aziendale
+- IT-Impresa-3: ecommerce-adempimenti, sicurezza-lavoro, marchi-info
+- IT-Casa-5: ape-certificazione, edilizia-cila-scia, amministratore-condominio
+- IT-Digitali: firma-digitale, domicilio-digitale-inad, cassetto-fiscale
+- IT-PA-4: elezioni-voto, multe-ricorso
+- IT-Salute-2: assicurazione-sanitaria
+- IT-Ammortizzatori: dis-coll, pensione-reversibilita
 
-Total: 107 active. Deferred still pending: contratto-base-check, ferie-permessi.
+Total: 127 active. Deferred still pending: contratto-base-check, ferie-permessi.
+
+## Batch 6-IT — active (20) — 2026-09-23
+
+- IT-Fisco-5: ravvedimento-operoso, cartelle-ader, rateizzazione-debiti, cedolare-secca
+- IT-Lavoro-6: cassa-integrazione, welfare-aziendale
+- IT-Impresa-3: ecommerce-adempimenti, sicurezza-lavoro, marchi-info
+- IT-Casa-5: ape-certificazione, edilizia-cila-scia, amministratore-condominio
+- IT-Digitali: firma-digitale, domicilio-digitale-inad, cassetto-fiscale
+- IT-PA-4: elezioni-voto, multe-ricorso
+- IT-Salute-2: assicurazione-sanitaria
+- IT-Ammortizzatori: dis-coll, pensione-reversibilita
+
+Total: 127 active. Deferred still pending: contratto-base-check, ferie-permessi.

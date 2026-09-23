@@ -139,6 +139,26 @@ One `SKILL.md` for all. Differences only in the loader, not the format.
 | energia-reclami | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 | assicurazione-casa | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 | animali-viaggi | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| ravvedimento-operoso | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| cartelle-ader | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| rateizzazione-debiti | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| cedolare-secca | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| firma-digitale | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| cassa-integrazione | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| welfare-aziendale | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| ecommerce-adempimenti | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| sicurezza-lavoro | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| marchi-info | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| ape-certificazione | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| edilizia-cila-scia | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| amministratore-condominio | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| domicilio-digitale-inad | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| cassetto-fiscale | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| elezioni-voto | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| multe-ricorso | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| assicurazione-sanitaria | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| dis-coll | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| pensione-reversibilita | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 
 Archived generic skills (35 in `archive/`) are not tested or installed.
 

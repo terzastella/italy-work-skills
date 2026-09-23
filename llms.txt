@@ -44,6 +44,14 @@
   testamento-olografo, aire-estero.
 - Batch 5-IT, tutele (5): certificati-estero, telefonia-reclami, energia-reclami,
   assicurazione-casa, animali-viaggi.
+- Batch 6-IT, fisco (5): ravvedimento-operoso, cartelle-ader, rateizzazione-debiti,
+  cedolare-secca, firma-digitale.
+- Batch 6-IT, lavoro/impresa (5): cassa-integrazione, welfare-aziendale,
+  ecommerce-adempimenti, sicurezza-lavoro, marchi-info.
+- Batch 6-IT, casa/digitali (5): ape-certificazione, edilizia-cila-scia,
+  amministratore-condominio, domicilio-digitale-inad, cassetto-fiscale.
+- Batch 6-IT, PA/salute (5): elezioni-voto, multe-ricorso, assicurazione-sanitaria,
+  dis-coll, pensione-reversibilita.
 
 Details in catalog/skills.json. Archived generic skills in archive/ (not installed).
 

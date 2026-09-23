@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.7 (Batch 6-IT, 127 active + 35 archived)
+
+- 20 skills: tax (ravvedimento-operoso, cartelle-ader, rateizzazione-debiti,
+  cedolare-secca, firma-digitale), jobs/business (cassa-integrazione,
+  welfare-aziendale, ecommerce-adempimenti, sicurezza-lavoro, marchi-info),
+  home/digital (ape-certificazione, edilizia-cila-scia, amministratore-condominio,
+  domicilio-digitale-inad, cassetto-fiscale), PA/health (elezioni-voto,
+  multe-ricorso, assicurazione-sanitaria, dis-coll, pensione-reversibilita).
+- Delicate info-only + referral (multe, reversibilità, marchi).
+- Indexes: `skills.json` 1.7.0 (127 entries), `plugin.json` 1.7.0.
+
 ## 1.6 (Batch 5-IT, 107 active + 35 archived)
 
 - 20 skills: jobs/pensions (colf-badanti, collaborazioni-occasionali,

@@ -172,6 +172,26 @@ Destinazioni:
 | [energia-reclami](skills/energia-reclami/SKILL.md) | Reclami e sportello ARERA | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill energia-reclami --all` |
 | [assicurazione-casa](skills/assicurazione-casa/SKILL.md) | Polizze casa e sinistri | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill assicurazione-casa --all` |
 | [animali-viaggi](skills/animali-viaggi/SKILL.md) | Animali oltre confine | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill animali-viaggi --all` |
+| [ravvedimento-operoso](skills/ravvedimento-operoso/SKILL.md) | Ravvedimento con fasce | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill ravvedimento-operoso --all` |
+| [cartelle-ader](skills/cartelle-ader/SKILL.md) | Cartelle con 60 giorni | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill cartelle-ader --all` |
+| [rateizzazione-debiti](skills/rateizzazione-debiti/SKILL.md) | Rateizzi senza perderli | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill rateizzazione-debiti --all` |
+| [cedolare-secca](skills/cedolare-secca/SKILL.md) | Cedolare vs IRPEF | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill cedolare-secca --all` |
+| [firma-digitale](skills/firma-digitale/SKILL.md) | Firme con tipi giusti | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill firma-digitale --all` |
+| [cassa-integrazione](skills/cassa-integrazione/SKILL.md) | CIG e paga effetti | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill cassa-integrazione --all` |
+| [welfare-aziendale](skills/welfare-aziendale/SKILL.md) | Fringe senza trappole | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill welfare-aziendale --all` |
+| [ecommerce-adempimenti](skills/ecommerce-adempimenti/SKILL.md) | Vendere online in regola | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill ecommerce-adempimenti --all` |
+| [sicurezza-lavoro](skills/sicurezza-lavoro/SKILL.md) | DVR e mappa doveri | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill sicurezza-lavoro --all` |
+| [marchi-info](skills/marchi-info/SKILL.md) | Marchi e brevetti base | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill marchi-info --all` |
+| [ape-certificazione](skills/ape-certificazione/SKILL.md) | APE e classi energetiche | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill ape-certificazione --all` |
+| [edilizia-cila-scia](skills/edilizia-cila-scia/SKILL.md) | Permessi per lavori | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill edilizia-cila-scia --all` |
+| [amministratore-condominio](skills/amministratore-condominio/SKILL.md) | Amministratori dentro/fuori | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill amministratore-condominio --all` |
+| [domicilio-digitale-inad](skills/domicilio-digitale-inad/SKILL.md) | Domicilio INAD ed effetti | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill domicilio-digitale-inad --all` |
+| [cassetto-fiscale](skills/cassetto-fiscale/SKILL.md) | Cassetto AdE e deleghe | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill cassetto-fiscale --all` |
+| [elezioni-voto](skills/elezioni-voto/SKILL.md) | Votare senza sorprese | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill elezioni-voto --all` |
+| [multe-ricorso](skills/multe-ricorso/SKILL.md) | Multe e ricorsi base | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill multe-ricorso --all` |
+| [assicurazione-sanitaria](skills/assicurazione-sanitaria/SKILL.md) | Fondi sanitari e deducibilità | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill assicurazione-sanitaria --all` |
+| [dis-coll](skills/dis-coll/SKILL.md) | DIS-COLL per collaboratori | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill dis-coll --all` |
+| [pensione-reversibilita](skills/pensione-reversibilita/SKILL.md) | Reversibilità e limiti | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill pensione-reversibilita --all` |
 
 Legenda: ✅ testata localmente · ⚠️ da verificare · ❌ non supportata
 
@@ -188,7 +208,7 @@ Non duplichiamo codice altrui per licenza e manutenzione. Vedi `catalog/vendors-
 ```
 ai-skills/
   README.md + LICENSE + llms.txt  # root essenziale
-  skills/                    # SOURCE OF TRUTH: 107 skill (9 + batch 1-IT 18 + batch 2-IT 20 + batch 3-IT 20 + batch 4-IT 20 + batch 5-IT 20)
+  skills/                    # SOURCE OF TRUTH: 127 skill (9 + batch 1-6 IT da 18/20/20/20/20/20)
     tooling: hello-agent/ skill-creator-it/
     cuore: invoice-it/ email-formale-it/ xlsx-budget-it/
       translate-it-en/ press-release-it/ doc-polish-it/ case-study/
@@ -229,6 +249,14 @@ ai-skills/
       asilo-nido-bonus/ testamento-olografo/ aire-estero/
     batch5-IT tutele: certificati-estero/ telefonia-reclami/ energia-reclami/
       assicurazione-casa/ animali-viaggi/
+    batch6-IT fisco: ravvedimento-operoso/ cartelle-ader/ rateizzazione-debiti/
+      cedolare-secca/ firma-digitale/
+    batch6-IT lavoro/impresa: cassa-integrazione/ welfare-aziendale/
+      ecommerce-adempimenti/ sicurezza-lavoro/ marchi-info/
+    batch6-IT casa/digitali: ape-certificazione/ edilizia-cila-scia/
+      amministratore-condominio/ domicilio-digitale-inad/ cassetto-fiscale/
+    batch6-IT PA/salute: elezioni-voto/ multe-ricorso/ assicurazione-sanitaria/
+      dis-coll/ pensione-reversibilita/
     (ognuna: SKILL.md + references/ + examples/)
   archive/                   # skill generiche pre-restart (non installate)
     batch1-generic/ (17) + batch2-seo/ (18)
@@ -272,7 +300,8 @@ Guida completa: `docs/CREATE-SKILL.md`. Per skill Italia: aggiungi fonti ufficia
 - [x] Batch 3-IT (20 skill: fisco/impresa, lavoro, casa, PA/tutele) → totale 67
 - [x] Batch 4-IT (20 skill: fisco/famiglia, lavoro, casa/auto, scuola/salute, PA) → totale 87
 - [x] Batch 5-IT (20 skill: lavoro/pensioni, casa/soldi, famiglia/estero, tutele) → totale 107
+- [x] Batch 6-IT (20 skill: fisco, lavoro/impresa, casa/digitali, PA/salute) → totale 127
 - [ ] Rinviati da valutare: contratto-base-check, ferie-permessi
 - [ ] Test reali sugli agenti e badge in `docs/COMPATIBILITY.md`
-- [ ] Batch 6-IT da pianificare (vedi `catalog/_registry.md`)
+- [ ] Batch 7-IT da pianificare (vedi `catalog/_registry.md`)
 - [ ] Rinviato (serve repo pubblica): submit a skills.sh / agentskills.io

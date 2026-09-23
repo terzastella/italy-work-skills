@@ -1,6 +1,6 @@
 {
   "name": "ai-skills-hub",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "spec": "https://agentskills.io/specification",
   "skills": [
     {
@@ -1386,6 +1386,266 @@
       "name": "animali-viaggi",
       "path": "skills/animali-viaggi/SKILL.md",
       "description": "Pet travel documents with microchip and vaccines.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "ravvedimento-operoso",
+      "path": "skills/ravvedimento-operoso/SKILL.md",
+      "description": "Fix late tax payments with reduced penalties by timing.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "cartelle-ader",
+      "path": "skills/cartelle-ader/SKILL.md",
+      "description": "AdER payment notices with 60-day options.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "rateizzazione-debiti",
+      "path": "skills/rateizzazione-debiti/SKILL.md",
+      "description": "Tax debt instalments with lapse rules.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "cedolare-secca",
+      "path": "skills/cedolare-secca/SKILL.md",
+      "description": "Flat rental tax vs IRPEF with break-even.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "firma-digitale",
+      "path": "skills/firma-digitale/SKILL.md",
+      "description": "Digital signatures with types and issuance.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "cassa-integrazione",
+      "path": "skills/cassa-integrazione/SKILL.md",
+      "description": "Wage guarantee funds with worker pay effects.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "welfare-aziendale",
+      "path": "skills/welfare-aziendale/SKILL.md",
+      "description": "Fringe benefits with thresholds and traps.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "ecommerce-adempimenti",
+      "path": "skills/ecommerce-adempimenti/SKILL.md",
+      "description": "Online selling duties from SCIA to returns.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "sicurezza-lavoro",
+      "path": "skills/sicurezza-lavoro/SKILL.md",
+      "description": "Workplace safety duties with DVR and training.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "marchi-info",
+      "path": "skills/marchi-info/SKILL.md",
+      "description": "Trademarks vs patents with filing paths.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "ape-certificazione",
+      "path": "skills/ape-certificazione/SKILL.md",
+      "description": "Energy certificates with classes and validity.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "edilizia-cila-scia",
+      "path": "skills/edilizia-cila-scia/SKILL.md",
+      "description": "Building permits from free works to permesso.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "amministratore-condominio",
+      "path": "skills/amministratore-condominio/SKILL.md",
+      "description": "Appointing and removing condo admins.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "domicilio-digitale-inad",
+      "path": "skills/domicilio-digitale-inad/SKILL.md",
+      "description": "Digital domicile in INAD with effects.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "cassetto-fiscale",
+      "path": "skills/cassetto-fiscale/SKILL.md",
+      "description": "AdE tax drawer with delegations.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "elezioni-voto",
+      "path": "skills/elezioni-voto/SKILL.md",
+      "description": "How and where to vote in Italy.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "multe-ricorso",
+      "path": "skills/multe-ricorso/SKILL.md",
+      "description": "Traffic fine appeals with terms and paths.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "assicurazione-sanitaria",
+      "path": "skills/assicurazione-sanitaria/SKILL.md",
+      "description": "Integrative health funds with deductibility.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "dis-coll",
+      "path": "skills/dis-coll/SKILL.md",
+      "description": "DIS-COLL benefit for collaborators with math.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "pensione-reversibilita",
+      "path": "skills/pensione-reversibilita/SKILL.md",
+      "description": "Survivor pensions with rates and limits.",
       "license": "MIT",
       "compatibility": [
         "claude",
