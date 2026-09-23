@@ -232,6 +232,26 @@ Destinazioni:
 | [conti-deposito](skills/conti-deposito/SKILL.md) | Depositi al netto | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill conti-deposito --all` |
 | [fondo-emergenza](skills/fondo-emergenza/SKILL.md) | Fondi liquidi sicuri | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill fondo-emergenza --all` |
 | [trasferte-lavoro](skills/trasferte-lavoro/SKILL.md) | Trasferte Italia e quote | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill trasferte-lavoro --all` |
+| [irpef-scaglioni](skills/irpef-scaglioni/SKILL.md) | Scaglioni e medie vere | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill irpef-scaglioni --all` |
+| [addizionali-regionali](skills/addizionali-regionali/SKILL.md) | Addizionali per residenza | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill addizionali-regionali --all` |
+| [imposta-bollo](skills/imposta-bollo/SKILL.md) | Marche e virtuale | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill imposta-bollo --all` |
+| [aspettativa-lavoro](skills/aspettativa-lavoro/SKILL.md) | Aspettative e buchi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill aspettativa-lavoro --all` |
+| [trasferimento-sede](skills/trasferimento-sede/SKILL.md) | Trasferimenti e rifiuti | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill trasferimento-sede --all` |
+| [plusvalenza-casa](skills/plusvalenza-casa/SKILL.md) | Plusvalenze e 5 anni | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill plusvalenza-casa --all` |
+| [case-popolari-erp](skills/case-popolari-erp/SKILL.md) | ERP e graduatorie | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill case-popolari-erp --all` |
+| [agenti-rappresentanti](skills/agenti-rappresentanti/SKILL.md) | Enasarco e FIRR | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill agenti-rappresentanti --all` |
+| [appalti-pubblici-info](skills/appalti-pubblici-info/SKILL.md) | Gare e MEPA | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill appalti-pubblici-info --all` |
+| [congedo-matrimoniale](skills/congedo-matrimoniale/SKILL.md) | Congedi nozze | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill congedo-matrimoniale --all` |
+| [mensa-scolastica](skills/mensa-scolastica/SKILL.md) | Mense e fasce ISEE | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill mensa-scolastica --all` |
+| [impegnativa-visite](skills/impegnativa-visite/SKILL.md) | Classi e CUP | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill impegnativa-visite --all` |
+| [donazione-organi](skills/donazione-organi/SKILL.md) | Volontà sobrie | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill donazione-organi --all` |
+| [adozioni-info](skills/adozioni-info/SKILL.md) | Adozioni e tempi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill adozioni-info --all` |
+| [separazione-divorzio](skills/separazione-divorzio/SKILL.md) | Separazioni senza tattiche | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill separazione-divorzio --all` |
+| [servizio-civile](skills/servizio-civile/SKILL.md) | Bandi e assegni | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill servizio-civile --all` |
+| [tredicesima-info](skills/tredicesima-info/SKILL.md) | Tredicesime e ratei | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill tredicesima-info --all` |
+| [buoni-fruttiferi](skills/buoni-fruttiferi/SKILL.md) | Buoni al netto | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill buoni-fruttiferi --all` |
+| [treni-diritti](skills/treni-diritti/SKILL.md) | Ritardi e rimborsi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill treni-diritti --all` |
+| [noleggio-auto-diritti](skills/noleggio-auto-diritti/SKILL.md) | Noleggi e franchigie | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill noleggio-auto-diritti --all` |
 
 Legenda: ✅ testata localmente · ⚠️ da verificare · ❌ non supportata
 
@@ -248,7 +268,7 @@ Non duplichiamo codice altrui per licenza e manutenzione. Vedi `catalog/vendors-
 ```
 ai-skills/
   README.md + LICENSE + llms.txt  # root essenziale
-  skills/                    # SOURCE OF TRUTH: 167 skill (9 + batch 1-8 IT)
+  skills/                    # SOURCE OF TRUTH: 187 skill (9 + batch 1-9 IT)
     tooling: hello-agent/ skill-creator-it/
     cuore: invoice-it/ email-formale-it/ xlsx-budget-it/
       translate-it-en/ press-release-it/ doc-polish-it/ case-study/
@@ -313,6 +333,14 @@ ai-skills/
       vaccini-obbligatori/ donazione-sangue/
     batch8-IT soldi/lavoro: pronto-soccorso-ticket/ straordinari-info/ conti-deposito/
       fondo-emergenza/ trasferte-lavoro/
+    batch9-IT fisco/lavoro: irpef-scaglioni/ addizionali-regionali/ imposta-bollo/
+      aspettativa-lavoro/ trasferimento-sede/
+    batch9-IT casa/impresa: plusvalenza-casa/ case-popolari-erp/ agenti-rappresentanti/
+      appalti-pubblici-info/ congedo-matrimoniale/
+    batch9-IT famiglia/salute: mensa-scolastica/ impegnativa-visite/ donazione-organi/
+      adozioni-info/ separazione-divorzio/
+    batch9-IT PA/soldi: servizio-civile/ tredicesima-info/ buoni-fruttiferi/
+      treni-diritti/ noleggio-auto-diritti/
     (ognuna: SKILL.md + references/ + examples/)
   archive/                   # skill generiche pre-restart (non installate)
     batch1-generic/ (17) + batch2-seo/ (18)
@@ -359,7 +387,8 @@ Guida completa: `docs/CREATE-SKILL.md`. Per skill Italia: aggiungi fonti ufficia
 - [x] Batch 6-IT (20 skill: fisco, lavoro/impresa, casa/digitali, PA/salute) → totale 127
 - [x] Batch 7-IT (20 skill: fisco/lavoro, impresa/casa, famiglia/salute, PA/tutele) → totale 147
 - [x] Batch 8-IT (20 skill: giustizia/successioni, eredità/lavoro, trasporti/salute, soldi/lavoro) → totale 167
+- [x] Batch 9-IT (20 skill: fisco/lavoro, casa/impresa, famiglia/salute, PA/soldi) → totale 187
 - [ ] Rinviati da valutare: contratto-base-check, ferie-permessi
 - [ ] Test reali sugli agenti e badge in `docs/COMPATIBILITY.md`
-- [ ] Batch 9-IT da pianificare (vedi `catalog/_registry.md`)
+- [ ] Batch 10-IT da pianificare (vedi `catalog/_registry.md`)
 - [ ] Rinviato (serve repo pubblica): submit a skills.sh / agentskills.io

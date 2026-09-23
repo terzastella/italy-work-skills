@@ -68,6 +68,14 @@
   vaccini-obbligatori, donazione-sangue.
 - Batch 8-IT, soldi/lavoro (5): pronto-soccorso-ticket, straordinari-info, conti-deposito,
   fondo-emergenza, trasferte-lavoro.
+- Batch 9-IT, fisco/lavoro (5): irpef-scaglioni, addizionali-regionali, imposta-bollo,
+  aspettativa-lavoro, trasferimento-sede.
+- Batch 9-IT, casa/impresa (5): plusvalenza-casa, case-popolari-erp, agenti-rappresentanti,
+  appalti-pubblici-info, congedo-matrimoniale.
+- Batch 9-IT, famiglia/salute (5): mensa-scolastica, impegnativa-visite, donazione-organi,
+  adozioni-info, separazione-divorzio.
+- Batch 9-IT, PA/soldi (5): servizio-civile, tredicesima-info, buoni-fruttiferi,
+  treni-diritti, noleggio-auto-diritti.
 
 Details in catalog/skills.json. Archived generic skills in archive/ (not installed).
 

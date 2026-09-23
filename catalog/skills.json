@@ -1,6 +1,6 @@
 {
   "name": "ai-skills-hub",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "spec": "https://agentskills.io/specification",
   "skills": [
     {
@@ -2166,6 +2166,266 @@
       "name": "trasferte-lavoro",
       "path": "skills/trasferte-lavoro/SKILL.md",
       "description": "National work trips with diaria and receipts.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "irpef-scaglioni",
+      "path": "skills/irpef-scaglioni/SKILL.md",
+      "description": "IRPEF brackets with marginal vs average math.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "addizionali-regionali",
+      "path": "skills/addizionali-regionali/SKILL.md",
+      "description": "Regional and municipal surcharges with where-paid logic.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "imposta-bollo",
+      "path": "skills/imposta-bollo/SKILL.md",
+      "description": "Stamp duty with thresholds and virtual payment.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "aspettativa-lavoro",
+      "path": "skills/aspettativa-lavoro/SKILL.md",
+      "description": "Unpaid leave with contribution effects.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "trasferimento-sede",
+      "path": "skills/trasferimento-sede/SKILL.md",
+      "description": "Employer transfers with allowance and refusal.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "plusvalenza-casa",
+      "path": "skills/plusvalenza-casa/SKILL.md",
+      "description": "Home-sale capital gains with exemptions.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "case-popolari-erp",
+      "path": "skills/case-popolari-erp/SKILL.md",
+      "description": "Public housing paths with rankings.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "agenti-rappresentanti",
+      "path": "skills/agenti-rappresentanti/SKILL.md",
+      "description": "Sales agents with Enasarco and FIRR.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "appalti-pubblici-info",
+      "path": "skills/appalti-pubblici-info/SKILL.md",
+      "description": "Public tenders with MEPA and guarantees.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "congedo-matrimoniale",
+      "path": "skills/congedo-matrimoniale/SKILL.md",
+      "description": "Wedding leave with length and papers.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "mensa-scolastica",
+      "path": "skills/mensa-scolastica/SKILL.md",
+      "description": "School meal fees with ISEE bands.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "impegnativa-visite",
+      "path": "skills/impegnativa-visite/SKILL.md",
+      "description": "Specialist referrals with priority classes.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "donazione-organi",
+      "path": "skills/donazione-organi/SKILL.md",
+      "description": "Organ donation will with AIDO paths.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "adozioni-info",
+      "path": "skills/adozioni-info/SKILL.md",
+      "description": "Adoption paths with timelines.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "separazione-divorzio",
+      "path": "skills/separazione-divorzio/SKILL.md",
+      "description": "Separation and divorce paths without tactics.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "servizio-civile",
+      "path": "skills/servizio-civile/SKILL.md",
+      "description": "Civil service with calls and allowance.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "tredicesima-info",
+      "path": "skills/tredicesima-info/SKILL.md",
+      "description": "13th salary with accrual and advances.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "buoni-fruttiferi",
+      "path": "skills/buoni-fruttiferi/SKILL.md",
+      "description": "Postal savings bonds with net returns.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "treni-diritti",
+      "path": "skills/treni-diritti/SKILL.md",
+      "description": "Train delay refunds with bands.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "noleggio-auto-diritti",
+      "path": "skills/noleggio-auto-diritti/SKILL.md",
+      "description": "Car rentals with deposits and damages.",
       "license": "MIT",
       "compatibility": [
         "claude",

@@ -115,14 +115,32 @@ Total: 147 active. Deferred still pending: contratto-base-check, ferie-permessi.
 
 Total: 167 active. Deferred still pending: contratto-base-check, ferie-permessi.
 
-## Batch 8-IT — active (20) — 2026-09-23
+## Batch 9-IT — active (20) — 2026-09-23
 
-- IT-Giustizia: giudice-di-pace, conciliazione-paritetica, diffida-legale, mediazione-civile
-- IT-Successioni-2: testamento-pubblico, eredita-debiti, volture-catastali
-- IT-Lavoro-8: trasferta-estero, infortuni-lavoro, reperibilita-lavoro
-- IT-Trasporti-2: revisione-auto, ztl-permessi, trasporto-disabili
-- IT-Salute-4: vaccini-obbligatori, donazione-sangue, pronto-soccorso-ticket
-- IT-Lavoro-9: straordinari-info, trasferte-lavoro
-- IT-Soldi-3: conti-deposito, fondo-emergenza
+- IT-Fisco-7: irpef-scaglioni, addizionali-regionali, imposta-bollo
+- IT-Lavoro-10: aspettativa-lavoro, trasferimento-sede
+- IT-Casa-7: plusvalenza-casa, case-popolari-erp
+- IT-Impresa-5: agenti-rappresentanti, appalti-pubblici-info
+- IT-Lavoro-11: congedo-matrimoniale
+- IT-Famiglia-3: mensa-scolastica, adozioni-info, separazione-divorzio
+- IT-Salute-5: impegnativa-visite, donazione-organi
+- IT-Giovani-PA: servizio-civile
+- IT-Soldi-4: tredicesima-info, buoni-fruttiferi
+- IT-Tutele-4: treni-diritti, noleggio-auto-diritti
 
-Total: 167 active. Deferred still pending: contratto-base-check, ferie-permessi.
+Total: 187 active. Deferred still pending: contratto-base-check, ferie-permessi.
+
+## Batch 9-IT — active (20) — 2026-09-23
+
+- IT-Fisco-7: irpef-scaglioni, addizionali-regionali, imposta-bollo
+- IT-Lavoro-10: aspettativa-lavoro, trasferimento-sede
+- IT-Casa-7: plusvalenza-casa, case-popolari-erp
+- IT-Impresa-5: agenti-rappresentanti, appalti-pubblici-info
+- IT-Lavoro-11: congedo-matrimoniale
+- IT-Famiglia-3: mensa-scolastica, adozioni-info, separazione-divorzio
+- IT-Salute-5: impegnativa-visite, donazione-organi
+- IT-Giovani-PA: servizio-civile
+- IT-Soldi-4: tredicesima-info, buoni-fruttiferi
+- IT-Tutele-4: treni-diritti, noleggio-auto-diritti
+
+Total: 187 active. Deferred still pending: contratto-base-check, ferie-permessi.

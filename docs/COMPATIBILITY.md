@@ -199,6 +199,26 @@ One `SKILL.md` for all. Differences only in the loader, not the format.
 | conti-deposito | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 | fondo-emergenza | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 | trasferte-lavoro | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| irpef-scaglioni | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| addizionali-regionali | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| imposta-bollo | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| aspettativa-lavoro | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| trasferimento-sede | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| plusvalenza-casa | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| case-popolari-erp | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| agenti-rappresentanti | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| appalti-pubblici-info | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| congedo-matrimoniale | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| mensa-scolastica | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| impegnativa-visite | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| donazione-organi | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| adozioni-info | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| separazione-divorzio | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| servizio-civile | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| tredicesima-info | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| buoni-fruttiferi | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| treni-diritti | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| noleggio-auto-diritti | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 
 Archived generic skills (35 in `archive/`) are not tested or installed.
 
