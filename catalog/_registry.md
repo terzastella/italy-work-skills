@@ -42,3 +42,25 @@ Generic categories frozen.
 - IT-Impresa: isa-check
 
 Total: 47 active. Names pagopa-guida/isa-check lowercase per spec (approved as pagoPA/ISA).
+
+## Batch 3-IT — active (20) — 2026-09-23
+
+- IT-Fisco-3: nota-credito, contributi-inps, agevolazioni-assunzioni
+- IT-Impresa-2: ditta-vs-srl, camera-commercio, durc
+- IT-Lavoro-3: maternita-congedi, malattia-certificato, apprendistato, contratto-tipi
+- IT-Casa-2: condominio-spese, mutuo-tassi, compravendita-casa, auto-bollo, assegno-unico
+- IT-PA-2: anagrafe-certificati, passaporto-procedura
+- IT-Tutele-2: voli-ritardi, banche-reclami, vacanze-pacchetto
+
+Total: 67 active. Deferred still pending: contratto-base-check, ferie-permessi.
+
+## Batch 3-IT — active (20) — 2026-09-23
+
+- IT-Fisco-3: nota-credito, contributi-inps, agevolazioni-assunzioni
+- IT-Impresa-2: ditta-vs-srl, camera-commercio, durc
+- IT-Lavoro-3: maternita-congedi, malattia-certificato, apprendistato, contratto-tipi
+- IT-Casa-2: condominio-spese, mutuo-tassi, compravendita-casa, auto-bollo, assegno-unico
+- IT-PA-2: anagrafe-certificati, passaporto-procedura
+- IT-Tutele-2: voli-ritardi, banche-reclami, vacanze-pacchetto
+
+Total: 67 active.

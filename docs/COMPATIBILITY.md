@@ -79,6 +79,26 @@ One `SKILL.md` for all. Differences only in the loader, not the format.
 | recesso-acquisti | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 | isa-check | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 | tirocinio-guida | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| nota-credito | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| contributi-inps | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| agevolazioni-assunzioni | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| ditta-vs-srl | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| camera-commercio | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| durc | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| maternita-congedi | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| malattia-certificato | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| apprendistato | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| contratto-tipi | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| condominio-spese | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| mutuo-tassi | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| compravendita-casa | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| auto-bollo | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| assegno-unico | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| anagrafe-certificati | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| passaporto-procedura | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| voli-ritardi | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| banche-reclami | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| vacanze-pacchetto | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 
 Archived generic skills (35 in `archive/`) are not tested or installed.
 
