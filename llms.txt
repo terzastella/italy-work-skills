@@ -36,6 +36,14 @@
 - Batch 4-IT, scuola/salute (5): scuola-iscrizioni, universita-tasse, medico-base,
   ticket-esenzioni, invalidita-104.
 - Batch 4-IT, PA/documenti (4): residenza-cambio, carta-identita-cie, patente-punti, permesso-soggiorno.
+- Batch 5-IT, lavoro/pensioni (5): colf-badanti, collaborazioni-occasionali, pensione-guida,
+  riscatto-laurea, tfr-fondo.
+- Batch 5-IT, casa/soldi (5): prima-casa-agevolazioni, affitto-concordato, conto-corrente-costi,
+  rc-auto, criptovalute-fisco.
+- Batch 5-IT, famiglia/estero (5): spese-mediche-detrazioni, unioni-convivenze, asilo-nido-bonus,
+  testamento-olografo, aire-estero.
+- Batch 5-IT, tutele (5): certificati-estero, telefonia-reclami, energia-reclami,
+  assicurazione-casa, animali-viaggi.
 
 Details in catalog/skills.json. Archived generic skills in archive/ (not installed).
 

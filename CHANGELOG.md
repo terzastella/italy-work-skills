@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.6 (Batch 5-IT, 107 active + 35 archived)
+
+- 20 skills: jobs/pensions (colf-badanti, collaborazioni-occasionali,
+  pensione-guida, riscatto-laurea, tfr-fondo), home/money
+  (prima-casa-agevolazioni, affitto-concordato, conto-corrente-costi, rc-auto,
+  criptovalute-fisco), family/abroad (spese-mediche-detrazioni, unioni-convivenze,
+  asilo-nido-bonus, testamento-olografo, aire-estero), tuteles
+  (certificati-estero, telefonia-reclami, energia-reclami, assicurazione-casa,
+  animali-viaggi).
+- Delicate info-only + referral (pensione, testamento, cripto).
+- Indexes: `skills.json` 1.6.0 (107 entries), `plugin.json` 1.6.0.
+
 ## 1.5 (Batch 4-IT, 87 active + 35 archived)
 
 - 20 skills: tax/family (tari-tassa, canone-rai, successioni-info, donazioni-info),

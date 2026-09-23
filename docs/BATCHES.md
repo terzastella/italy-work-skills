@@ -5,7 +5,20 @@ All skill content in English. Only `README.md` stays in Italian.
 ## RESTART 2026-09-23 — Italian Work Skills Hub
 
 Generic batches below are archived (`archive/`, 35 skills, frozen).
-Active: 87 skills in `skills/` (9 + Batch 1-IT 18 + Batch 2-IT 20 + Batch 3-IT 20 + Batch 4-IT 20).
+Active: 107 skills in `skills/` (9 + Batch 1-IT 18 + Batch 2-IT 20 + Batch 3-IT 20 + Batch 4-IT 20 + Batch 5-IT 20).
+
+## Batch 5-IT — pensions, money, family ✅ 2026-09-23 (107 active)
+
+20 skills, each `SKILL.md` + `references/` + `examples/` (fake data always marked).
+
+- Jobs/pensions: colf-badanti, collaborazioni-occasionali, pensione-guida, riscatto-laurea, tfr-fondo
+- Home/money: prima-casa-agevolazioni, affitto-concordato, conto-corrente-costi, rc-auto, criptovalute-fisco
+- Family/abroad: spese-mediche-detrazioni, unioni-convivenze, asilo-nido-bonus, testamento-olografo, aire-estero
+- Tuteles: certificati-estero, telefonia-reclami, energia-reclami, assicurazione-casa, animali-viaggi
+
+Delicate (pensione-guida, testamento-olografo, criptovalute-fisco): info-only + referral.
+Batch gate: `validate.py` 108 OK zero warnings (107 skills + template),
+`security-check.py` clean, `install.py --all --dest ./tmp-test` 107×9 ok.
 
 ## Batch 4-IT — daily life ✅ 2026-09-23 (87 active)
 
