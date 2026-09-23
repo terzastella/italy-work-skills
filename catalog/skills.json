@@ -1,6 +1,6 @@
 {
   "name": "ai-skills-hub",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "spec": "https://agentskills.io/specification",
   "skills": [
     {
@@ -1126,6 +1126,266 @@
       "name": "permesso-soggiorno",
       "path": "skills/permesso-soggiorno/SKILL.md",
       "description": "Residence permits with kit and renewal timing.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "colf-badanti",
+      "path": "skills/colf-badanti/SKILL.md",
+      "description": "Domestic work contracts with levels and contributions.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "collaborazioni-occasionali",
+      "path": "skills/collaborazioni-occasionali/SKILL.md",
+      "description": "Occasional work with limits and withholding.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "pensione-guida",
+      "path": "skills/pensione-guida/SKILL.md",
+      "description": "Retirement paths with requirements and windows.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "riscatto-laurea",
+      "path": "skills/riscatto-laurea/SKILL.md",
+      "description": "Degree buyback costs and convenience check.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "tfr-fondo",
+      "path": "skills/tfr-fondo/SKILL.md",
+      "description": "TFR in company vs pension funds.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "prima-casa-agevolazioni",
+      "path": "skills/prima-casa-agevolazioni/SKILL.md",
+      "description": "First-home tax breaks with residence rules.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "affitto-concordato",
+      "path": "skills/affitto-concordato/SKILL.md",
+      "description": "Agreed-rent leases with tax discounts.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "conto-corrente-costi",
+      "path": "skills/conto-corrente-costi/SKILL.md",
+      "description": "Bank fee statements with total yearly cost.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "rc-auto",
+      "path": "skills/rc-auto/SKILL.md",
+      "description": "Mandatory car insurance with coverage and claims.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "criptovalute-fisco",
+      "path": "skills/criptovalute-fisco/SKILL.md",
+      "description": "Crypto taxes with declaration paths.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "spese-mediche-detrazioni",
+      "path": "skills/spese-mediche-detrazioni/SKILL.md",
+      "description": "Medical expense deductions with documents.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "unioni-convivenze",
+      "path": "skills/unioni-convivenze/SKILL.md",
+      "description": "Civil unions and cohabitation with rights map.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "asilo-nido-bonus",
+      "path": "skills/asilo-nido-bonus/SKILL.md",
+      "description": "Nursery bonus with ISEE bands and application.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "testamento-olografo",
+      "path": "skills/testamento-olografo/SKILL.md",
+      "description": "Holographic wills with validity rules.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "aire-estero",
+      "path": "skills/aire-estero/SKILL.md",
+      "description": "AIRE registration with voting and services.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "certificati-estero",
+      "path": "skills/certificati-estero/SKILL.md",
+      "description": "Legalization and apostille for use abroad.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "telefonia-reclami",
+      "path": "skills/telefonia-reclami/SKILL.md",
+      "description": "Telecom complaints with conciliaweb path.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "energia-reclami",
+      "path": "skills/energia-reclami/SKILL.md",
+      "description": "Energy complaints with ARERA desk path.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "assicurazione-casa",
+      "path": "skills/assicurazione-casa/SKILL.md",
+      "description": "Home insurance with coverage and claims.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "animali-viaggi",
+      "path": "skills/animali-viaggi/SKILL.md",
+      "description": "Pet travel documents with microchip and vaccines.",
       "license": "MIT",
       "compatibility": [
         "claude",

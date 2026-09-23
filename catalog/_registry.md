@@ -64,12 +64,26 @@ Total: 67 active. Deferred still pending: contratto-base-check, ferie-permessi.
 
 Total: 87 active.
 
-## Batch 4-IT — active (20) — 2026-09-23
+## Batch 5-IT — active (20) — 2026-09-23
 
-- IT-Fisco-4: tari-tassa, canone-rai, successioni-info, donazioni-info
-- IT-Lavoro-4: periodo-prova, licenziamento-info, smart-working, part-time
-- IT-Casa-3: utenze-voltura, affitto-breve, compravendita-auto
-- IT-Scuola-Salute: scuola-iscrizioni, universita-tasse, medico-base, ticket-esenzioni, invalidita-104
-- IT-PA-3: residenza-cambio, carta-identita-cie, patente-punti, permesso-soggiorno
+- IT-Lavoro-5: colf-badanti, collaborazioni-occasionali
+- IT-Pensioni: pensione-guida, riscatto-laurea, tfr-fondo
+- IT-Casa-4: prima-casa-agevolazioni, affitto-concordato
+- IT-Soldi: conto-corrente-costi, rc-auto, criptovalute-fisco, spese-mediche-detrazioni
+- IT-Famiglia: unioni-convivenze, asilo-nido-bonus, testamento-olografo
+- IT-Estero-PA: aire-estero, certificati-estero
+- IT-Tutele-3: telefonia-reclami, energia-reclami, assicurazione-casa, animali-viaggi
 
-Total: 87 active.
+Total: 107 active. Deferred still pending: contratto-base-check, ferie-permessi.
+
+## Batch 5-IT — active (20) — 2026-09-23
+
+- IT-Lavoro-5: colf-badanti, collaborazioni-occasionali
+- IT-Pensioni: pensione-guida, riscatto-laurea, tfr-fondo
+- IT-Casa-4: prima-casa-agevolazioni, affitto-concordato
+- IT-Soldi: conto-corrente-costi, rc-auto, criptovalute-fisco, spese-mediche-detrazioni
+- IT-Famiglia: unioni-convivenze, asilo-nido-bonus, testamento-olografo
+- IT-Estero-PA: aire-estero, certificati-estero
+- IT-Tutele-3: telefonia-reclami, energia-reclami, assicurazione-casa, animali-viaggi
+
+Total: 107 active. Deferred still pending: contratto-base-check, ferie-permessi.

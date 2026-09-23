@@ -119,6 +119,26 @@ One `SKILL.md` for all. Differences only in the loader, not the format.
 | residenza-cambio | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 | carta-identita-cie | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 | permesso-soggiorno | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| colf-badanti | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| collaborazioni-occasionali | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| pensione-guida | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| riscatto-laurea | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| tfr-fondo | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| prima-casa-agevolazioni | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| affitto-concordato | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| conto-corrente-costi | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| rc-auto | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| criptovalute-fisco | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| spese-mediche-detrazioni | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| unioni-convivenze | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| asilo-nido-bonus | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| testamento-olografo | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| aire-estero | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| certificati-estero | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| telefonia-reclami | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| energia-reclami | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| assicurazione-casa | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| animali-viaggi | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 
 Archived generic skills (35 in `archive/`) are not tested or installed.
 

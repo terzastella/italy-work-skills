@@ -152,6 +152,26 @@ Destinazioni:
 | [residenza-cambio](skills/residenza-cambio/SKILL.md) | Cambi residenza e effetti | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill residenza-cambio --all` |
 | [carta-identita-cie](skills/carta-identita-cie/SKILL.md) | CIE senza doppi viaggi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill carta-identita-cie --all` |
 | [permesso-soggiorno](skills/permesso-soggiorno/SKILL.md) | Permessi con kit e rinnovi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill permesso-soggiorno --all` |
+| [colf-badanti](skills/colf-badanti/SKILL.md) | Colf e badanti con livelli | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill colf-badanti --all` |
+| [collaborazioni-occasionali](skills/collaborazioni-occasionali/SKILL.md) | Occasionali con limiti | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill collaborazioni-occasionali --all` |
+| [pensione-guida](skills/pensione-guida/SKILL.md) | Pensioni: percorsi e finestre | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill pensione-guida --all` |
+| [riscatto-laurea](skills/riscatto-laurea/SKILL.md) | Riscatto laurea e convenienza | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill riscatto-laurea --all` |
+| [tfr-fondo](skills/tfr-fondo/SKILL.md) | TFR in azienda o fondi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill tfr-fondo --all` |
+| [prima-casa-agevolazioni](skills/prima-casa-agevolazioni/SKILL.md) | Prima casa e residenza | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill prima-casa-agevolazioni --all` |
+| [affitto-concordato](skills/affitto-concordato/SKILL.md) | Canone concordato e sconti | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill affitto-concordato --all` |
+| [conto-corrente-costi](skills/conto-corrente-costi/SKILL.md) | Costi conto e ISC | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill conto-corrente-costi --all` |
+| [rc-auto](skills/rc-auto/SKILL.md) | RC auto e sinistri | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill rc-auto --all` |
+| [criptovalute-fisco](skills/criptovalute-fisco/SKILL.md) | Cripto e fisco senza miti | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill criptovalute-fisco --all` |
+| [spese-mediche-detrazioni](skills/spese-mediche-detrazioni/SKILL.md) | Spese mediche al 19% | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill spese-mediche-detrazioni --all` |
+| [unioni-convivenze](skills/unioni-convivenze/SKILL.md) | Unioni e convivenze | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill unioni-convivenze --all` |
+| [asilo-nido-bonus](skills/asilo-nido-bonus/SKILL.md) | Bonus nido e fasce | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill asilo-nido-bonus --all` |
+| [testamento-olografo](skills/testamento-olografo/SKILL.md) | Testamento con requisiti | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill testamento-olografo --all` |
+| [aire-estero](skills/aire-estero/SKILL.md) | AIRE e voto estero | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill aire-estero --all` |
+| [certificati-estero](skills/certificati-estero/SKILL.md) | Apostille e legalizzazioni | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill certificati-estero --all` |
+| [telefonia-reclami](skills/telefonia-reclami/SKILL.md) | Reclami e conciliaweb | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill telefonia-reclami --all` |
+| [energia-reclami](skills/energia-reclami/SKILL.md) | Reclami e sportello ARERA | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill energia-reclami --all` |
+| [assicurazione-casa](skills/assicurazione-casa/SKILL.md) | Polizze casa e sinistri | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill assicurazione-casa --all` |
+| [animali-viaggi](skills/animali-viaggi/SKILL.md) | Animali oltre confine | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill animali-viaggi --all` |
 
 Legenda: ✅ testata localmente · ⚠️ da verificare · ❌ non supportata
 
@@ -168,7 +188,7 @@ Non duplichiamo codice altrui per licenza e manutenzione. Vedi `catalog/vendors-
 ```
 ai-skills/
   README.md + LICENSE + llms.txt  # root essenziale
-  skills/                    # SOURCE OF TRUTH: 87 skill (9 + batch 1-IT 18 + batch 2-IT 20 + batch 3-IT 20 + batch 4-IT 20)
+  skills/                    # SOURCE OF TRUTH: 107 skill (9 + batch 1-IT 18 + batch 2-IT 20 + batch 3-IT 20 + batch 4-IT 20 + batch 5-IT 20)
     tooling: hello-agent/ skill-creator-it/
     cuore: invoice-it/ email-formale-it/ xlsx-budget-it/
       translate-it-en/ press-release-it/ doc-polish-it/ case-study/
@@ -201,6 +221,14 @@ ai-skills/
       ticket-esenzioni/ invalidita-104/
     batch4-IT PA/documenti: residenza-cambio/ carta-identita-cie/
       patente-punti/ permesso-soggiorno/
+    batch5-IT lavoro/pensioni: colf-badanti/ collaborazioni-occasionali/
+      pensione-guida/ riscatto-laurea/ tfr-fondo/
+    batch5-IT casa/soldi: prima-casa-agevolazioni/ affitto-concordato/
+      conto-corrente-costi/ rc-auto/ criptovalute-fisco/
+    batch5-IT famiglia/estero: spese-mediche-detrazioni/ unioni-convivenze/
+      asilo-nido-bonus/ testamento-olografo/ aire-estero/
+    batch5-IT tutele: certificati-estero/ telefonia-reclami/ energia-reclami/
+      assicurazione-casa/ animali-viaggi/
     (ognuna: SKILL.md + references/ + examples/)
   archive/                   # skill generiche pre-restart (non installate)
     batch1-generic/ (17) + batch2-seo/ (18)
@@ -243,7 +271,8 @@ Guida completa: `docs/CREATE-SKILL.md`. Per skill Italia: aggiungi fonti ufficia
 - [x] CI gates su repo privata (validate + security + install dry-run)
 - [x] Batch 3-IT (20 skill: fisco/impresa, lavoro, casa, PA/tutele) → totale 67
 - [x] Batch 4-IT (20 skill: fisco/famiglia, lavoro, casa/auto, scuola/salute, PA) → totale 87
+- [x] Batch 5-IT (20 skill: lavoro/pensioni, casa/soldi, famiglia/estero, tutele) → totale 107
 - [ ] Rinviati da valutare: contratto-base-check, ferie-permessi
 - [ ] Test reali sugli agenti e badge in `docs/COMPATIBILITY.md`
-- [ ] Batch 4-IT da pianificare (vedi `catalog/_registry.md`)
+- [ ] Batch 6-IT da pianificare (vedi `catalog/_registry.md`)
 - [ ] Rinviato (serve repo pubblica): submit a skills.sh / agentskills.io
