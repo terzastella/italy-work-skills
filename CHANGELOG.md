@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.10 (Batch 9-IT, 187 active + 35 archived)
+
+- 20 skills: tax/jobs (irpef-scaglioni, addizionali-regionali, imposta-bollo,
+  aspettativa-lavoro, trasferimento-sede), home/business (plusvalenza-casa,
+  case-popolari-erp, agenti-rappresentanti, appalti-pubblici-info,
+  congedo-matrimoniale), family/health (mensa-scolastica, impegnativa-visite,
+  donazione-organi, adozioni-info, separazione-divorzio), PA/money
+  (servizio-civile, tredicesima-info, buoni-fruttiferi, treni-diritti,
+  noleggio-auto-diritti).
+- Delicate info-only + referral (adozioni, separazione).
+- Indexes: `skills.json` 1.10.0 (187 entries), `plugin.json` 1.10.0.
+
 ## 1.9 (Batch 8-IT, 167 active + 35 archived)
 
 - 20 skills: justice/succession (giudice-di-pace, conciliazione-paritetica,
