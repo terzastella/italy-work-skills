@@ -31,7 +31,7 @@ I grandi repo mondiali (superpowers, mattpocock, ECC) coprono coding e marketing
 git clone https://github.com/terzastella/AI-Skills.git
 cd AI-Skills
 
-# Installa tutto ovunque (default: .agents + .claude + .grok + .cursor + .github)
+# Installa tutto ovunque (9 agenti: claude, codex, grok, cursor, copilot, copilot-cli, gemini, opencode, windsurf)
 python scripts/install.py --all
 
 # Oppure solo una skill su un agente
@@ -54,7 +54,12 @@ Destinazioni:
 | Grok | `~/.grok/skills/` | compatibile anche con `.claude/` e `.agents/` |
 | Cursor | `.cursor/skills/` | stesso `SKILL.md` |
 | Copilot | `.github/skills/` | stesso `SKILL.md` |
+| Copilot CLI | `~/.copilot/skills/` | personale, legge anche `.github/` e `.agents/` |
 | Gemini | `.gemini/skills/` | stesso `SKILL.md` |
+| OpenCode | `.opencode/skills/` | legge anche `.claude/` e `.agents/` |
+| Windsurf | `.windsurf/skills/` | invoca esplicito con `@nome-skill` |
+
+> Formato `skills/*/SKILL.md` compatibile anche con `gh skill install`.
 
 ## Catalogo skill (MIT, in inglese)
 
@@ -122,8 +127,10 @@ ai-skills/
   catalog/                   # skills.json + vendors-manifest.json + _registry.md
   .agents/skills/README.md   # standard Codex/Cursor/Copilot
   .claude/README.md          # adapter Claude Code (+ .claude-plugin/plugin.json)
-  .grok/README.md            # adapter Grok
-  .github/skills/README.md   # adapter Copilot
+  .grok/README.md            # adapter Grok Code
+  .github/skills/README.md   # adapter Copilot + Copilot CLI
+  .opencode/skills/README.md # adapter OpenCode
+  .windsurf/skills/README.md # adapter Windsurf (invocazione @nome)
   docs/                      # COMPATIBILITY, CREATE-SKILL, CHATGPT-MIGRATION, THIRD-PARTY, BATCHES
   scripts/install.py + validate.py + security-check.py
 ```

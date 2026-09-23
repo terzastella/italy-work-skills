@@ -25,8 +25,9 @@ Details in catalog/skills.json. Archived generic skills in archive/ (not install
 ## Install
 
 - `python scripts/install.py --all`
-- `python scripts/install.py --skill <name> --agent claude|codex|grok|cursor|copilot|gemini`
+- `python scripts/install.py --skill <name> --agent claude|codex|grok|cursor|copilot|copilot-cli|gemini|opencode|windsurf`
 - `python scripts/validate.py`
+- Layout `skills/*/SKILL.md` also works with `gh skill install`.
 
 ## Vendors (reference only)
 

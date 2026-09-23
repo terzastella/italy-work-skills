@@ -15,3 +15,7 @@ Thumbs.db
 .gemini/skills/*
 .agents/skills/*
 !.agents/skills/README.md
+.opencode/skills/*
+!.opencode/skills/README.md
+.windsurf/skills/*
+!.windsurf/skills/README.md
