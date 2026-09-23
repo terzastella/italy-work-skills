@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.9 (Batch 8-IT, 167 active + 35 archived)
+
+- 20 skills: justice/succession (giudice-di-pace, conciliazione-paritetica,
+  diffida-legale, mediazione-civile, testamento-pubblico), debts/jobs
+  (eredita-debiti, volture-catastali, trasferta-estero, infortuni-lavoro,
+  reperibilita-lavoro), transport/health (revisione-auto, ztl-permessi,
+  trasporto-disabili, vaccini-obbligatori, donazione-sangue), money/jobs
+  (pronto-soccorso-ticket, straordinari-info, conti-deposito, fondo-emergenza,
+  trasferte-lavoro).
+- Delicate info-only + referral (giudice, mediazione, eredità, vaccini).
+- Indexes: `skills.json` 1.9.0 (167 entries), `plugin.json` 1.9.0.
+
 ## 1.8 (Batch 7-IT, 147 active + 35 archived)
 
 - 20 skills: tax/jobs (accertamento-info, compensazioni-f24, rimborsi-fiscali,

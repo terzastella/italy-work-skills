@@ -1,6 +1,6 @@
 {
   "name": "ai-skills-hub",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "spec": "https://agentskills.io/specification",
   "skills": [
     {
@@ -1906,6 +1906,266 @@
       "name": "riscaldamento-contabilizzazione",
       "path": "skills/riscaldamento-contabilizzazione/SKILL.md",
       "description": "Heat metering splits with millesimi.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "giudice-di-pace",
+      "path": "skills/giudice-di-pace/SKILL.md",
+      "description": "Justice-of-peace cases with value limits.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "conciliazione-paritetica",
+      "path": "skills/conciliazione-paritetica/SKILL.md",
+      "description": "Joint conciliation with consumer associations.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "diffida-legale",
+      "path": "skills/diffida-legale/SKILL.md",
+      "description": "Formal warnings with tracked sending.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "mediazione-civile",
+      "path": "skills/mediazione-civile/SKILL.md",
+      "description": "Civil mediation with mandatory cases.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "testamento-pubblico",
+      "path": "skills/testamento-pubblico/SKILL.md",
+      "description": "Notarial wills vs holographic with costs.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "eredita-debiti",
+      "path": "skills/eredita-debiti/SKILL.md",
+      "description": "Inherited debts with accept-or-renounce paths.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "volture-catastali",
+      "path": "skills/volture-catastali/SKILL.md",
+      "description": "Cadastral transfers with documents and timing.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "trasferta-estero",
+      "path": "skills/trasferta-estero/SKILL.md",
+      "description": "Business trips abroad with per-diem and papers.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "infortuni-lavoro",
+      "path": "skills/infortuni-lavoro/SKILL.md",
+      "description": "Work injury reports with INAIL path.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "reperibilita-lavoro",
+      "path": "skills/reperibilita-lavoro/SKILL.md",
+      "description": "On-call rules with pay and refusal rights.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "revisione-auto",
+      "path": "skills/revisione-auto/SKILL.md",
+      "description": "Vehicle inspections with timing and failures.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "ztl-permessi",
+      "path": "skills/ztl-permessi/SKILL.md",
+      "description": "ZTL zones with permits and fines.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "trasporto-disabili",
+      "path": "skills/trasporto-disabili/SKILL.md",
+      "description": "Disability transport permits and parking.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "vaccini-obbligatori",
+      "path": "skills/vaccini-obbligatori/SKILL.md",
+      "description": "Mandatory vaccines with schedule info.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "donazione-sangue",
+      "path": "skills/donazione-sangue/SKILL.md",
+      "description": "Blood donation with requirements and leave.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "pronto-soccorso-ticket",
+      "path": "skills/pronto-soccorso-ticket/SKILL.md",
+      "description": "ER codes and copay with exemptions.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "straordinari-info",
+      "path": "skills/straordinari-info/SKILL.md",
+      "description": "Overtime with pay rules and banca ore.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "conti-deposito",
+      "path": "skills/conti-deposito/SKILL.md",
+      "description": "Deposit accounts with net rates and guarantee.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "fondo-emergenza",
+      "path": "skills/fondo-emergenza/SKILL.md",
+      "description": "Emergency funds with size and placement method.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "trasferte-lavoro",
+      "path": "skills/trasferte-lavoro/SKILL.md",
+      "description": "National work trips with diaria and receipts.",
       "license": "MIT",
       "compatibility": [
         "claude",

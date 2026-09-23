@@ -179,6 +179,26 @@ One `SKILL.md` for all. Differences only in the loader, not the format.
 | leasing-finanziamento | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 | trasloco-diritti | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 | riscaldamento-contabilizzazione | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| giudice-di-pace | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| conciliazione-paritetica | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| diffida-legale | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| mediazione-civile | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| testamento-pubblico | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| eredita-debiti | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| volture-catastali | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| trasferta-estero | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| infortuni-lavoro | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| reperibilita-lavoro | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| revisione-auto | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| ztl-permessi | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| trasporto-disabili | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| vaccini-obbligatori | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| donazione-sangue | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| pronto-soccorso-ticket | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| straordinari-info | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| conti-deposito | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| fondo-emergenza | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| trasferte-lavoro | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 
 Archived generic skills (35 in `archive/`) are not tested or installed.
 
