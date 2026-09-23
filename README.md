@@ -192,6 +192,26 @@ Destinazioni:
 | [assicurazione-sanitaria](skills/assicurazione-sanitaria/SKILL.md) | Fondi sanitari e deducibilità | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill assicurazione-sanitaria --all` |
 | [dis-coll](skills/dis-coll/SKILL.md) | DIS-COLL per collaboratori | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill dis-coll --all` |
 | [pensione-reversibilita](skills/pensione-reversibilita/SKILL.md) | Reversibilità e limiti | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill pensione-reversibilita --all` |
+| [accertamento-info](skills/accertamento-info/SKILL.md) | Accertamenti e adesione | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill accertamento-info --all` |
+| [compensazioni-f24](skills/compensazioni-f24/SKILL.md) | Compensazioni con visti | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill compensazioni-f24 --all` |
+| [rimborsi-fiscali](skills/rimborsi-fiscali/SKILL.md) | Rimborsi con tempi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill rimborsi-fiscali --all` |
+| [somministrazione](skills/somministrazione/SKILL.md) | Interinale e parità | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill somministrazione --all` |
+| [lavoro-minorile](skills/lavoro-minorile/SKILL.md) | Minori al lavoro, tutele | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill lavoro-minorile --all` |
+| [startup-innovativa](skills/startup-innovativa/SKILL.md) | Startup e registro | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill startup-innovativa --all` |
+| [fallimento-crisi-info](skills/fallimento-crisi-info/SKILL.md) | Crisi con segnali | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill fallimento-crisi-info --all` |
+| [franchising-info](skills/franchising-info/SKILL.md) | Affiliazioni e fee | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill franchising-info --all` |
+| [usufrutto-nuda](skills/usufrutto-nuda/SKILL.md) | Usufrutto e nuda proprietà | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill usufrutto-nuda --all` |
+| [spese-notarili](skills/spese-notarili/SKILL.md) | Preventivi notaio letti | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill spese-notarili --all` |
+| [mantenimento-figli](skills/mantenimento-figli/SKILL.md) | Mantenimento senza cifre | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill mantenimento-figli --all` |
+| [matrimonio-civile](skills/matrimonio-civile/SKILL.md) | Matrimoni e pubblicazioni | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill matrimonio-civile --all` |
+| [cittadinanza](skills/cittadinanza/SKILL.md) | Cittadinanza e vie | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill cittadinanza --all` |
+| [assistenza-anziani](skills/assistenza-anziani/SKILL.md) | Anziani e RSA | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill assistenza-anziani --all` |
+| [bonus-cultura-18app](skills/bonus-cultura-18app/SKILL.md) | Bonus 18enni | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill bonus-cultura-18app --all` |
+| [patronato-servizi](skills/patronato-servizi/SKILL.md) | Patronati gratis quando | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill patronato-servizi --all` |
+| [concorsi-pubblici](skills/concorsi-pubblici/SKILL.md) | Concorsi e bandi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill concorsi-pubblici --all` |
+| [leasing-finanziamento](skills/leasing-finanziamento/SKILL.md) | Leasing o prestito | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill leasing-finanziamento --all` |
+| [trasloco-diritti](skills/trasloco-diritti/SKILL.md) | Traslochi e danni | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill trasloco-diritti --all` |
+| [riscaldamento-contabilizzazione](skills/riscaldamento-contabilizzazione/SKILL.md) | Riparti calore equi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill riscaldamento-contabilizzazione --all` |
 
 Legenda: ✅ testata localmente · ⚠️ da verificare · ❌ non supportata
 
@@ -208,7 +228,7 @@ Non duplichiamo codice altrui per licenza e manutenzione. Vedi `catalog/vendors-
 ```
 ai-skills/
   README.md + LICENSE + llms.txt  # root essenziale
-  skills/                    # SOURCE OF TRUTH: 127 skill (9 + batch 1-6 IT da 18/20/20/20/20/20)
+  skills/                    # SOURCE OF TRUTH: 147 skill (9 + batch 1-7 IT)
     tooling: hello-agent/ skill-creator-it/
     cuore: invoice-it/ email-formale-it/ xlsx-budget-it/
       translate-it-en/ press-release-it/ doc-polish-it/ case-study/
@@ -257,6 +277,14 @@ ai-skills/
       amministratore-condominio/ domicilio-digitale-inad/ cassetto-fiscale/
     batch6-IT PA/salute: elezioni-voto/ multe-ricorso/ assicurazione-sanitaria/
       dis-coll/ pensione-reversibilita/
+    batch7-IT fisco/lavoro: accertamento-info/ compensazioni-f24/ rimborsi-fiscali/
+      somministrazione/ lavoro-minorile/
+    batch7-IT impresa/casa: startup-innovativa/ fallimento-crisi-info/ franchising-info/
+      usufrutto-nuda/ spese-notarili/
+    batch7-IT famiglia/salute: mantenimento-figli/ matrimonio-civile/ cittadinanza/
+      assistenza-anziani/ bonus-cultura-18app/
+    batch7-IT PA/tutele: patronato-servizi/ concorsi-pubblici/ leasing-finanziamento/
+      trasloco-diritti/ riscaldamento-contabilizzazione/
     (ognuna: SKILL.md + references/ + examples/)
   archive/                   # skill generiche pre-restart (non installate)
     batch1-generic/ (17) + batch2-seo/ (18)
@@ -301,7 +329,8 @@ Guida completa: `docs/CREATE-SKILL.md`. Per skill Italia: aggiungi fonti ufficia
 - [x] Batch 4-IT (20 skill: fisco/famiglia, lavoro, casa/auto, scuola/salute, PA) → totale 87
 - [x] Batch 5-IT (20 skill: lavoro/pensioni, casa/soldi, famiglia/estero, tutele) → totale 107
 - [x] Batch 6-IT (20 skill: fisco, lavoro/impresa, casa/digitali, PA/salute) → totale 127
+- [x] Batch 7-IT (20 skill: fisco/lavoro, impresa/casa, famiglia/salute, PA/tutele) → totale 147
 - [ ] Rinviati da valutare: contratto-base-check, ferie-permessi
 - [ ] Test reali sugli agenti e badge in `docs/COMPATIBILITY.md`
-- [ ] Batch 7-IT da pianificare (vedi `catalog/_registry.md`)
+- [ ] Batch 8-IT da pianificare (vedi `catalog/_registry.md`)
 - [ ] Rinviato (serve repo pubblica): submit a skills.sh / agentskills.io

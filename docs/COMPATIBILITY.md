@@ -159,6 +159,26 @@ One `SKILL.md` for all. Differences only in the loader, not the format.
 | assicurazione-sanitaria | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 | dis-coll | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 | pensione-reversibilita | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| accertamento-info | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| compensazioni-f24 | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| rimborsi-fiscali | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| somministrazione | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| lavoro-minorile | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| startup-innovativa | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| fallimento-crisi-info | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| franchising-info | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| usufrutto-nuda | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| spese-notarili | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| mantenimento-figli | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| matrimonio-civile | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| cittadinanza | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| assistenza-anziani | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| bonus-cultura-18app | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| patronato-servizi | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| concorsi-pubblici | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| leasing-finanziamento | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| trasloco-diritti | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| riscaldamento-contabilizzazione | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 
 Archived generic skills (35 in `archive/`) are not tested or installed.
 

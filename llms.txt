@@ -52,6 +52,14 @@
   amministratore-condominio, domicilio-digitale-inad, cassetto-fiscale.
 - Batch 6-IT, PA/salute (5): elezioni-voto, multe-ricorso, assicurazione-sanitaria,
   dis-coll, pensione-reversibilita.
+- Batch 7-IT, fisco/lavoro (5): accertamento-info, compensazioni-f24, rimborsi-fiscali,
+  somministrazione, lavoro-minorile.
+- Batch 7-IT, impresa/casa (5): startup-innovativa, fallimento-crisi-info, franchising-info,
+  usufrutto-nuda, spese-notarili.
+- Batch 7-IT, famiglia/salute (5): mantenimento-figli, matrimonio-civile, cittadinanza,
+  assistenza-anziani, bonus-cultura-18app.
+- Batch 7-IT, PA/tutele (5): patronato-servizi, concorsi-pubblici, leasing-finanziamento,
+  trasloco-diritti, riscaldamento-contabilizzazione.
 
 Details in catalog/skills.json. Archived generic skills in archive/ (not installed).
 
