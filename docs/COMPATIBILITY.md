@@ -22,8 +22,11 @@ One `SKILL.md` for all. Differences only in the loader, not the format.
 | Codex | `$REPO/.agents/skills/` | `~/.agents/skills/` | `/etc/codex/skills`, `agents/openai.yaml` |
 | Grok | `./.grok/skills/` | `~/.grok/skills/` | also reads `.claude/`, `.agents/skills/` |
 | Cursor | `.cursor/skills/` | `~/.cursor/skills/` |  |
-| Copilot | `.github/skills/` | — |  |
+| Copilot | `.github/skills/` | — | CLI also reads `.claude/`, `.agents/skills/` |
+| Copilot CLI | `.github/skills/` | `~/.copilot/skills/` | same spec, SDK `skillDirectories` |
 | Gemini | `.gemini/skills/` | — |  |
+| OpenCode | `.opencode/skills/` | `~/.config/opencode/skills/` | also reads `.claude/`, `.agents/skills/`; permissions in `opencode.json` |
+| Windsurf | `.windsurf/skills/` | `~/.codeium/windsurf/skills/` | also reads `.agents/skills/`; invoke explicitly with `@skill-name` |
 
 ## Test status (update after real tests, 9 active skills)
 

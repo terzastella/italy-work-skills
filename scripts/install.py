@@ -4,8 +4,8 @@
 Usage:
   python scripts/install.py --all
   python scripts/install.py --all --agent claude
-  python scripts/install.py --skill smart-commit --agent codex
-  python scripts/install.py --skill smart-commit --all --dest ./tmp-test
+  python scripts/install.py --skill invoice-it --agent codex
+  python scripts/install.py --skill invoice-it --all --dest ./tmp-test
 """
 import argparse
 import shutil
@@ -21,7 +21,10 @@ AGENTS = {
     "grok": [Path.home() / ".grok" / "skills"],
     "cursor": [REPO / ".cursor" / "skills"],
     "copilot": [REPO / ".github" / "skills"],
+    "copilot-cli": [Path.home() / ".copilot" / "skills"],
     "gemini": [REPO / ".gemini" / "skills"],
+    "opencode": [REPO / ".opencode" / "skills", Path.home() / ".config" / "opencode" / "skills"],
+    "windsurf": [REPO / ".windsurf" / "skills"],
 }
 
 def available_skills():
@@ -47,11 +50,11 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--skill", default=None)
     ap.add_argument("--agent", default="all",
-                    help="claude|codex|grok|cursor|copilot|gemini|all")
+                    help="claude|codex|grok|cursor|copilot|copilot-cli|gemini|opencode|windsurf|all")
     ap.add_argument("--all", action="store_true",
-                    help="installa tutte le skill")
+                    help="install all skills")
     ap.add_argument("--user-only", action="store_true")
-    ap.add_argument("--dest", default=None, help="destinazione custom (test)")
+    ap.add_argument("--dest", default=None, help="custom destination (test)")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 

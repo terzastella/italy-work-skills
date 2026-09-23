@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.2 (9 agents, no skill changes)
+
+- Installer: + `opencode` (`.opencode/skills`, `~/.config/opencode/skills`),
+  + `windsurf` (`.windsurf/skills`), + `copilot-cli` (`~/.copilot/skills`).
+- Adapters: `.opencode/skills/README.md`, `.windsurf/skills/README.md`
+  (explicit `@skill-name` note), Copilot CLI note in `.github/skills/README.md`.
+- Docs: `COMPATIBILITY.md`, README table, `llms.txt` at 9 agents.
+- No SKILL.md touched (same open standard everywhere).
+
 ## 1.1 (Batch 1-IT, 27 active + 35 archived)
 
 - 18 Italy skills: tax (fattura-elettronica-it, regime-forfettario, scadenze-fiscali,
