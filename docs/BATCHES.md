@@ -5,7 +5,20 @@ All skill content in English. Only `README.md` stays in Italian.
 ## RESTART 2026-09-23 — Italian Work Skills Hub
 
 Generic batches below are archived (`archive/`, 35 skills, frozen).
-Active: 147 skills in `skills/` (9 + Batch 1-IT 18 + Batch 2-IT 20 + Batch 3-IT 20 + Batch 4-IT 20 + Batch 5-IT 20 + Batch 6-IT 20 + Batch 7-IT 20).
+Active: 167 skills in `skills/` (9 + Batch 1-IT 18 + Batch 2-IT 20 + Batch 3-IT 20 + Batch 4-IT 20 + Batch 5-IT 20 + Batch 6-IT 20 + Batch 7-IT 20 + Batch 8-IT 20).
+
+## Batch 8-IT — justice, transport, money ✅ 2026-09-23 (167 active)
+
+20 skills, each `SKILL.md` + `references/` + `examples/` (fake data always marked).
+
+- Justice/succession: giudice-di-pace, conciliazione-paritetica, diffida-legale, mediazione-civile, testamento-pubblico
+- Debts/jobs: eredita-debiti, volture-catastali, trasferta-estero, infortuni-lavoro, reperibilita-lavoro
+- Transport/health: revisione-auto, ztl-permessi, trasporto-disabili, vaccini-obbligatori, donazione-sangue
+- Money/jobs: pronto-soccorso-ticket, straordinari-info, conti-deposito, fondo-emergenza, trasferte-lavoro
+
+Delicate (giudice-di-pace, mediazione-civile, eredita-debiti, vaccini-obbligatori): info-only + referral.
+Batch gate: `validate.py` 168 OK zero warnings (167 skills + template),
+`security-check.py` clean, `install.py --all --dest ./tmp-test` 167×9 ok.
 
 ## Batch 7-IT — audits, business, family ✅ 2026-09-23 (147 active)
 

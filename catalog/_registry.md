@@ -103,16 +103,26 @@ Total: 127 active. Deferred still pending: contratto-base-check, ferie-permessi.
 
 Total: 147 active. Deferred still pending: contratto-base-check, ferie-permessi.
 
-## Batch 7-IT — active (20) — 2026-09-23
+## Batch 8-IT — active (20) — 2026-09-23
 
-- IT-Fisco-6: accertamento-info, compensazioni-f24, rimborsi-fiscali
-- IT-Lavoro-7: somministrazione, lavoro-minorile
-- IT-Impresa-4: startup-innovativa, fallimento-crisi-info, franchising-info
-- IT-Casa-6: usufrutto-nuda, spese-notarili, riscaldamento-contabilizzazione
-- IT-Famiglia-2: mantenimento-figli, matrimonio-civile, cittadinanza
-- IT-Salute-3: assistenza-anziani
-- IT-PA-5: patronato-servizi, concorsi-pubblici
-- IT-Soldi-2: leasing-finanziamento, trasloco-diritti
-- IT-Cultura: bonus-cultura-18app
+- IT-Giustizia: giudice-di-pace, conciliazione-paritetica, diffida-legale, mediazione-civile
+- IT-Successioni-2: testamento-pubblico, eredita-debiti, volture-catastali
+- IT-Lavoro-8: trasferta-estero, infortuni-lavoro, reperibilita-lavoro
+- IT-Trasporti-2: revisione-auto, ztl-permessi, trasporto-disabili
+- IT-Salute-4: vaccini-obbligatori, donazione-sangue, pronto-soccorso-ticket
+- IT-Lavoro-9: straordinari-info, trasferte-lavoro
+- IT-Soldi-3: conti-deposito, fondo-emergenza
 
-Total: 147 active. Deferred still pending: contratto-base-check, ferie-permessi.
+Total: 167 active. Deferred still pending: contratto-base-check, ferie-permessi.
+
+## Batch 8-IT — active (20) — 2026-09-23
+
+- IT-Giustizia: giudice-di-pace, conciliazione-paritetica, diffida-legale, mediazione-civile
+- IT-Successioni-2: testamento-pubblico, eredita-debiti, volture-catastali
+- IT-Lavoro-8: trasferta-estero, infortuni-lavoro, reperibilita-lavoro
+- IT-Trasporti-2: revisione-auto, ztl-permessi, trasporto-disabili
+- IT-Salute-4: vaccini-obbligatori, donazione-sangue, pronto-soccorso-ticket
+- IT-Lavoro-9: straordinari-info, trasferte-lavoro
+- IT-Soldi-3: conti-deposito, fondo-emergenza
+
+Total: 167 active. Deferred still pending: contratto-base-check, ferie-permessi.

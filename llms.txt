@@ -60,6 +60,14 @@
   assistenza-anziani, bonus-cultura-18app.
 - Batch 7-IT, PA/tutele (5): patronato-servizi, concorsi-pubblici, leasing-finanziamento,
   trasloco-diritti, riscaldamento-contabilizzazione.
+- Batch 8-IT, giustizia/successioni (5): giudice-di-pace, conciliazione-paritetica,
+  diffida-legale, mediazione-civile, testamento-pubblico.
+- Batch 8-IT, eredità/lavoro (5): eredita-debiti, volture-catastali, trasferta-estero,
+  infortuni-lavoro, reperibilita-lavoro.
+- Batch 8-IT, trasporti/salute (5): revisione-auto, ztl-permessi, trasporto-disabili,
+  vaccini-obbligatori, donazione-sangue.
+- Batch 8-IT, soldi/lavoro (5): pronto-soccorso-ticket, straordinari-info, conti-deposito,
+  fondo-emergenza, trasferte-lavoro.
 
 Details in catalog/skills.json. Archived generic skills in archive/ (not installed).
 

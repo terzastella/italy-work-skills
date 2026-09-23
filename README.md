@@ -212,6 +212,26 @@ Destinazioni:
 | [leasing-finanziamento](skills/leasing-finanziamento/SKILL.md) | Leasing o prestito | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill leasing-finanziamento --all` |
 | [trasloco-diritti](skills/trasloco-diritti/SKILL.md) | Traslochi e danni | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill trasloco-diritti --all` |
 | [riscaldamento-contabilizzazione](skills/riscaldamento-contabilizzazione/SKILL.md) | Riparti calore equi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill riscaldamento-contabilizzazione --all` |
+| [giudice-di-pace](skills/giudice-di-pace/SKILL.md) | Piccole cause e limiti | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill giudice-di-pace --all` |
+| [conciliazione-paritetica](skills/conciliazione-paritetica/SKILL.md) | Conciliazioni con associazioni | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill conciliazione-paritetica --all` |
+| [diffida-legale](skills/diffida-legale/SKILL.md) | Diffide senza minacce | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill diffida-legale --all` |
+| [mediazione-civile](skills/mediazione-civile/SKILL.md) | Mediazioni obbligatorie | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill mediazione-civile --all` |
+| [testamento-pubblico](skills/testamento-pubblico/SKILL.md) | Testamento dal notaio | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill testamento-pubblico --all` |
+| [eredita-debiti](skills/eredita-debiti/SKILL.md) | Eredità con debiti | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill eredita-debiti --all` |
+| [volture-catastali](skills/volture-catastali/SKILL.md) | Volture con tempi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill volture-catastali --all` |
+| [trasferta-estero](skills/trasferta-estero/SKILL.md) | Trasferte oltre confine | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill trasferta-estero --all` |
+| [infortuni-lavoro](skills/infortuni-lavoro/SKILL.md) | Infortuni e INAIL | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill infortuni-lavoro --all` |
+| [reperibilita-lavoro](skills/reperibilita-lavoro/SKILL.md) | Reperibilità e limiti | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill reperibilita-lavoro --all` |
+| [revisione-auto](skills/revisione-auto/SKILL.md) | Revisioni in regola | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill revisione-auto --all` |
+| [ztl-permessi](skills/ztl-permessi/SKILL.md) | ZTL e permessi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill ztl-permessi --all` |
+| [trasporto-disabili](skills/trasporto-disabili/SKILL.md) | Contrassegni e soste | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill trasporto-disabili --all` |
+| [vaccini-obbligatori](skills/vaccini-obbligatori/SKILL.md) | Calendari vaccinali | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill vaccini-obbligatori --all` |
+| [donazione-sangue](skills/donazione-sangue/SKILL.md) | Donare sangue e permessi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill donazione-sangue --all` |
+| [pronto-soccorso-ticket](skills/pronto-soccorso-ticket/SKILL.md) | Codici e ticket PS | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill pronto-soccorso-ticket --all` |
+| [straordinari-info](skills/straordinari-info/SKILL.md) | Straordinari e banca ore | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill straordinari-info --all` |
+| [conti-deposito](skills/conti-deposito/SKILL.md) | Depositi al netto | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill conti-deposito --all` |
+| [fondo-emergenza](skills/fondo-emergenza/SKILL.md) | Fondi liquidi sicuri | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill fondo-emergenza --all` |
+| [trasferte-lavoro](skills/trasferte-lavoro/SKILL.md) | Trasferte Italia e quote | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill trasferte-lavoro --all` |
 
 Legenda: ✅ testata localmente · ⚠️ da verificare · ❌ non supportata
 
@@ -228,7 +248,7 @@ Non duplichiamo codice altrui per licenza e manutenzione. Vedi `catalog/vendors-
 ```
 ai-skills/
   README.md + LICENSE + llms.txt  # root essenziale
-  skills/                    # SOURCE OF TRUTH: 147 skill (9 + batch 1-7 IT)
+  skills/                    # SOURCE OF TRUTH: 167 skill (9 + batch 1-8 IT)
     tooling: hello-agent/ skill-creator-it/
     cuore: invoice-it/ email-formale-it/ xlsx-budget-it/
       translate-it-en/ press-release-it/ doc-polish-it/ case-study/
@@ -285,6 +305,14 @@ ai-skills/
       assistenza-anziani/ bonus-cultura-18app/
     batch7-IT PA/tutele: patronato-servizi/ concorsi-pubblici/ leasing-finanziamento/
       trasloco-diritti/ riscaldamento-contabilizzazione/
+    batch8-IT giustizia/successioni: giudice-di-pace/ conciliazione-paritetica/
+      diffida-legale/ mediazione-civile/ testamento-pubblico/
+    batch8-IT eredità/lavoro: eredita-debiti/ volture-catastali/ trasferta-estero/
+      infortuni-lavoro/ reperibilita-lavoro/
+    batch8-IT trasporti/salute: revisione-auto/ ztl-permessi/ trasporto-disabili/
+      vaccini-obbligatori/ donazione-sangue/
+    batch8-IT soldi/lavoro: pronto-soccorso-ticket/ straordinari-info/ conti-deposito/
+      fondo-emergenza/ trasferte-lavoro/
     (ognuna: SKILL.md + references/ + examples/)
   archive/                   # skill generiche pre-restart (non installate)
     batch1-generic/ (17) + batch2-seo/ (18)
@@ -330,7 +358,8 @@ Guida completa: `docs/CREATE-SKILL.md`. Per skill Italia: aggiungi fonti ufficia
 - [x] Batch 5-IT (20 skill: lavoro/pensioni, casa/soldi, famiglia/estero, tutele) → totale 107
 - [x] Batch 6-IT (20 skill: fisco, lavoro/impresa, casa/digitali, PA/salute) → totale 127
 - [x] Batch 7-IT (20 skill: fisco/lavoro, impresa/casa, famiglia/salute, PA/tutele) → totale 147
+- [x] Batch 8-IT (20 skill: giustizia/successioni, eredità/lavoro, trasporti/salute, soldi/lavoro) → totale 167
 - [ ] Rinviati da valutare: contratto-base-check, ferie-permessi
 - [ ] Test reali sugli agenti e badge in `docs/COMPATIBILITY.md`
-- [ ] Batch 8-IT da pianificare (vedi `catalog/_registry.md`)
+- [ ] Batch 9-IT da pianificare (vedi `catalog/_registry.md`)
 - [ ] Rinviato (serve repo pubblica): submit a skills.sh / agentskills.io
