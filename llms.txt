@@ -24,6 +24,12 @@
 - Batch 2-IT, jobs-2 (2): busta-paga-leggi, naspi-guida. Casa (5): isee-guida,
   bollette-energia, bonus-casa, sanita-digitale, affitto-check.
 - Batch 2-IT, PA/tutele (5): pagopa-guida, garanzie-consumo, recesso-acquisti, isa-check, tirocinio-guida.
+- Batch 3-IT, fisco/impresa (6): nota-credito, contributi-inps, agevolazioni-assunzioni,
+  ditta-vs-srl, camera-commercio, durc.
+- Batch 3-IT, lavoro (4): maternita-congedi, malattia-certificato, apprendistato, contratto-tipi.
+- Batch 3-IT, casa (5): condominio-spese, mutuo-tassi, compravendita-casa, auto-bollo, assegno-unico.
+- Batch 3-IT, PA/tutele (5): anagrafe-certificati, passaporto-procedura, voli-ritardi,
+  banche-reclami, vacanze-pacchetto.
 
 Details in catalog/skills.json. Archived generic skills in archive/ (not installed).
 

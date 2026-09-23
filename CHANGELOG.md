@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.4 (Batch 3-IT, 67 active + 35 archived)
+
+- 20 skills: tax/business (nota-credito, contributi-inps, agevolazioni-assunzioni,
+  ditta-vs-srl, camera-commercio, durc), jobs-3 (maternita-congedi,
+  malattia-certificato, apprendistato, contratto-tipi), home (condominio-spese,
+  mutuo-tassi, compravendita-casa, auto-bollo, assegno-unico), PA/tutele-2
+  (anagrafe-certificati, passaporto-procedura, voli-ritardi, banche-reclami,
+  vacanze-pacchetto).
+- Indexes: `skills.json` 1.4.0 (67 entries), `plugin.json` 1.4.0.
+
 ## 1.3 (Batch 2-IT, 47 active + 35 archived)
 
 - 20 second-level Italy skills: tax-2 (partita-iva-apri, ateco-scelta,

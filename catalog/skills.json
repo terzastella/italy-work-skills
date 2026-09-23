@@ -1,6 +1,6 @@
 {
   "name": "ai-skills-hub",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "spec": "https://agentskills.io/specification",
   "skills": [
     {
@@ -606,6 +606,266 @@
       "name": "tirocinio-guida",
       "path": "skills/tirocinio-guida/SKILL.md",
       "description": "Italian internships with rights and allowances.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "nota-credito",
+      "path": "skills/nota-credito/SKILL.md",
+      "description": "Issue Italian credit notes via SdI with correct references.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "contributi-inps",
+      "path": "skills/contributi-inps/SKILL.md",
+      "description": "INPS contributions by track with minimal rates.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "agevolazioni-assunzioni",
+      "path": "skills/agevolazioni-assunzioni/SKILL.md",
+      "description": "Italian hiring incentives with requirements checklist.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "ditta-vs-srl",
+      "path": "skills/ditta-vs-srl/SKILL.md",
+      "description": "Italian business forms compared with costs and liability.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "camera-commercio",
+      "path": "skills/camera-commercio/SKILL.md",
+      "description": "Registro imprese filings with documents checklist.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "durc",
+      "path": "skills/durc/SKILL.md",
+      "description": "DURC compliance proof with validity and checks.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "maternita-congedi",
+      "path": "skills/maternita-congedi/SKILL.md",
+      "description": "Maternity and parental leave with INPS paths.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "malattia-certificato",
+      "path": "skills/malattia-certificato/SKILL.md",
+      "description": "Sick-leave certificates with visit windows.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "apprendistato",
+      "path": "skills/apprendistato/SKILL.md",
+      "description": "Apprenticeships with types and protections.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "contratto-tipi",
+      "path": "skills/contratto-tipi/SKILL.md",
+      "description": "Italian work contract types compared, no legal advice.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "condominio-spese",
+      "path": "skills/condominio-spese/SKILL.md",
+      "description": "Condo statements with millesimi and disputes.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "mutuo-tassi",
+      "path": "skills/mutuo-tassi/SKILL.md",
+      "description": "Mortgages compared with TAN/TAEG and total cost.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "compravendita-casa",
+      "path": "skills/compravendita-casa/SKILL.md",
+      "description": "Home buying from proposal to deed with costs.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "auto-bollo",
+      "path": "skills/auto-bollo/SKILL.md",
+      "description": "Car tax by region with deadlines and exemptions.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "assegno-unico",
+      "path": "skills/assegno-unico/SKILL.md",
+      "description": "Assegno unico with ISEE bands and application.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "anagrafe-certificati",
+      "path": "skills/anagrafe-certificati/SKILL.md",
+      "description": "Registry certificates via ANPR online.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "passaporto-procedura",
+      "path": "skills/passaporto-procedura/SKILL.md",
+      "description": "Italian passport requests with agenda and costs.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "voli-ritardi",
+      "path": "skills/voli-ritardi/SKILL.md",
+      "description": "EU261 flight compensation with bands and letters.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "banche-reclami",
+      "path": "skills/banche-reclami/SKILL.md",
+      "description": "Bank complaints with ABF escalation path.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "vacanze-pacchetto",
+      "path": "skills/vacanze-pacchetto/SKILL.md",
+      "description": "Package travel rights with assistance and refunds.",
       "license": "MIT",
       "compatibility": [
         "claude",

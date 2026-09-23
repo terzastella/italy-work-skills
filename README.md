@@ -112,6 +112,26 @@ Destinazioni:
 | [recesso-acquisti](skills/recesso-acquisti/SKILL.md) | Recesso 14 giorni e eccezioni | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill recesso-acquisti --all` |
 | [isa-check](skills/isa-check/SKILL.md) | Punteggi ISA letti bene | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill isa-check --all` |
 | [tirocinio-guida](skills/tirocinio-guida/SKILL.md) | Stage con diritti e indennità | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill tirocinio-guida --all` |
+| [nota-credito](skills/nota-credito/SKILL.md) | Note di credito via SdI | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill nota-credito --all` |
+| [contributi-inps](skills/contributi-inps/SKILL.md) | Contributi per gestione e minimali | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill contributi-inps --all` |
+| [agevolazioni-assunzioni](skills/agevolazioni-assunzioni/SKILL.md) | Sgravi assunzioni con requisiti | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill agevolazioni-assunzioni --all` |
+| [ditta-vs-srl](skills/ditta-vs-srl/SKILL.md) | Forme giuridiche a confronto | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill ditta-vs-srl --all` |
+| [camera-commercio](skills/camera-commercio/SKILL.md) | Pratiche registro imprese | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill camera-commercio --all` |
+| [durc](skills/durc/SKILL.md) | DURC: validità e controlli | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill durc --all` |
+| [maternita-congedi](skills/maternita-congedi/SKILL.md) | Maternità e parentali INPS | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill maternita-congedi --all` |
+| [malattia-certificato](skills/malattia-certificato/SKILL.md) | Malattia e reperibilità | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill malattia-certificato --all` |
+| [apprendistato](skills/apprendistato/SKILL.md) | Apprendistato con tutele | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill apprendistato --all` |
+| [contratto-tipi](skills/contratto-tipi/SKILL.md) | Tipi di contratto a confronto | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill contratto-tipi --all` |
+| [condominio-spese](skills/condominio-spese/SKILL.md) | Spese condominiali e millesimi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill condominio-spese --all` |
+| [mutuo-tassi](skills/mutuo-tassi/SKILL.md) | Mutui con TAN/TAEG veri | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill mutuo-tassi --all` |
+| [compravendita-casa](skills/compravendita-casa/SKILL.md) | Comprare casa senza disastri | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill compravendita-casa --all` |
+| [auto-bollo](skills/auto-bollo/SKILL.md) | Bollo auto regionale | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill auto-bollo --all` |
+| [assegno-unico](skills/assegno-unico/SKILL.md) | Assegno unico con fasce ISEE | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill assegno-unico --all` |
+| [anagrafe-certificati](skills/anagrafe-certificati/SKILL.md) | Certificati ANPR online | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill anagrafe-certificati --all` |
+| [passaporto-procedura](skills/passaporto-procedura/SKILL.md) | Passaporto senza doppi viaggi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill passaporto-procedura --all` |
+| [voli-ritardi](skills/voli-ritardi/SKILL.md) | EU261 con fasce e lettere | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill voli-ritardi --all` |
+| [banche-reclami](skills/banche-reclami/SKILL.md) | Reclami banca + ABF | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill banche-reclami --all` |
+| [vacanze-pacchetto](skills/vacanze-pacchetto/SKILL.md) | Pacchetti viaggio protetti | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill vacanze-pacchetto --all` |
 
 Legenda: ✅ testata localmente · ⚠️ da verificare · ❌ non supportata
 
@@ -128,7 +148,7 @@ Non duplichiamo codice altrui per licenza e manutenzione. Vedi `catalog/vendors-
 ```
 ai-skills/
   README.md + LICENSE + llms.txt  # root essenziale
-  skills/                    # SOURCE OF TRUTH: 47 skill (9 + batch 1-IT 18 + batch 2-IT 20)
+  skills/                    # SOURCE OF TRUTH: 67 skill (9 + batch 1-IT 18 + batch 2-IT 20 + batch 3-IT 20)
     tooling: hello-agent/ skill-creator-it/
     cuore: invoice-it/ email-formale-it/ xlsx-budget-it/
       translate-it-en/ press-release-it/ doc-polish-it/ case-study/
@@ -146,6 +166,14 @@ ai-skills/
       bollette-energia/ bonus-casa/ sanita-digitale/ affitto-check/
     batch2-IT PA/tutele: pagopa-guida/ garanzie-consumo/ recesso-acquisti/
       isa-check/ tirocinio-guida/
+    batch3-IT fisco/impresa: nota-credito/ contributi-inps/ agevolazioni-assunzioni/
+      ditta-vs-srl/ camera-commercio/ durc/
+    batch3-IT lavoro: maternita-congedi/ malattia-certificato/
+      apprendistato/ contratto-tipi/
+    batch3-IT casa: condominio-spese/ mutuo-tassi/ compravendita-casa/
+      auto-bollo/ assegno-unico/
+    batch3-IT PA/tutele: anagrafe-certificati/ passaporto-procedura/
+      voli-ritardi/ banche-reclami/ vacanze-pacchetto/
     (ognuna: SKILL.md + references/ + examples/)
   archive/                   # skill generiche pre-restart (non installate)
     batch1-generic/ (17) + batch2-seo/ (18)
@@ -179,12 +207,15 @@ Guida completa: `docs/CREATE-SKILL.md`. Per skill Italia: aggiungi fonti ufficia
 * Skill ufficiali linkate in `catalog/vendors-manifest.json`: restano dei rispettivi proprietari. In particolare `docx/pdf/pptx/xlsx` di Anthropic sono **source-available, non open-source** — non copiarle, linkale (vedi `docs/THIRD-PARTY-NOTICES.md`).
 * Le skill fisco/legge sono bozze informative, non consulenza professionale.
 
-## Roadmap (solo locale, pubblicazione rinviata)
+## Roadmap (repo GitHub privata, sviluppo per batch)
 
 - [x] Restart Italia 1.0 (9 skill + archivio 35 generiche)
 - [x] Batch 1-IT (18 skill: fisco, formali, lavoro, bandi/PA) → totale 27
 - [x] Batch 2-IT (20 skill: fisco 2, lavoro 2, casa, PA, tutele) → totale 47
+- [x] 9 agenti (claude, codex, grok, cursor, copilot, copilot-cli, gemini, opencode, windsurf)
+- [x] CI gates su repo privata (validate + security + install dry-run)
+- [x] Batch 3-IT (20 skill: fisco/impresa, lavoro, casa, PA/tutele) → totale 67
 - [ ] Rinviati da valutare: contratto-base-check, ferie-permessi
-- [ ] Test reali su Claude/Codex/Grok e badge in `docs/COMPATIBILITY.md`
-- [ ] Batch 2-IT da pianificare (vedi `catalog/_registry.md`)
-- [ ] Rinviato (serve GitHub pubblico): CI su PR, submit a skills.sh / agentskills.io
+- [ ] Test reali sugli agenti e badge in `docs/COMPATIBILITY.md`
+- [ ] Batch 4-IT da pianificare (vedi `catalog/_registry.md`)
+- [ ] Rinviato (serve repo pubblica): submit a skills.sh / agentskills.io
