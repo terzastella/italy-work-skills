@@ -1,0 +1,359 @@
+{
+  "name": "ai-skills-hub",
+  "version": "1.1.0",
+  "spec": "https://agentskills.io/specification",
+  "skills": [
+    {
+      "name": "hello-agent",
+      "path": "skills/hello-agent/SKILL.md",
+      "description": "10-second smoke test to verify the agent sees and loads skills.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot",
+        "gemini"
+      ]
+    },
+    {
+      "name": "skill-creator-it",
+      "path": "skills/skill-creator-it/SKILL.md",
+      "description": "Create new English skills following this repo's standard.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "invoice-it",
+      "path": "skills/invoice-it/SKILL.md",
+      "description": "Italian invoices with items, VAT and verified totals.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "email-formale-it",
+      "path": "skills/email-formale-it/SKILL.md",
+      "description": "Formal Italian business emails with right subject, structure and tone.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "xlsx-budget-it",
+      "path": "skills/xlsx-budget-it/SKILL.md",
+      "description": "Monthly Excel budgets with sheets, formulas and summary.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "translate-it-en",
+      "path": "skills/translate-it-en/SKILL.md",
+      "description": "Translate IT-EN texts preserving structure, code and tone.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "press-release-it",
+      "path": "skills/press-release-it/SKILL.md",
+      "description": "Press releases with journalistic structure.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "doc-polish-it",
+      "path": "skills/doc-polish-it/SKILL.md",
+      "description": "Improve READMEs and docs with sober tone, structure and correct code blocks.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "case-study",
+      "path": "skills/case-study/SKILL.md",
+      "description": "Case studies with problem, solution and real results.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "fattura-elettronica-it",
+      "path": "skills/fattura-elettronica-it/SKILL.md",
+      "description": "Guide Italian e-invoices via SdI with mandatory data and rejections.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "regime-forfettario",
+      "path": "skills/regime-forfettario/SKILL.md",
+      "description": "Explain Italy's flat-rate scheme with thresholds and calculations.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "scadenze-fiscali",
+      "path": "skills/scadenze-fiscali/SKILL.md",
+      "description": "Read Italian tax deadlines and build payment calendars.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "corrispettivi-it",
+      "path": "skills/corrispettivi-it/SKILL.md",
+      "description": "Explain Italian daily takings via telematic recorder or software.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "pec-bozza",
+      "path": "skills/pec-bozza/SKILL.md",
+      "description": "Draft Italian certified emails with legal-value notes.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "sollecito-pagamento",
+      "path": "skills/sollecito-pagamento/SKILL.md",
+      "description": "3-level payment reminders, polite to formal.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "verbale-riunione-it",
+      "path": "skills/verbale-riunione-it/SKILL.md",
+      "description": "Italian meeting minutes with decisions and owners.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "preventivo-it",
+      "path": "skills/preventivo-it/SKILL.md",
+      "description": "Italian quotes with items, validity and terms.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "nota-spese",
+      "path": "skills/nota-spese/SKILL.md",
+      "description": "Italian expense reports with receipts and totals.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "cv-europass",
+      "path": "skills/cv-europass/SKILL.md",
+      "description": "Europass CVs with measured experience and clean layout.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "lettera-presentazione",
+      "path": "skills/lettera-presentazione/SKILL.md",
+      "description": "Italian cover letters tied to the job ad.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "colloquio-prep-it",
+      "path": "skills/colloquio-prep-it/SKILL.md",
+      "description": "Job interview prep with STAR answers and questions.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "dimissioni-procedura",
+      "path": "skills/dimissioni-procedura/SKILL.md",
+      "description": "Italy's online resignation procedure and notice info.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "bandi-pmi",
+      "path": "skills/bandi-pmi/SKILL.md",
+      "description": "Read Italian SME calls with go/no-go checklist.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "domanda-bando",
+      "path": "skills/domanda-bando/SKILL.md",
+      "description": "Grant applications with attachments checklist.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "spid-cie-guida",
+      "path": "skills/spid-cie-guida/SKILL.md",
+      "description": "SPID/CIE levels and recovery without touching credentials.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "privacy-informativa",
+      "path": "skills/privacy-informativa/SKILL.md",
+      "description": "GDPR privacy notices with mandatory items and template.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "visura-leggimi",
+      "path": "skills/visura-leggimi/SKILL.md",
+      "description": "Read visura camerale sections and what they mean.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    }
+  ]
+}

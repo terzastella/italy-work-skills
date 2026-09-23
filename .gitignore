@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.zip
+tmp-test/
+.DS_Store
+Thumbs.db
+# Destinazioni locali generate da install.py (non committare installazioni personali)
+.claude/skills/*
+!.claude/README.md
+.grok/skills/*
+!.grok/README.md
+.cursor/skills/*
+.github/skills/*
+!.github/skills/README.md
+.gemini/skills/*
+.agents/skills/*
+!.agents/skills/README.md

@@ -1,0 +1,49 @@
+{
+  "version": "0.1.0",
+  "updated": "2026-09-23",
+  "vendors": [
+    {
+      "name": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "spec": "https://agentskills.io/specification",
+      "license": "Apache-2.0 (examples) + source-available (docx/pdf/pptx/xlsx)",
+      "skills": [
+        "frontend-design",
+        "skill-creator",
+        "mcp-builder",
+        "webapp-testing",
+        "brand-guidelines",
+        "canvas-design",
+        "algorithmic-art",
+        "theme-factory",
+        "doc-coauthoring",
+        "internal-comms",
+        "slack-gif-creator",
+        "claude-api",
+        "docx",
+        "pdf",
+        "pptx",
+        "xlsx"
+      ],
+      "install": "/plugin marketplace add anthropics/skills",
+      "note": "Do not copy docx/pdf/pptx/xlsx, they are source-available. Link only."
+    },
+    {
+      "name": "openai-codex-skills",
+      "url": "https://developers.openai.com/codex/skills",
+      "license": "see OpenAI docs",
+      "skills_path": ".agents/skills/",
+      "install": "cp -r skills/<name> .agents/skills/",
+      "note": "Custom GPTs retiring Sep-Dec 2026, migration to Plugins. Codex uses SKILL.md + agents/openai.yaml."
+    },
+    {
+      "name": "xai-grok-builtin",
+      "url": "https://x.ai/news/grok-skills",
+      "docs": "https://docs.x.ai/build/features/skills-plugins-marketplaces.md",
+      "license": "see xAI docs",
+      "skills": ["Word Documents", "Presentations", "Spreadsheets", "PDFs", "Skill Creator"],
+      "skills_path": ".grok/skills/ + ~/.grok/skills/",
+      "note": "Grok also reads .claude/ and .agents/skills/ with zero config."
+    }
+  ]
+}

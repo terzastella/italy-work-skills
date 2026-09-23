@@ -1,0 +1,35 @@
+# ai-skills-hub — llms.txt
+
+> Machine-readable catalog for agents. Spec: https://agentskills.io/specification
+> Italian Work Skills Hub: English agent skills for Italian work.
+> Only the README.md is in Italian.
+
+## Skills (MIT, English)
+
+- hello-agent: skills/hello-agent/SKILL.md — Smoke test for skill visibility.
+- skill-creator-it: skills/skill-creator-it/SKILL.md — Create new English skills.
+- invoice-it: skills/invoice-it/SKILL.md — Italian invoices with VAT.
+- email-formale-it: skills/email-formale-it/SKILL.md — Formal Italian business email.
+- xlsx-budget-it: skills/xlsx-budget-it/SKILL.md — Monthly Excel budgets.
+- translate-it-en: skills/translate-it-en/SKILL.md — IT-EN translation, code intact.
+- press-release-it: skills/press-release-it/SKILL.md — Press releases.
+- doc-polish-it: skills/doc-polish-it/SKILL.md — Improve README/docs.
+- case-study: skills/case-study/SKILL.md — Case studies with real numbers.
+- Batch 1-IT, tax (4): fattura-elettronica-it, regime-forfettario, scadenze-fiscali, corrispettivi-it.
+- Batch 1-IT, formal (5): pec-bozza, sollecito-pagamento, verbale-riunione-it, preventivo-it, nota-spese.
+- Batch 1-IT, jobs (4): cv-europass, lettera-presentazione, colloquio-prep-it, dimissioni-procedura.
+- Batch 1-IT, calls/PA (5): bandi-pmi, domanda-bando, spid-cie-guida, privacy-informativa, visura-leggimi.
+
+Details in catalog/skills.json. Archived generic skills in archive/ (not installed).
+
+## Install
+
+- `python scripts/install.py --all`
+- `python scripts/install.py --skill <name> --agent claude|codex|grok|cursor|copilot|gemini`
+- `python scripts/validate.py`
+
+## Vendors (reference only)
+
+- anthropics/skills: https://github.com/anthropics/skills
+- openai codex skills: https://developers.openai.com/codex/skills
+- grok skills: https://docs.x.ai/build/features/skills-plugins-marketplaces.md
