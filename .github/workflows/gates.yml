@@ -1,0 +1,20 @@
+name: gates
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Validate SKILL.md files
+        run: python scripts/validate.py
+      - name: Security check
+        run: python scripts/security-check.py
+      - name: Install dry-run (all skills, all agents)
+        run: python scripts/install.py --all --dest ./tmp-test --dry-run
