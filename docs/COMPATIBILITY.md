@@ -59,6 +59,26 @@ One `SKILL.md` for all. Differences only in the loader, not the format.
 | spid-cie-guida | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 | privacy-informativa | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 | visura-leggimi | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| partita-iva-apri | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| ateco-scelta | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| acconti-calcolo | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| ritenuta-acconto | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| operazioni-estero | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| fattura-pa | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| imu-calcolo | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| cu-730-guida | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| busta-paga-leggi | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| naspi-guida | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| isee-guida | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| bollette-energia | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| bonus-casa | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| sanita-digitale | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| affitto-check | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| pagopa-guida | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| garanzie-consumo | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| recesso-acquisti | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| isa-check | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| tirocinio-guida | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 
 Archived generic skills (35 in `archive/`) are not tested or installed.
 

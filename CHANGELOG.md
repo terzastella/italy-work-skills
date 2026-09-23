@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.3 (Batch 2-IT, 47 active + 35 archived)
+
+- 20 second-level Italy skills: tax-2 (partita-iva-apri, ateco-scelta,
+  acconti-calcolo, ritenuta-acconto, operazioni-estero, fattura-pa, imu-calcolo,
+  cu-730-guida), jobs-2 (busta-paga-leggi, naspi-guida, tirocinio-guida),
+  casa (isee-guida, bollette-energia, bonus-casa, sanita-digitale, affitto-check),
+  PA/tutele (pagopa-guida, garanzie-consumo, recesso-acquisti, isa-check).
+- Names pagopa-guida/isa-check lowercase per spec.
+- Indexes: `skills.json` 1.3.0 (47 entries), `plugin.json` 1.3.0.
+
 ## 1.2 (9 agents, no skill changes)
 
 - Installer: + `opencode` (`.opencode/skills`, `~/.config/opencode/skills`),

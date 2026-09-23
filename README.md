@@ -92,6 +92,26 @@ Destinazioni:
 | [spid-cie-guida](skills/spid-cie-guida/SKILL.md) | SPID/CIE senza toccare credenziali | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill spid-cie-guida --all` |
 | [privacy-informativa](skills/privacy-informativa/SKILL.md) | Informative GDPR con template | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill privacy-informativa --all` |
 | [visura-leggimi](skills/visura-leggimi/SKILL.md) | Visure camerali decodificate | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill visura-leggimi --all` |
+| [partita-iva-apri](skills/partita-iva-apri/SKILL.md) | Aprire partita IVA: regime e passi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill partita-iva-apri --all` |
+| [ateco-scelta](skills/ateco-scelta/SKILL.md) | Codice ATECO giusto e perché | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill ateco-scelta --all` |
+| [acconti-calcolo](skills/acconti-calcolo/SKILL.md) | Acconti con metodo storico | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill acconti-calcolo --all` |
+| [ritenuta-acconto](skills/ritenuta-acconto/SKILL.md) | Ritenute: chi trattiene e chi no | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill ritenuta-acconto --all` |
+| [operazioni-estero](skills/operazioni-estero/SKILL.md) | Estero IVA e Intrastat base | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill operazioni-estero --all` |
+| [fattura-pa](skills/fattura-pa/SKILL.md) | Fatture PA con CIG/CUP | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill fattura-pa --all` |
+| [imu-calcolo](skills/imu-calcolo/SKILL.md) | IMU con base e aliquota | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill imu-calcolo --all` |
+| [cu-730-guida](skills/cu-730-guida/SKILL.md) | CU e 730 per dipendenti e freelance | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill cu-730-guida --all` |
+| [busta-paga-leggi](skills/busta-paga-leggi/SKILL.md) | Buste paga riga per riga | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill busta-paga-leggi --all` |
+| [naspi-guida](skills/naspi-guida/SKILL.md) | NASpI: requisiti e calcolo | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill naspi-guida --all` |
+| [isee-guida](skills/isee-guida/SKILL.md) | ISEE con DSU senza errori | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill isee-guida --all` |
+| [bollette-energia](skills/bollette-energia/SKILL.md) | Bollette luce/gas e confronti | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill bollette-energia --all` |
+| [bonus-casa](skills/bonus-casa/SKILL.md) | Bonus casa con carte in regola | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill bonus-casa --all` |
+| [sanita-digitale](skills/sanita-digitale/SKILL.md) | FSE, IO, CUP e tessera | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill sanita-digitale --all` |
+| [affitto-check](skills/affitto-check/SKILL.md) | Contratti affitto con red flag | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill affitto-check --all` |
+| [pagopa-guida](skills/pagopa-guida/SKILL.md) | pagoPA con ricevute che provano | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill pagopa-guida --all` |
+| [garanzie-consumo](skills/garanzie-consumo/SKILL.md) | Garanzia 2 anni e oneri | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill garanzie-consumo --all` |
+| [recesso-acquisti](skills/recesso-acquisti/SKILL.md) | Recesso 14 giorni e eccezioni | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill recesso-acquisti --all` |
+| [isa-check](skills/isa-check/SKILL.md) | Punteggi ISA letti bene | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill isa-check --all` |
+| [tirocinio-guida](skills/tirocinio-guida/SKILL.md) | Stage con diritti e indennità | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill tirocinio-guida --all` |
 
 Legenda: ✅ testata localmente · ⚠️ da verificare · ❌ non supportata
 
@@ -108,7 +128,7 @@ Non duplichiamo codice altrui per licenza e manutenzione. Vedi `catalog/vendors-
 ```
 ai-skills/
   README.md + LICENSE + llms.txt  # root essenziale
-  skills/                    # SOURCE OF TRUTH: 27 skill (9 + batch 1-IT da 18)
+  skills/                    # SOURCE OF TRUTH: 47 skill (9 + batch 1-IT 18 + batch 2-IT 20)
     tooling: hello-agent/ skill-creator-it/
     cuore: invoice-it/ email-formale-it/ xlsx-budget-it/
       translate-it-en/ press-release-it/ doc-polish-it/ case-study/
@@ -120,6 +140,12 @@ ai-skills/
       colloquio-prep-it/ dimissioni-procedura/
     batch1-IT bandi-PA: bandi-pmi/ domanda-bando/ spid-cie-guida/
       privacy-informativa/ visura-leggimi/
+    batch2-IT fisco2: partita-iva-apri/ ateco-scelta/ acconti-calcolo/
+      ritenuta-acconto/ operazioni-estero/ fattura-pa/ imu-calcolo/ cu-730-guida/
+    batch2-IT lavoro2/casa: busta-paga-leggi/ naspi-guida/ isee-guida/
+      bollette-energia/ bonus-casa/ sanita-digitale/ affitto-check/
+    batch2-IT PA/tutele: pagopa-guida/ garanzie-consumo/ recesso-acquisti/
+      isa-check/ tirocinio-guida/
     (ognuna: SKILL.md + references/ + examples/)
   archive/                   # skill generiche pre-restart (non installate)
     batch1-generic/ (17) + batch2-seo/ (18)
@@ -157,6 +183,7 @@ Guida completa: `docs/CREATE-SKILL.md`. Per skill Italia: aggiungi fonti ufficia
 
 - [x] Restart Italia 1.0 (9 skill + archivio 35 generiche)
 - [x] Batch 1-IT (18 skill: fisco, formali, lavoro, bandi/PA) → totale 27
+- [x] Batch 2-IT (20 skill: fisco 2, lavoro 2, casa, PA, tutele) → totale 47
 - [ ] Rinviati da valutare: contratto-base-check, ferie-permessi
 - [ ] Test reali su Claude/Codex/Grok e badge in `docs/COMPATIBILITY.md`
 - [ ] Batch 2-IT da pianificare (vedi `catalog/_registry.md`)
