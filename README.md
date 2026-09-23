@@ -132,6 +132,26 @@ Destinazioni:
 | [voli-ritardi](skills/voli-ritardi/SKILL.md) | EU261 con fasce e lettere | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill voli-ritardi --all` |
 | [banche-reclami](skills/banche-reclami/SKILL.md) | Reclami banca + ABF | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill banche-reclami --all` |
 | [vacanze-pacchetto](skills/vacanze-pacchetto/SKILL.md) | Pacchetti viaggio protetti | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill vacanze-pacchetto --all` |
+| [tari-tassa](skills/tari-tassa/SKILL.md) | TARI con base e riduzioni | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill tari-tassa --all` |
+| [canone-rai](skills/canone-rai/SKILL.md) | Canone TV con esenzioni | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill canone-rai --all` |
+| [successioni-info](skills/successioni-info/SKILL.md) | Successioni con franchigie | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill successioni-info --all` |
+| [donazioni-info](skills/donazioni-info/SKILL.md) | Donazioni con atto notarile | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill donazioni-info --all` |
+| [patente-punti](skills/patente-punti/SKILL.md) | Punti patente e recuperi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill patente-punti --all` |
+| [periodo-prova](skills/periodo-prova/SKILL.md) | Periodi di prova e uscite | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill periodo-prova --all` |
+| [licenziamento-info](skills/licenziamento-info/SKILL.md) | Licenziamenti e termini | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill licenziamento-info --all` |
+| [smart-working](skills/smart-working/SKILL.md) | Lavoro agile con accordo | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill smart-working --all` |
+| [part-time](skills/part-time/SKILL.md) | Part-time e conversioni | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill part-time --all` |
+| [utenze-voltura](skills/utenze-voltura/SKILL.md) | Volture e subentri | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill utenze-voltura --all` |
+| [affitto-breve](skills/affitto-breve/SKILL.md) | Affitti brevi e CIN | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill affitto-breve --all` |
+| [compravendita-auto](skills/compravendita-auto/SKILL.md) | Auto usate senza sorprese | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill compravendita-auto --all` |
+| [scuola-iscrizioni](skills/scuola-iscrizioni/SKILL.md) | Iscrizioni scolastiche | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill scuola-iscrizioni --all` |
+| [universita-tasse](skills/universita-tasse/SKILL.md) | Tasse universitarie e aiuti | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill universita-tasse --all` |
+| [medico-base](skills/medico-base/SKILL.md) | Medico di base e cambi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill medico-base --all` |
+| [ticket-esenzioni](skills/ticket-esenzioni/SKILL.md) | Esenzioni ticket sanitarie | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill ticket-esenzioni --all` |
+| [invalidita-104](skills/invalidita-104/SKILL.md) | Invalidità e 104 con patronato | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill invalidita-104 --all` |
+| [residenza-cambio](skills/residenza-cambio/SKILL.md) | Cambi residenza e effetti | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill residenza-cambio --all` |
+| [carta-identita-cie](skills/carta-identita-cie/SKILL.md) | CIE senza doppi viaggi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill carta-identita-cie --all` |
+| [permesso-soggiorno](skills/permesso-soggiorno/SKILL.md) | Permessi con kit e rinnovi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill permesso-soggiorno --all` |
 
 Legenda: ✅ testata localmente · ⚠️ da verificare · ❌ non supportata
 
@@ -148,7 +168,7 @@ Non duplichiamo codice altrui per licenza e manutenzione. Vedi `catalog/vendors-
 ```
 ai-skills/
   README.md + LICENSE + llms.txt  # root essenziale
-  skills/                    # SOURCE OF TRUTH: 67 skill (9 + batch 1-IT 18 + batch 2-IT 20 + batch 3-IT 20)
+  skills/                    # SOURCE OF TRUTH: 87 skill (9 + batch 1-IT 18 + batch 2-IT 20 + batch 3-IT 20 + batch 4-IT 20)
     tooling: hello-agent/ skill-creator-it/
     cuore: invoice-it/ email-formale-it/ xlsx-budget-it/
       translate-it-en/ press-release-it/ doc-polish-it/ case-study/
@@ -174,6 +194,13 @@ ai-skills/
       auto-bollo/ assegno-unico/
     batch3-IT PA/tutele: anagrafe-certificati/ passaporto-procedura/
       voli-ritardi/ banche-reclami/ vacanze-pacchetto/
+    batch4-IT fisco/famiglia: tari-tassa/ canone-rai/ successioni-info/ donazioni-info/
+    batch4-IT lavoro/casa: periodo-prova/ licenziamento-info/ smart-working/
+      part-time/ utenze-voltura/ affitto-breve/ compravendita-auto/
+    batch4-IT scuola/salute: scuola-iscrizioni/ universita-tasse/ medico-base/
+      ticket-esenzioni/ invalidita-104/
+    batch4-IT PA/documenti: residenza-cambio/ carta-identita-cie/
+      patente-punti/ permesso-soggiorno/
     (ognuna: SKILL.md + references/ + examples/)
   archive/                   # skill generiche pre-restart (non installate)
     batch1-generic/ (17) + batch2-seo/ (18)
@@ -215,6 +242,7 @@ Guida completa: `docs/CREATE-SKILL.md`. Per skill Italia: aggiungi fonti ufficia
 - [x] 9 agenti (claude, codex, grok, cursor, copilot, copilot-cli, gemini, opencode, windsurf)
 - [x] CI gates su repo privata (validate + security + install dry-run)
 - [x] Batch 3-IT (20 skill: fisco/impresa, lavoro, casa, PA/tutele) → totale 67
+- [x] Batch 4-IT (20 skill: fisco/famiglia, lavoro, casa/auto, scuola/salute, PA) → totale 87
 - [ ] Rinviati da valutare: contratto-base-check, ferie-permessi
 - [ ] Test reali sugli agenti e badge in `docs/COMPATIBILITY.md`
 - [ ] Batch 4-IT da pianificare (vedi `catalog/_registry.md`)

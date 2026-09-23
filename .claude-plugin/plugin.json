@@ -1,7 +1,7 @@
 {
   "name": "ai-skills-hub",
   "description": "Italian Work Skills Hub: English agent skills for Italian work (invoices, formal email, budgets, press).",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "author": {
     "name": "ai-skills-hub"
   },
@@ -73,6 +73,26 @@
     "skills/passaporto-procedura",
     "skills/voli-ritardi",
     "skills/banche-reclami",
-    "skills/vacanze-pacchetto"
+    "skills/vacanze-pacchetto",
+    "skills/tari-tassa",
+    "skills/canone-rai",
+    "skills/successioni-info",
+    "skills/donazioni-info",
+    "skills/patente-punti",
+    "skills/periodo-prova",
+    "skills/licenziamento-info",
+    "skills/smart-working",
+    "skills/part-time",
+    "skills/utenze-voltura",
+    "skills/affitto-breve",
+    "skills/compravendita-auto",
+    "skills/scuola-iscrizioni",
+    "skills/universita-tasse",
+    "skills/medico-base",
+    "skills/ticket-esenzioni",
+    "skills/invalidita-104",
+    "skills/residenza-cambio",
+    "skills/carta-identita-cie",
+    "skills/permesso-soggiorno"
   ]
 }

@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.5 (Batch 4-IT, 87 active + 35 archived)
+
+- 20 skills: tax/family (tari-tassa, canone-rai, successioni-info, donazioni-info),
+  jobs-4 (periodo-prova, licenziamento-info, smart-working, part-time),
+  home/car (utenze-voltura, affitto-breve, compravendita-auto),
+  school/health (scuola-iscrizioni, universita-tasse, medico-base,
+  ticket-esenzioni, invalidita-104), PA/documents (residenza-cambio,
+  carta-identita-cie, patente-punti, permesso-soggiorno).
+- Delicate ones info-only + referral (licenziamento, invalidità, successioni).
+- Indexes: `skills.json` 1.5.0 (87 entries), `plugin.json` 1.5.0.
+
 ## 1.4 (Batch 3-IT, 67 active + 35 archived)
 
 - 20 skills: tax/business (nota-credito, contributi-inps, agevolazioni-assunzioni,
