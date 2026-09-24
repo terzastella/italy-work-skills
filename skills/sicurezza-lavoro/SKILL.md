@@ -2,7 +2,7 @@
 name: sicurezza-lavoro
 description: Map workplace safety duties with DVR and training. Use when asked sicurezza lavoro, DVR, RSPP Italy.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[company]"

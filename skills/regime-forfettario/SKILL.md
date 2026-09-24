@@ -2,7 +2,7 @@
 name: regime-forfettario
 description: Explain Italy's flat-rate scheme with thresholds and calculations. Use when asked forfettario, flat rate, 85.000, 5 percent, coefficiente.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"

@@ -2,7 +2,7 @@
 name: startup-innovativa
 description: Explain innovative startup perks with registry rules. Use when asked startup innovativa, innovative startup Italy.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[project]"

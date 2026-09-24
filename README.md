@@ -4,9 +4,9 @@
 ![Spec: agentskills.io](https://img.shields.io/badge/Spec-agentskills.io-blue.svg)
 ![Validate: local](https://img.shields.io/badge/Validate-local-yellow.svg)
 
-Il primo hub sistematico di **Agent Skills per il lavoro italiano**: fatture con IVA, email formali, budget, comunicati, traduzioni IT-EN. Skill vere e installabili su Claude, Codex, Grok, Cursor, Copilot con un comando.
+Il primo hub sistematico di **Agent Skills per il lavoro italiano**: fatture con IVA, email formali, budget, comunicati, traduzioni IT-EN. Skill vere e installabili su Claude, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode e Windsurf con un comando.
 
-Solo locale per ora — pubblicazione su GitHub rinviata.
+Sviluppo su repo GitHub privata + branch per batch. Pubblicazione pubblica e marketplace rinviati.
 
 > Skill tutte in inglese (`-it` = dominio Italia o origine italiana).
 > Solo questo README resta in italiano.
@@ -19,7 +19,7 @@ I grandi repo mondiali (superpowers, mattpocock, ECC) coprono coding e marketing
 ## Perché questo repo è diverso
 
 1. **Skill vere e installabili** in `skills/` (formato `SKILL.md` universale)
-2. **Installer universale** — 1 comando per Claude / Codex / Grok / Cursor / Copilot
+2. **Installer universale** — 1 comando per 9 agenti (Claude, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf)
 3. **Profondità**: ogni skill ha `SKILL.md` + `references/` + `examples/`
 4. **Separazione chiara**: `skills/*` = originali (MIT) vs `catalog/vendors-manifest.json` = solo link alle ufficiali
 5. **Validazione locale** con `scripts/validate.py` + `scripts/security-check.py`

@@ -2,7 +2,7 @@
 name: pec-bozza
 description: Draft Italian certified emails with legal-value notes. Use when asked PEC draft, certified email, posta certificata, legal email Italy.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[recipient/purpose]"

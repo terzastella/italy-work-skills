@@ -2,7 +2,7 @@
 name: voli-ritardi
 description: Claim EU261 flight compensation with bands and letters. Use when asked volo ritardo, flight delay compensation, EU261 Italy.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[flight]"

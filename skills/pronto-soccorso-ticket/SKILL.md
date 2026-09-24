@@ -2,7 +2,7 @@
 name: pronto-soccorso-ticket
 description: Explain ER codes and copay with exemptions. Use when asked pronto soccorso ticket, ER copay Italy, codice bianco.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"

@@ -2,7 +2,7 @@
 name: marchi-info
 description: Explain trademarks vs patents with filing paths. Use when asked marchio, brevetto, trademark Italy.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[idea/brand]"

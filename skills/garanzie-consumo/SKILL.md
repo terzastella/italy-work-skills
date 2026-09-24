@@ -2,7 +2,7 @@
 name: garanzie-consumo
 description: Explain Italy's 2-year legal guarantee with burden rules. Use when asked garanzia, legal warranty Italy, prodotto difettoso.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[product/issue]"

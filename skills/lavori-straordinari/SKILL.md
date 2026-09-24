@@ -2,7 +2,7 @@
 name: lavori-straordinari
 description: Guide extraordinary condo works with funds and bids. Use when asked lavori straordinari condominio, facade works Italy.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[works]"

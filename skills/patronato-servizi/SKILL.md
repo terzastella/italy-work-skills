@@ -2,7 +2,7 @@
 name: patronato-servizi
 description: Map free patronato help with when to go. Use when asked patronato, free help Italy, CAF patronato.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[need]"

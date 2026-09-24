@@ -2,7 +2,7 @@
 name: rc-auto
 description: Explain mandatory car insurance with coverage and claims. Use when asked RC auto, car insurance Italy, assicurazione auto.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[vehicle/driver]"

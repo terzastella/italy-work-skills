@@ -2,7 +2,7 @@
 name: ecommerce-adempimenti
 description: Guide online selling duties from SCIA to returns. Use when asked vendere online, ecommerce adempimenti, open online shop Italy.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[project]"

@@ -2,7 +2,7 @@
 name: energia-reclami
 description: Write energy complaints with ARERA desk path. Use when asked reclamo energia, luce gas complaint, sportello ARERA.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[issue]"

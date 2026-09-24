@@ -2,7 +2,7 @@
 name: dsa-bes-scuola
 description: Explain DSA and BES plans with PDP tools. Use when asked DSA BES, PDP scuola, learning disorders Italy.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"

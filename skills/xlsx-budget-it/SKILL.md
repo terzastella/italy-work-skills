@@ -2,7 +2,7 @@
 name: xlsx-budget-it
 description: Create monthly Excel budgets with sheets, formulas and summary. Use when asked Excel budget, expense sheet, expense tracker, household budget.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write Bash
 argument-hint: "[month]"

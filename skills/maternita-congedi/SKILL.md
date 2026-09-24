@@ -2,7 +2,7 @@
 name: maternita-congedi
 description: Explain maternity and parental leave with INPS paths. Use when asked maternità, congedi parentali, parental leave Italy.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"

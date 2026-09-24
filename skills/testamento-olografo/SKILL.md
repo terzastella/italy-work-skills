@@ -2,7 +2,7 @@
 name: testamento-olografo
 description: Explain holographic wills with validity rules. Use when asked testamento olografo, holographic will Italy.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"

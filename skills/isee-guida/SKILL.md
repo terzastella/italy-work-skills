@@ -2,7 +2,7 @@
 name: isee-guida
 description: Explain ISEE with DSU documents and common mistakes. Use when asked ISEE, DSU, indicator, bonus thresholds Italy.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[household]"

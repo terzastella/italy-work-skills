@@ -2,7 +2,7 @@
 name: carte-revolving
 description: Explain revolving cards with real TAEG math. Use when asked carta revolving, revolving credit Italy.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[offer]"

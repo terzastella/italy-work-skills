@@ -2,7 +2,7 @@
 name: addizionali-regionali
 description: Explain regional and municipal surcharges with where-paid logic. Use when asked addizionali, regional surcharge Italy.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[residence]"

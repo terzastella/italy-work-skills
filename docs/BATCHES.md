@@ -2,12 +2,12 @@
 
 All skill content in English. Only `README.md` stays in Italian.
 
-## RESTART 2026-09-23 — Italian Work Skills Hub
+## RESTART 2026-09-23 - Italian Work Skills Hub
 
 Generic batches below are archived (`archive/`, 35 skills, frozen).
 Active: 227 skills in `skills/` (9 + Batch 1-IT 18 + Batch 2-IT 20 + Batch 3-IT 20 + Batch 4-IT 20 + Batch 5-IT 20 + Batch 6-IT 20 + Batch 7-IT 20 + Batch 8-IT 20 + Batch 9-IT 20 + Batch 10-IT 20 + Batch 11-IT 20).
 
-## Batch 11-IT — school, condo, money ✅ 2026-09-23 (227 active)
+## Batch 11-IT - school, condo, money ✅ 2026-09-23 (227 active)
 
 20 skills, each `SKILL.md` + `references/` + `examples/` (fake data always marked).
 
@@ -19,7 +19,7 @@ Active: 227 skills in `skills/` (9 + Batch 1-IT 18 + Batch 2-IT 20 + Batch 3-IT 
 Batch gate: `validate.py` 228 OK zero warnings (227 skills + template),
 `security-check.py` clean, `install.py --all --dest ./tmp-test` 227×9 ok.
 
-## Batch 10-IT — money, business, health ✅ 2026-09-23 (207 active)
+## Batch 10-IT - money, business, health ✅ 2026-09-23 (207 active)
 
 20 skills, each `SKILL.md` + `references/` + `examples/` (fake data always marked).
 
@@ -32,7 +32,7 @@ Delicate (testamento-biologico-dat, pignoramento-conto): info-only + referral.
 Batch gate: `validate.py` 208 OK zero warnings (207 skills + template),
 `security-check.py` clean, `install.py --all --dest ./tmp-test` 207×9 ok.
 
-## Batch 9-IT — tax, home, family ✅ 2026-09-23 (187 active)
+## Batch 9-IT - tax, home, family ✅ 2026-09-23 (187 active)
 
 20 skills, each `SKILL.md` + `references/` + `examples/` (fake data always marked).
 
@@ -45,7 +45,7 @@ Delicate (adozioni-info, separazione-divorzio): info-only + referral.
 Batch gate: `validate.py` 188 OK zero warnings (187 skills + template),
 `security-check.py` clean, `install.py --all --dest ./tmp-test` 187×9 ok.
 
-## Batch 8-IT — justice, transport, money ✅ 2026-09-23 (167 active)
+## Batch 8-IT - justice, transport, money ✅ 2026-09-23 (167 active)
 
 20 skills, each `SKILL.md` + `references/` + `examples/` (fake data always marked).
 
@@ -58,7 +58,7 @@ Delicate (giudice-di-pace, mediazione-civile, eredita-debiti, vaccini-obbligator
 Batch gate: `validate.py` 168 OK zero warnings (167 skills + template),
 `security-check.py` clean, `install.py --all --dest ./tmp-test` 167×9 ok.
 
-## Batch 7-IT — audits, business, family ✅ 2026-09-23 (147 active)
+## Batch 7-IT - audits, business, family ✅ 2026-09-23 (147 active)
 
 20 skills, each `SKILL.md` + `references/` + `examples/` (fake data always marked).
 
@@ -71,7 +71,7 @@ Delicate (mantenimento-figli, fallimento-crisi-info): info-only + referral.
 Batch gate: `validate.py` 148 OK zero warnings (147 skills + template),
 `security-check.py` clean, `install.py --all --dest ./tmp-test` 147×9 ok.
 
-## Batch 6-IT — tax ops, business, home ✅ 2026-09-23 (127 active)
+## Batch 6-IT - tax ops, business, home ✅ 2026-09-23 (127 active)
 
 20 skills, each `SKILL.md` + `references/` + `examples/` (fake data always marked).
 
@@ -85,7 +85,7 @@ Delicate (multe-ricorso, pensione-reversibilita, marchi-info): info-only + refer
 Batch gate: `validate.py` 128 OK zero warnings (127 skills + template),
 `security-check.py` clean, `install.py --all --dest ./tmp-test` 127×9 ok.
 
-## Batch 5-IT — pensions, money, family ✅ 2026-09-23 (107 active)
+## Batch 5-IT - pensions, money, family ✅ 2026-09-23 (107 active)
 
 20 skills, each `SKILL.md` + `references/` + `examples/` (fake data always marked).
 
@@ -98,7 +98,7 @@ Delicate (pensione-guida, testamento-olografo, criptovalute-fisco): info-only + 
 Batch gate: `validate.py` 108 OK zero warnings (107 skills + template),
 `security-check.py` clean, `install.py --all --dest ./tmp-test` 107×9 ok.
 
-## Batch 4-IT — daily life ✅ 2026-09-23 (87 active)
+## Batch 4-IT - daily life ✅ 2026-09-23 (87 active)
 
 20 skills, each `SKILL.md` + `references/` + `examples/` (fake data always marked).
 
@@ -112,7 +112,7 @@ Delicate (licenziamento-info, invalidita-104, successioni-info): info-only + ref
 Batch gate: `validate.py` 88 OK zero warnings (87 skills + template),
 `security-check.py` clean, `install.py --all --dest ./tmp-test` 87×9 ok.
 
-## Batch 3-IT — enterprise, jobs-3, home, PA ✅ 2026-09-23 (67 active)
+## Batch 3-IT - enterprise, jobs-3, home, PA ✅ 2026-09-23 (67 active)
 
 20 skills, each `SKILL.md` + `references/` + `examples/` (fake data always marked).
 
@@ -126,7 +126,7 @@ Batch gate: `validate.py` 88 OK zero warnings (87 skills + template),
 Batch gate: `validate.py` 68 OK zero warnings (67 skills + template),
 `security-check.py` clean, `install.py --all --dest ./tmp-test` 67×9 ok.
 
-## Batch 2-IT — second-level Italy ✅ 2026-09-23 (47 active)
+## Batch 2-IT - second-level Italy ✅ 2026-09-23 (47 active)
 
 20 skills, each `SKILL.md` + `references/` (incl. `fonti.md` with official links +
 check date for tax/law/PA) + `examples/` (fake data always marked).
@@ -141,7 +141,7 @@ check date for tax/law/PA) + `examples/` (fake data always marked).
 Batch gate: `validate.py` 48 OK zero warnings (47 skills + template),
 `security-check.py` clean, `install.py --all --dest ./tmp-test` 47×9 ok.
 
-## Batch 1-IT — Italy work ✅ 2026-09-23 (27 active)
+## Batch 1-IT - Italy work ✅ 2026-09-23 (27 active)
 
 18 skills, each `SKILL.md` + `references/` (incl. `fonti.md` with official links +
 check date for tax/law/PA) + `examples/` (fake data always marked).
@@ -154,11 +154,11 @@ check date for tax/law/PA) + `examples/` (fake data always marked).
 Deferred: contratto-base-check, ferie-permessi (prudence review later).
 Batch gate: `validate.py` 28 OK zero warnings (27 skills + template),
 `security-check.py` clean, `install.py --all --dest ./tmp-test` 27×6 ok.
-Maintenance note: tax thresholds/rates change yearly — refresh `fonti.md` dates annually.
+Maintenance note: tax thresholds/rates change yearly - refresh `fonti.md` dates annually.
 
 ## History (pre-restart, archived)
 
-## Batch 1 — transversal foundations ✅ 2026-09-23 (24/200)
+## Batch 1 - transversal foundations ✅ 2026-09-23 (24/200)
 
 20 skills + 4 foundation. Each: `SKILL.md` + `references/` + `examples/`.
 
@@ -173,7 +173,7 @@ Maintenance note: tax thresholds/rates change yearly — refresh `fonti.md` date
 Batch gate: `validate.py` 25 OK zero warnings (24 skills + template),
 `security-check.py` clean, `install.py --all --dest ./tmp-test` 24×6 ok.
 
-## Batch 2 — SEO & content ✅ 2026-09-23 (44/200)
+## Batch 2 - SEO & content ✅ 2026-09-23 (44/200)
 
 20 skills, each `SKILL.md` + `references/` + `examples/`. All names in `catalog/_registry.md`.
 
@@ -186,11 +186,5 @@ Batch gate: `validate.py` 25 OK zero warnings (24 skills + template),
 Batch gate: `validate.py` 45 OK zero warnings (44 skills + template),
 `security-check.py` clean, `install.py --all --dest ./tmp-test` 44×6 ok.
 
-## Batch 3 (next, to plan)
-
-Candidates by category (15-20 names to approve before writing):
-- Cat.9 Data & scripts: log-analyze, rename-batch, backup-check…
-- Cat.2 Code quality: tdd-guard, env-check…
-
-Batch rules: never two open batches. Names first in `catalog/_registry.md`,
+Batch rules (still valid): never two open batches. Names first in `catalog/_registry.md`,
 content in blocks of 5 with intermediate gates, indexes at the end.

@@ -2,7 +2,7 @@
 name: concorsi-pubblici
 description: Guide public competitions with bando reading. Use when asked concorso pubblico, public competition Italy.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[competition]"
