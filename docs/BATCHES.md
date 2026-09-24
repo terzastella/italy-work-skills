@@ -5,7 +5,17 @@ All skill content in English. Only `README.md` stays in Italian.
 ## RESTART 2026-09-23 - Italian Work Skills Hub
 
 Generic batches below are archived (`archive/`, 35 skills, frozen).
-Active: 227 skills in `skills/` (9 + Batch 1-IT 18 + Batch 2-IT 20 + Batch 3-IT 20 + Batch 4-IT 20 + Batch 5-IT 20 + Batch 6-IT 20 + Batch 7-IT 20 + Batch 8-IT 20 + Batch 9-IT 20 + Batch 10-IT 20 + Batch 11-IT 20).
+Active: 227 skills in `skills/` + 24 pinned vendor skills in `vendors/`.
+
+## Vendor batch ✅ 2026-09-23 (227 ours + 24 vendors)
+
+24 verbatim pinned copies (see `vendors/upstreams.lock.json`): anthropics-skills (10),
+mattpocock-skills (6), superpowers (8). Opt-in via `install.py --source vendors`.
+Excluded: docx/pdf/pptx/xlsx (source-available); Codex/Grok have no public repos.
+
+Batch gate: `validate.py` zero FAIL (vendor-only structural issues are warnings),
+`security-check.py` clean, `install.py --all` + `--all --source vendors` ok,
+`sync-vendors.py` pinned and current.
 
 ## Batch 11-IT - school, condo, money ✅ 2026-09-23 (227 active)
 

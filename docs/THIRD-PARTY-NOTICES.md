@@ -1,7 +1,8 @@
 # Third-party notices
 
-This repo contains ONLY original skills. Official skills are referenced
-(not copied) in `../catalog/vendors-manifest.json`.
+This repo contains original skills in `skills/` plus **pinned verbatim copies**
+in `vendors/` (see `vendors/upstreams.lock.json` for repo + commit + license).
+Files under `vendors/` are never hand-edited.
 
 ## Anthropic — anthropics/skills
 
@@ -30,6 +31,23 @@ This repo contains ONLY original skills. Official skills are referenced
 * Skills path: `./.grok/skills/`, `~/.grok/skills/`, plugin `skills/`
 * Declared compatibility: also reads `.claude/`, `.agents/skills/`, `AGENTS.md`
 * Built-in: Word, Presentations, Spreadsheets, PDFs, Skill Creator (no setup)
+
+## Vendored copies (this repo, `vendors/`)
+
+* `vendors/anthropics-skills/` — 10 skills from
+  https://github.com/anthropics/skills at commit
+  `33375500bcea98d610eb30ce10ac4e59b89c390d`, Apache-2.0.
+  Per-skill `LICENSE.txt` kept in each folder (`doc-coauthoring` covered by
+  the upstream README's Apache-2.0 statement). Excludes `docx/pdf/pptx/xlsx`
+  (source-available, link only).
+* `vendors/mattpocock-skills/` — 6 skills from `skills/engineering/` of
+  https://github.com/mattpocock/skills at commit
+  `c55ee46073ed923f86ce59a5eb3b6d895095d1b7`, MIT.
+  License: `vendors/third-party/LICENSE-mattpocock.txt`.
+* `vendors/superpowers/` — 8 skills from `skills/` of
+  https://github.com/obra/superpowers at commit
+  `5bf4e78011075bcfc0dc295f0724994cd123ee71`, MIT.
+  License: `vendors/third-party/LICENSE-superpowers.txt`.
 
 When adding references to new third-party skills, add a row in
 `../catalog/vendors-manifest.json` with url, commit-sha and license.

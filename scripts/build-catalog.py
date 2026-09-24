@@ -110,7 +110,11 @@ def main():
     grouped = {}
     unclassified = []
     for s in skills:
-        theme = classify(s["name"], s.get("description", ""))
+        origin = s.get("origin", "")
+        if origin.startswith("vendor/"):
+            theme = "Vendor · " + origin.split("/", 1)[1]
+        else:
+            theme = classify(s["name"], s.get("description", ""))
         if theme == "Altro":
             unclassified.append(s["name"])
         grouped.setdefault(theme, []).append(s)
@@ -126,15 +130,19 @@ def main():
              "> Generato da `catalog/skills.json` con `python scripts/build-catalog.py`.",
              "> Non modificare a mano.",
              ""]
-    for theme, _ in THEMES:
+    theme_order = [t for t, _ in THEMES]
+    theme_order += ["Vendor · anthropics-skills", "Vendor · mattpocock-skills", "Vendor · superpowers"]
+    for theme in theme_order:
         items = grouped.get(theme, [])
         if not items:
             continue
-        anchor = theme.lower().replace(" ", "-").replace("è", "e").replace("é", "e")
+        anchor = theme.lower().replace(" ", "-").replace("è", "e").replace("é", "e").replace("·", "").replace("--", "-").strip("-")
         lines.append(f"## {theme} ({len(items)})")
         lines.append("")
         for s in sorted(items, key=lambda x: x["name"]):
-            lines.append(f"- [{s['name']}](../skills/{s['name']}/SKILL.md) — {s.get('description', '')}")
+            lic = s.get("license", "MIT")
+            suffix = f" ({lic})" if lic != "MIT" else ""
+            lines.append(f"- [{s['name']}](../{s['path']}) — {s.get('description', '')}{suffix}")
         lines.append("")
     if unclassified:
         lines.append("## Altro (da classificare)")

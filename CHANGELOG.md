@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.13 (Vendor batch, 227 ours + 24 vendors)
+
+- `vendors/` with 24 pinned verbatim copies: anthropics-skills (10, Apache-2.0),
+  mattpocock-skills (6, MIT), superpowers (8, MIT). Lock + licenses + README.
+- `install.py --source ours|vendors|all` (default ours, vendors opt-in).
+- `validate.py` covers vendors (vendor-only structural issues are warnings);
+  `security-check.py` excludes vendors by default (`--include-vendors` for manual review).
+- New `scripts/sync-vendors.py` (report-only drift check) + CI JSON step.
+- Indexes: `skills.json` 1.13.0 (251 entries, vendors carry `"origin"`),
+  `plugin.json` 1.13.0. CATALOG gains 3 `Vendor ·` themes.
+- Excluded on purpose: docx/pdf/pptx/xlsx (source-available); Codex/Grok have no
+  public repos (guides only).
+
 ## 1.12 (Batch 11-IT, 227 active + 35 archived)
 
 - 20 skills: school/condo (dsa-bes-scuola, universita-fuorisede, erasmus-info,

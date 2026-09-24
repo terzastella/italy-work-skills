@@ -94,6 +94,7 @@
   bonifici-istantanei, carta-prepagata.
 
 Details in catalog/skills.json. Archived generic skills in archive/ (not installed).
+Pinned third-party skills in vendors/ (opt-in via --source vendors, see vendors/README.md).
 
 ## Install
 

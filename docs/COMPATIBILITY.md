@@ -259,6 +259,30 @@ One `SKILL.md` for all. Differences only in the loader, not the format.
 | limite-contante | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 | bonifici-istantanei | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 | carta-prepagata | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| frontend-design (vendor/anthropics) | ⚠️ untested | ⚠️ untested | ⚠️ untested | Apache-2.0 |
+| skill-creator (vendor/anthropics) | ⚠️ untested | ⚠️ untested | ⚠️ untested | Apache-2.0 |
+| mcp-builder (vendor/anthropics) | ⚠️ untested | ⚠️ untested | ⚠️ untested | Apache-2.0 |
+| webapp-testing (vendor/anthropics) | ⚠️ untested | ⚠️ untested | ⚠️ untested | Apache-2.0 |
+| claude-api (vendor/anthropics) | ⚠️ untested | ⚠️ untested | ⚠️ untested | Apache-2.0 |
+| brand-guidelines (vendor/anthropics) | ⚠️ untested | ⚠️ untested | ⚠️ untested | Apache-2.0 |
+| doc-coauthoring (vendor/anthropics) | ⚠️ untested | ⚠️ untested | ⚠️ untested | Apache-2.0 |
+| internal-comms (vendor/anthropics) | ⚠️ untested | ⚠️ untested | ⚠️ untested | Apache-2.0 |
+| canvas-design (vendor/anthropics) | ⚠️ untested | ⚠️ untested | ⚠️ untested | Apache-2.0 |
+| theme-factory (vendor/anthropics) | ⚠️ untested | ⚠️ untested | ⚠️ untested | Apache-2.0 |
+| tdd (vendor/pocock) | ⚠️ untested | ⚠️ untested | ⚠️ untested | MIT |
+| diagnosing-bugs (vendor/pocock) | ⚠️ untested | ⚠️ untested | ⚠️ untested | MIT |
+| code-review (vendor/pocock) | ⚠️ untested | ⚠️ untested | ⚠️ untested | MIT |
+| research (vendor/pocock) | ⚠️ untested | ⚠️ untested | ⚠️ untested | MIT |
+| to-spec (vendor/pocock) | ⚠️ untested | ⚠️ untested | ⚠️ untested | MIT |
+| prototype (vendor/pocock) | ⚠️ untested | ⚠️ untested | ⚠️ untested | MIT |
+| brainstorming (vendor/superpowers) | ⚠️ untested | ⚠️ untested | ⚠️ untested | MIT |
+| writing-plans (vendor/superpowers) | ⚠️ untested | ⚠️ untested | ⚠️ untested | MIT |
+| executing-plans (vendor/superpowers) | ⚠️ untested | ⚠️ untested | ⚠️ untested | MIT |
+| systematic-debugging (vendor/superpowers) | ⚠️ untested | ⚠️ untested | ⚠️ untested | MIT |
+| test-driven-development (vendor/superpowers) | ⚠️ untested | ⚠️ untested | ⚠️ untested | MIT |
+| using-git-worktrees (vendor/superpowers) | ⚠️ untested | ⚠️ untested | ⚠️ untested | MIT |
+| requesting-code-review (vendor/superpowers) | ⚠️ untested | ⚠️ untested | ⚠️ untested | MIT |
+| verification-before-completion (vendor/superpowers) | ⚠️ untested | ⚠️ untested | ⚠️ untested | MIT |
 
 Archived generic skills (35 in `archive/`) are not tested or installed.
 

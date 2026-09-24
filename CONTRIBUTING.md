@@ -28,6 +28,8 @@
 ## Rules
 
 - Single source of truth: `skills/`. Never duplicate into `.claude/`, `.grok/`, `.agents/`.
+- `vendors/` is read-only: never hand-edit, never add ours there. Updates via
+  `scripts/sync-vendors.py` flow (re-copy, verify hashes, bump lock).
 - No secrets, tokens, personal absolute paths, PII.
 - English everywhere. Sober tone, no emoji.
 - Max ~500 lines per `SKILL.md`, details in `references/`.
