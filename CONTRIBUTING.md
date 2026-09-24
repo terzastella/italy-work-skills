@@ -20,7 +20,10 @@
    Remove-Item ./tmp-test -Recurse -Force
    ```
 5. Update indexes: `catalog/skills.json`, `llms.txt`,
-   `.claude-plugin/plugin.json`, tables in `README.md` and `docs/COMPATIBILITY.md`.
+   `.claude-plugin/plugin.json`, `docs/COMPATIBILITY.md` table.
+6. Regenerate the catalog: `python scripts/build-catalog.py` (never edit
+   `docs/CATALOG.md` by hand; fix `scripts/build-catalog.py` keywords or
+   overrides instead if a skill lands in the wrong theme).
 
 ## Rules
 

@@ -2607,7 +2607,7 @@
     {
       "name": "maturita-esame",
       "path": "skills/maturita-esame/SKILL.md",
-      "description": "Maturità exam with credits and tests.",
+      "description": "Maturita exam with credits and tests.",
       "license": "MIT",
       "compatibility": [
         "claude",
