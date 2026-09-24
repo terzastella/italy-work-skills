@@ -89,6 +89,22 @@ Destinazioni:
 Installazione: `python scripts/install.py --skill <nome> --all` (tabella completa in `docs/CATALOG.md`).
 
 
+## Skill di terzi (copie pinnate in `vendors/`, opt-in)
+
+24 skill originali altrui, file byte-identici pinnati ai commit in `vendors/upstreams.lock.json`:
+
+* **Anthropic** (10, Apache-2.0): `frontend-design`, `skill-creator`, `mcp-builder`, `webapp-testing`, `claude-api`, `brand-guidelines`, `doc-coauthoring`, `internal-comms`, `canvas-design`, `theme-factory`
+* **Matt Pocock** (6, MIT): `tdd`, `diagnosing-bugs`, `code-review`, `research`, `to-spec`, `prototype`
+* **Superpowers** (8, MIT): `brainstorming`, `writing-plans`, `executing-plans`, `systematic-debugging`, `test-driven-development`, `using-git-worktrees`, `requesting-code-review`, `verification-before-completion`
+
+```bash
+python scripts/install.py --all                          # solo nostre (default)
+python scripts/install.py --all --source vendors         # nostre + terze
+python scripts/install.py --skill tdd --source vendors   # una skill terza
+```
+
+Escluse apposta (`docx/pdf/pptx/xlsx` Anthropic: source-available, solo link) e senza repo da copiare (Codex/Grok: restano guide). Dettagli e licenze: `vendors/README.md`, `docs/THIRD-PARTY-NOTICES.md`.
+
 ## Skill ufficiali (solo reference, non copiate)
 
 Non duplichiamo codice altrui per licenza e manutenzione. Vedi `catalog/vendors-manifest.json`:
@@ -102,7 +118,7 @@ Non duplichiamo codice altrui per licenza e manutenzione. Vedi `catalog/vendors-
 ```
 ai-skills/
   README.md + LICENSE + llms.txt  # root essenziale
-  skills/                    # SOURCE OF TRUTH: 227 skill (9 + batch 1-11 IT)
+  skills/                    # SOURCE OF TRUTH nostre: 227 skill (9 + batch 1-11 IT)
     tooling: hello-agent/ skill-creator-it/
     cuore: invoice-it/ email-formale-it/ xlsx-budget-it/
       translate-it-en/ press-release-it/ doc-polish-it/ case-study/
@@ -194,6 +210,9 @@ ai-skills/
     (ognuna: SKILL.md + references/ + examples/)
   archive/                   # skill generiche pre-restart (non installate)
     batch1-generic/ (17) + batch2-seo/ (18)
+  vendors/                   # 24 skill terze pinnate (mai modificare a mano)
+    anthropics-skills/ (10) + mattpocock-skills/ (6) + superpowers/ (8)
+    + upstreams.lock.json + third-party/ + README.md
   templates/skill-starter/   # modello per nuove skill
   catalog/                   # skills.json + vendors-manifest.json + _registry.md
   .agents/skills/README.md   # standard Codex/Cursor/Copilot
@@ -240,6 +259,7 @@ Guida completa: `docs/CREATE-SKILL.md`. Per skill Italia: aggiungi fonti ufficia
 - [x] Batch 9-IT (20 skill: fisco/lavoro, casa/impresa, famiglia/salute, PA/soldi) → totale 187
 - [x] Batch 10-IT (20 skill: fisco/lavoro, impresa/casa, salute/scuola, soldi/tutele) → totale 207
 - [x] Batch 11-IT (20 skill: scuola/condominio, condominio/lavoro, buoni/salute, soldi) → totale 227
+- [x] Vendor batch (24 skill terze pinnate: Anthropic 10 + Pocock 6 + Superpowers 8) → totale 251
 - [ ] Rinviati da valutare: contratto-base-check, ferie-permessi
 - [ ] Test reali sugli agenti e badge in `docs/COMPATIBILITY.md`
 - [ ] Batch 12-IT da pianificare (vedi `catalog/_registry.md`)

@@ -3,7 +3,7 @@
 
 Usage:
   python scripts/validate.py
-  python scripts/validate.py --skill smart-commit
+  python scripts/validate.py --skill invoice-it
 """
 import argparse
 import re
@@ -32,9 +32,34 @@ def parse_simple_yaml(fm):
         data[k.strip()] = v.strip().strip('"').strip("'")
     return data
 
+def vendor_roots():
+    v = REPO / "vendors"
+    if not v.exists():
+        return []
+    return sorted([p for p in v.iterdir() if p.is_dir() and p.name != "third-party"])
+
+def find_skill(name):
+    direct = REPO / "skills" / name
+    if (direct / "SKILL.md").exists():
+        return direct
+    for root in vendor_roots():
+        cand = root / name
+        if (cand / "SKILL.md").exists():
+            return cand
+    return None
+
+def all_skill_dirs():
+    dirs = sorted([p for p in (REPO / "skills").iterdir() if p.is_dir()])
+    for root in vendor_roots():
+        dirs += sorted([p for p in root.iterdir() if p.is_dir()])
+    return dirs
+
 def validate_skill(skill_dir):
     errors = []
     warnings = []
+    # Vendor copies are byte-identical upstream files: structural rules that
+    # would require editing (e.g. >500-line bodies) are warnings, not errors.
+    strict = "vendors" not in Path(skill_dir).parts
     sk = Path(skill_dir) / "SKILL.md"
     if not sk.exists():
         return [f"{skill_dir}: missing SKILL.md"], []
@@ -58,7 +83,10 @@ def validate_skill(skill_dir):
     if len(body.strip()) < 20:
         errors.append("body too short, add instructions and examples")
     if len(body.splitlines()) > 500:
-        errors.append("body >500 lines, move details to references/")
+        if strict:
+            errors.append("body >500 lines, move details to references/")
+        else:
+            warnings.append("WARN: body >500 lines (vendor file, not editable)")
     # Warning locali (non bloccanti): PII, path assoluti, code-block senza linguaggio
     if re.search(r"(?i)[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}", body):
         warnings.append("WARN: possible email in body, check PII")
@@ -79,21 +107,28 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--skill", default=None)
     args = ap.parse_args()
-    targets = [REPO / "skills" / args.skill] if args.skill else sorted(
-        [p for p in (REPO / "skills").iterdir() if p.is_dir()])
+    if args.skill:
+        found = find_skill(args.skill)
+        if found is None:
+            print(f"Unknown skill: {args.skill}")
+            return 1
+        targets = [found]
+    else:
+        targets = all_skill_dirs()
     # also validate template
     if not args.skill and (REPO / "templates" / "skill-starter").exists():
         targets.append(REPO / "templates" / "skill-starter")
     failed = False
     for t in targets:
         errs, warns = validate_skill(t)
+        label = str(t.relative_to(REPO))
         if errs:
             failed = True
-            print(f"[FAIL] {t.name}")
+            print(f"[FAIL] {label}")
             for e in errs:
                 print(f"  - {e}")
         else:
-            print(f"[OK] {t.name}")
+            print(f"[OK] {label}")
         for w in warns:
             print(f"  ! {w}")
     return 1 if failed else 0

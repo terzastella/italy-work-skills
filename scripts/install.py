@@ -6,6 +6,7 @@ Usage:
   python scripts/install.py --all --agent claude
   python scripts/install.py --skill invoice-it --agent codex
   python scripts/install.py --skill invoice-it --all --dest ./tmp-test
+  python scripts/install.py --all --source vendors --dry-run
 """
 import argparse
 import shutil
@@ -14,6 +15,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
 SKILLS = REPO / "skills"
+VENDORS = REPO / "vendors"
 
 AGENTS = {
     "claude": [Path.home() / ".claude" / "skills"],
@@ -27,17 +29,31 @@ AGENTS = {
     "windsurf": [REPO / ".windsurf" / "skills"],
 }
 
-def available_skills():
-    return sorted([p.name for p in SKILLS.iterdir() if (p / "SKILL.md").exists()])
+def vendor_roots():
+    if not VENDORS.exists():
+        return []
+    return sorted([p for p in VENDORS.iterdir() if p.is_dir() and p.name != "third-party"])
 
-def install_skill(skill, dests, dry=False):
-    src = SKILLS / skill
+def available_skills(source):
+    found = {}
+    if source in ("ours", "all"):
+        for p in SKILLS.iterdir():
+            if (p / "SKILL.md").exists():
+                found.setdefault(p.name, p)
+    if source in ("vendors", "all"):
+        for root in vendor_roots():
+            for p in root.iterdir():
+                if (p / "SKILL.md").exists():
+                    found.setdefault(p.name, p)
+    return found
+
+def install_skill(src, dests, dry=False):
     if not (src / "SKILL.md").exists():
-        print(f"SKIP {skill}: missing SKILL.md in {src}")
+        print(f"SKIP {src}: missing SKILL.md in {src}")
         return False
     ok = True
     for d in dests:
-        target = d / skill
+        target = d / src.name
         print(f"  -> {target}")
         if not dry:
             target.parent.mkdir(parents=True, exist_ok=True)
@@ -56,16 +72,18 @@ def main():
     ap.add_argument("--user-only", action="store_true")
     ap.add_argument("--dest", default=None, help="custom destination (test)")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--source", default="ours", choices=["ours", "vendors", "all"],
+                    help="ours only (default), vendors only, or all")
     args = ap.parse_args()
 
-    skills = available_skills()
+    skills = available_skills(args.source)
     if not skills:
-        print("No skills in skills/")
+        print(f"No skills found (source={args.source})")
         return 1
-    wanted = skills if (args.all or not args.skill) else [args.skill]
+    wanted = sorted(skills) if (args.all or not args.skill) else [args.skill]
     for s in wanted:
         if s not in skills:
-            print(f"Unknown skill: {s} (available: {', '.join(skills)})")
+            print(f"Unknown skill: {s} (available: {', '.join(sorted(skills))})")
             return 1
 
     agents = list(AGENTS) if args.agent == "all" else [args.agent]
@@ -74,12 +92,14 @@ def main():
         return 1
 
     for skill in wanted:
-        print(f"[install] {skill}")
+        src = skills[skill]
+        origin = "vendor" if "vendors" in src.parts else "ours"
+        print(f"[install] {skill} ({origin})")
         for ag in agents:
             dests = [Path(args.dest) / ag] if args.dest else AGENTS[ag]
             if args.user_only:
                 dests = [d for d in dests if str(d).startswith(str(Path.home()))]
-            install_skill(skill, dests, dry=args.dry_run)
+            install_skill(src, dests, dry=args.dry_run)
     print("Done.")
     return 0
 

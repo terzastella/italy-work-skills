@@ -1,0 +1,35 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-09-23",
+  "policy": "Files are byte-identical copies pinned to the commit below. Never hand-edit; re-copy to update.",
+  "upstreams": [
+    {
+      "repo": "anthropics/skills",
+      "url": "https://github.com/anthropics/skills",
+      "commit": "33375500bcea98d610eb30ce10ac4e59b89c390d",
+      "license": "Apache-2.0 (per-skill LICENSE.txt; doc-coauthoring covered by repo README statement)",
+      "local": "vendors/anthropics-skills",
+      "skills": ["brand-guidelines", "canvas-design", "claude-api", "doc-coauthoring", "frontend-design", "internal-comms", "mcp-builder", "skill-creator", "theme-factory", "webapp-testing"],
+      "excluded": ["docx", "pdf", "pptx", "xlsx (source-available, not open source)", "academy-guide", "algorithmic-art", "discernment-nudge", "slack-gif-creator", "web-artifacts-builder (curated out)"]
+    },
+    {
+      "repo": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "commit": "c55ee46073ed923f86ce59a5eb3b6d895095d1b7",
+      "license": "MIT (vendors/third-party/LICENSE-mattpocock.txt)",
+      "local": "vendors/mattpocock-skills",
+      "skills": ["code-review", "diagnosing-bugs", "prototype", "research", "tdd", "to-spec"],
+      "source_path": "skills/engineering/<name>",
+      "excluded": ["setup-*, ask-matt, wizard, wayfinder, triage, to-tickets and rest (meta/setup/tracker-specific, curated out)"]
+    },
+    {
+      "repo": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "commit": "5bf4e78011075bcfc0dc295f0724994cd123ee71",
+      "license": "MIT (vendors/third-party/LICENSE-superpowers.txt)",
+      "local": "vendors/superpowers",
+      "skills": ["brainstorming", "executing-plans", "requesting-code-review", "systematic-debugging", "test-driven-development", "using-git-worktrees", "verification-before-completion", "writing-plans"],
+      "excluded": ["using-superpowers, diagnosing-superpowers (meta)", "dispatching-parallel-agents, subagent-driven-development (harness-specific)", "finishing-a-development-branch, receiving-code-review (curated out)"]
+    }
+  ]
+}

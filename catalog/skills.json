@@ -1,6 +1,6 @@
 {
   "name": "ai-skills-hub",
-  "version": "1.12.0",
+  "version": "1.13.0",
   "spec": "https://agentskills.io/specification",
   "skills": [
     {
@@ -2954,6 +2954,342 @@
         "cursor",
         "copilot"
       ]
+    },
+    {
+      "name": "brand-guidelines",
+      "path": "vendors/anthropics-skills/brand-guidelines/SKILL.md",
+      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+      "license": "upstream",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ],
+      "origin": "vendor/anthropics-skills"
+    },
+    {
+      "name": "canvas-design",
+      "path": "vendors/anthropics-skills/canvas-design/SKILL.md",
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+      "license": "upstream",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ],
+      "origin": "vendor/anthropics-skills"
+    },
+    {
+      "name": "claude-api",
+      "path": "vendors/anthropics-skills/claude-api/SKILL.md",
+      "description": "|-",
+      "license": "upstream",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ],
+      "origin": "vendor/anthropics-skills"
+    },
+    {
+      "name": "doc-coauthoring",
+      "path": "vendors/anthropics-skills/doc-coauthoring/SKILL.md",
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+      "license": "upstream",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ],
+      "origin": "vendor/anthropics-skills"
+    },
+    {
+      "name": "frontend-design",
+      "path": "vendors/anthropics-skills/frontend-design/SKILL.md",
+      "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+      "license": "upstream",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ],
+      "origin": "vendor/anthropics-skills"
+    },
+    {
+      "name": "internal-comms",
+      "path": "vendors/anthropics-skills/internal-comms/SKILL.md",
+      "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+      "license": "upstream",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ],
+      "origin": "vendor/anthropics-skills"
+    },
+    {
+      "name": "mcp-builder",
+      "path": "vendors/anthropics-skills/mcp-builder/SKILL.md",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "license": "upstream",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ],
+      "origin": "vendor/anthropics-skills"
+    },
+    {
+      "name": "skill-creator",
+      "path": "vendors/anthropics-skills/skill-creator/SKILL.md",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
+      "license": "upstream",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ],
+      "origin": "vendor/anthropics-skills"
+    },
+    {
+      "name": "theme-factory",
+      "path": "vendors/anthropics-skills/theme-factory/SKILL.md",
+      "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+      "license": "upstream",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ],
+      "origin": "vendor/anthropics-skills"
+    },
+    {
+      "name": "webapp-testing",
+      "path": "vendors/anthropics-skills/webapp-testing/SKILL.md",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+      "license": "upstream",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ],
+      "origin": "vendor/anthropics-skills"
+    },
+    {
+      "name": "code-review",
+      "path": "vendors/mattpocock-skills/code-review/SKILL.md",
+      "description": "Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes: Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/spec asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to \\\"review since X\\\".",
+      "license": "upstream",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ],
+      "origin": "vendor/mattpocock-skills"
+    },
+    {
+      "name": "diagnosing-bugs",
+      "path": "vendors/mattpocock-skills/diagnosing-bugs/SKILL.md",
+      "description": "Diagnosis loop for hard bugs and performance regressions. Use when the user says \"diagnose\"/\"debug this\", or reports something broken/throwing/failing/slow.",
+      "license": "upstream",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ],
+      "origin": "vendor/mattpocock-skills"
+    },
+    {
+      "name": "prototype",
+      "path": "vendors/mattpocock-skills/prototype/SKILL.md",
+      "description": "Build a throwaway prototype to answer a design question. Use when the user wants to sanity-check whether a state model or logic feels right, or explore what a UI should look like.",
+      "license": "upstream",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ],
+      "origin": "vendor/mattpocock-skills"
+    },
+    {
+      "name": "research",
+      "path": "vendors/mattpocock-skills/research/SKILL.md",
+      "description": "Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, docs or API facts gathered, or reading legwork delegated to a background agent.",
+      "license": "upstream",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ],
+      "origin": "vendor/mattpocock-skills"
+    },
+    {
+      "name": "tdd",
+      "path": "vendors/mattpocock-skills/tdd/SKILL.md",
+      "description": "Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions \"red-green-refactor\", or wants integration tests.",
+      "license": "upstream",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ],
+      "origin": "vendor/mattpocock-skills"
+    },
+    {
+      "name": "to-spec",
+      "path": "vendors/mattpocock-skills/to-spec/SKILL.md",
+      "description": "Turn the current conversation into a spec and publish it to the project issue tracker: no interview, just synthesis of what you've already discussed.",
+      "license": "upstream",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ],
+      "origin": "vendor/mattpocock-skills"
+    },
+    {
+      "name": "brainstorming",
+      "path": "vendors/superpowers/brainstorming/SKILL.md",
+      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+      "license": "upstream",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ],
+      "origin": "vendor/superpowers"
+    },
+    {
+      "name": "executing-plans",
+      "path": "vendors/superpowers/executing-plans/SKILL.md",
+      "description": "Use when executing an implementation plan in the current session as the implementer yourself — your human partner chose inline execution, or no subagent tool is available",
+      "license": "upstream",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ],
+      "origin": "vendor/superpowers"
+    },
+    {
+      "name": "requesting-code-review",
+      "path": "vendors/superpowers/requesting-code-review/SKILL.md",
+      "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+      "license": "upstream",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ],
+      "origin": "vendor/superpowers"
+    },
+    {
+      "name": "systematic-debugging",
+      "path": "vendors/superpowers/systematic-debugging/SKILL.md",
+      "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+      "license": "upstream",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ],
+      "origin": "vendor/superpowers"
+    },
+    {
+      "name": "test-driven-development",
+      "path": "vendors/superpowers/test-driven-development/SKILL.md",
+      "description": "Use when implementing any feature or bugfix, before writing implementation code",
+      "license": "upstream",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ],
+      "origin": "vendor/superpowers"
+    },
+    {
+      "name": "using-git-worktrees",
+      "path": "vendors/superpowers/using-git-worktrees/SKILL.md",
+      "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
+      "license": "upstream",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ],
+      "origin": "vendor/superpowers"
+    },
+    {
+      "name": "verification-before-completion",
+      "path": "vendors/superpowers/verification-before-completion/SKILL.md",
+      "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+      "license": "upstream",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ],
+      "origin": "vendor/superpowers"
+    },
+    {
+      "name": "writing-plans",
+      "path": "vendors/superpowers/writing-plans/SKILL.md",
+      "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
+      "license": "upstream",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ],
+      "origin": "vendor/superpowers"
     }
   ]
 }

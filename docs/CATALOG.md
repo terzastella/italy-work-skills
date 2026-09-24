@@ -177,7 +177,7 @@
 - [dsa-bes-scuola](../skills/dsa-bes-scuola/SKILL.md) — DSA and BES plans with PDP tools.
 - [erasmus-info](../skills/erasmus-info/SKILL.md) — Erasmus with calls and Learning Agreement.
 - [its-academy](../skills/its-academy/SKILL.md) — ITS post-diploma paths with placement.
-- [maturita-esame](../skills/maturita-esame/SKILL.md) — Maturità exam with credits and tests.
+- [maturita-esame](../skills/maturita-esame/SKILL.md) — Maturita exam with credits and tests.
 - [scuola-iscrizioni](../skills/scuola-iscrizioni/SKILL.md) — School enrollments with windows and criteria.
 - [servizio-civile](../skills/servizio-civile/SKILL.md) — Civil service with calls and allowance.
 - [universita-fuorisede](../skills/universita-fuorisede/SKILL.md) — Out-of-town university life with housing and aid.
@@ -277,3 +277,36 @@
 - [recesso-acquisti](../skills/recesso-acquisti/SKILL.md) — 14-day withdrawal for distance and off-premises purchases.
 - [telefonia-reclami](../skills/telefonia-reclami/SKILL.md) — Telecom complaints with conciliaweb path.
 - [trasloco-diritti](../skills/trasloco-diritti/SKILL.md) — Moving rights with quotes and damages.
+
+## Vendor · anthropics-skills (10)
+
+- [brand-guidelines](../vendors/anthropics-skills/brand-guidelines/SKILL.md) — Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply. (upstream)
+- [canvas-design](../vendors/anthropics-skills/canvas-design/SKILL.md) — Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations. (upstream)
+- [claude-api](../vendors/anthropics-skills/claude-api/SKILL.md) — |- (upstream)
+- [doc-coauthoring](../vendors/anthropics-skills/doc-coauthoring/SKILL.md) — Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks. (upstream)
+- [frontend-design](../vendors/anthropics-skills/frontend-design/SKILL.md) — Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults. (upstream)
+- [internal-comms](../vendors/anthropics-skills/internal-comms/SKILL.md) — A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.). (upstream)
+- [mcp-builder](../vendors/anthropics-skills/mcp-builder/SKILL.md) — Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK). (upstream)
+- [skill-creator](../vendors/anthropics-skills/skill-creator/SKILL.md) — Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy. (upstream)
+- [theme-factory](../vendors/anthropics-skills/theme-factory/SKILL.md) — Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly. (upstream)
+- [webapp-testing](../vendors/anthropics-skills/webapp-testing/SKILL.md) — Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs. (upstream)
+
+## Vendor · mattpocock-skills (6)
+
+- [code-review](../vendors/mattpocock-skills/code-review/SKILL.md) — Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes: Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/spec asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to \"review since X\". (upstream)
+- [diagnosing-bugs](../vendors/mattpocock-skills/diagnosing-bugs/SKILL.md) — Diagnosis loop for hard bugs and performance regressions. Use when the user says "diagnose"/"debug this", or reports something broken/throwing/failing/slow. (upstream)
+- [prototype](../vendors/mattpocock-skills/prototype/SKILL.md) — Build a throwaway prototype to answer a design question. Use when the user wants to sanity-check whether a state model or logic feels right, or explore what a UI should look like. (upstream)
+- [research](../vendors/mattpocock-skills/research/SKILL.md) — Investigate a question against high-trust primary sources and capture the findings as a Markdown file in the repo. Use when the user wants a topic researched, docs or API facts gathered, or reading legwork delegated to a background agent. (upstream)
+- [tdd](../vendors/mattpocock-skills/tdd/SKILL.md) — Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions "red-green-refactor", or wants integration tests. (upstream)
+- [to-spec](../vendors/mattpocock-skills/to-spec/SKILL.md) — Turn the current conversation into a spec and publish it to the project issue tracker: no interview, just synthesis of what you've already discussed. (upstream)
+
+## Vendor · superpowers (8)
+
+- [brainstorming](../vendors/superpowers/brainstorming/SKILL.md) — You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation. (upstream)
+- [executing-plans](../vendors/superpowers/executing-plans/SKILL.md) — Use when executing an implementation plan in the current session as the implementer yourself — your human partner chose inline execution, or no subagent tool is available (upstream)
+- [requesting-code-review](../vendors/superpowers/requesting-code-review/SKILL.md) — Use when completing tasks, implementing major features, or before merging to verify work meets requirements (upstream)
+- [systematic-debugging](../vendors/superpowers/systematic-debugging/SKILL.md) — Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes (upstream)
+- [test-driven-development](../vendors/superpowers/test-driven-development/SKILL.md) — Use when implementing any feature or bugfix, before writing implementation code (upstream)
+- [using-git-worktrees](../vendors/superpowers/using-git-worktrees/SKILL.md) — Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback (upstream)
+- [verification-before-completion](../vendors/superpowers/verification-before-completion/SKILL.md) — Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always (upstream)
+- [writing-plans](../vendors/superpowers/writing-plans/SKILL.md) — Use when you have a spec or requirements for a multi-step task, before touching code (upstream)

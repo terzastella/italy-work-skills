@@ -3,7 +3,12 @@
 
 Usage:
   python scripts/security-check.py
+  python scripts/security-check.py --include-vendors
 Read-only, exit 2 on hits, 0 when clean.
+
+vendors/ is excluded by default: those are byte-identical upstream copies
+reviewed at pin time (see scripts/sync-vendors.py). Use --include-vendors
+for a manual (noisy: documentation examples trigger it) review.
 """
 import re
 import sys
@@ -28,8 +33,11 @@ PATTERNS = [
 SKIP_DIRS = {".git", "__pycache__", "tmp-test"}
 SKIP_FILES = {"security-check.py", "check-diff.py"}
 
-def scan_roots():
+def scan_roots(include_vendors=False):
     roots = [REPO / "skills", REPO / "templates"]
+    if include_vendors and (REPO / "vendors").exists():
+        roots += [p for p in (REPO / "vendors").iterdir()
+                  if p.is_dir() and p.name != "third-party"]
     files = []
     for root in roots:
         if not root.exists():
@@ -45,10 +53,14 @@ def scan_roots():
     return sorted(files)
 
 def main():
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--include-vendors", action="store_true")
+    args = ap.parse_args()
     hits = []
-    files = scan_roots()
+    files = scan_roots(args.include_vendors)
     if not files:
-        print("Nessun file da scansionare.")
+        print("No files to scan.")
         return 0
     for f in files:
         try:
@@ -65,7 +77,8 @@ def main():
                         continue
                     rel = f.relative_to(REPO)
                     hits.append((str(rel), i, label, line.strip()[:140]))
-    print(f"Scanned {len(files)} files in skills/ + templates/.")
+    scope = "skills/ + templates/" + (" + vendors/" if args.include_vendors else "")
+    print(f"Scanned {len(files)} files in {scope}.")
     if hits:
         print(f"\nHITS ({len(hits)}): review before sharing.")
         for rel, lineno, label, preview in hits[:50]:
