@@ -16,5 +16,7 @@ jobs:
         run: python scripts/validate.py
       - name: Security check
         run: python scripts/security-check.py
+      - name: Validate JSON indexes
+        run: python -c "import json; json.load(open('catalog/skills.json', encoding='utf-8')); json.load(open('.claude-plugin/plugin.json', encoding='utf-8')); print('JSON OK')"
       - name: Install dry-run (all skills, all agents)
         run: python scripts/install.py --all --dest ./tmp-test --dry-run
