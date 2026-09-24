@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.11 (Batch 10-IT, 207 active + 35 archived)
+
+- 20 skills: tax/jobs (plusvalenza-finanziaria, ivafe-ivie, dichiarazione-integrativa,
+  orario-riposi, permessi-studio-150), business/home (impresa-familiare,
+  cooperative-info, comodato-uso, cognome-figli, pignoramento-conto),
+  health/school (farmaci-equivalenti, ricetta-elettronica, guardia-medica-turisti,
+  maturita-esame, testamento-biologico-dat), money/tutele (carte-revolving,
+  usura-tassi, assicurazione-viaggio, officina-diritti, bagagli-smarriti).
+- Delicate info-only + referral (testamento-biologico, pignoramento).
+- Indexes: `skills.json` 1.11.0 (207 entries), `plugin.json` 1.11.0.
+
 ## 1.10 (Batch 9-IT, 187 active + 35 archived)
 
 - 20 skills: tax/jobs (irpef-scaglioni, addizionali-regionali, imposta-bollo,

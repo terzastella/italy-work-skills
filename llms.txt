@@ -76,6 +76,14 @@
   adozioni-info, separazione-divorzio.
 - Batch 9-IT, PA/soldi (5): servizio-civile, tredicesima-info, buoni-fruttiferi,
   treni-diritti, noleggio-auto-diritti.
+- Batch 10-IT, fisco/lavoro (5): plusvalenza-finanziaria, ivafe-ivie, dichiarazione-integrativa,
+  orario-riposi, permessi-studio-150.
+- Batch 10-IT, impresa/casa (5): impresa-familiare, cooperative-info, comodato-uso,
+  cognome-figli, pignoramento-conto.
+- Batch 10-IT, salute/scuola (5): farmaci-equivalenti, ricetta-elettronica, guardia-medica-turisti,
+  maturita-esame, testamento-biologico-dat.
+- Batch 10-IT, soldi/tutele (5): carte-revolving, usura-tassi, assicurazione-viaggio,
+  officina-diritti, bagagli-smarriti.
 
 Details in catalog/skills.json. Archived generic skills in archive/ (not installed).
 

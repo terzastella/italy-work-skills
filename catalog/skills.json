@@ -1,6 +1,6 @@
 {
   "name": "ai-skills-hub",
-  "version": "1.10.0",
+  "version": "1.11.0",
   "spec": "https://agentskills.io/specification",
   "skills": [
     {
@@ -2426,6 +2426,266 @@
       "name": "noleggio-auto-diritti",
       "path": "skills/noleggio-auto-diritti/SKILL.md",
       "description": "Car rentals with deposits and damages.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "plusvalenza-finanziaria",
+      "path": "skills/plusvalenza-finanziaria/SKILL.md",
+      "description": "Capital gains on stocks with regimes.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "ivafe-ivie",
+      "path": "skills/ivafe-ivie/SKILL.md",
+      "description": "Foreign-asset taxes with RW link.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "dichiarazione-integrativa",
+      "path": "skills/dichiarazione-integrativa/SKILL.md",
+      "description": "Fix filed returns with integrativa paths.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "orario-riposi",
+      "path": "skills/orario-riposi/SKILL.md",
+      "description": "Work hours with daily and weekly rest.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "permessi-studio-150",
+      "path": "skills/permessi-studio-150/SKILL.md",
+      "description": "150-hour study leave with eligibility.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "impresa-familiare",
+      "path": "skills/impresa-familiare/SKILL.md",
+      "description": "Family businesses with coadiuvanti rules.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "cooperative-info",
+      "path": "skills/cooperative-info/SKILL.md",
+      "description": "Cooperatives with mutuality and ristorni.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "comodato-uso",
+      "path": "skills/comodato-uso/SKILL.md",
+      "description": "Free-use loans with registration and return.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "cognome-figli",
+      "path": "skills/cognome-figli/SKILL.md",
+      "description": "Children surnames with double names.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "pignoramento-conto",
+      "path": "skills/pignoramento-conto/SKILL.md",
+      "description": "Account seizure with exempt minimums.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "farmaci-equivalenti",
+      "path": "skills/farmaci-equivalenti/SKILL.md",
+      "description": "Generic drugs with substitution rules.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "ricetta-elettronica",
+      "path": "skills/ricetta-elettronica/SKILL.md",
+      "description": "E-prescriptions with validity and use.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "guardia-medica-turisti",
+      "path": "skills/guardia-medica-turisti/SKILL.md",
+      "description": "After-hours care with numbers and EHIC.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "maturita-esame",
+      "path": "skills/maturita-esame/SKILL.md",
+      "description": "Maturità exam with credits and tests.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "testamento-biologico-dat",
+      "path": "skills/testamento-biologico-dat/SKILL.md",
+      "description": "Advance directives with forms and trustee.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "carte-revolving",
+      "path": "skills/carte-revolving/SKILL.md",
+      "description": "Revolving cards with real TAEG math.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "usura-tassi",
+      "path": "skills/usura-tassi/SKILL.md",
+      "description": "Usury thresholds with verification paths.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "assicurazione-viaggio",
+      "path": "skills/assicurazione-viaggio/SKILL.md",
+      "description": "Travel insurance with claim steps.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "officina-diritti",
+      "path": "skills/officina-diritti/SKILL.md",
+      "description": "Mechanic rights with written quotes.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "bagagli-smarriti",
+      "path": "skills/bagagli-smarriti/SKILL.md",
+      "description": "Lost baggage claims with Montreal limits.",
       "license": "MIT",
       "compatibility": [
         "claude",
