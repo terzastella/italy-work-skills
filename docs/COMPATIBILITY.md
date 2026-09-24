@@ -239,6 +239,26 @@ One `SKILL.md` for all. Differences only in the loader, not the format.
 | assicurazione-viaggio | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 | officina-diritti | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 | bagagli-smarriti | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| dsa-bes-scuola | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| universita-fuorisede | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| erasmus-info | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| its-academy | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| assemblea-condominiale | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| morosita-condominiale | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| lavori-straordinari | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| distacco-lavoratore | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| lavoro-notturno | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| festivi-lavorati | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| buoni-pasto | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| esami-intramoenia | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| screening-prevenzione | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| farmaci-estero | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| abbonamenti-palestra | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| assicurazione-vita-info | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| conti-cointestati | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| limite-contante | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| bonifici-istantanei | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| carta-prepagata | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 
 Archived generic skills (35 in `archive/`) are not tested or installed.
 

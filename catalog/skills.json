@@ -1,6 +1,6 @@
 {
   "name": "ai-skills-hub",
-  "version": "1.11.0",
+  "version": "1.12.0",
   "spec": "https://agentskills.io/specification",
   "skills": [
     {
@@ -2686,6 +2686,266 @@
       "name": "bagagli-smarriti",
       "path": "skills/bagagli-smarriti/SKILL.md",
       "description": "Lost baggage claims with Montreal limits.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "dsa-bes-scuola",
+      "path": "skills/dsa-bes-scuola/SKILL.md",
+      "description": "DSA and BES plans with PDP tools.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "universita-fuorisede",
+      "path": "skills/universita-fuorisede/SKILL.md",
+      "description": "Out-of-town university life with housing and aid.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "erasmus-info",
+      "path": "skills/erasmus-info/SKILL.md",
+      "description": "Erasmus with calls and Learning Agreement.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "its-academy",
+      "path": "skills/its-academy/SKILL.md",
+      "description": "ITS post-diploma paths with placement.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "assemblea-condominiale",
+      "path": "skills/assemblea-condominiale/SKILL.md",
+      "description": "Condo meetings with majorities and minutes.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "morosita-condominiale",
+      "path": "skills/morosita-condominiale/SKILL.md",
+      "description": "Condo arrears with recovery paths.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "lavori-straordinari",
+      "path": "skills/lavori-straordinari/SKILL.md",
+      "description": "Extraordinary condo works with funds and bids.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "distacco-lavoratore",
+      "path": "skills/distacco-lavoratore/SKILL.md",
+      "description": "Secondments with A1 and allowance rules.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "lavoro-notturno",
+      "path": "skills/lavoro-notturno/SKILL.md",
+      "description": "Night work with premiums and limits.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "festivi-lavorati",
+      "path": "skills/festivi-lavorati/SKILL.md",
+      "description": "Holiday work pay with Sunday rules.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "buoni-pasto",
+      "path": "skills/buoni-pasto/SKILL.md",
+      "description": "Meal vouchers with exemption caps.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "esami-intramoenia",
+      "path": "skills/esami-intramoenia/SKILL.md",
+      "description": "Intramoenia exams with costs and waits.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "screening-prevenzione",
+      "path": "skills/screening-prevenzione/SKILL.md",
+      "description": "Free screenings by age and region.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "farmaci-estero",
+      "path": "skills/farmaci-estero/SKILL.md",
+      "description": "Drugs abroad with limits.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "abbonamenti-palestra",
+      "path": "skills/abbonamenti-palestra/SKILL.md",
+      "description": "Gym contracts with withdrawal and freezes.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "assicurazione-vita-info",
+      "path": "skills/assicurazione-vita-info/SKILL.md",
+      "description": "Life policies with surrender math.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "conti-cointestati",
+      "path": "skills/conti-cointestati/SKILL.md",
+      "description": "Joint accounts with shares and blocks.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "limite-contante",
+      "path": "skills/limite-contante/SKILL.md",
+      "description": "Cash limits with traceable alternatives.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "bonifici-istantanei",
+      "path": "skills/bonifici-istantanei/SKILL.md",
+      "description": "Instant transfers with costs and errors.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "carta-prepagata",
+      "path": "skills/carta-prepagata/SKILL.md",
+      "description": "Prepaid cards with IBAN and limits.",
       "license": "MIT",
       "compatibility": [
         "claude",

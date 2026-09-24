@@ -144,16 +144,24 @@ Total: 187 active. Deferred still pending: contratto-base-check, ferie-permessi.
 
 Total: 207 active. Deferred still pending: contratto-base-check, ferie-permessi.
 
-## Batch 10-IT — active (20) — 2026-09-23
+## Batch 11-IT — active (20) — 2026-09-23
 
-- IT-Fisco-8: plusvalenza-finanziaria, ivafe-ivie, dichiarazione-integrativa
-- IT-Lavoro-12: orario-riposi, permessi-studio-150, pignoramento-conto
-- IT-Impresa-6: impresa-familiare, cooperative-info
-- IT-Casa-8: comodato-uso
-- IT-Famiglia-4: cognome-figli, testamento-biologico-dat
-- IT-Salute-6: farmaci-equivalenti, ricetta-elettronica, guardia-medica-turisti
-- IT-Scuola-2: maturita-esame
-- IT-Soldi-5: carte-revolving, usura-tassi
-- IT-Tutele-5: assicurazione-viaggio, officina-diritti, bagagli-smarriti
+- IT-Scuola-3: dsa-bes-scuola, universita-fuorisede, erasmus-info, its-academy
+- IT-Casa-9: assemblea-condominiale, morosita-condominiale, lavori-straordinari
+- IT-Lavoro-13: distacco-lavoratore, lavoro-notturno, festivi-lavorati, buoni-pasto
+- IT-Salute-7: esami-intramoenia, screening-prevenzione, farmaci-estero
+- IT-Tutele-6: abbonamenti-palestra
+- IT-Soldi-6: assicurazione-vita-info, conti-cointestati, limite-contante, bonifici-istantanei, carta-prepagata
 
-Total: 207 active. Deferred still pending: contratto-base-check, ferie-permessi.
+Total: 227 active. Deferred still pending: contratto-base-check, ferie-permessi.
+
+## Batch 11-IT — active (20) — 2026-09-23
+
+- IT-Scuola-3: dsa-bes-scuola, universita-fuorisede, erasmus-info, its-academy
+- IT-Casa-9: assemblea-condominiale, morosita-condominiale, lavori-straordinari
+- IT-Lavoro-13: distacco-lavoratore, lavoro-notturno, festivi-lavorati, buoni-pasto
+- IT-Salute-7: esami-intramoenia, screening-prevenzione, farmaci-estero
+- IT-Tutele-6: abbonamenti-palestra
+- IT-Soldi-6: assicurazione-vita-info, conti-cointestati, limite-contante, bonifici-istantanei, carta-prepagata
+
+Total: 227 active. Deferred still pending: contratto-base-check, ferie-permessi.

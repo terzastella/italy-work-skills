@@ -84,6 +84,14 @@
   maturita-esame, testamento-biologico-dat.
 - Batch 10-IT, soldi/tutele (5): carte-revolving, usura-tassi, assicurazione-viaggio,
   officina-diritti, bagagli-smarriti.
+- Batch 11-IT, scuola/condominio (5): dsa-bes-scuola, universita-fuorisede, erasmus-info,
+  its-academy, assemblea-condominiale.
+- Batch 11-IT, condominio/lavoro (5): morosita-condominiale, lavori-straordinari,
+  distacco-lavoratore, lavoro-notturno, festivi-lavorati.
+- Batch 11-IT, buoni/salute (5): buoni-pasto, esami-intramoenia, screening-prevenzione,
+  farmaci-estero, abbonamenti-palestra.
+- Batch 11-IT, soldi (5): assicurazione-vita-info, conti-cointestati, limite-contante,
+  bonifici-istantanei, carta-prepagata.
 
 Details in catalog/skills.json. Archived generic skills in archive/ (not installed).
 

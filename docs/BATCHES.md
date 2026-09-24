@@ -5,7 +5,19 @@ All skill content in English. Only `README.md` stays in Italian.
 ## RESTART 2026-09-23 — Italian Work Skills Hub
 
 Generic batches below are archived (`archive/`, 35 skills, frozen).
-Active: 207 skills in `skills/` (9 + Batch 1-IT 18 + Batch 2-IT 20 + Batch 3-IT 20 + Batch 4-IT 20 + Batch 5-IT 20 + Batch 6-IT 20 + Batch 7-IT 20 + Batch 8-IT 20 + Batch 9-IT 20 + Batch 10-IT 20).
+Active: 227 skills in `skills/` (9 + Batch 1-IT 18 + Batch 2-IT 20 + Batch 3-IT 20 + Batch 4-IT 20 + Batch 5-IT 20 + Batch 6-IT 20 + Batch 7-IT 20 + Batch 8-IT 20 + Batch 9-IT 20 + Batch 10-IT 20 + Batch 11-IT 20).
+
+## Batch 11-IT — school, condo, money ✅ 2026-09-23 (227 active)
+
+20 skills, each `SKILL.md` + `references/` + `examples/` (fake data always marked).
+
+- School/condo: dsa-bes-scuola, universita-fuorisede, erasmus-info, its-academy, assemblea-condominiale
+- Condo/jobs: morosita-condominiale, lavori-straordinari, distacco-lavoratore, lavoro-notturno, festivi-lavorati
+- Vouchers/health: buoni-pasto, esami-intramoenia, screening-prevenzione, farmaci-estero, abbonamenti-palestra
+- Money: assicurazione-vita-info, conti-cointestati, limite-contante, bonifici-istantanei, carta-prepagata
+
+Batch gate: `validate.py` 228 OK zero warnings (227 skills + template),
+`security-check.py` clean, `install.py --all --dest ./tmp-test` 227×9 ok.
 
 ## Batch 10-IT — money, business, health ✅ 2026-09-23 (207 active)
 
