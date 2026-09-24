@@ -2,7 +2,7 @@
 name: trasferte-lavoro
 description: Guide national work trips with diaria and receipts. Use when asked trasferta Italia, work trip allowance Italy.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[trip]"

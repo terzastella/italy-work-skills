@@ -2,7 +2,7 @@
 name: compensazioni-f24
 description: Explain F24 tax offsets with limits and visti. Use when asked compensazione F24, offset tax credits Italy.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[credits]"

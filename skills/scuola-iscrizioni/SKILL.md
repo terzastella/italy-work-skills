@@ -2,7 +2,7 @@
 name: scuola-iscrizioni
 description: Guide school enrollments with windows and criteria. Use when asked iscrizioni scuola, school enrollment Italy.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[level]"

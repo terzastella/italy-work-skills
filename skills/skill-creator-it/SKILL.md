@@ -2,7 +2,7 @@
 name: skill-creator-it
 description: Create new English skills following this repo's standard. Use when asked to create skill, new skill, skill scaffolding, skill template.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write Bash
 argument-hint: "<skill-name>"

@@ -2,7 +2,7 @@
 name: recesso-acquisti
 description: Guide 14-day withdrawal for distance and off-premises purchases. Use when asked recesso, ripensamento, return online purchase Italy.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[purchase]"

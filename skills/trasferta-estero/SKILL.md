@@ -2,7 +2,7 @@
 name: trasferta-estero
 description: Guide business trips abroad with per-diem and papers. Use when asked trasferta estero, business travel abroad Italy.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[trip]"

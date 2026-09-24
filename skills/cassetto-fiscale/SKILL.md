@@ -2,7 +2,7 @@
 name: cassetto-fiscale
 description: Navigate AdE tax drawer with delegations. Use when asked cassetto fiscale, AdE reserved area, tax drawer Italy.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[need]"

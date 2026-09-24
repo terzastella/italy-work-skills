@@ -2,7 +2,7 @@
 name: erasmus-info
 description: Explain Erasmus with calls and Learning Agreement. Use when asked Erasmus, study abroad Italy.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[university]"

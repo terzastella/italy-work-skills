@@ -2,7 +2,7 @@
 name: screening-prevenzione
 description: Map free screenings by age and region. Use when asked screening gratuiti, prevention screening Italy.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[age/region]"

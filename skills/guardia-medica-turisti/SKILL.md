@@ -2,7 +2,7 @@
 name: guardia-medica-turisti
 description: Guide after-hours care with numbers and EHIC. Use when asked guardia medica, after-hours doctor Italy, tourists care.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"

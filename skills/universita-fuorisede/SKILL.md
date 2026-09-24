@@ -2,7 +2,7 @@
 name: universita-fuorisede
 description: Guide out-of-town university life with housing and aid. Use when asked università fuorisede, student housing Italy.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[city]"

@@ -2,7 +2,7 @@
 name: nota-credito
 description: Issue Italian credit notes via SdI with correct references. Use when asked nota di credito, credit note Italy, storno fattura.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[original invoice]"

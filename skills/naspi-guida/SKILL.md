@@ -2,7 +2,7 @@
 name: naspi-guida
 description: Explain NASpI unemployment benefit requirements and math. Use when asked NASpI, disoccupazione, unemployment benefit Italy.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"

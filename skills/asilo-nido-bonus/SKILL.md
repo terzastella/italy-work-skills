@@ -2,7 +2,7 @@
 name: asilo-nido-bonus
 description: Explain nursery bonus with ISEE bands and application. Use when asked bonus nido, asilo nido bonus, nursery bonus Italy.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[household]"

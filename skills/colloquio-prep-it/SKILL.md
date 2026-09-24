@@ -2,7 +2,7 @@
 name: colloquio-prep-it
 description: Prepare job interviews with STAR answers and questions to ask. Use when asked interview prep, colloquio, job interview Italy.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[role/company]"

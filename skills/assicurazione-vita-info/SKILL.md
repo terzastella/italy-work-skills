@@ -2,7 +2,7 @@
 name: assicurazione-vita-info
 description: Explain life policies with surrender math. Use when asked assicurazione vita, life policy Italy.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[policy]"

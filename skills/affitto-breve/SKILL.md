@@ -2,7 +2,7 @@
 name: affitto-breve
 description: Guide short rentals with cedolare and CIN rules. Use when asked affitti brevi, short rental Italy, airbnb rules, CIN code.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[properties]"

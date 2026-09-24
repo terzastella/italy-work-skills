@@ -2,7 +2,7 @@
 name: infortuni-lavoro
 description: Explain work injury reports with INAIL path. Use when asked infortunio lavoro, work injury Italy, denuncia INAIL.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"

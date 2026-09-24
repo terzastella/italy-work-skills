@@ -42,7 +42,7 @@
   trasporto-disabili, vaccini-obbligatori, donazione-sangue), money/jobs
   (pronto-soccorso-ticket, straordinari-info, conti-deposito, fondo-emergenza,
   trasferte-lavoro).
-- Delicate info-only + referral (giudice, mediazione, eredità, vaccini).
+- Delicate info-only + referral (giudice, mediazione, eredita, vaccini).
 - Indexes: `skills.json` 1.9.0 (167 entries), `plugin.json` 1.9.0.
 
 ## 1.8 (Batch 7-IT, 147 active + 35 archived)
@@ -65,7 +65,7 @@
   home/digital (ape-certificazione, edilizia-cila-scia, amministratore-condominio,
   domicilio-digitale-inad, cassetto-fiscale), PA/health (elezioni-voto,
   multe-ricorso, assicurazione-sanitaria, dis-coll, pensione-reversibilita).
-- Delicate info-only + referral (multe, reversibilità, marchi).
+- Delicate info-only + referral (multe, reversibilita, marchi).
 - Indexes: `skills.json` 1.7.0 (127 entries), `plugin.json` 1.7.0.
 
 ## 1.6 (Batch 5-IT, 107 active + 35 archived)
@@ -88,7 +88,7 @@
   school/health (scuola-iscrizioni, universita-tasse, medico-base,
   ticket-esenzioni, invalidita-104), PA/documents (residenza-cambio,
   carta-identita-cie, patente-punti, permesso-soggiorno).
-- Delicate ones info-only + referral (licenziamento, invalidità, successioni).
+- Delicate ones info-only + referral (licenziamento, invalidita, successioni).
 - Indexes: `skills.json` 1.5.0 (87 entries), `plugin.json` 1.5.0.
 
 ## 1.4 (Batch 3-IT, 67 active + 35 archived)

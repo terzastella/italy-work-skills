@@ -2,7 +2,7 @@
 name: assegno-unico
 description: Explain assegno unico with ISEE bands and application. Use when asked assegno unico, family allowance Italy, bonus bebè.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[household]"
