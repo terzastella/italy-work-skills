@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.12 (Batch 11-IT, 227 active + 35 archived)
+
+- 20 skills: school/condo (dsa-bes-scuola, universita-fuorisede, erasmus-info,
+  its-academy, assemblea-condominiale), condo/jobs (morosita-condominiale,
+  lavori-straordinari, distacco-lavoratore, lavoro-notturno, festivi-lavorati),
+  vouchers/health (buoni-pasto, esami-intramoenia, screening-prevenzione,
+  farmaci-estero, abbonamenti-palestra), money (assicurazione-vita-info,
+  conti-cointestati, limite-contante, bonifici-istantanei, carta-prepagata).
+- Indexes: `skills.json` 1.12.0 (227 entries), `plugin.json` 1.12.0.
+
 ## 1.11 (Batch 10-IT, 207 active + 35 archived)
 
 - 20 skills: tax/jobs (plusvalenza-finanziaria, ivafe-ivie, dichiarazione-integrativa,

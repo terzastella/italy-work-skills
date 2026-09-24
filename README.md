@@ -272,6 +272,26 @@ Destinazioni:
 | [assicurazione-viaggio](skills/assicurazione-viaggio/SKILL.md) | Coperture e sinistri | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill assicurazione-viaggio --all` |
 | [officina-diritti](skills/officina-diritti/SKILL.md) | Preventivi e pezzi vecchi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill officina-diritti --all` |
 | [bagagli-smarriti](skills/bagagli-smarriti/SKILL.md) | PIR e Montreal | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill bagagli-smarriti --all` |
+| [dsa-bes-scuola](skills/dsa-bes-scuola/SKILL.md) | DSA BES e PDP | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill dsa-bes-scuola --all` |
+| [universita-fuorisede](skills/universita-fuorisede/SKILL.md) | Fuorisede e alloggi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill universita-fuorisede --all` |
+| [erasmus-info](skills/erasmus-info/SKILL.md) | Bandi e Learning Agreement | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill erasmus-info --all` |
+| [its-academy](skills/its-academy/SKILL.md) | ITS e placement | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill its-academy --all` |
+| [assemblea-condominiale](skills/assemblea-condominiale/SKILL.md) | Maggioranze e verbali | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill assemblea-condominiale --all` |
+| [morosita-condominiale](skills/morosita-condominiale/SKILL.md) | Morosità e ingiunzioni | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill morosita-condominiale --all` |
+| [lavori-straordinari](skills/lavori-straordinari/SKILL.md) | Fondi e appalti | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill lavori-straordinari --all` |
+| [distacco-lavoratore](skills/distacco-lavoratore/SKILL.md) | Distacchi e A1 | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill distacco-lavoratore --all` |
+| [lavoro-notturno](skills/lavoro-notturno/SKILL.md) | Notti e maggiorazioni | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill lavoro-notturno --all` |
+| [festivi-lavorati](skills/festivi-lavorati/SKILL.md) | Festivi e riposi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill festivi-lavorati --all` |
+| [buoni-pasto](skills/buoni-pasto/SKILL.md) | Soglie e smart working | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill buoni-pasto --all` |
+| [esami-intramoenia](skills/esami-intramoenia/SKILL.md) | Costi e attese | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill esami-intramoenia --all` |
+| [screening-prevenzione](skills/screening-prevenzione/SKILL.md) | Programmi per età | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill screening-prevenzione --all` |
+| [farmaci-estero](skills/farmaci-estero/SKILL.md) | Limiti e dogane | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill farmaci-estero --all` |
+| [abbonamenti-palestra](skills/abbonamenti-palestra/SKILL.md) | Rinnovi e recessi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill abbonamenti-palestra --all` |
+| [assicurazione-vita-info](skills/assicurazione-vita-info/SKILL.md) | Polizze e riscatti | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill assicurazione-vita-info --all` |
+| [conti-cointestati](skills/conti-cointestati/SKILL.md) | Firme e successioni | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill conti-cointestati --all` |
+| [limite-contante](skills/limite-contante/SKILL.md) | Soglie e alternative | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill limite-contante --all` |
+| [bonifici-istantanei](skills/bonifici-istantanei/SKILL.md) | Costi ed errori | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill bonifici-istantanei --all` |
+| [carta-prepagata](skills/carta-prepagata/SKILL.md) | Plafond e minori | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill carta-prepagata --all` |
 
 Legenda: ✅ testata localmente · ⚠️ da verificare · ❌ non supportata
 
@@ -288,7 +308,7 @@ Non duplichiamo codice altrui per licenza e manutenzione. Vedi `catalog/vendors-
 ```
 ai-skills/
   README.md + LICENSE + llms.txt  # root essenziale
-  skills/                    # SOURCE OF TRUTH: 207 skill (9 + batch 1-10 IT)
+  skills/                    # SOURCE OF TRUTH: 227 skill (9 + batch 1-11 IT)
     tooling: hello-agent/ skill-creator-it/
     cuore: invoice-it/ email-formale-it/ xlsx-budget-it/
       translate-it-en/ press-release-it/ doc-polish-it/ case-study/
@@ -369,6 +389,14 @@ ai-skills/
       maturita-esame/ testamento-biologico-dat/
     batch10-IT soldi/tutele: carte-revolving/ usura-tassi/ assicurazione-viaggio/
       officina-diritti/ bagagli-smarriti/
+    batch11-IT scuola/condominio: dsa-bes-scuola/ universita-fuorisede/ erasmus-info/
+      its-academy/ assemblea-condominiale/
+    batch11-IT condominio/lavoro: morosita-condominiale/ lavori-straordinari/
+      distacco-lavoratore/ lavoro-notturno/ festivi-lavorati/
+    batch11-IT buoni/salute: buoni-pasto/ esami-intramoenia/ screening-prevenzione/
+      farmaci-estero/ abbonamenti-palestra/
+    batch11-IT soldi: assicurazione-vita-info/ conti-cointestati/ limite-contante/
+      bonifici-istantanei/ carta-prepagata/
     (ognuna: SKILL.md + references/ + examples/)
   archive/                   # skill generiche pre-restart (non installate)
     batch1-generic/ (17) + batch2-seo/ (18)
@@ -417,7 +445,8 @@ Guida completa: `docs/CREATE-SKILL.md`. Per skill Italia: aggiungi fonti ufficia
 - [x] Batch 8-IT (20 skill: giustizia/successioni, eredità/lavoro, trasporti/salute, soldi/lavoro) → totale 167
 - [x] Batch 9-IT (20 skill: fisco/lavoro, casa/impresa, famiglia/salute, PA/soldi) → totale 187
 - [x] Batch 10-IT (20 skill: fisco/lavoro, impresa/casa, salute/scuola, soldi/tutele) → totale 207
+- [x] Batch 11-IT (20 skill: scuola/condominio, condominio/lavoro, buoni/salute, soldi) → totale 227
 - [ ] Rinviati da valutare: contratto-base-check, ferie-permessi
 - [ ] Test reali sugli agenti e badge in `docs/COMPATIBILITY.md`
-- [ ] Batch 11-IT da pianificare (vedi `catalog/_registry.md`)
+- [ ] Batch 12-IT da pianificare (vedi `catalog/_registry.md`)
 - [ ] Rinviato (serve repo pubblica): submit a skills.sh / agentskills.io
