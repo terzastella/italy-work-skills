@@ -219,6 +219,26 @@ One `SKILL.md` for all. Differences only in the loader, not the format.
 | buoni-fruttiferi | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 | treni-diritti | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 | noleggio-auto-diritti | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| plusvalenza-finanziaria | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| ivafe-ivie | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| dichiarazione-integrativa | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| orario-riposi | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| permessi-studio-150 | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| impresa-familiare | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| cooperative-info | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| comodato-uso | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| cognome-figli | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| pignoramento-conto | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| farmaci-equivalenti | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| ricetta-elettronica | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| guardia-medica-turisti | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| maturita-esame | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| testamento-biologico-dat | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| carte-revolving | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| usura-tassi | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| assicurazione-viaggio | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| officina-diritti | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| bagagli-smarriti | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 
 Archived generic skills (35 in `archive/`) are not tested or installed.
 

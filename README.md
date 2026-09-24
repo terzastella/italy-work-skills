@@ -252,6 +252,26 @@ Destinazioni:
 | [buoni-fruttiferi](skills/buoni-fruttiferi/SKILL.md) | Buoni al netto | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill buoni-fruttiferi --all` |
 | [treni-diritti](skills/treni-diritti/SKILL.md) | Ritardi e rimborsi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill treni-diritti --all` |
 | [noleggio-auto-diritti](skills/noleggio-auto-diritti/SKILL.md) | Noleggi e franchigie | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill noleggio-auto-diritti --all` |
+| [plusvalenza-finanziaria](skills/plusvalenza-finanziaria/SKILL.md) | Plusvalenze e regimi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill plusvalenza-finanziaria --all` |
+| [ivafe-ivie](skills/ivafe-ivie/SKILL.md) | IVAFE IVIE e RW | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill ivafe-ivie --all` |
+| [dichiarazione-integrativa](skills/dichiarazione-integrativa/SKILL.md) | Integrative a favore/contro | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill dichiarazione-integrativa --all` |
+| [orario-riposi](skills/orario-riposi/SKILL.md) | Orari e riposi duri | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill orario-riposi --all` |
+| [permessi-studio-150](skills/permessi-studio-150/SKILL.md) | 150 ore e requisiti | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill permessi-studio-150 --all` |
+| [impresa-familiare](skills/impresa-familiare/SKILL.md) | Coadiuvanti e quote | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill impresa-familiare --all` |
+| [cooperative-info](skills/cooperative-info/SKILL.md) | Mutualità e ristorni | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill cooperative-info --all` |
+| [comodato-uso](skills/comodato-uso/SKILL.md) | Comodati scritti | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill comodato-uso --all` |
+| [cognome-figli](skills/cognome-figli/SKILL.md) | Doppi cognomi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill cognome-figli --all` |
+| [pignoramento-conto](skills/pignoramento-conto/SKILL.md) | Minimi impignorabili | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill pignoramento-conto --all` |
+| [farmaci-equivalenti](skills/farmaci-equivalenti/SKILL.md) | Generici e ticket | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill farmaci-equivalenti --all` |
+| [ricetta-elettronica](skills/ricetta-elettronica/SKILL.md) | NRE ovunque | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill ricetta-elettronica --all` |
+| [guardia-medica-turisti](skills/guardia-medica-turisti/SKILL.md) | Guardie e TEAM | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill guardia-medica-turisti --all` |
+| [maturita-esame](skills/maturita-esame/SKILL.md) | Crediti e prove | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill maturita-esame --all` |
+| [testamento-biologico-dat](skills/testamento-biologico-dat/SKILL.md) | DAT e fiduciario | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill testamento-biologico-dat --all` |
+| [carte-revolving](skills/carte-revolving/SKILL.md) | TAEG veri e uscite | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill carte-revolving --all` |
+| [usura-tassi](skills/usura-tassi/SKILL.md) | Soglie e verifiche | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill usura-tassi --all` |
+| [assicurazione-viaggio](skills/assicurazione-viaggio/SKILL.md) | Coperture e sinistri | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill assicurazione-viaggio --all` |
+| [officina-diritti](skills/officina-diritti/SKILL.md) | Preventivi e pezzi vecchi | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill officina-diritti --all` |
+| [bagagli-smarriti](skills/bagagli-smarriti/SKILL.md) | PIR e Montreal | ⚠️ | ⚠️ | ⚠️ | `python scripts/install.py --skill bagagli-smarriti --all` |
 
 Legenda: ✅ testata localmente · ⚠️ da verificare · ❌ non supportata
 
@@ -268,7 +288,7 @@ Non duplichiamo codice altrui per licenza e manutenzione. Vedi `catalog/vendors-
 ```
 ai-skills/
   README.md + LICENSE + llms.txt  # root essenziale
-  skills/                    # SOURCE OF TRUTH: 187 skill (9 + batch 1-9 IT)
+  skills/                    # SOURCE OF TRUTH: 207 skill (9 + batch 1-10 IT)
     tooling: hello-agent/ skill-creator-it/
     cuore: invoice-it/ email-formale-it/ xlsx-budget-it/
       translate-it-en/ press-release-it/ doc-polish-it/ case-study/
@@ -341,6 +361,14 @@ ai-skills/
       adozioni-info/ separazione-divorzio/
     batch9-IT PA/soldi: servizio-civile/ tredicesima-info/ buoni-fruttiferi/
       treni-diritti/ noleggio-auto-diritti/
+    batch10-IT fisco/lavoro: plusvalenza-finanziaria/ ivafe-ivie/ dichiarazione-integrativa/
+      orario-riposi/ permessi-studio-150/
+    batch10-IT impresa/casa: impresa-familiare/ cooperative-info/ comodato-uso/
+      cognome-figli/ pignoramento-conto/
+    batch10-IT salute/scuola: farmaci-equivalenti/ ricetta-elettronica/ guardia-medica-turisti/
+      maturita-esame/ testamento-biologico-dat/
+    batch10-IT soldi/tutele: carte-revolving/ usura-tassi/ assicurazione-viaggio/
+      officina-diritti/ bagagli-smarriti/
     (ognuna: SKILL.md + references/ + examples/)
   archive/                   # skill generiche pre-restart (non installate)
     batch1-generic/ (17) + batch2-seo/ (18)
@@ -388,7 +416,8 @@ Guida completa: `docs/CREATE-SKILL.md`. Per skill Italia: aggiungi fonti ufficia
 - [x] Batch 7-IT (20 skill: fisco/lavoro, impresa/casa, famiglia/salute, PA/tutele) → totale 147
 - [x] Batch 8-IT (20 skill: giustizia/successioni, eredità/lavoro, trasporti/salute, soldi/lavoro) → totale 167
 - [x] Batch 9-IT (20 skill: fisco/lavoro, casa/impresa, famiglia/salute, PA/soldi) → totale 187
+- [x] Batch 10-IT (20 skill: fisco/lavoro, impresa/casa, salute/scuola, soldi/tutele) → totale 207
 - [ ] Rinviati da valutare: contratto-base-check, ferie-permessi
 - [ ] Test reali sugli agenti e badge in `docs/COMPATIBILITY.md`
-- [ ] Batch 10-IT da pianificare (vedi `catalog/_registry.md`)
+- [ ] Batch 11-IT da pianificare (vedi `catalog/_registry.md`)
 - [ ] Rinviato (serve repo pubblica): submit a skills.sh / agentskills.io
