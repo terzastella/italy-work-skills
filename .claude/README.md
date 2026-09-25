@@ -9,7 +9,7 @@ Real skills live in `../skills/`. This folder is install documentation only.
 python scripts/install.py --all --agent claude
 
 # Single skill
-python scripts/install.py --skill smart-commit --agent claude
+python scripts/install.py --skill invoice-it --agent claude
 
 # Destinations:
 #  personal: ~/.claude/skills/<name>/

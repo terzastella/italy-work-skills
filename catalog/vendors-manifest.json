@@ -1,32 +1,46 @@
 {
-  "version": "0.1.0",
-  "updated": "2026-09-23",
+  "version": "1.14.0",
+  "updated": "2026-09-25",
   "vendors": [
     {
       "name": "anthropics/skills",
       "url": "https://github.com/anthropics/skills",
       "spec": "https://agentskills.io/specification",
-      "license": "Apache-2.0 (examples) + source-available (docx/pdf/pptx/xlsx)",
+      "license": "Apache-2.0 (per-skill LICENSE.txt)",
+      "local": "vendors/anthropics-skills",
+      "pinned_commit": "33375500bcea98d610eb30ce10ac4e59b89c390d",
       "skills": [
-        "frontend-design",
-        "skill-creator",
-        "mcp-builder",
-        "webapp-testing",
         "brand-guidelines",
         "canvas-design",
-        "algorithmic-art",
-        "theme-factory",
-        "doc-coauthoring",
-        "internal-comms",
-        "slack-gif-creator",
         "claude-api",
-        "docx",
-        "pdf",
-        "pptx",
-        "xlsx"
+        "doc-coauthoring",
+        "frontend-design",
+        "internal-comms",
+        "mcp-builder",
+        "skill-creator",
+        "theme-factory",
+        "webapp-testing"
       ],
-      "install": "/plugin marketplace add anthropics/skills",
-      "note": "Do not copy docx/pdf/pptx/xlsx, they are source-available. Link only."
+      "not_vendored": ["docx", "pdf", "pptx", "xlsx (source-available, link only)", "algorithmic-art", "slack-gif-creator"],
+      "install": "python scripts/install.py --skill <name> --source vendors"
+    },
+    {
+      "name": "mattpocock/skills",
+      "url": "https://github.com/mattpocock/skills",
+      "license": "MIT (vendors/third-party/LICENSE-mattpocock.txt)",
+      "local": "vendors/mattpocock-skills",
+      "pinned_commit": "c55ee46073ed923f86ce59a5eb3b6d895095d1b7",
+      "skills": ["code-review", "diagnosing-bugs", "prototype", "research", "tdd", "to-spec"],
+      "install": "python scripts/install.py --skill <name> --source vendors"
+    },
+    {
+      "name": "obra/superpowers",
+      "url": "https://github.com/obra/superpowers",
+      "license": "MIT (vendors/third-party/LICENSE-superpowers.txt)",
+      "local": "vendors/superpowers",
+      "pinned_commit": "5bf4e78011075bcfc0dc295f0724994cd123ee71",
+      "skills": ["brainstorming", "executing-plans", "requesting-code-review", "systematic-debugging", "test-driven-development", "using-git-worktrees", "verification-before-completion", "writing-plans"],
+      "install": "python scripts/install.py --skill <name> --source vendors"
     },
     {
       "name": "openai-codex-skills",
@@ -34,7 +48,7 @@
       "license": "see OpenAI docs",
       "skills_path": ".agents/skills/",
       "install": "cp -r skills/<name> .agents/skills/",
-      "note": "Custom GPTs retiring Sep-Dec 2026, migration to Plugins. Codex uses SKILL.md + agents/openai.yaml."
+      "note": "Reference only, no public repo to pin. Custom GPTs retiring Sep-Dec 2026, see docs/CHATGPT-MIGRATION.md."
     },
     {
       "name": "xai-grok-builtin",
@@ -43,7 +57,7 @@
       "license": "see xAI docs",
       "skills": ["Word Documents", "Presentations", "Spreadsheets", "PDFs", "Skill Creator"],
       "skills_path": ".grok/skills/ + ~/.grok/skills/",
-      "note": "Grok also reads .claude/ and .agents/skills/ with zero config."
+      "note": "Reference only. Grok also reads .claude/ and .agents/skills/ with zero config."
     }
   ]
 }

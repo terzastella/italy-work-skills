@@ -1,9 +1,9 @@
-# Skill name registry v2 - Italy restart (2026-09-23)
+# Skill name registry v3 - Italy restart (2026-09-23) + Batch 12 (2026-09-25)
 
 Rule: one name once. Folder names frozen (`-it` = Italian origin or
 Italy-specific domain). All content in English. Only `README.md` in Italian.
 
-## Active in skills/ (9)
+## Restart snapshot, historical (9) - 2026-09-23
 
 Tooling: hello-agent, skill-creator-it
 Italy core: invoice-it, email-formale-it, xlsx-budget-it, translate-it-en,
@@ -155,11 +155,11 @@ Total: 207 active. Deferred still pending: contratto-base-check, ferie-permessi.
 
 Total: 227 active. Deferred still pending: contratto-base-check, ferie-permessi.
 
-## Batch 12-IT - active (20) - 2026-09-23
+## Batch 12-IT - active (20) - 2026-09-25
 
 - IT-Sindacati: sciopero-diritti, assemblea-sindacale, rsu-rls, stagionali-turismo
 - IT-Lavoro-14: videosorveglianza-lavoro
-- IT-Impresa-7: libri-contabili, whistleblowing-info, fattura-proforma
+- IT-Impresa-7: libri-contabili, whistleblowing-info, fattura-proforma, lavoro-spettacolo
 - IT-Fisco-9: irap-info
 - IT-Casa-10: multiproprieta-diritti
 - IT-Famiglia-5: affido-familiare, matrimonio-estero

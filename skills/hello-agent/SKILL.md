@@ -36,7 +36,7 @@ Verifies in 10 seconds that skills are visible to the current agent.
 | Status | OK |
 ```
 
-Then one line: `Next test: try /smart-commit or /doc-polish-it`.
+Then one line: `Next test: try /invoice-it or /doc-polish-it`.
 
 ## Output per agent (same format, different paths)
 

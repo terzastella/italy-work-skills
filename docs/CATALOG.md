@@ -15,7 +15,7 @@
 - [press-release-it](../skills/press-release-it/SKILL.md) — Press releases with journalistic structure.
 - [translate-it-en](../skills/translate-it-en/SKILL.md) — Translate IT-EN texts preserving structure, code and tone.
 
-## Fisco e tasse (37)
+## Fisco e tasse (35)
 
 - [accertamento-info](../skills/accertamento-info/SKILL.md) — Tax audits with invites and adhesion paths.
 - [acconti-calcolo](../skills/acconti-calcolo/SKILL.md) — Compute Italian advance payments with historic method.
@@ -51,8 +51,6 @@
 - [rimborsi-fiscali](../skills/rimborsi-fiscali/SKILL.md) — Tax refund claims with timelines.
 - [ritenuta-acconto](../skills/ritenuta-acconto/SKILL.md) — Italian withholding tax with forfettari and EU cases.
 - [scadenze-fiscali](../skills/scadenze-fiscali/SKILL.md) — Read Italian tax deadlines and build payment calendars.
-- [sciopero-diritti](../skills/sciopero-diritti/SKILL.md) — Explain strike rights with notice and minimums. Use when asked sciopero, strike rights Italy.
-- [scuola-privata-paritaria](../skills/scuola-privata-paritaria/SKILL.md) — Explain private parity schools with costs and value. Use when asked scuola privata, paritaria Italy.
 - [tari-tassa](../skills/tari-tassa/SKILL.md) — TARI waste tax with base and reductions.
 
 ## Giustizia (6)
@@ -74,7 +72,7 @@
 - [testamento-olografo](../skills/testamento-olografo/SKILL.md) — Holographic wills with validity rules.
 - [testamento-pubblico](../skills/testamento-pubblico/SKILL.md) — Notarial wills vs holographic with costs.
 
-## Lavoro (41)
+## Lavoro (42)
 
 - [apprendistato](../skills/apprendistato/SKILL.md) — Apprenticeships with types and protections.
 - [aspettativa-lavoro](../skills/aspettativa-lavoro/SKILL.md) — Unpaid leave with contribution effects.
@@ -106,6 +104,7 @@
 - [permessi-studio-150](../skills/permessi-studio-150/SKILL.md) — 150-hour study leave with eligibility.
 - [reperibilita-lavoro](../skills/reperibilita-lavoro/SKILL.md) — On-call rules with pay and refusal rights.
 - [rsu-rls](../skills/rsu-rls/SKILL.md) — Explain worker reps with elections and hours. Use when asked RSU RLS, worker representatives Italy.
+- [sciopero-diritti](../skills/sciopero-diritti/SKILL.md) — Explain strike rights with notice and minimums. Use when asked sciopero, strike rights Italy.
 - [smart-working](../skills/smart-working/SKILL.md) — Lavoro agile with agreement and disconnection.
 - [somministrazione](../skills/somministrazione/SKILL.md) — Agency work with parity and missions.
 - [stagionali-turismo](../skills/stagionali-turismo/SKILL.md) — Explain seasonal contracts with recall rights. Use when asked stagionali turismo, seasonal work Italy.
@@ -187,13 +186,14 @@
 - [servizi-cimiteriali-funebri](../skills/servizi-cimiteriali-funebri/SKILL.md) — Explain funeral services with costs and choices. Use when asked funerale, onoranze funebri Italy.
 - [unioni-convivenze](../skills/unioni-convivenze/SKILL.md) — Civil unions and cohabitation with rights map.
 
-## Scuola e giovani (9)
+## Scuola e giovani (10)
 
 - [dsa-bes-scuola](../skills/dsa-bes-scuola/SKILL.md) — DSA and BES plans with PDP tools.
 - [erasmus-info](../skills/erasmus-info/SKILL.md) — Erasmus with calls and Learning Agreement.
 - [its-academy](../skills/its-academy/SKILL.md) — ITS post-diploma paths with placement.
 - [maturita-esame](../skills/maturita-esame/SKILL.md) — Maturita exam with credits and tests.
 - [scuola-iscrizioni](../skills/scuola-iscrizioni/SKILL.md) — School enrollments with windows and criteria.
+- [scuola-privata-paritaria](../skills/scuola-privata-paritaria/SKILL.md) — Explain private parity schools with costs and value. Use when asked scuola privata, paritaria Italy.
 - [servizio-civile](../skills/servizio-civile/SKILL.md) — Civil service with calls and allowance.
 - [universita-estero-laurea](../skills/universita-estero-laurea/SKILL.md) — Guide full degrees abroad with recognition. Use when asked laurea estero, full degree abroad Italy.
 - [universita-fuorisede](../skills/universita-fuorisede/SKILL.md) — Out-of-town university life with housing and aid.
@@ -229,7 +229,7 @@
 - [riscatto-laurea](../skills/riscatto-laurea/SKILL.md) — Degree buyback costs and convenience check.
 - [tfr-fondo](../skills/tfr-fondo/SKILL.md) — TFR in company vs pension funds.
 
-## PA e documenti (20)
+## PA e documenti (19)
 
 - [aire-estero](../skills/aire-estero/SKILL.md) — AIRE registration with voting and services.
 - [anagrafe-certificati](../skills/anagrafe-certificati/SKILL.md) — Registry certificates via ANPR online.
@@ -248,7 +248,6 @@
 - [permesso-soggiorno](../skills/permesso-soggiorno/SKILL.md) — Residence permits with kit and renewal timing.
 - [privacy-informativa](../skills/privacy-informativa/SKILL.md) — GDPR privacy notices with mandatory items and template.
 - [residenza-cambio](../skills/residenza-cambio/SKILL.md) — Residence change with 45-day check and effects.
-- [revisione-auto](../skills/revisione-auto/SKILL.md) — Vehicle inspections with timing and failures.
 - [spid-cie-guida](../skills/spid-cie-guida/SKILL.md) — SPID/CIE levels and recovery without touching credentials.
 - [verbale-riunione-it](../skills/verbale-riunione-it/SKILL.md) — Italian meeting minutes with decisions and owners.
 
@@ -272,7 +271,7 @@
 - [usura-tassi](../skills/usura-tassi/SKILL.md) — Usury thresholds with verification paths.
 - [xlsx-budget-it](../skills/xlsx-budget-it/SKILL.md) — Monthly Excel budgets with sheets, formulas and summary.
 
-## Trasporti e viaggi (13)
+## Trasporti e viaggi (14)
 
 - [animali-viaggi](../skills/animali-viaggi/SKILL.md) — Pet travel documents with microchip and vaccines.
 - [auto-bollo](../skills/auto-bollo/SKILL.md) — Car tax by region with deadlines and exemptions.
@@ -282,6 +281,7 @@
 - [officina-diritti](../skills/officina-diritti/SKILL.md) — Mechanic rights with written quotes.
 - [patente-punti](../skills/patente-punti/SKILL.md) — Licence points with deductions and recovery.
 - [rc-auto](../skills/rc-auto/SKILL.md) — Mandatory car insurance with coverage and claims.
+- [revisione-auto](../skills/revisione-auto/SKILL.md) — Vehicle inspections with timing and failures.
 - [trasporto-disabili](../skills/trasporto-disabili/SKILL.md) — Disability transport permits and parking.
 - [treni-diritti](../skills/treni-diritti/SKILL.md) — Train delay refunds with bands.
 - [vacanze-pacchetto](../skills/vacanze-pacchetto/SKILL.md) — Package travel rights with assistance and refunds.

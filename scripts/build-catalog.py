@@ -105,6 +105,9 @@ def classify(name, desc):
         "servizi-cimiteriali-funebri": "Famiglia",
         "stagionali-turismo": "Lavoro",
         "whistleblowing-info": "Impresa",
+        "sciopero-diritti": "Lavoro",
+        "scuola-privata-paritaria": "Scuola e giovani",
+        "revisione-auto": "Trasporti e viaggi",
     }
     if name in overrides:
         return overrides[name]

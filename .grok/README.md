@@ -7,7 +7,7 @@ and `.agents/skills/` with zero extra configuration.
 
 ```bash
 python scripts/install.py --all --agent grok
-python scripts/install.py --skill smart-commit --agent grok
+python scripts/install.py --skill invoice-it --agent grok
 
 # Destinations:
 #  ~/.grok/skills/<name>/
@@ -18,7 +18,7 @@ python scripts/install.py --skill smart-commit --agent grok
 ## Slash commands
 
 Every `user-invocable: true` skill appears as `/<skill-name>`.
-E.g. `/smart-commit`, `/doc-polish-it`.
+E.g. `/invoice-it`, `/doc-polish-it`.
 
 Extra Grok-supported fields in this repo:
 `argument-hint`, `user-invocable`, `disable-model-invocation`, `metadata`.

@@ -66,10 +66,10 @@ Destinazioni:
 247 skill organizzate in 16 temi — catalogo completo in [`docs/CATALOG.md`](docs/CATALOG.md)
 (generato da `catalog/skills.json`, non modificare a mano):
 
-- [Fisco e tasse](docs/CATALOG.md#fisco-e-tasse) (37) · [Lavoro](docs/CATALOG.md#lavoro) (41) · [Casa](docs/CATALOG.md#casa) (25)
-- [PA e documenti](docs/CATALOG.md#pa-e-documenti) (20) · [Impresa](docs/CATALOG.md#impresa) (21) · [Salute](docs/CATALOG.md#salute) (20)
-- [Soldi e banche](docs/CATALOG.md#soldi-e-banche) (17) · [Trasporti e viaggi](docs/CATALOG.md#trasporti-e-viaggi) (13) · [Famiglia](docs/CATALOG.md#famiglia) (14)
-- [Scuola e giovani](docs/CATALOG.md#scuola-e-giovani) (9) · [Tutele e consumi](docs/CATALOG.md#tutele-e-consumi) (7) · [Giustizia](docs/CATALOG.md#giustizia) (6)
+- [Fisco e tasse](docs/CATALOG.md#fisco-e-tasse) (35) · [Lavoro](docs/CATALOG.md#lavoro) (42) · [Casa](docs/CATALOG.md#casa) (25)
+- [PA e documenti](docs/CATALOG.md#pa-e-documenti) (19) · [Impresa](docs/CATALOG.md#impresa) (21) · [Salute](docs/CATALOG.md#salute) (20)
+- [Soldi e banche](docs/CATALOG.md#soldi-e-banche) (17) · [Trasporti e viaggi](docs/CATALOG.md#trasporti-e-viaggi) (14) · [Famiglia](docs/CATALOG.md#famiglia) (14)
+- [Scuola e giovani](docs/CATALOG.md#scuola-e-giovani) (10) · [Tutele e consumi](docs/CATALOG.md#tutele-e-consumi) (7) · [Giustizia](docs/CATALOG.md#giustizia) (6)
 - [Successioni e donazioni](docs/CATALOG.md#successioni-e-donazioni) (7) · [Pensioni](docs/CATALOG.md#pensioni) (4) · [Scrittura e contenuti](docs/CATALOG.md#scrittura-e-contenuti) (4) · [Tooling](docs/CATALOG.md#tooling) (2)
 
 ### In evidenza
@@ -110,7 +110,7 @@ Escluse apposta (`docx/pdf/pptx/xlsx` Anthropic: source-available, solo link) e 
 Non duplichiamo codice altrui per licenza e manutenzione. Vedi `catalog/vendors-manifest.json`:
 
 * **Anthropic `anthropics/skills`**: esempi Apache-2.0 + `docx/pdf/pptx/xlsx` (source-available, solo reference).
-* **OpenAI Codex**: skills in `.agents/skills/` + `agents/openai.yaml`.
+* **OpenAI Codex**: skills in `.agents/skills/` + frontmatter `disable-model-invocation` (vedi `.agents/skills/README.md`).
 * **xAI Grok**: built-in Word/Presentations/Spreadsheets/PDFs/Skill Creator + docs `.grok/skills/`.
 
 ## Struttura repo
@@ -119,94 +119,7 @@ Non duplichiamo codice altrui per licenza e manutenzione. Vedi `catalog/vendors-
 ai-skills/
   README.md + LICENSE + llms.txt  # root essenziale
   skills/                    # SOURCE OF TRUTH nostre: 247 skill (9 + batch 1-12 IT)
-    tooling: hello-agent/ skill-creator-it/
-    cuore: invoice-it/ email-formale-it/ xlsx-budget-it/
-      translate-it-en/ press-release-it/ doc-polish-it/ case-study/
-    batch1-IT fisco: fattura-elettronica-it/ regime-forfettario/
-      scadenze-fiscali/ corrispettivi-it/
-    batch1-IT formali: pec-bozza/ sollecito-pagamento/
-      verbale-riunione-it/ preventivo-it/ nota-spese/
-    batch1-IT lavoro: cv-europass/ lettera-presentazione/
-      colloquio-prep-it/ dimissioni-procedura/
-    batch1-IT bandi-PA: bandi-pmi/ domanda-bando/ spid-cie-guida/
-      privacy-informativa/ visura-leggimi/
-    batch2-IT fisco2: partita-iva-apri/ ateco-scelta/ acconti-calcolo/
-      ritenuta-acconto/ operazioni-estero/ fattura-pa/ imu-calcolo/ cu-730-guida/
-    batch2-IT lavoro2/casa: busta-paga-leggi/ naspi-guida/ isee-guida/
-      bollette-energia/ bonus-casa/ sanita-digitale/ affitto-check/
-    batch2-IT PA/tutele: pagopa-guida/ garanzie-consumo/ recesso-acquisti/
-      isa-check/ tirocinio-guida/
-    batch3-IT fisco/impresa: nota-credito/ contributi-inps/ agevolazioni-assunzioni/
-      ditta-vs-srl/ camera-commercio/ durc/
-    batch3-IT lavoro: maternita-congedi/ malattia-certificato/
-      apprendistato/ contratto-tipi/
-    batch3-IT casa: condominio-spese/ mutuo-tassi/ compravendita-casa/
-      auto-bollo/ assegno-unico/
-    batch3-IT PA/tutele: anagrafe-certificati/ passaporto-procedura/
-      voli-ritardi/ banche-reclami/ vacanze-pacchetto/
-    batch4-IT fisco/famiglia: tari-tassa/ canone-rai/ successioni-info/ donazioni-info/
-    batch4-IT lavoro/casa: periodo-prova/ licenziamento-info/ smart-working/
-      part-time/ utenze-voltura/ affitto-breve/ compravendita-auto/
-    batch4-IT scuola/salute: scuola-iscrizioni/ universita-tasse/ medico-base/
-      ticket-esenzioni/ invalidita-104/
-    batch4-IT PA/documenti: residenza-cambio/ carta-identita-cie/
-      patente-punti/ permesso-soggiorno/
-    batch5-IT lavoro/pensioni: colf-badanti/ collaborazioni-occasionali/
-      pensione-guida/ riscatto-laurea/ tfr-fondo/
-    batch5-IT casa/soldi: prima-casa-agevolazioni/ affitto-concordato/
-      conto-corrente-costi/ rc-auto/ criptovalute-fisco/
-    batch5-IT famiglia/estero: spese-mediche-detrazioni/ unioni-convivenze/
-      asilo-nido-bonus/ testamento-olografo/ aire-estero/
-    batch5-IT tutele: certificati-estero/ telefonia-reclami/ energia-reclami/
-      assicurazione-casa/ animali-viaggi/
-    batch6-IT fisco: ravvedimento-operoso/ cartelle-ader/ rateizzazione-debiti/
-      cedolare-secca/ firma-digitale/
-    batch6-IT lavoro/impresa: cassa-integrazione/ welfare-aziendale/
-      ecommerce-adempimenti/ sicurezza-lavoro/ marchi-info/
-    batch6-IT casa/digitali: ape-certificazione/ edilizia-cila-scia/
-      amministratore-condominio/ domicilio-digitale-inad/ cassetto-fiscale/
-    batch6-IT PA/salute: elezioni-voto/ multe-ricorso/ assicurazione-sanitaria/
-      dis-coll/ pensione-reversibilita/
-    batch7-IT fisco/lavoro: accertamento-info/ compensazioni-f24/ rimborsi-fiscali/
-      somministrazione/ lavoro-minorile/
-    batch7-IT impresa/casa: startup-innovativa/ fallimento-crisi-info/ franchising-info/
-      usufrutto-nuda/ spese-notarili/
-    batch7-IT famiglia/salute: mantenimento-figli/ matrimonio-civile/ cittadinanza/
-      assistenza-anziani/ bonus-cultura-18app/
-    batch7-IT PA/tutele: patronato-servizi/ concorsi-pubblici/ leasing-finanziamento/
-      trasloco-diritti/ riscaldamento-contabilizzazione/
-    batch8-IT giustizia/successioni: giudice-di-pace/ conciliazione-paritetica/
-      diffida-legale/ mediazione-civile/ testamento-pubblico/
-    batch8-IT eredità/lavoro: eredita-debiti/ volture-catastali/ trasferta-estero/
-      infortuni-lavoro/ reperibilita-lavoro/
-    batch8-IT trasporti/salute: revisione-auto/ ztl-permessi/ trasporto-disabili/
-      vaccini-obbligatori/ donazione-sangue/
-    batch8-IT soldi/lavoro: pronto-soccorso-ticket/ straordinari-info/ conti-deposito/
-      fondo-emergenza/ trasferte-lavoro/
-    batch9-IT fisco/lavoro: irpef-scaglioni/ addizionali-regionali/ imposta-bollo/
-      aspettativa-lavoro/ trasferimento-sede/
-    batch9-IT casa/impresa: plusvalenza-casa/ case-popolari-erp/ agenti-rappresentanti/
-      appalti-pubblici-info/ congedo-matrimoniale/
-    batch9-IT famiglia/salute: mensa-scolastica/ impegnativa-visite/ donazione-organi/
-      adozioni-info/ separazione-divorzio/
-    batch9-IT PA/soldi: servizio-civile/ tredicesima-info/ buoni-fruttiferi/
-      treni-diritti/ noleggio-auto-diritti/
-    batch10-IT fisco/lavoro: plusvalenza-finanziaria/ ivafe-ivie/ dichiarazione-integrativa/
-      orario-riposi/ permessi-studio-150/
-    batch10-IT impresa/casa: impresa-familiare/ cooperative-info/ comodato-uso/
-      cognome-figli/ pignoramento-conto/
-    batch10-IT salute/scuola: farmaci-equivalenti/ ricetta-elettronica/ guardia-medica-turisti/
-      maturita-esame/ testamento-biologico-dat/
-    batch10-IT soldi/tutele: carte-revolving/ usura-tassi/ assicurazione-viaggio/
-      officina-diritti/ bagagli-smarriti/
-    batch11-IT scuola/condominio: dsa-bes-scuola/ universita-fuorisede/ erasmus-info/
-      its-academy/ assemblea-condominiale/
-    batch11-IT condominio/lavoro: morosita-condominiale/ lavori-straordinari/
-      distacco-lavoratore/ lavoro-notturno/ festivi-lavorati/
-    batch11-IT buoni/salute: buoni-pasto/ esami-intramoenia/ screening-prevenzione/
-      farmaci-estero/ abbonamenti-palestra/
-    batch11-IT soldi: assicurazione-vita-info/ conti-cointestati/ limite-contante/
-      bonifici-istantanei/ carta-prepagata/
+    tooling + cuore (9) + batch1-11 IT (218, dettaglio in docs/BATCHES.md)
     batch12-IT sindacati/lavoro: sciopero-diritti/ assemblea-sindacale/ rsu-rls/
       stagionali-turismo/ videosorveglianza-lavoro/
     batch12-IT impresa/fisco: libri-contabili/ whistleblowing-info/ fattura-proforma/
@@ -215,22 +128,22 @@ ai-skills/
       matrimonio-estero/ salute-mentale-info/ cure-termali/
     batch12-IT scuola/fine-vita/soldi: scuola-privata-paritaria/ universita-estero-laurea/
       servizi-cimiteriali-funebri/ fido-scoperto/ assegni-bancari/
-    (ognuna: SKILL.md + references/ + examples/)
+    (ognuna: SKILL.md + references/ + examples/ — catalogo per temi in docs/CATALOG.md)
   archive/                   # skill generiche pre-restart (non installate)
     batch1-generic/ (17) + batch2-seo/ (18)
   vendors/                   # 24 skill terze pinnate (mai modificare a mano)
     anthropics-skills/ (10) + mattpocock-skills/ (6) + superpowers/ (8)
     + upstreams.lock.json + third-party/ + README.md
   templates/skill-starter/   # modello per nuove skill
-  catalog/                   # skills.json + vendors-manifest.json + _registry.md
+  catalog/                   # skills.json (271 entries) + vendors-manifest.json + _registry.md
   .agents/skills/README.md   # standard Codex/Cursor/Copilot
   .claude/README.md          # adapter Claude Code (+ .claude-plugin/plugin.json)
   .grok/README.md            # adapter Grok Code
   .github/skills/README.md   # adapter Copilot + Copilot CLI
   .opencode/skills/README.md # adapter OpenCode
   .windsurf/skills/README.md # adapter Windsurf (invocazione @nome)
-  docs/                      # COMPATIBILITY, CREATE-SKILL, CHATGPT-MIGRATION, THIRD-PARTY, BATCHES
-  scripts/install.py + validate.py + security-check.py
+  docs/                      # CATALOG, COMPATIBILITY, CREATE-SKILL, CHATGPT-MIGRATION, THIRD-PARTY, BATCHES
+  scripts/install.py + validate.py + security-check.py + build-catalog.py + sync-vendors.py
 ```
 
 Regola: **modifica solo in `skills/`**, il resto è generato/copiato da `install.py`.
@@ -253,22 +166,9 @@ Guida completa: `docs/CREATE-SKILL.md`. Per skill Italia: aggiungi fonti ufficia
 
 ## Roadmap (repo GitHub privata, sviluppo per batch)
 
-- [x] Restart Italia 1.0 (9 skill + archivio 35 generiche)
-- [x] Batch 1-IT (18 skill: fisco, formali, lavoro, bandi/PA) → totale 27
-- [x] Batch 2-IT (20 skill: fisco 2, lavoro 2, casa, PA, tutele) → totale 47
-- [x] 9 agenti (claude, codex, grok, cursor, copilot, copilot-cli, gemini, opencode, windsurf)
-- [x] CI gates su repo privata (validate + security + install dry-run)
-- [x] Batch 3-IT (20 skill: fisco/impresa, lavoro, casa, PA/tutele) → totale 67
-- [x] Batch 4-IT (20 skill: fisco/famiglia, lavoro, casa/auto, scuola/salute, PA) → totale 87
-- [x] Batch 5-IT (20 skill: lavoro/pensioni, casa/soldi, famiglia/estero, tutele) → totale 107
-- [x] Batch 6-IT (20 skill: fisco, lavoro/impresa, casa/digitali, PA/salute) → totale 127
-- [x] Batch 7-IT (20 skill: fisco/lavoro, impresa/casa, famiglia/salute, PA/tutele) → totale 147
-- [x] Batch 8-IT (20 skill: giustizia/successioni, eredità/lavoro, trasporti/salute, soldi/lavoro) → totale 167
-- [x] Batch 9-IT (20 skill: fisco/lavoro, casa/impresa, famiglia/salute, PA/soldi) → totale 187
-- [x] Batch 10-IT (20 skill: fisco/lavoro, impresa/casa, salute/scuola, soldi/tutele) → totale 207
-- [x] Batch 11-IT (20 skill: scuola/condominio, condominio/lavoro, buoni/salute, soldi) → totale 227
-- [x] Vendor batch (24 skill terze pinnate: Anthropic 10 + Pocock 6 + Superpowers 8) → totale 251
-- [x] Batch 12-IT (20 skill: sindacati/lavoro, impresa/fisco, casa/famiglia/salute, scuola/fine-vita/soldi) → totale 247 ours + 24 vendors
+Stato: **v1.14 — 247 skill nostre + 24 terze pinnate = 271 entries** (dettaglio batch in `docs/BATCHES.md`, changelog in `CHANGELOG.md`).
+
+- [x] Restart 1.0 → Batch 12-IT (9 + 18 + 20×11 + 24 vendors pinnate)
 - [ ] Rinviati da valutare: contratto-base-check, ferie-permessi
 - [ ] Test reali sugli agenti e badge in `docs/COMPATIBILITY.md`
 - [ ] Batch 13-IT da pianificare (vedi `catalog/_registry.md`)
