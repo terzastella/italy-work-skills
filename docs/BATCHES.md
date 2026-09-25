@@ -5,7 +5,20 @@ All skill content in English. Only `README.md` stays in Italian.
 ## RESTART 2026-09-23 - Italian Work Skills Hub
 
 Generic batches below are archived (`archive/`, 35 skills, frozen).
-Active: 227 skills in `skills/` + 24 pinned vendor skills in `vendors/`.
+Active: 247 skills in `skills/` + 24 pinned vendor skills in `vendors/`.
+
+## Batch 12-IT - sindacati, impresa, casa, scuola ✅ 2026-09-25 (247 active)
+
+20 skills, each `SKILL.md` + `references/` + `examples/` (fake data always marked).
+
+- Sindacati/lavoro: sciopero-diritti, assemblea-sindacale, rsu-rls, stagionali-turismo, videosorveglianza-lavoro
+- Impresa/fisco: libri-contabili, whistleblowing-info, fattura-proforma, irap-info, lavoro-spettacolo
+- Casa/famiglia/salute: multiproprieta-diritti, affido-familiare, matrimonio-estero, salute-mentale-info, cure-termali
+- Scuola/fine-vita/soldi: scuola-privata-paritaria, universita-estero-laurea, servizi-cimiteriali-funebri, fido-scoperto, assegni-bancari
+
+Delicate (affido-familiare, salute-mentale-info): info-only + referral.
+Batch gate: `validate.py` 272 OK (247 ours + 24 vendors + template),
+`security-check.py` clean, `install.py --all --dest ./tmp-test` 247×9 ok.
 
 ## Vendor batch ✅ 2026-09-23 (227 ours + 24 vendors)
 

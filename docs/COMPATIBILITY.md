@@ -259,6 +259,26 @@ One `SKILL.md` for all. Differences only in the loader, not the format.
 | limite-contante | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 | bonifici-istantanei | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 | carta-prepagata | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
+| sciopero-diritti | ⚠️ untested | ⚠️ untested | ⚠️ untested | - |
+| assemblea-sindacale | ⚠️ untested | ⚠️ untested | ⚠️ untested | - |
+| rsu-rls | ⚠️ untested | ⚠️ untested | ⚠️ untested | - |
+| stagionali-turismo | ⚠️ untested | ⚠️ untested | ⚠️ untested | - |
+| videosorveglianza-lavoro | ⚠️ untested | ⚠️ untested | ⚠️ untested | - |
+| libri-contabili | ⚠️ untested | ⚠️ untested | ⚠️ untested | - |
+| whistleblowing-info | ⚠️ untested | ⚠️ untested | ⚠️ untested | - |
+| fattura-proforma | ⚠️ untested | ⚠️ untested | ⚠️ untested | - |
+| irap-info | ⚠️ untested | ⚠️ untested | ⚠️ untested | - |
+| lavoro-spettacolo | ⚠️ untested | ⚠️ untested | ⚠️ untested | - |
+| multiproprieta-diritti | ⚠️ untested | ⚠️ untested | ⚠️ untested | - |
+| affido-familiare | ⚠️ untested | ⚠️ untested | ⚠️ untested | - |
+| matrimonio-estero | ⚠️ untested | ⚠️ untested | ⚠️ untested | - |
+| salute-mentale-info | ⚠️ untested | ⚠️ untested | ⚠️ untested | - |
+| cure-termali | ⚠️ untested | ⚠️ untested | ⚠️ untested | - |
+| scuola-privata-paritaria | ⚠️ untested | ⚠️ untested | ⚠️ untested | - |
+| universita-estero-laurea | ⚠️ untested | ⚠️ untested | ⚠️ untested | - |
+| servizi-cimiteriali-funebri | ⚠️ untested | ⚠️ untested | ⚠️ untested | - |
+| fido-scoperto | ⚠️ untested | ⚠️ untested | ⚠️ untested | - |
+| assegni-bancari | ⚠️ untested | ⚠️ untested | ⚠️ untested | - |
 | frontend-design (vendor/anthropics) | ⚠️ untested | ⚠️ untested | ⚠️ untested | Apache-2.0 |
 | skill-creator (vendor/anthropics) | ⚠️ untested | ⚠️ untested | ⚠️ untested | Apache-2.0 |
 | mcp-builder (vendor/anthropics) | ⚠️ untested | ⚠️ untested | ⚠️ untested | Apache-2.0 |

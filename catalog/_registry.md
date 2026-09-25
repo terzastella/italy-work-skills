@@ -154,3 +154,18 @@ Total: 207 active. Deferred still pending: contratto-base-check, ferie-permessi.
 - IT-Soldi-6: assicurazione-vita-info, conti-cointestati, limite-contante, bonifici-istantanei, carta-prepagata
 
 Total: 227 active. Deferred still pending: contratto-base-check, ferie-permessi.
+
+## Batch 12-IT - active (20) - 2026-09-23
+
+- IT-Sindacati: sciopero-diritti, assemblea-sindacale, rsu-rls, stagionali-turismo
+- IT-Lavoro-14: videosorveglianza-lavoro
+- IT-Impresa-7: libri-contabili, whistleblowing-info, fattura-proforma
+- IT-Fisco-9: irap-info
+- IT-Casa-10: multiproprieta-diritti
+- IT-Famiglia-5: affido-familiare, matrimonio-estero
+- IT-Salute-8: salute-mentale-info, cure-termali
+- IT-Scuola-4: scuola-privata-paritaria, universita-estero-laurea
+- IT-Fine-vita: servizi-cimiteriali-funebri
+- IT-Soldi-7: fido-scoperto, assegni-bancari
+
+Total: 247 active. Deferred still pending: contratto-base-check, ferie-permessi.
