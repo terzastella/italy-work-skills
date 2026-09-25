@@ -94,6 +94,17 @@ def classify(name, desc):
         "pignoramento-conto": "Soldi e banche",
         "lavori-straordinari": "Casa",
         "sicurezza-lavoro": "Impresa",
+        "affido-familiare": "Famiglia",
+        "assegni-bancari": "Soldi e banche",
+        "assemblea-sindacale": "Lavoro",
+        "fido-scoperto": "Soldi e banche",
+        "irap-info": "Fisco e tasse",
+        "libri-contabili": "Impresa",
+        "multiproprieta-diritti": "Casa",
+        "rsu-rls": "Lavoro",
+        "servizi-cimiteriali-funebri": "Famiglia",
+        "stagionali-turismo": "Lavoro",
+        "whistleblowing-info": "Impresa",
     }
     if name in overrides:
         return overrides[name]

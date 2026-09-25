@@ -63,14 +63,14 @@ Destinazioni:
 
 ## Catalogo skill (MIT, in inglese)
 
-227 skill organizzate in 16 temi — catalogo completo in [`docs/CATALOG.md`](docs/CATALOG.md)
+247 skill organizzate in 16 temi — catalogo completo in [`docs/CATALOG.md`](docs/CATALOG.md)
 (generato da `catalog/skills.json`, non modificare a mano):
 
-- [Fisco e tasse](docs/CATALOG.md#fisco-e-tasse) (33) · [Lavoro](docs/CATALOG.md#lavoro) (38) · [Casa](docs/CATALOG.md#casa) (24)
-- [PA e documenti](docs/CATALOG.md#pa-e-documenti) (19) · [Impresa](docs/CATALOG.md#impresa) (19) · [Salute](docs/CATALOG.md#salute) (15)
-- [Soldi e banche](docs/CATALOG.md#soldi-e-banche) (15) · [Trasporti e viaggi](docs/CATALOG.md#trasporti-e-viaggi) (13) · [Famiglia](docs/CATALOG.md#famiglia) (12)
-- [Scuola e giovani](docs/CATALOG.md#scuola-e-giovani) (7) · [Tutele e consumi](docs/CATALOG.md#tutele-e-consumi) (7) · [Giustizia](docs/CATALOG.md#giustizia) (6)
-- [Successioni e donazioni](docs/CATALOG.md#successioni-e-donazioni) (6) · [Pensioni](docs/CATALOG.md#pensioni) (4) · [Scrittura e contenuti](docs/CATALOG.md#scrittura-e-contenuti) (4) · [Tooling](docs/CATALOG.md#tooling) (2)
+- [Fisco e tasse](docs/CATALOG.md#fisco-e-tasse) (37) · [Lavoro](docs/CATALOG.md#lavoro) (41) · [Casa](docs/CATALOG.md#casa) (25)
+- [PA e documenti](docs/CATALOG.md#pa-e-documenti) (20) · [Impresa](docs/CATALOG.md#impresa) (21) · [Salute](docs/CATALOG.md#salute) (20)
+- [Soldi e banche](docs/CATALOG.md#soldi-e-banche) (17) · [Trasporti e viaggi](docs/CATALOG.md#trasporti-e-viaggi) (13) · [Famiglia](docs/CATALOG.md#famiglia) (14)
+- [Scuola e giovani](docs/CATALOG.md#scuola-e-giovani) (9) · [Tutele e consumi](docs/CATALOG.md#tutele-e-consumi) (7) · [Giustizia](docs/CATALOG.md#giustizia) (6)
+- [Successioni e donazioni](docs/CATALOG.md#successioni-e-donazioni) (7) · [Pensioni](docs/CATALOG.md#pensioni) (4) · [Scrittura e contenuti](docs/CATALOG.md#scrittura-e-contenuti) (4) · [Tooling](docs/CATALOG.md#tooling) (2)
 
 ### In evidenza
 
@@ -118,7 +118,7 @@ Non duplichiamo codice altrui per licenza e manutenzione. Vedi `catalog/vendors-
 ```
 ai-skills/
   README.md + LICENSE + llms.txt  # root essenziale
-  skills/                    # SOURCE OF TRUTH nostre: 227 skill (9 + batch 1-11 IT)
+  skills/                    # SOURCE OF TRUTH nostre: 247 skill (9 + batch 1-12 IT)
     tooling: hello-agent/ skill-creator-it/
     cuore: invoice-it/ email-formale-it/ xlsx-budget-it/
       translate-it-en/ press-release-it/ doc-polish-it/ case-study/
@@ -207,6 +207,14 @@ ai-skills/
       farmaci-estero/ abbonamenti-palestra/
     batch11-IT soldi: assicurazione-vita-info/ conti-cointestati/ limite-contante/
       bonifici-istantanei/ carta-prepagata/
+    batch12-IT sindacati/lavoro: sciopero-diritti/ assemblea-sindacale/ rsu-rls/
+      stagionali-turismo/ videosorveglianza-lavoro/
+    batch12-IT impresa/fisco: libri-contabili/ whistleblowing-info/ fattura-proforma/
+      irap-info/ lavoro-spettacolo/
+    batch12-IT casa/famiglia/salute: multiproprieta-diritti/ affido-familiare/
+      matrimonio-estero/ salute-mentale-info/ cure-termali/
+    batch12-IT scuola/fine-vita/soldi: scuola-privata-paritaria/ universita-estero-laurea/
+      servizi-cimiteriali-funebri/ fido-scoperto/ assegni-bancari/
     (ognuna: SKILL.md + references/ + examples/)
   archive/                   # skill generiche pre-restart (non installate)
     batch1-generic/ (17) + batch2-seo/ (18)
@@ -260,7 +268,8 @@ Guida completa: `docs/CREATE-SKILL.md`. Per skill Italia: aggiungi fonti ufficia
 - [x] Batch 10-IT (20 skill: fisco/lavoro, impresa/casa, salute/scuola, soldi/tutele) → totale 207
 - [x] Batch 11-IT (20 skill: scuola/condominio, condominio/lavoro, buoni/salute, soldi) → totale 227
 - [x] Vendor batch (24 skill terze pinnate: Anthropic 10 + Pocock 6 + Superpowers 8) → totale 251
+- [x] Batch 12-IT (20 skill: sindacati/lavoro, impresa/fisco, casa/famiglia/salute, scuola/fine-vita/soldi) → totale 247 ours + 24 vendors
 - [ ] Rinviati da valutare: contratto-base-check, ferie-permessi
 - [ ] Test reali sugli agenti e badge in `docs/COMPATIBILITY.md`
-- [ ] Batch 12-IT da pianificare (vedi `catalog/_registry.md`)
+- [ ] Batch 13-IT da pianificare (vedi `catalog/_registry.md`)
 - [ ] Rinviato (serve repo pubblica): submit a skills.sh / agentskills.io

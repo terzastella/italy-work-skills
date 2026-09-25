@@ -1,6 +1,6 @@
 {
   "name": "ai-skills-hub",
-  "version": "1.13.0",
+  "version": "1.14.0",
   "spec": "https://agentskills.io/specification",
   "skills": [
     {
@@ -2946,6 +2946,266 @@
       "name": "carta-prepagata",
       "path": "skills/carta-prepagata/SKILL.md",
       "description": "Prepaid cards with IBAN and limits.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "sciopero-diritti",
+      "path": "skills/sciopero-diritti/SKILL.md",
+      "description": "Explain strike rights with notice and minimums. Use when asked sciopero, strike rights Italy.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "assemblea-sindacale",
+      "path": "skills/assemblea-sindacale/SKILL.md",
+      "description": "Explain union meetings with paid hours. Use when asked assemblea sindacale, union meeting Italy.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "rsu-rls",
+      "path": "skills/rsu-rls/SKILL.md",
+      "description": "Explain worker reps with elections and hours. Use when asked RSU RLS, worker representatives Italy.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "stagionali-turismo",
+      "path": "skills/stagionali-turismo/SKILL.md",
+      "description": "Explain seasonal contracts with recall rights. Use when asked stagionali turismo, seasonal work Italy.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "videosorveglianza-lavoro",
+      "path": "skills/videosorveglianza-lavoro/SKILL.md",
+      "description": "Explain workplace cameras with agreement rules. Use when asked videosorveglianza lavoro, workplace cameras Italy.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "libri-contabili",
+      "path": "skills/libri-contabili/SKILL.md",
+      "description": "Explain mandatory books with retention. Use when asked libri contabili, accounting books Italy.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "whistleblowing-info",
+      "path": "skills/whistleblowing-info/SKILL.md",
+      "description": "Explain reporting channels with anti-retaliation. Use when asked whistleblowing Italy.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "fattura-proforma",
+      "path": "skills/fattura-proforma/SKILL.md",
+      "description": "Explain proforma invoices with no tax value. Use when asked fattura proforma, proforma invoice Italy.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "irap-info",
+      "path": "skills/irap-info/SKILL.md",
+      "description": "Explain IRAP with who pays and base. Use when asked IRAP Italy.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "lavoro-spettacolo",
+      "path": "skills/lavoro-spettacolo/SKILL.md",
+      "description": "Explain entertainment work with ex-ENPALS rules. Use when asked lavoro spettacolo, entertainment workers Italy.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "multiproprieta-diritti",
+      "path": "skills/multiproprieta-diritti/SKILL.md",
+      "description": "Explain timeshare rights with exit paths. Use when asked multiproprietà, timeshare Italy.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "affido-familiare",
+      "path": "skills/affido-familiare/SKILL.md",
+      "description": "Explain foster care with types and allowances. Use when asked affido familiare, foster care Italy.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "matrimonio-estero",
+      "path": "skills/matrimonio-estero/SKILL.md",
+      "description": "Explain marrying abroad with transcription. Use when asked matrimonio estero, marry abroad Italy.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "salute-mentale-info",
+      "path": "skills/salute-mentale-info/SKILL.md",
+      "description": "Explain mental-health access paths without diagnosis. Use when asked salute mentale, supporto psicologico Italy.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "cure-termali",
+      "path": "skills/cure-termali/SKILL.md",
+      "description": "Explain thermal cures with SSN tickets. Use when asked cure termali, thermal cures Italy.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "scuola-privata-paritaria",
+      "path": "skills/scuola-privata-paritaria/SKILL.md",
+      "description": "Explain private parity schools with costs and value. Use when asked scuola privata, paritaria Italy.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "universita-estero-laurea",
+      "path": "skills/universita-estero-laurea/SKILL.md",
+      "description": "Guide full degrees abroad with recognition. Use when asked laurea estero, full degree abroad Italy.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "servizi-cimiteriali-funebri",
+      "path": "skills/servizi-cimiteriali-funebri/SKILL.md",
+      "description": "Explain funeral services with costs and choices. Use when asked funerale, onoranze funebri Italy.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "fido-scoperto",
+      "path": "skills/fido-scoperto/SKILL.md",
+      "description": "Explain overdrafts with costs and revocation. Use when asked fido, scoperto conto Italy.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "assegni-bancari",
+      "path": "skills/assegni-bancari/SKILL.md",
+      "description": "Explain checks with protest and deadlines. Use when asked assegno, check Italy, protesto.",
       "license": "MIT",
       "compatibility": [
         "claude",

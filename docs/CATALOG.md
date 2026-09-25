@@ -15,7 +15,7 @@
 - [press-release-it](../skills/press-release-it/SKILL.md) — Press releases with journalistic structure.
 - [translate-it-en](../skills/translate-it-en/SKILL.md) — Translate IT-EN texts preserving structure, code and tone.
 
-## Fisco e tasse (33)
+## Fisco e tasse (37)
 
 - [accertamento-info](../skills/accertamento-info/SKILL.md) — Tax audits with invites and adhesion paths.
 - [acconti-calcolo](../skills/acconti-calcolo/SKILL.md) — Compute Italian advance payments with historic method.
@@ -32,9 +32,11 @@
 - [dichiarazione-integrativa](../skills/dichiarazione-integrativa/SKILL.md) — Fix filed returns with integrativa paths.
 - [fattura-elettronica-it](../skills/fattura-elettronica-it/SKILL.md) — Guide Italian e-invoices via SdI with mandatory data and rejections.
 - [fattura-pa](../skills/fattura-pa/SKILL.md) — B2G invoices to Italian public bodies with CIG/CUP.
+- [fattura-proforma](../skills/fattura-proforma/SKILL.md) — Explain proforma invoices with no tax value. Use when asked fattura proforma, proforma invoice Italy.
 - [imposta-bollo](../skills/imposta-bollo/SKILL.md) — Stamp duty with thresholds and virtual payment.
 - [imu-calcolo](../skills/imu-calcolo/SKILL.md) — IMU property tax with base and rate method.
 - [invoice-it](../skills/invoice-it/SKILL.md) — Italian invoices with items, VAT and verified totals.
+- [irap-info](../skills/irap-info/SKILL.md) — Explain IRAP with who pays and base. Use when asked IRAP Italy.
 - [irpef-scaglioni](../skills/irpef-scaglioni/SKILL.md) — IRPEF brackets with marginal vs average math.
 - [isa-check](../skills/isa-check/SKILL.md) — ISA reliability indexes with score reading.
 - [ivafe-ivie](../skills/ivafe-ivie/SKILL.md) — Foreign-asset taxes with RW link.
@@ -49,6 +51,8 @@
 - [rimborsi-fiscali](../skills/rimborsi-fiscali/SKILL.md) — Tax refund claims with timelines.
 - [ritenuta-acconto](../skills/ritenuta-acconto/SKILL.md) — Italian withholding tax with forfettari and EU cases.
 - [scadenze-fiscali](../skills/scadenze-fiscali/SKILL.md) — Read Italian tax deadlines and build payment calendars.
+- [sciopero-diritti](../skills/sciopero-diritti/SKILL.md) — Explain strike rights with notice and minimums. Use when asked sciopero, strike rights Italy.
+- [scuola-privata-paritaria](../skills/scuola-privata-paritaria/SKILL.md) — Explain private parity schools with costs and value. Use when asked scuola privata, paritaria Italy.
 - [tari-tassa](../skills/tari-tassa/SKILL.md) — TARI waste tax with base and reductions.
 
 ## Giustizia (6)
@@ -70,10 +74,11 @@
 - [testamento-olografo](../skills/testamento-olografo/SKILL.md) — Holographic wills with validity rules.
 - [testamento-pubblico](../skills/testamento-pubblico/SKILL.md) — Notarial wills vs holographic with costs.
 
-## Lavoro (36)
+## Lavoro (41)
 
 - [apprendistato](../skills/apprendistato/SKILL.md) — Apprenticeships with types and protections.
 - [aspettativa-lavoro](../skills/aspettativa-lavoro/SKILL.md) — Unpaid leave with contribution effects.
+- [assemblea-sindacale](../skills/assemblea-sindacale/SKILL.md) — Explain union meetings with paid hours. Use when asked assemblea sindacale, union meeting Italy.
 - [buoni-pasto](../skills/buoni-pasto/SKILL.md) — Meal vouchers with exemption caps.
 - [busta-paga-leggi](../skills/busta-paga-leggi/SKILL.md) — Italian payslips line by line with net-pay math.
 - [cassa-integrazione](../skills/cassa-integrazione/SKILL.md) — Wage guarantee funds with worker pay effects.
@@ -90,6 +95,7 @@
 - [infortuni-lavoro](../skills/infortuni-lavoro/SKILL.md) — Work injury reports with INAIL path.
 - [lavoro-minorile](../skills/lavoro-minorile/SKILL.md) — Underage work rules with bans and hours.
 - [lavoro-notturno](../skills/lavoro-notturno/SKILL.md) — Night work with premiums and limits.
+- [lavoro-spettacolo](../skills/lavoro-spettacolo/SKILL.md) — Explain entertainment work with ex-ENPALS rules. Use when asked lavoro spettacolo, entertainment workers Italy.
 - [licenziamento-info](../skills/licenziamento-info/SKILL.md) — Dismissal types with challenge terms and referrals.
 - [malattia-certificato](../skills/malattia-certificato/SKILL.md) — Sick-leave certificates with visit windows.
 - [maternita-congedi](../skills/maternita-congedi/SKILL.md) — Maternity and parental leave with INPS paths.
@@ -99,17 +105,20 @@
 - [periodo-prova](../skills/periodo-prova/SKILL.md) — Trial periods with duration and exit rules.
 - [permessi-studio-150](../skills/permessi-studio-150/SKILL.md) — 150-hour study leave with eligibility.
 - [reperibilita-lavoro](../skills/reperibilita-lavoro/SKILL.md) — On-call rules with pay and refusal rights.
+- [rsu-rls](../skills/rsu-rls/SKILL.md) — Explain worker reps with elections and hours. Use when asked RSU RLS, worker representatives Italy.
 - [smart-working](../skills/smart-working/SKILL.md) — Lavoro agile with agreement and disconnection.
 - [somministrazione](../skills/somministrazione/SKILL.md) — Agency work with parity and missions.
+- [stagionali-turismo](../skills/stagionali-turismo/SKILL.md) — Explain seasonal contracts with recall rights. Use when asked stagionali turismo, seasonal work Italy.
 - [straordinari-info](../skills/straordinari-info/SKILL.md) — Overtime with pay rules and banca ore.
 - [tirocinio-guida](../skills/tirocinio-guida/SKILL.md) — Italian internships with rights and allowances.
 - [trasferimento-sede](../skills/trasferimento-sede/SKILL.md) — Employer transfers with allowance and refusal.
 - [trasferta-estero](../skills/trasferta-estero/SKILL.md) — Business trips abroad with per-diem and papers.
 - [trasferte-lavoro](../skills/trasferte-lavoro/SKILL.md) — National work trips with diaria and receipts.
 - [tredicesima-info](../skills/tredicesima-info/SKILL.md) — 13th salary with accrual and advances.
+- [videosorveglianza-lavoro](../skills/videosorveglianza-lavoro/SKILL.md) — Explain workplace cameras with agreement rules. Use when asked videosorveglianza lavoro, workplace cameras Italy.
 - [welfare-aziendale](../skills/welfare-aziendale/SKILL.md) — Fringe benefits with thresholds and traps.
 
-## Impresa (19)
+## Impresa (21)
 
 - [agenti-rappresentanti](../skills/agenti-rappresentanti/SKILL.md) — Sales agents with Enasarco and FIRR.
 - [agevolazioni-assunzioni](../skills/agevolazioni-assunzioni/SKILL.md) — Italian hiring incentives with requirements checklist.
@@ -125,13 +134,15 @@
 - [fallimento-crisi-info](../skills/fallimento-crisi-info/SKILL.md) — Business crisis tools with alert duties.
 - [franchising-info](../skills/franchising-info/SKILL.md) — Franchising with disclosure and fee math.
 - [impresa-familiare](../skills/impresa-familiare/SKILL.md) — Family businesses with coadiuvanti rules.
+- [libri-contabili](../skills/libri-contabili/SKILL.md) — Explain mandatory books with retention. Use when asked libri contabili, accounting books Italy.
 - [marchi-info](../skills/marchi-info/SKILL.md) — Trademarks vs patents with filing paths.
 - [nota-spese](../skills/nota-spese/SKILL.md) — Italian expense reports with receipts and totals.
 - [preventivo-it](../skills/preventivo-it/SKILL.md) — Italian quotes with items, validity and terms.
 - [sicurezza-lavoro](../skills/sicurezza-lavoro/SKILL.md) — Workplace safety duties with DVR and training.
 - [startup-innovativa](../skills/startup-innovativa/SKILL.md) — Innovative startup perks with registry rules.
+- [whistleblowing-info](../skills/whistleblowing-info/SKILL.md) — Explain reporting channels with anti-retaliation. Use when asked whistleblowing Italy.
 
-## Casa (24)
+## Casa (25)
 
 - [affitto-breve](../skills/affitto-breve/SKILL.md) — Short rentals with cedolare and CIN rules.
 - [affitto-check](../skills/affitto-check/SKILL.md) — Italian rental contracts with red flags and costs.
@@ -149,6 +160,7 @@
 - [edilizia-cila-scia](../skills/edilizia-cila-scia/SKILL.md) — Building permits from free works to permesso.
 - [lavori-straordinari](../skills/lavori-straordinari/SKILL.md) — Extraordinary condo works with funds and bids.
 - [morosita-condominiale](../skills/morosita-condominiale/SKILL.md) — Condo arrears with recovery paths.
+- [multiproprieta-diritti](../skills/multiproprieta-diritti/SKILL.md) — Explain timeshare rights with exit paths. Use when asked multiproprietà, timeshare Italy.
 - [mutuo-tassi](../skills/mutuo-tassi/SKILL.md) — Mortgages compared with TAN/TAEG and total cost.
 - [prima-casa-agevolazioni](../skills/prima-casa-agevolazioni/SKILL.md) — First-home tax breaks with residence rules.
 - [riscaldamento-contabilizzazione](../skills/riscaldamento-contabilizzazione/SKILL.md) — Heat metering splits with millesimi.
@@ -158,9 +170,10 @@
 - [visura-leggimi](../skills/visura-leggimi/SKILL.md) — Read visura camerale sections and what they mean.
 - [volture-catastali](../skills/volture-catastali/SKILL.md) — Cadastral transfers with documents and timing.
 
-## Famiglia (11)
+## Famiglia (14)
 
 - [adozioni-info](../skills/adozioni-info/SKILL.md) — Adoption paths with timelines.
+- [affido-familiare](../skills/affido-familiare/SKILL.md) — Explain foster care with types and allowances. Use when asked affido familiare, foster care Italy.
 - [asilo-nido-bonus](../skills/asilo-nido-bonus/SKILL.md) — Nursery bonus with ISEE bands and application.
 - [assegno-unico](../skills/assegno-unico/SKILL.md) — Assegno unico with ISEE bands and application.
 - [bonus-cultura-18app](../skills/bonus-cultura-18app/SKILL.md) — Youth culture bonus with eligible spending.
@@ -168,11 +181,13 @@
 - [cognome-figli](../skills/cognome-figli/SKILL.md) — Children surnames with double names.
 - [isee-guida](../skills/isee-guida/SKILL.md) — ISEE with DSU documents and common mistakes.
 - [matrimonio-civile](../skills/matrimonio-civile/SKILL.md) — Civil weddings with publications and witnesses.
+- [matrimonio-estero](../skills/matrimonio-estero/SKILL.md) — Explain marrying abroad with transcription. Use when asked matrimonio estero, marry abroad Italy.
 - [mensa-scolastica](../skills/mensa-scolastica/SKILL.md) — School meal fees with ISEE bands.
 - [separazione-divorzio](../skills/separazione-divorzio/SKILL.md) — Separation and divorce paths without tactics.
+- [servizi-cimiteriali-funebri](../skills/servizi-cimiteriali-funebri/SKILL.md) — Explain funeral services with costs and choices. Use when asked funerale, onoranze funebri Italy.
 - [unioni-convivenze](../skills/unioni-convivenze/SKILL.md) — Civil unions and cohabitation with rights map.
 
-## Scuola e giovani (8)
+## Scuola e giovani (9)
 
 - [dsa-bes-scuola](../skills/dsa-bes-scuola/SKILL.md) — DSA and BES plans with PDP tools.
 - [erasmus-info](../skills/erasmus-info/SKILL.md) — Erasmus with calls and Learning Agreement.
@@ -180,13 +195,15 @@
 - [maturita-esame](../skills/maturita-esame/SKILL.md) — Maturita exam with credits and tests.
 - [scuola-iscrizioni](../skills/scuola-iscrizioni/SKILL.md) — School enrollments with windows and criteria.
 - [servizio-civile](../skills/servizio-civile/SKILL.md) — Civil service with calls and allowance.
+- [universita-estero-laurea](../skills/universita-estero-laurea/SKILL.md) — Guide full degrees abroad with recognition. Use when asked laurea estero, full degree abroad Italy.
 - [universita-fuorisede](../skills/universita-fuorisede/SKILL.md) — Out-of-town university life with housing and aid.
 - [universita-tasse](../skills/universita-tasse/SKILL.md) — University fees with ISEE-U bands and aid.
 
-## Salute (18)
+## Salute (20)
 
 - [assicurazione-sanitaria](../skills/assicurazione-sanitaria/SKILL.md) — Integrative health funds with deductibility.
 - [assistenza-anziani](../skills/assistenza-anziani/SKILL.md) — Elder care from home help to RSA with benefits.
+- [cure-termali](../skills/cure-termali/SKILL.md) — Explain thermal cures with SSN tickets. Use when asked cure termali, thermal cures Italy.
 - [donazione-organi](../skills/donazione-organi/SKILL.md) — Organ donation will with AIDO paths.
 - [donazione-sangue](../skills/donazione-sangue/SKILL.md) — Blood donation with requirements and leave.
 - [esami-intramoenia](../skills/esami-intramoenia/SKILL.md) — Intramoenia exams with costs and waits.
@@ -198,6 +215,7 @@
 - [medico-base](../skills/medico-base/SKILL.md) — GP choice and change with out-of-region rules.
 - [pronto-soccorso-ticket](../skills/pronto-soccorso-ticket/SKILL.md) — ER codes and copay with exemptions.
 - [ricetta-elettronica](../skills/ricetta-elettronica/SKILL.md) — E-prescriptions with validity and use.
+- [salute-mentale-info](../skills/salute-mentale-info/SKILL.md) — Explain mental-health access paths without diagnosis. Use when asked salute mentale, supporto psicologico Italy.
 - [sanita-digitale](../skills/sanita-digitale/SKILL.md) — FSE, IO app and health bookings in Italy.
 - [screening-prevenzione](../skills/screening-prevenzione/SKILL.md) — Free screenings by age and region.
 - [spese-mediche-detrazioni](../skills/spese-mediche-detrazioni/SKILL.md) — Medical expense deductions with documents.
@@ -234,8 +252,9 @@
 - [spid-cie-guida](../skills/spid-cie-guida/SKILL.md) — SPID/CIE levels and recovery without touching credentials.
 - [verbale-riunione-it](../skills/verbale-riunione-it/SKILL.md) — Italian meeting minutes with decisions and owners.
 
-## Soldi e banche (15)
+## Soldi e banche (17)
 
+- [assegni-bancari](../skills/assegni-bancari/SKILL.md) — Explain checks with protest and deadlines. Use when asked assegno, check Italy, protesto.
 - [assicurazione-vita-info](../skills/assicurazione-vita-info/SKILL.md) — Life policies with surrender math.
 - [bonifici-istantanei](../skills/bonifici-istantanei/SKILL.md) — Instant transfers with costs and errors.
 - [buoni-fruttiferi](../skills/buoni-fruttiferi/SKILL.md) — Postal savings bonds with net returns.
@@ -244,6 +263,7 @@
 - [conti-cointestati](../skills/conti-cointestati/SKILL.md) — Joint accounts with shares and blocks.
 - [conti-deposito](../skills/conti-deposito/SKILL.md) — Deposit accounts with net rates and guarantee.
 - [conto-corrente-costi](../skills/conto-corrente-costi/SKILL.md) — Bank fee statements with total yearly cost.
+- [fido-scoperto](../skills/fido-scoperto/SKILL.md) — Explain overdrafts with costs and revocation. Use when asked fido, scoperto conto Italy.
 - [fondo-emergenza](../skills/fondo-emergenza/SKILL.md) — Emergency funds with size and placement method.
 - [leasing-finanziamento](../skills/leasing-finanziamento/SKILL.md) — Leasing vs loans with total cost.
 - [limite-contante](../skills/limite-contante/SKILL.md) — Cash limits with traceable alternatives.

@@ -93,6 +93,14 @@
 - Batch 11-IT, soldi (5): assicurazione-vita-info, conti-cointestati, limite-contante,
   bonifici-istantanei, carta-prepagata.
 
+- Batch 12-IT, sindacati/lavoro (5): sciopero-diritti, assemblea-sindacale, rsu-rls,
+  stagionali-turismo, videosorveglianza-lavoro.
+- Batch 12-IT, impresa/fisco (5): libri-contabili, whistleblowing-info, fattura-proforma,
+  irap-info, lavoro-spettacolo.
+- Batch 12-IT, casa/famiglia/salute (5): multiproprieta-diritti, affido-familiare,
+  matrimonio-estero, salute-mentale-info, cure-termali.
+- Batch 12-IT, scuola/fine-vita/soldi (5): scuola-privata-paritaria, universita-estero-laurea,
+  servizi-cimiteriali-funebri, fido-scoperto, assegni-bancari.
 Details in catalog/skills.json. Archived generic skills in archive/ (not installed).
 Pinned third-party skills in vendors/ (opt-in via --source vendors, see vendors/README.md).
 

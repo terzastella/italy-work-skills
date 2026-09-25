@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.14 (Batch 12-IT, 247 active + 35 archived, +24 vendors)
+
+- 20 skills: sindacati/lavoro (sciopero-diritti, assemblea-sindacale, rsu-rls,
+  stagionali-turismo, videosorveglianza-lavoro), impresa/fisco (libri-contabili,
+  whistleblowing-info, fattura-proforma, irap-info, lavoro-spettacolo),
+  casa/famiglia/salute (multiproprieta-diritti, affido-familiare, matrimonio-estero,
+  salute-mentale-info, cure-termali), scuola/fine-vita/soldi
+  (scuola-privata-paritaria, universita-estero-laurea, servizi-cimiteriali-funebri,
+  fido-scoperto, assegni-bancari).
+- Delicate info-only + referral (affido-familiare, salute-mentale-info).
+- Indexes: `skills.json` 1.14.0 (271 entries: 247 ours + 24 vendors), `plugin.json` 1.14.0.
+
 ## 1.13 (Vendor batch, 227 ours + 24 vendors)
 
 - `vendors/` with 24 pinned verbatim copies: anthropics-skills (10, Apache-2.0),
