@@ -169,3 +169,9 @@ Total: 227 active. Deferred still pending: contratto-base-check, ferie-permessi.
 - IT-Soldi-7: fido-scoperto, assegni-bancari
 
 Total: 247 active. Deferred still pending: contratto-base-check, ferie-permessi.
+
+## Integrativa 1.15 - deferred closed (2) - 2026-09-25
+
+- IT-Lavoro-15: contratto-base-check, ferie-permessi
+
+Total: 249 active. No deferred left.

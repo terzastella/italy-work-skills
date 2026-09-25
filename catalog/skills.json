@@ -1,6 +1,6 @@
 {
   "name": "ai-skills-hub",
-  "version": "1.14.0",
+  "version": "1.15.0",
   "spec": "https://agentskills.io/specification",
   "skills": [
     {
@@ -3206,6 +3206,32 @@
       "name": "assegni-bancari",
       "path": "skills/assegni-bancari/SKILL.md",
       "description": "Explain checks with protest and deadlines. Use when asked assegno, check Italy, protesto.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "contratto-base-check",
+      "path": "skills/contratto-base-check/SKILL.md",
+      "description": "Read base contracts with clause checklist. Use when asked check contratto lavoro, employment contract Italy.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "ferie-permessi",
+      "path": "skills/ferie-permessi/SKILL.md",
+      "description": "Explain holidays and permits with accrual rules. Use when asked ferie permessi, holidays permits Italy.",
       "license": "MIT",
       "compatibility": [
         "claude",
