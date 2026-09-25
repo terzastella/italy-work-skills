@@ -5,7 +5,16 @@ All skill content in English. Only `README.md` stays in Italian.
 ## RESTART 2026-09-23 - Italian Work Skills Hub
 
 Generic batches below are archived (`archive/`, 35 skills, frozen).
-Active: 247 skills in `skills/` + 24 pinned vendor skills in `vendors/`.
+Active: 249 skills in `skills/` + 24 pinned vendor skills in `vendors/`.
+
+## Integrativa 1.15 - deferred closed ✅ 2026-09-25 (249 active)
+
+2 skills (the historic deferred), each `SKILL.md` + `references/` + `examples/`.
+
+- Lavoro: contratto-base-check, ferie-permessi (info-only + referral, no verdicts)
+
+Batch gate: `validate.py` 274 OK (273 entries + template),
+`security-check.py` clean, `install.py --all` dry-run ok (249 ours × 9 agents).
 
 ## Batch 12-IT - sindacati, impresa, casa, scuola ✅ 2026-09-25 (247 active)
 

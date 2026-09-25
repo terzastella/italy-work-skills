@@ -72,7 +72,7 @@
 - [testamento-olografo](../skills/testamento-olografo/SKILL.md) — Holographic wills with validity rules.
 - [testamento-pubblico](../skills/testamento-pubblico/SKILL.md) — Notarial wills vs holographic with costs.
 
-## Lavoro (42)
+## Lavoro (44)
 
 - [apprendistato](../skills/apprendistato/SKILL.md) — Apprenticeships with types and protections.
 - [aspettativa-lavoro](../skills/aspettativa-lavoro/SKILL.md) — Unpaid leave with contribution effects.
@@ -84,11 +84,13 @@
 - [collaborazioni-occasionali](../skills/collaborazioni-occasionali/SKILL.md) — Occasional work with limits and withholding.
 - [colloquio-prep-it](../skills/colloquio-prep-it/SKILL.md) — Job interview prep with STAR answers and questions.
 - [congedo-matrimoniale](../skills/congedo-matrimoniale/SKILL.md) — Wedding leave with length and papers.
+- [contratto-base-check](../skills/contratto-base-check/SKILL.md) — Read base contracts with clause checklist. Use when asked check contratto lavoro, employment contract Italy.
 - [contratto-tipi](../skills/contratto-tipi/SKILL.md) — Italian work contract types compared, no legal advice.
 - [cv-europass](../skills/cv-europass/SKILL.md) — Europass CVs with measured experience and clean layout.
 - [dimissioni-procedura](../skills/dimissioni-procedura/SKILL.md) — Italy's online resignation procedure and notice info.
 - [dis-coll](../skills/dis-coll/SKILL.md) — DIS-COLL benefit for collaborators with math.
 - [distacco-lavoratore](../skills/distacco-lavoratore/SKILL.md) — Secondments with A1 and allowance rules.
+- [ferie-permessi](../skills/ferie-permessi/SKILL.md) — Explain holidays and permits with accrual rules. Use when asked ferie permessi, holidays permits Italy.
 - [festivi-lavorati](../skills/festivi-lavorati/SKILL.md) — Holiday work pay with Sunday rules.
 - [infortuni-lavoro](../skills/infortuni-lavoro/SKILL.md) — Work injury reports with INAIL path.
 - [lavoro-minorile](../skills/lavoro-minorile/SKILL.md) — Underage work rules with bans and hours.

@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.15 (Integrativa, 249 active + 35 archived, +24 vendors)
+
+- 2 skills (historic deferred, now closed): lavoro (contratto-base-check,
+  ferie-permessi). Info-only + referral, no validity verdicts.
+- Indexes: `skills.json` 1.15.0 (273 entries: 249 ours + 24 vendors), `plugin.json` 1.15.0.
+
 ## 1.14 (Batch 12-IT, 247 active + 35 archived, +24 vendors)
 
 - 20 skills: sindacati/lavoro (sciopero-diritti, assemblea-sindacale, rsu-rls,

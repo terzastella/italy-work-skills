@@ -108,6 +108,7 @@ def classify(name, desc):
         "sciopero-diritti": "Lavoro",
         "scuola-privata-paritaria": "Scuola e giovani",
         "revisione-auto": "Trasporti e viaggi",
+        "ferie-permessi": "Lavoro",
     }
     if name in overrides:
         return overrides[name]
