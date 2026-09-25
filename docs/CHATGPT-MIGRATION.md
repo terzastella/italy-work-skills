@@ -1,5 +1,7 @@
 # ChatGPT / Codex — migration guide
 
+> Review after Dec 2026 (dates below expire 11/12/2026).
+
 > Archived from `.chatgpt/README.md`. There is no standard `.chatgpt/` folder read by ChatGPT.
 
 ## 2026 situation
@@ -16,11 +18,11 @@
 python scripts/install.py --all --agent codex
 # copies to .agents/skills/<name>/ or ~/.agents/skills/
 
-# 2. ChatGPT app: package as Plugin (skill + openai.yaml)
-# see .agents/skills/README.md for an agents/openai.yaml example
+# 2. ChatGPT app: package as Plugin (skill + Codex config)
+# inline example below; see .agents/skills/README.md for details
 ```
 
-## agents/openai.yaml example
+## Codex config example (inline, no agents/openai.yaml file in this repo)
 
 ```yaml
 interface:

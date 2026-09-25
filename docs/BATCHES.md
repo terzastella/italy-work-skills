@@ -17,8 +17,8 @@ Active: 247 skills in `skills/` + 24 pinned vendor skills in `vendors/`.
 - Scuola/fine-vita/soldi: scuola-privata-paritaria, universita-estero-laurea, servizi-cimiteriali-funebri, fido-scoperto, assegni-bancari
 
 Delicate (affido-familiare, salute-mentale-info): info-only + referral.
-Batch gate: `validate.py` 272 OK (247 ours + 24 vendors + template),
-`security-check.py` clean, `install.py --all --dest ./tmp-test` 247×9 ok.
+Batch gate: `validate.py` 272 OK (271 entries + template; `CHANGELOG` counts 271 entries),
+`security-check.py` clean, `install.py --all` dry-run ok (247 ours × 9 agents).
 
 ## Vendor batch ✅ 2026-09-23 (227 ours + 24 vendors)
 

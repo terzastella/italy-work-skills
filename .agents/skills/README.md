@@ -9,7 +9,7 @@ Real skills live in `../../skills/`. Do not duplicate them here by hand, use the
 
 ```bash
 python ../../scripts/install.py --all --agent codex
-python ../../scripts/install.py --skill smart-commit --agent codex
+python ../../scripts/install.py --skill invoice-it --agent codex
 ```
 
 The script copies `skills/<name>/` to:
@@ -23,7 +23,7 @@ Codex activates skills in 2 ways:
 - implicit: when the `description` matches the task
 
 For reusable distribution (2+ skills or skill+app), package as a Codex Plugin.
-Example `agents/openai.yaml` for UI and policy:
+Inline `openai.yaml` example for UI and policy (no such file in this repo):
 
 ```yaml
 interface:

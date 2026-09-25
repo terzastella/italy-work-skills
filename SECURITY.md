@@ -13,7 +13,6 @@ Local only for now. No data leaves the PC.
 ```bash
 python scripts/validate.py
 python scripts/security-check.py
-python skills/smart-commit/scripts/check-diff.py
 ```
 
 ## Reporting

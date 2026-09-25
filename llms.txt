@@ -21,9 +21,9 @@
 - Batch 1-IT, calls/PA (5): bandi-pmi, domanda-bando, spid-cie-guida, privacy-informativa, visura-leggimi.
 - Batch 2-IT, tax-2 (8): partita-iva-apri, ateco-scelta, acconti-calcolo, ritenuta-acconto,
   operazioni-estero, fattura-pa, imu-calcolo, cu-730-guida.
-- Batch 2-IT, jobs-2 (2): busta-paga-leggi, naspi-guida. Casa (5): isee-guida,
-  bollette-energia, bonus-casa, sanita-digitale, affitto-check.
-- Batch 2-IT, PA/tutele (5): pagopa-guida, garanzie-consumo, recesso-acquisti, isa-check, tirocinio-guida.
+- Batch 2-IT, jobs-2 (3): busta-paga-leggi, naspi-guida, tirocinio-guida.
+  Casa (5): isee-guida, bollette-energia, bonus-casa, sanita-digitale, affitto-check.
+- Batch 2-IT, PA/tutele (4): pagopa-guida, garanzie-consumo, recesso-acquisti, isa-check.
 - Batch 3-IT, fisco/impresa (6): nota-credito, contributi-inps, agevolazioni-assunzioni,
   ditta-vs-srl, camera-commercio, durc.
 - Batch 3-IT, lavoro (4): maternita-congedi, malattia-certificato, apprendistato, contratto-tipi.
@@ -101,8 +101,10 @@
   matrimonio-estero, salute-mentale-info, cure-termali.
 - Batch 12-IT, scuola/fine-vita/soldi (5): scuola-privata-paritaria, universita-estero-laurea,
   servizi-cimiteriali-funebri, fido-scoperto, assegni-bancari.
-Details in catalog/skills.json. Archived generic skills in archive/ (not installed).
-Pinned third-party skills in vendors/ (opt-in via --source vendors, see vendors/README.md).
+Details in catalog/skills.json (v1.14.0, 271 entries: 247 ours + 24 vendors).
+Archived generic skills in archive/ (not installed).
+Pinned third-party skills in vendors/ (24, opt-in via --source vendors, see vendors/README.md):
+anthropics-skills (10), mattpocock-skills (6), superpowers (8) — detail in docs/CATALOG.md.
 
 ## Install
 

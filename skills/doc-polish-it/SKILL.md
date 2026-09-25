@@ -33,7 +33,7 @@ Improves technical documentation without distorting it. Sober tone, correct code
 - Single H1, H2/H3 hierarchy without jumps.
 - Sentences <25 words, active voice, imperative for instructions.
 - Code blocks always with language (`bash`, `python`, ...).
-- Paths/files in backticks, e.g. `skills/smart-commit/SKILL.md`.
+- Paths/files in backticks, e.g. `skills/invoice-it/SKILL.md`.
 - For IT→EN translation: keep structure and code unchanged, translate prose only.
 - Broken links or `<your-username>` placeholders -> flag, do not invent URLs.
 

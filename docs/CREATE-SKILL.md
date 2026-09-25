@@ -25,7 +25,9 @@ cp -r templates/skill-starter skills/my-skill
 - [ ] No secrets, no personal absolute paths
 - [ ] `python scripts/validate.py --skill my-skill` green
 - [ ] Install test: `python scripts/install.py --skill my-skill --dest ./tmp-test --all`
-- [ ] Add row to `README.md`, `catalog/skills.json`, `llms.txt`
+- [ ] Add row to `catalog/skills.json`, `llms.txt`, `.claude-plugin/plugin.json`,
+  `docs/COMPATIBILITY.md`, and regenerate `docs/CATALOG.md`
+  (`python scripts/build-catalog.py`)
 
 ## 4. Multi-agent fields
 
