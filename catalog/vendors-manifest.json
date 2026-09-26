@@ -1,6 +1,6 @@
 {
   "version": "1.14.0",
-  "updated": "2026-09-25",
+  "updated": "2026-09-26",
   "vendors": [
     {
       "name": "anthropics/skills",
@@ -38,7 +38,7 @@
       "url": "https://github.com/obra/superpowers",
       "license": "MIT (vendors/third-party/LICENSE-superpowers.txt)",
       "local": "vendors/superpowers",
-      "pinned_commit": "5bf4e78011075bcfc0dc295f0724994cd123ee71",
+      "pinned_commit": "8ca22dba9a94f28898bbce59f2537ff4d87c747d",
       "skills": ["brainstorming", "executing-plans", "requesting-code-review", "systematic-debugging", "test-driven-development", "using-git-worktrees", "verification-before-completion", "writing-plans"],
       "install": "python scripts/install.py --skill <name> --source vendors"
     },

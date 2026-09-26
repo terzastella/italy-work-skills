@@ -46,7 +46,7 @@ Files under `vendors/` are never hand-edited.
   License: `vendors/third-party/LICENSE-mattpocock.txt`.
 * `vendors/superpowers/` — 8 skills from `skills/` of
   https://github.com/obra/superpowers at commit
-  `5bf4e78011075bcfc0dc295f0724994cd123ee71`, MIT.
+  `8ca22dba9a94f28898bbce59f2537ff4d87c747d`, MIT.
   License: `vendors/third-party/LICENSE-superpowers.txt`.
 
 When adding references to new third-party skills, add a row in
