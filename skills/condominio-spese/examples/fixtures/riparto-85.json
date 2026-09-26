@@ -1,0 +1,4 @@
+{
+  "input": {"totale": 48000, "millesimi": 85, "addebitato": 4500},
+  "expected": {"atteso": 4080.0, "gap": 420.0}
+}

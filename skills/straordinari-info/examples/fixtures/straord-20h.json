@@ -1,0 +1,4 @@
+{
+  "input": {"ore": 20, "paga-oraria": 12, "maggiorazione": 25},
+  "expected": {"base": 240.0, "maggiorazione": 60.0, "totale": 300.0}
+}

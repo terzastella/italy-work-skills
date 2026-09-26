@@ -3,7 +3,7 @@ name: congedo-matrimoniale
 description: Explain wedding leave with length and papers. Use when asked congedo matrimoniale, wedding leave Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[contract]"
 user-invocable: true
@@ -28,7 +28,7 @@ Wedding leave decoded: paid days, papers, timing.
 
 ## Rules
 
-- Days only with CCNL cited; never generic "2 weeks" as law.
+- Days only with CCNL cited (durations year-stated); never generic "2 weeks" as law.
 - Timing windows (before/after wedding) per contract, stated.
 - No advice beyond procedure.
 

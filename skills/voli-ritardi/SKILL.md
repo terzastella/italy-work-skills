@@ -3,7 +3,7 @@ name: voli-ritardi
 description: Claim EU261 flight compensation with bands and letters. Use when asked volo ritardo, flight delay compensation, EU261 Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[flight]"
 user-invocable: true
@@ -28,7 +28,7 @@ Delayed flight money: bands, exceptions, claim letter that works.
 
 ## Rules
 
-- Bands with year; amounts fixed by regulation but cite it.
+- Bands year-stated (EU261 amounts fixed by regulation — cite it); verify current.
 - Extraordinary circumstances: airline must prove — state the burden rule.
 - No claim-fee services pushed: DIY letter first.
 

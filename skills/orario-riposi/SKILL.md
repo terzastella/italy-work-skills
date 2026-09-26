@@ -3,7 +3,7 @@ name: orario-riposi
 description: Explain work hours with daily and weekly rest. Use when asked orario lavoro, riposi settimanali Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[contract]"
 user-invocable: true
@@ -29,6 +29,7 @@ Hours with hard limits: 48h average, 11h daily rest, 24h weekly rest.
 
 ## Rules
 
+- Limits year-stated (48h average, 11h daily, 24h weekly as current law); systematic breach documented + referral.
 - Averages over reference periods: single-week spikes read correctly.
 - Rest is a right, not a favor: systematic violations flagged + referral.
 - Dirigenti: separate track, do not generalize.

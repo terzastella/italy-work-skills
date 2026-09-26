@@ -1,0 +1,4 @@
+{
+  "input": {"capitale": 10000, "lordo": 2.5, "bollo": 10, "year": 2026},
+  "expected": {"netto": 208.75}
+}

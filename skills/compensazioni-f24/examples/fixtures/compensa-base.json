@@ -1,0 +1,4 @@
+{
+  "input": {"crediti": 2000, "debiti": 1500, "soglia-visto": 5000, "year": 2026},
+  "expected": {"compensato": 1500.0, "residuo_credito": 500.0, "residuo_debito": 0.0, "visto_necessario": false}
+}

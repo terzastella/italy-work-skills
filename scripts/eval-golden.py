@@ -73,6 +73,47 @@ def argv(skill_dir, script, inp):
     elif script == "riscatto.py":
         a += ["--anni", str(inp["anni"]), "--tariffa", str(inp["tariffa"]),
               "--year", str(inp["year"])]
+    elif script == "ravvedimento.py":
+        a += ["--imposta", str(inp["imposta"]), "--giorni", str(inp["giorni"]),
+              "--sanzione-pct", str(inp["sanzione-pct"]), "--tasso-legale", str(inp["tasso-legale"]),
+              "--year", str(inp["year"])]
+    elif script == "compensa.py":
+        a += ["--crediti", str(inp["crediti"]), "--debiti", str(inp["debiti"]),
+              "--soglia-visto", str(inp["soglia-visto"]), "--year", str(inp["year"])]
+    elif script == "detrai19.py":
+        a += ["--spese", str(inp["spese"]), "--franchigia", str(inp["franchigia"]),
+              "--year", str(inp["year"])]
+    elif script == "pluscasa.py":
+        a += ["--acquisto", str(inp["acquisto"]), "--vendita", str(inp["vendita"]),
+              "--gain", str(inp["gain"]), "--sostitutiva", str(inp.get("sostitutiva", 26)),
+              "--year", str(inp["year"])]
+        if "marginale" in inp:
+            a += ["--marginale", str(inp["marginale"])]
+    elif script == "rateizza.py":
+        a += ["--debito", str(inp["debito"]), "--n-rate", str(inp["n-rate"]),
+              "--interesse", str(inp["interesse"]), "--year", str(inp["year"])]
+    elif script == "straord.py":
+        a += ["--ore", str(inp["ore"]), "--paga-oraria", str(inp["paga-oraria"]),
+              "--maggiorazione", str(inp["maggiorazione"])]
+    elif script == "occasionali.py":
+        a += ["--lordo", str(inp["lordo"]), "--ritenuta", str(inp.get("ritenuta", 20)),
+              "--franchigia-inps", str(inp["franchigia-inps"]), "--year", str(inp["year"])]
+    elif script == "riparto.py":
+        a += ["--totale", str(inp["totale"]), "--millesimi", str(inp["millesimi"]),
+              "--addebitato", str(inp["addebitato"])]
+    elif script == "mutuo.py":
+        a += ["--capitale", str(inp["capitale"]), "--anni", str(inp["anni"]),
+              "--taeg-a", str(inp["taeg-a"]), "--tan-b", str(inp["tan-b"]),
+              "--shock", str(inp.get("shock", 2.0))]
+    elif script == "deposito.py":
+        a += ["--capitale", str(inp["capitale"]), "--lordo", str(inp["lordo"]),
+              "--bollo", str(inp.get("bollo", 0)), "--year", str(inp["year"])]
+    elif script == "revolving.py":
+        a += ["--saldo", str(inp["saldo"]), "--taeg", str(inp["taeg"]),
+              "--rata", str(inp["rata"])]
+    elif script == "bpf.py":
+        a += ["--capitale", str(inp["capitale"]), "--lordo", str(inp["lordo"]),
+              "--bollo", str(inp.get("bollo", 0)), "--year", str(inp["year"])]
     elif script == "fasce.py":
         a += ["--isee", str(inp["isee"]), "--minori", str(inp["minori"]),
               "--tabella", rel(inp["tabella"]), "--year", str(inp["year"])]

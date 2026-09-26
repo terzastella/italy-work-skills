@@ -3,8 +3,8 @@ name: buoni-fruttiferi
 description: Explain postal savings bonds with net returns. Use when asked buoni fruttiferi, postal bonds Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
-allowed-tools: Read Write
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+allowed-tools: Read Write Bash
 argument-hint: "[horizon]"
 user-invocable: true
 disable-model-invocation: false
@@ -31,6 +31,11 @@ Postal bonds decoded: types, net returns, early exit, guarantee.
 - Rates with year and series; old series differ — identify first.
 - Net as verdict number, never gross.
 - No "better than X" verdicts: math + questions only.
+
+## Scripts
+
+- `scripts/bpf.py` — net math (series rate and duty are inputs).
+  Fixtures with expected outputs in `examples/fixtures/`. Series first, always.
 
 ## Examples
 

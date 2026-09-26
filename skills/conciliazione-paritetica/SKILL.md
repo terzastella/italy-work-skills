@@ -3,7 +3,7 @@ name: conciliazione-paritetica
 description: Explain joint conciliation with consumer associations. Use when asked conciliazione paritetica, joint conciliation Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[dispute]"
 user-invocable: true
@@ -21,7 +21,7 @@ Joint settlement with the company + consumer association: fast, free-ish, bindin
 
 ## Workflow
 
-1. Sectors with active protocols (telecom, energy, transport, banks — verify live list).
+1. Sectors with active protocols (telecom, energy, transport, banks — verify live list, year-stated).
 2. Prior complaint to company first (mandatory order) via association.
 3. Hearing: company + association reps, proposal, acceptance = binding deal.
 4. Output: eligibility + steps + association contact logic (no invented addresses).

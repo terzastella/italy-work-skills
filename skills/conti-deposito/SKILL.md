@@ -3,8 +3,8 @@ name: conti-deposito
 description: Compare deposit accounts with net rates and guarantee. Use when asked conto deposito, deposit account Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
-allowed-tools: Read Write
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+allowed-tools: Read Write Bash
 argument-hint: "[amount/horizon]"
 user-invocable: true
 disable-model-invocation: false
@@ -31,6 +31,11 @@ Parked cash compared: tied vs free, gross vs net, guarantee cap.
 - Net, never gross, as verdict number.
 - Promo rates: duration + post-promo rate checked (the classic trap).
 - No bank endorsement; no investment pushes.
+
+## Scripts
+
+- `scripts/deposito.py` — net math (rate and duty are inputs).
+  Fixtures with expected outputs in `examples/fixtures/`. Net as verdict, never gross.
 
 ## Examples
 
