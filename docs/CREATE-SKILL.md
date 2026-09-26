@@ -41,6 +41,6 @@ Grok only — others ignore them without errors.
   Frontmatter `metadata lang: "en"`.
 - Italian survives only as **domain artifact**: invoice bodies, email bodies,
   formulas, VAT rates, AdE/INPS references, legal wording.
-- Only `README.md` stays in Italian. Everything else (docs, catalog, scripts) in English.
+- Only `README-IT.md` stays in Italian (`README.md` is the English showcase). Everything else (docs, catalog, scripts) in English.
 - Rationale: agents trigger and marketplaces work in English; Italian users are
   served through Italian outputs, not Italian instructions.

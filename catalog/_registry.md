@@ -1,7 +1,7 @@
 # Skill name registry v3 - Italy restart (2026-09-23) + Batch 12 (2026-09-25)
 
 Rule: one name once. Folder names frozen (`-it` = Italian origin or
-Italy-specific domain). All content in English. Only `README.md` in Italian.
+Italy-specific domain). All content in English. Only `README-IT.md` in Italian.
 
 ## Restart snapshot, historical (9) - 2026-09-23
 

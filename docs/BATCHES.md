@@ -1,6 +1,6 @@
 # Production batches
 
-All skill content in English. Only `README.md` stays in Italian.
+All skill content in English. Only `README-IT.md` stays in Italian (`README.md` is the English showcase).
 
 ## RESTART 2026-09-23 - Italian Work Skills Hub
 
