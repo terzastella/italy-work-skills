@@ -80,6 +80,31 @@ def validate_skill(skill_dir):
         errors.append("frontmatter.description missing (required)")
     elif len(desc) > MAX_DESC:
         errors.append(f"description too long ({len(desc)} > {MAX_DESC})")
+    if not fm.get("license", ""):
+        (errors if strict else warnings).append(
+            "frontmatter.license missing" if strict else "WARN: frontmatter.license missing (vendor file)")
+    compat = fm.get("compatibility", "")
+    if compat and len(compat) > 500:
+        (errors if strict else warnings).append(
+            f"compatibility too long ({len(compat)} > 500)" if strict else "WARN: compatibility too long (vendor file)")
+    meta = fm.get("metadata", "")
+    if not meta:
+        (errors if strict else warnings).append(
+            "frontmatter.metadata missing (author, version, lang)" if strict else "WARN: frontmatter.metadata missing (vendor file)")
+    if not fm.get("allowed-tools", ""):
+        (errors if strict else warnings).append(
+            "frontmatter.allowed-tools missing" if strict else "WARN: frontmatter.allowed-tools missing (vendor file)")
+    for section in ("## Workflow", "## Rules", "## Edge cases"):
+        if section.lower() not in body.lower():
+            (errors if strict else warnings).append(
+                f"body missing {section} section" if strict else f"WARN: body missing {section} (vendor file)")
+    if strict and Path(skill_dir).name not in ("hello-agent", "skill-starter"):
+        refs = [p for p in Path(skill_dir).glob("references/*") if p.is_file()]
+        exs = [p for p in Path(skill_dir).glob("examples/*") if p.is_file()]
+        if not refs:
+            errors.append("references/ empty or missing, add domain details")
+        if not exs:
+            errors.append("examples/ empty or missing, add good/bad cases")
     if len(body.strip()) < 20:
         errors.append("body too short, add instructions and examples")
     if len(body.splitlines()) > 500:

@@ -18,5 +18,20 @@ jobs:
         run: python scripts/security-check.py
       - name: Validate JSON indexes
         run: python -c "import json; json.load(open('catalog/skills.json', encoding='utf-8')); json.load(open('.claude-plugin/plugin.json', encoding='utf-8')); print('JSON OK')"
+      - name: Index coherence (skills.json <-> plugin.json <-> docs)
+        run: python scripts/check-indexes.py
+      - name: Catalog check (no unclassified skills)
+        run: python scripts/build-catalog.py --check
       - name: Install dry-run (all skills, all agents)
         run: python scripts/install.py --all --dest ./tmp-test --dry-run
+
+  vendors-drift:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Vendor drift report (non-blocking, network)
+        run: python scripts/sync-vendors.py --check
