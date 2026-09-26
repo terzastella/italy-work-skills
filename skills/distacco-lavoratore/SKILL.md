@@ -3,7 +3,7 @@ name: distacco-lavoratore
 description: Explain secondments with A1 and allowance rules. Use when asked distacco lavoratore, secondment Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -29,7 +29,7 @@ Secondments decoded: genuine requirements, A1 abroad, allowances.
 ## Rules
 
 - Fake secondment (somministrazione mascherata) flagged + referral, plainly.
-- A1 before departure: stated as must, not tip.
+- A1 before departure: stated as must, not tip (forms year-stated, verify current).
 - No "paper-only" arrangements advised, ever.
 
 ## Examples

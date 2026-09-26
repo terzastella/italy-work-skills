@@ -3,7 +3,7 @@ name: treni-diritti
 description: Explain train delay refunds with bands. Use when asked treno ritardo, train refund Italy, Trenitalia rimborso.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[trip]"
 user-invocable: true

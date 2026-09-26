@@ -3,7 +3,7 @@ name: nota-credito
 description: Issue Italian credit notes via SdI with correct references. Use when asked nota di credito, credit note Italy, storno fattura.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[original invoice]"
 user-invocable: true
@@ -29,7 +29,7 @@ Fix invoicing errors the legal way: credit notes referencing the original, via S
 ## Rules
 
 - Never modify an SdI-transmitted file: credit note only.
-- Original reference always present (number + date).
+- Original reference always present (number + date, year-stated).
 - Forfettari: no VAT involved — state it, simpler flow.
 
 ## Examples

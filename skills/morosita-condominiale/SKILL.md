@@ -3,7 +3,7 @@ name: morosita-condominiale
 description: Handle condo arrears with recovery paths. Use when asked morosità condominiali, condo arrears Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -30,7 +30,7 @@ Arrears recovered in order: reminder, formal notice, injunction — no shortcuts
 
 - Service cuts as pressure: limits stated (essential services protected).
 - No shaming lists: privacy + dignity, stated plainly.
-- Amounts from statements only, never estimated debts.
+- Amounts from statements only, never estimated debts (figures year-stated).
 
 ## Examples
 
