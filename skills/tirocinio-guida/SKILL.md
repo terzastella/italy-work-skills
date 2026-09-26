@@ -3,7 +3,7 @@ name: tirocinio-guida
 description: Explain Italian internships with rights and allowances. Use when asked tirocinio, stage, internship Italy, extracurriculare.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -30,7 +30,7 @@ Internships without exploitation: types, allowance floor, rights, red flags.
 ## Rules
 
 - Region always asked: national framework + regional rules.
-- Allowance floor with region + year, never a single national number.
+- Allowance floor with region + year (year-stated), never a single national number.
 - Abuse patterns named plainly + reporting paths (ispettorato, unions).
 
 ## Examples

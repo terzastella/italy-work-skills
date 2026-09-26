@@ -3,7 +3,7 @@ name: recesso-acquisti
 description: Guide 14-day withdrawal for distance and off-premises purchases. Use when asked recesso, ripensamento, return online purchase Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[purchase]"
 user-invocable: true
@@ -30,7 +30,7 @@ Change your mind right: 14 days, exceptions, refund path.
 
 - In-store regret ≠ right: say it first when relevant.
 - Exceptions checked one by one against the purchase, never assumed.
-- Custom/sealed-opened cases decided carefully with the list.
+- Custom/sealed-opened cases decided carefully with the list (rules year-stated).
 
 ## Examples
 

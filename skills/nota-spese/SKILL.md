@@ -3,7 +3,7 @@ name: nota-spese
 description: Build Italian expense reports with receipts and totals. Use when asked nota spese, expense report, rimborsi, trasferta.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[trip/period]"
 user-invocable: true
@@ -29,7 +29,7 @@ Expense reports that get reimbursed: every euro with receipt, totals checked.
 ## Rules
 
 - No receipt → flagged, never silently accepted (policy decides, not you).
-- Kilometric refunds: rate + km stated by user, math shown.
+- Kilometric refunds: rate + km stated by user, math shown (ACI tables year-stated where used).
 - Per-diem vs actual: follow stated company policy, ask if unknown.
 
 ## Examples

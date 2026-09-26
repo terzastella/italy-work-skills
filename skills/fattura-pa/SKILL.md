@@ -3,7 +3,7 @@ name: fattura-pa
 description: Guide B2G invoices to Italian public bodies with CIG/CUP. Use when asked fattura PA, B2G invoice, CIG CUP, invoice public administration Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[contract data]"
 user-invocable: true

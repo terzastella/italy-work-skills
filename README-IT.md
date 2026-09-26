@@ -181,6 +181,7 @@ Stato: **v1.16 — 254 skill nostre + 24 terze pinnate = 278 entries** (dettagli
 - [x] Golden-2: altre 20 approfondite + 4 script neutri (40 guided, 32/32 fixture)
 - [x] Golden-3: altre 20 approfondite + 12 script neutri (65 guided, 48/48 fixture)
 - [x] Golden-4: altre 20 approfondite + 2 script neutri (85 guided, 51/51 fixture)
+- [x] Golden-5: altre 20 approfondite, solo testuali (105 guided)
 - [x] Fiducia-1: evals deterministici (23/23) + audits 36 delicate + piano test 5×3
 - [x] Superpowers 1-2: harness behavior, hooks, version-bump, manifest multi-harness
 - [x] Percorsi-1.16: 5 percorsi guidati (P.IVA, domestica, casa, lutto, busta)

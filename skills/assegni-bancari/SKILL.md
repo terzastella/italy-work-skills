@@ -3,7 +3,7 @@ name: assegni-bancari
 description: Explain checks with protest and deadlines. Use when asked assegno, check Italy, protesto.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -29,7 +29,7 @@ Checks decoded: filling, cashing, protest for uncovered ones.
 ## Rules
 
 - Post-dating games: explained as risky, never advised.
-- Bounced-check criminal edge flagged + referral, urgent tone where due.
+- Bounced-check criminal edge flagged + referral, urgent tone where due (rules year-stated).
 - Circolari vs bancari differences stated.
 
 ## Examples

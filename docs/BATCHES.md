@@ -36,6 +36,18 @@ Batch gate: `validate.py` 279 OK (278 entries + template),
 `security-check.py` clean, `install.py --all` dry-run ok (254 ours × 9 agents),
 `eval-behavior.py` OK (25 guided: 20 golden + 5 percorsi).
 
+## Golden-5 - depth wave five ✅ 2026-09-25 (no version bump)
+
+20 more skills to 0.2 with Good/Bad examples, year markers, out-links:
+fisco/impresa (nota-credito, nota-spese, fattura-pa, camera-commercio,
+startup-innovativa), lavoro (tirocinio-guida, agenti-rappresentanti,
+buoni-pasto, distacco-lavoratore), soldi/casa (fido-scoperto, assegni-bancari,
+bonifici-istantanei, banche-reclami, morosita-condominiale,
+assemblea-condominiale), PA/tutele (anagrafe-certificati, carta-identita-cie,
+garanzie-consumo, recesso-acquisti, treni-diritti). Text-only wave (no new
+scripts — remaining neutral calculators honestly exhausted).
+Behavior guards extended to 105 guided.
+
 ## Golden-4 - depth wave four ✅ 2026-09-25 (no version bump)
 
 20 more skills to 0.2 with Good/Bad examples, year markers, out-links:

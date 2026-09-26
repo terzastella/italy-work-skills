@@ -1,6 +1,6 @@
 # nota-spese cases
 
-## Milan trip
+## Good: Milan trip
 
 Input: train €86 (ticket), hotel €120 (invoice), 2 meals €45 (1 receipt missing) [sample data].
 
@@ -10,3 +10,9 @@ Output:
 Total: €251 | To fix: 1 missing receipt (lunch 13/09)
 ```
 Report + fix list, nothing silently accepted.
+
+## Bad: missing receipt accepted
+
+Input: "tanto sono 20 euro, mettili lo stesso" [sample data].
+
+Output: `Nothing silently accepted — missing receipt stays flagged until fixed, amounts never invented.`

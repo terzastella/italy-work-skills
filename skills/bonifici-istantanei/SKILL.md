@@ -3,7 +3,7 @@ name: bonifici-istantanei
 description: Explain instant transfers with costs and errors. Use when asked bonifico istantaneo, instant transfer Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -29,7 +29,7 @@ Seconds, not days: instant vs ordinary, costs, wrong-IBAN recovery.
 ## Rules
 
 - Verify-beneficiary services where offered: use them, stated as habit.
-- Instant = irrevocable in practice: think-first rule stressed.
+- Instant = irrevocable in practice: think-first rule stressed (limits and fees year-stated).
 - No bank endorsement.
 
 ## Examples

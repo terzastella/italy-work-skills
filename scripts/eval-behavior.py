@@ -45,7 +45,14 @@ GOLDEN = ["imu-calcolo", "irpef-scaglioni", "acconti-calcolo", "regime-forfettar
           "prima-casa-agevolazioni", "spese-notarili", "usufrutto-nuda",
           "affitto-breve", "utenze-voltura", "asilo-nido-bonus",
           "scuola-iscrizioni", "ticket-esenzioni", "passaporto-procedura",
-          "residenza-cambio"]
+          "residenza-cambio",
+          "nota-credito", "nota-spese", "fattura-pa", "camera-commercio",
+          "startup-innovativa", "tirocinio-guida", "agenti-rappresentanti",
+          "buoni-pasto", "distacco-lavoratore", "fido-scoperto",
+          "assegni-bancari", "bonifici-istantanei", "banche-reclami",
+          "morosita-condominiale", "assemblea-condominiale",
+          "anagrafe-certificati", "carta-identita-cie", "garanzie-consumo",
+          "recesso-acquisti", "treni-diritti"]
 
 PERCORSI = ["percorso-apri-partita-iva", "percorso-assunzione-domestica",
             "percorso-casa-compravendita", "percorso-lutto",
