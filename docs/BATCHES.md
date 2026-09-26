@@ -7,6 +7,15 @@ All skill content in English. Only `README.md` stays in Italian.
 Generic batches below are archived (`archive/`, 35 skills, frozen).
 Active: 249 skills in `skills/` + 24 pinned vendor skills in `vendors/`.
 
+## Fiducia-1 - evals + audits + test plan ✅ 2026-09-25 (no content change)
+
+- `scripts/eval-golden.py`: deterministic runner over all Golden-1 fixtures
+  (23/23 green, CI step). No LLM, no network.
+- `docs/AUDITS.md`: self-certification sheets for the 36 sensitive skills
+  (does / refuses / refers). Scripts ban on delicate verified: 0/36 ship code.
+- `docs/TEST-PLAN.md`: 5 skills × 3 agents protocol with install commands
+  and per-cell smoke prompts. Account-side execution pending (yours).
+
 ## Golden-1 - depth program ✅ 2026-09-25 (20 skills deepened, no version bump)
 
 20 most-used skills deepened in place (`metadata.version` 0.1→0.2): expanded

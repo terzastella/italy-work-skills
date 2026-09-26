@@ -1,0 +1,134 @@
+#!/usr/bin/env python3
+"""Deterministic eval for Golden-1 neutral scripts (fiducia phase).
+
+Runs every script against its committed fixtures in examples/fixtures/
+and compares the declared expected outputs. No LLM, no network.
+Exit 2 on any mismatch, 0 when all green. CI runs this.
+
+Usage:
+  python scripts/eval-golden.py
+"""
+import json
+import subprocess
+import sys
+from pathlib import Path
+
+REPO = Path(__file__).resolve().parents[1]
+TOL = 0.011
+
+
+def argv(skill_dir, script, inp):
+    exe = str(skill_dir / "scripts" / script)
+    a = [sys.executable, exe]
+    rel = lambda p: str(skill_dir / p)
+    if script == "imu.py":
+        a += ["--rendita", str(inp["rendita"]), "--moltiplicatore", str(inp["moltiplicatore"]),
+              "--aliquota-per-mille", str(inp["aliquota-per-mille"]),
+              "--detrazione", str(inp.get("detrazione", 0)), "--mesi", str(inp.get("mesi", 12)),
+              "--year", str(inp["year"])]
+    elif script == "irpef.py":
+        a += ["--reddito", str(inp["reddito"]), "--scaglioni", rel(inp["scaglioni"]),
+              "--year", str(inp["year"])]
+    elif script == "acconti.py":
+        a += ["--imposta", str(inp["imposta"]), "--split", str(inp["split"]),
+              "--year", str(inp["year"])]
+        if "previsione" in inp:
+            a += ["--previsione", str(inp["previsione"])]
+    elif script == "forfettario.py":
+        if "fatturato" in inp:
+            a += ["--fatturato", str(inp["fatturato"]), "--coeff", str(inp["coeff"]),
+                  "--contributi", str(inp.get("contributi", 0)),
+                  "--aliquota", str(inp.get("aliquota", 15)), "--year", str(inp["year"])]
+        else:
+            a += ["--soglia-check", str(inp["soglia-check"]), "--year", str(inp["year"])]
+    elif script == "totals.py":
+        a += ["--items", rel(inp)]  # fixture input is the items path itself
+    elif script == "payslip_check.py":
+        a += ["--lordo", str(inp["lordo"]), "--inps", str(inp["inps"]),
+              "--irpef", str(inp["irpef"]), "--detrazioni", str(inp.get("detrazioni", 0)),
+              "--netto", str(inp["netto"])]
+    elif script == "ratei.py":
+        a += ["--spettanza", str(inp["spettanza"]), "--mese", str(inp["mese"]),
+              "--fruiti", str(inp.get("fruiti", 0))]
+        if "part-time" in inp:
+            a += ["--part-time", str(inp["part-time"])]
+    elif script == "rivalutazione.py":
+        a += ["--accantonato", str(inp["accantonato"]), "--inflazione", str(inp["inflazione"]),
+              "--year", str(inp["year"])]
+    elif script == "fasce.py":
+        a += ["--isee", str(inp["isee"]), "--minori", str(inp["minori"]),
+              "--tabella", rel(inp["tabella"]), "--year", str(inp["year"])]
+    elif script == "budget.py":
+        # argparse: one --spese flag followed by all CAT:amount values
+        a = [sys.executable, exe, "--month", str(inp["month"]),
+             "--income", str(inp["income"]), "--out", "tmp-eval-budget"]
+        if inp.get("spese"):
+            a += ["--spese"] + list(inp["spese"])
+    else:
+        raise ValueError(f"unknown script {script}")
+    return a + ["--json"]
+
+
+def close_enough(got, want, path=""):
+    if isinstance(want, dict):
+        if not isinstance(got, dict):
+            return [f"{path}: expected object, got {got!r}"]
+        errs = []
+        for k, v in want.items():
+            if k not in got:
+                errs.append(f"{path}.{k}: missing in output")
+            else:
+                errs.extend(close_enough(got[k], v, f"{path}.{k}"))
+        return errs
+    if isinstance(want, (int, float)) and isinstance(got, (int, float)):
+        return [] if abs(got - want) < TOL else [f"{path}: got {got}, want {want}"]
+    return [] if got == want else [f"{path}: got {got!r}, want {want!r}"]
+
+
+def main():
+    skills_root = REPO / "skills"
+    total, failed = 0, 0
+    for skill_dir in sorted(skills_root.iterdir()):
+        scripts = skill_dir / "scripts"
+        fixtures = skill_dir / "examples" / "fixtures"
+        if not scripts.is_dir() or not fixtures.is_dir():
+            continue
+        py = sorted(scripts.glob("*.py"))
+        fx = sorted(fixtures.glob("*.json"))
+        if not py or not fx:
+            continue
+        script = py[0].name
+        for f in fx:
+            total += 1
+            data = json.loads(f.read_text(encoding="utf-8"))
+            try:
+                r = subprocess.run(argv(skill_dir, script, data["input"]),
+                                   capture_output=True, text=True, timeout=60, cwd=REPO)
+            except Exception as e:  # noqa: BLE001
+                print(f"[FAIL] {skill_dir.name}/{f.name}: runner error {e}")
+                failed += 1
+                continue
+            if r.returncode != 0:
+                print(f"[FAIL] {skill_dir.name}/{f.name}: exit {r.returncode}: {r.stderr.strip()[:200]}")
+                failed += 1
+                continue
+            try:
+                out = json.loads(r.stdout)
+            except ValueError:
+                print(f"[FAIL] {skill_dir.name}/{f.name}: not JSON output")
+                failed += 1
+                continue
+            errs = close_enough(out, data["expected"])
+            if errs:
+                print(f"[FAIL] {skill_dir.name}/{f.name}:")
+                for e in errs:
+                    print(f"  - {e}")
+                failed += 1
+            else:
+                print(f"[ok] {skill_dir.name}/{f.name}")
+    print(f"eval: {total - failed}/{total} fixtures green")
+    return 2 if failed else 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
