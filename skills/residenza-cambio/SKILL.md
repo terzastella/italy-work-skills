@@ -3,7 +3,7 @@ name: residenza-cambio
 description: Guide residence change with 45-day check and effects. Use when asked cambio residenza, move residence Italy, iscrizione anagrafica.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[move]"
 user-invocable: true
@@ -30,7 +30,7 @@ Move your residence right: declaration, 45-day check, knock-on effects.
 
 - Fictitious residence is a crime: state it plainly when relevant (e.g. "just for IMU").
 - Second homes do not get residenza benefits: say it.
-- Timelines with year; comuni vary on speed.
+- Timelines year-stated; comuni vary on speed.
 
 ## Examples
 

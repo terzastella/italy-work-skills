@@ -1,8 +1,14 @@
 # asilo-nido-bonus cases
 
-## ISEE 20k, private nido
+## Good: ISEE 20k, private nido
 
 Input: ISEE 20.000€, private nursery €500/mo [sample data].
 
 Output: band lookup (year-stated) + monthly amount + application steps +
 `receipts monthly or money stops. Verify current circular.`
+
+## Bad: receipts skipped
+
+Input: "senza ricevute mensili, tanto pagano lo stesso" [sample data].
+
+Output: `Receipts monthly or money stops — no paperwork, no bonus. Stated bluntly.`

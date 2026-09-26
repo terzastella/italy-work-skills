@@ -1,0 +1,4 @@
+{
+  "input": {"importo": 50, "soglia": 77.47, "bollo": 2, "year": 2026},
+  "expected": {"dovuta": false, "importo_bollo": 0.0}
+}

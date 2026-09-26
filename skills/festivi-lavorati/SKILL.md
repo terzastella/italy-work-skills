@@ -3,7 +3,7 @@ name: festivi-lavorati
 description: Explain holiday work pay with Sunday rules. Use when asked festivi lavorati, holiday work Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[contract]"
 user-invocable: true
@@ -28,7 +28,7 @@ Holidays worked decoded: premiums, compensatory rest, Sunday logic.
 
 ## Rules
 
-- Premiums only with CCNL cited; never generic percentages as law.
+- Premiums only with CCNL cited (durations year-stated); never generic percentages as law.
 - Soppresse paid anyway: stated (common confusion).
 - Retail/tourism openings: Sunday-work regimes flagged, not judged.
 

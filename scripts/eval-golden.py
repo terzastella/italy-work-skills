@@ -114,6 +114,12 @@ def argv(skill_dir, script, inp):
     elif script == "bpf.py":
         a += ["--capitale", str(inp["capitale"]), "--lordo", str(inp["lordo"]),
               "--bollo", str(inp.get("bollo", 0)), "--year", str(inp["year"])]
+    elif script == "contributi.py":
+        a += ["--reddito", str(inp["reddito"]), "--aliquota", str(inp["aliquota"]),
+              "--split", str(inp.get("split", "40,40,20")), "--year", str(inp["year"])]
+    elif script == "bollo.py":
+        a += ["--importo", str(inp["importo"]), "--soglia", str(inp["soglia"]),
+              "--bollo", str(inp.get("bollo", 2)), "--year", str(inp["year"])]
     elif script == "fasce.py":
         a += ["--isee", str(inp["isee"]), "--minori", str(inp["minori"]),
               "--tabella", rel(inp["tabella"]), "--year", str(inp["year"])]

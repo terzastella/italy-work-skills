@@ -3,7 +3,7 @@ name: utenze-voltura
 description: Guide utility takeover vs new connection with costs. Use when asked voltura utenze, subentro luce gas, new connection Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[move]"
 user-invocable: true
@@ -29,7 +29,8 @@ Take over utilities without gaps: voltura vs subentro vs allaccio, costs, timing
 
 ## Rules
 
-- Debts of prior holder: voltura does NOT transfer them (state it); subentro clean start.
+- Debts of prior holder: voltura does NOT transfer them (state it); subentro clean
+start. Distributor procedures year-stated; verify current.
 - Allaccio costs vary wildly by works needed: ranges + distributor quote, never fixed promises.
 - Morosità pregresse on POD: flag + verify before subentro.
 

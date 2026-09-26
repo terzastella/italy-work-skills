@@ -3,8 +3,8 @@ name: imposta-bollo
 description: Explain stamp duty with thresholds and virtual payment. Use when asked imposta di bollo, marca da bollo, stamp duty Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
-allowed-tools: Read Write
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+allowed-tools: Read Write Bash
 argument-hint: "[document]"
 user-invocable: true
 disable-model-invocation: false
@@ -21,7 +21,9 @@ Stamp duty decoded: €2 over threshold, virtual vs physical, who pays.
 
 ## Workflow
 
-1. Rule: €2 on invoices/receipts over threshold without VAT (year-stated) — who affixes/pays.
+1. Rule with the bundled script (preferred, reproducible): €2 on invoices/receipts over threshold
+   without VAT (threshold and amount are explicit year-stated inputs) — who affixes/pays:
+   `python skills/imposta-bollo/scripts/bollo.py --importo 500 --soglia 77.47 --bollo 2 --year 2026`
 2. E-invoices: virtual bollo via SdI flow (quarterly payment path).
 3. Bank statements/investment docs: periodic duty notes (year-stated).
 4. Output: duty check + payment path.
@@ -31,6 +33,11 @@ Stamp duty decoded: €2 over threshold, virtual vs physical, who pays.
 - Threshold + amount with year; they move rarely but verify.
 - Occasional receipts (see collaborazioni-occasionali): bollo line included.
 - Never advise skipping: €2 omissions compound, stated plainly.
+
+## Scripts
+
+- `scripts/bollo.py` — threshold check (threshold and amount are inputs).
+  Fixtures with expected outputs in `examples/fixtures/`. Omissions compound.
 
 ## Examples
 
