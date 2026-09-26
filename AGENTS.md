@@ -42,4 +42,7 @@ python scripts/eval-behavior.py  # if you touched Golden skills or delicate ones
 
 Update indexes: `catalog/skills.json`, `llms.txt`, `.claude-plugin/plugin.json`,
 `docs/COMPATIBILITY.md`, regenerate `docs/CATALOG.md` with
-`python scripts/build-catalog.py`. See `docs/CREATE-SKILL.md` and `CONTRIBUTING.md`.
+`python scripts/build-catalog.py` and harness manifests with
+`python scripts/build-plugins.py`. Bump versions with
+`python scripts/bump-version.py --patch|--minor|--major`.
+See `docs/CREATE-SKILL.md` and `CONTRIBUTING.md`.
