@@ -6,7 +6,7 @@
 
 > 🇮🇹 Italiano? Leggi [`README-IT.md`](README-IT.md).
 
-**249 English agent skills for Italian work** — e-invoices with VAT, formal `Lei` emails,
+**254 English agent skills for Italian work** — e-invoices with VAT, formal `Lei` emails,
 flat-rate tax math, Europass CVs, public grants — plus 24 pinned third-party skills.
 Installable on Claude, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode
 and Windsurf with one command. Spec: [Agent Skills open standard](https://agentskills.io).
@@ -57,14 +57,14 @@ where it matters. See [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md) for the philo
 
 ## Skill catalog (MIT, English)
 
-249 skills in 16 themes — full catalog in [`docs/CATALOG.md`](docs/CATALOG.md)
+254 skills in 16 themes — full catalog in [`docs/CATALOG.md`](docs/CATALOG.md)
 (generated from `catalog/skills.json`, do not edit by hand):
 
-- [Fisco e tasse](docs/CATALOG.md#fisco-e-tasse) (35) · [Lavoro](docs/CATALOG.md#lavoro) (44) · [Casa](docs/CATALOG.md#casa) (25)
-- [PA e documenti](docs/CATALOG.md#pa-e-documenti) (19) · [Impresa](docs/CATALOG.md#impresa) (21) · [Salute](docs/CATALOG.md#salute) (20)
+- [Fisco e tasse](docs/CATALOG.md#fisco-e-tasse) (35) · [Lavoro](docs/CATALOG.md#lavoro) (46) · [Casa](docs/CATALOG.md#casa) (26)
+- [PA e documenti](docs/CATALOG.md#pa-e-documenti) (19) · [Impresa](docs/CATALOG.md#impresa) (22) · [Salute](docs/CATALOG.md#salute) (20)
 - [Soldi e banche](docs/CATALOG.md#soldi-e-banche) (17) · [Trasporti e viaggi](docs/CATALOG.md#trasporti-e-viaggi) (14) · [Famiglia](docs/CATALOG.md#famiglia) (14)
 - [Scuola e giovani](docs/CATALOG.md#scuola-e-giovani) (10) · [Tutele e consumi](docs/CATALOG.md#tutele-e-consumi) (7) · [Giustizia](docs/CATALOG.md#giustizia) (6)
-- [Successioni e donazioni](docs/CATALOG.md#successioni-e-donazioni) (7) · [Pensioni](docs/CATALOG.md#pensioni) (4) · [Scrittura e contenuti](docs/CATALOG.md#scrittura-e-contenuti) (4) · [Tooling](docs/CATALOG.md#tooling) (2)
+- [Successioni e donazioni](docs/CATALOG.md#successioni-e-donazioni) (8) · [Pensioni](docs/CATALOG.md#pensioni) (4) · [Scrittura e contenuti](docs/CATALOG.md#scrittura-e-contenuti) (4) · [Tooling](docs/CATALOG.md#tooling) (2)
 
 ### Featured
 
@@ -102,7 +102,7 @@ no-copy guides (Codex/Grok have no public repos). Licenses: `vendors/README.md`,
 ```
 ai-skills/
   README.md (this file) + README-IT.md + LICENSE + llms.txt
-  skills/                    # SOURCE OF TRUTH: 249 originals (MIT)
+  skills/                    # SOURCE OF TRUTH: 254 originals (MIT)
   archive/                   # frozen pre-restart generics (not installed)
   vendors/                   # 24 pinned third-party (never hand-edit)
   templates/skill-starter/   # new-skill template
@@ -133,9 +133,11 @@ Full guide: `docs/CREATE-SKILL.md`. For Italy skills: official sources + profess
 
 ## Roadmap
 
-Status: **v1.15 — 249 ours + 24 pinned third-party = 273 entries** (batches in `docs/BATCHES.md`).
+Status: **v1.16 — 254 ours + 24 pinned third-party = 278 entries** (batches in `docs/BATCHES.md`).
 
 - [x] Restart 1.0 → Batch 12-IT + deferred closed + foundations (SemVer tags, governance, hardened CI)
 - [x] Golden-1: 20 skills deepened + 10 neutral scripts with fixtures + deterministic evals
+- [x] Fiducia-1: evals, 36 sensitive audits, 5×3 test plan (account runs pending)
+- [x] Percorsi-1.16: 5 guided paths (open VAT number, domestic hire, home buy, bereavement, payslip audit)
 - [ ] Real-agent tests on Claude/Codex/Grok (`docs/TEST-PLAN.md` ready, badges to follow)
 - [ ] Public repo + skills.sh/marketplace submit (the finish line — then maintenance only)

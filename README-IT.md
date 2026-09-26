@@ -66,14 +66,14 @@ Destinazioni:
 
 ## Catalogo skill (MIT, in inglese)
 
-249 skill organizzate in 16 temi — catalogo completo in [`docs/CATALOG.md`](docs/CATALOG.md)
+254 skill organizzate in 16 temi — catalogo completo in [`docs/CATALOG.md`](docs/CATALOG.md)
 (generato da `catalog/skills.json`, non modificare a mano):
 
-- [Fisco e tasse](docs/CATALOG.md#fisco-e-tasse) (35) · [Lavoro](docs/CATALOG.md#lavoro) (44) · [Casa](docs/CATALOG.md#casa) (25)
-- [PA e documenti](docs/CATALOG.md#pa-e-documenti) (19) · [Impresa](docs/CATALOG.md#impresa) (21) · [Salute](docs/CATALOG.md#salute) (20)
+- [Fisco e tasse](docs/CATALOG.md#fisco-e-tasse) (35) · [Lavoro](docs/CATALOG.md#lavoro) (46) · [Casa](docs/CATALOG.md#casa) (26)
+- [PA e documenti](docs/CATALOG.md#pa-e-documenti) (19) · [Impresa](docs/CATALOG.md#impresa) (22) · [Salute](docs/CATALOG.md#salute) (20)
 - [Soldi e banche](docs/CATALOG.md#soldi-e-banche) (17) · [Trasporti e viaggi](docs/CATALOG.md#trasporti-e-viaggi) (14) · [Famiglia](docs/CATALOG.md#famiglia) (14)
 - [Scuola e giovani](docs/CATALOG.md#scuola-e-giovani) (10) · [Tutele e consumi](docs/CATALOG.md#tutele-e-consumi) (7) · [Giustizia](docs/CATALOG.md#giustizia) (6)
-- [Successioni e donazioni](docs/CATALOG.md#successioni-e-donazioni) (7) · [Pensioni](docs/CATALOG.md#pensioni) (4) · [Scrittura e contenuti](docs/CATALOG.md#scrittura-e-contenuti) (4) · [Tooling](docs/CATALOG.md#tooling) (2)
+- [Successioni e donazioni](docs/CATALOG.md#successioni-e-donazioni) (8) · [Pensioni](docs/CATALOG.md#pensioni) (4) · [Scrittura e contenuti](docs/CATALOG.md#scrittura-e-contenuti) (4) · [Tooling](docs/CATALOG.md#tooling) (2)
 
 ### In evidenza
 
@@ -121,7 +121,7 @@ Non duplichiamo codice altrui per licenza e manutenzione. Vedi `catalog/vendors-
 ```
 ai-skills/
   README.md + LICENSE + llms.txt  # root essenziale
-  skills/                    # SOURCE OF TRUTH nostre: 249 skill (9 + batch 1-12 IT + 2 rinviate)
+  skills/                    # SOURCE OF TRUTH nostre: 254 skill (9 + batch 1-12 IT + 2 rinviate + 5 percorsi)
     tooling + cuore (9) + batch1-11 IT (218, dettaglio in docs/BATCHES.md)
     batch12-IT sindacati/lavoro: sciopero-diritti/ assemblea-sindacale/ rsu-rls/
       stagionali-turismo/ videosorveglianza-lavoro/
@@ -133,6 +133,8 @@ ai-skills/
       servizi-cimiteriali-funebri/ fido-scoperto/ assegni-bancari/
     (ognuna: SKILL.md + references/ + examples/ — catalogo per temi in docs/CATALOG.md)
     integrativa-1.15 lavoro: contratto-base-check/ ferie-permessi/
+    percorsi-1.16: percorso-apri-partita-iva/ percorso-assunzione-domestica/
+      percorso-casa-compravendita/ percorso-lutto/ percorso-busta-controllo/
   archive/                   # skill generiche pre-restart (non installate)
     batch1-generic/ (17) + batch2-seo/ (18)
   vendors/                   # 24 skill terze pinnate (mai modificare a mano)
@@ -170,13 +172,15 @@ Guida completa: `docs/CREATE-SKILL.md`. Per skill Italia: aggiungi fonti ufficia
 
 ## Roadmap (repo GitHub privata, sviluppo per batch)
 
-Stato: **v1.15 — 249 skill nostre + 24 terze pinnate = 273 entries** (dettaglio batch in `docs/BATCHES.md`, changelog in `CHANGELOG.md`).
+Stato: **v1.16 — 254 skill nostre + 24 terze pinnate = 278 entries** (dettaglio batch in `docs/BATCHES.md`, changelog in `CHANGELOG.md`).
 
 - [x] Restart 1.0 → Batch 12-IT (9 + 18 + 20×11 + 24 vendors pinnate)
 - [x] Integrativa 1.15: le 2 rinviate (contratto-base-check, ferie-permessi) — debito chiuso
 - [x] Fondazioni: tag SemVer, governance, CI hardening, validatore frontmatter
 - [x] Golden-1: 20 skill approfondite + 10 script neutri con fixture (vedi `docs/BATCHES.md`)
 - [x] Fiducia-1: evals deterministici (23/23) + audits 36 delicate + piano test 5×3
+- [x] Superpowers 1-2: harness behavior, hooks, version-bump, manifest multi-harness
+- [x] Percorsi-1.16: 5 percorsi guidati (P.IVA, domestica, casa, lutto, busta)
 - [ ] Test reali sugli agenti e badge in `docs/COMPATIBILITY.md`
 - [ ] Batch 13-IT da pianificare (vedi `catalog/_registry.md`)
 - [ ] Rinviato (serve repo pubblica): submit a skills.sh / agentskills.io

@@ -1,6 +1,6 @@
 # catalog/ — machine-readable index
 
-- `skills.json` (v1.15.0, 273 entries: 249 ours + 24 vendors): source of truth for
+- `skills.json` (v1.16.0, 278 entries: 254 ours + 24 vendors): source of truth for
   `skills/` + `vendors/` (name, path, description, license, compatibility;
   vendors carry `"origin"`). English.
 - `vendors-manifest.json` (v1.14.0): pinned third-party sources (repo, commit,

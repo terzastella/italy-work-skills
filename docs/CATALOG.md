@@ -62,17 +62,18 @@
 - [mediazione-civile](../skills/mediazione-civile/SKILL.md) — Civil mediation with mandatory cases.
 - [multe-ricorso](../skills/multe-ricorso/SKILL.md) — Traffic fine appeals with terms and paths.
 
-## Successioni e donazioni (7)
+## Successioni e donazioni (8)
 
 - [donazioni-info](../skills/donazioni-info/SKILL.md) — Italian donations with notary deed and allowances.
 - [eredita-debiti](../skills/eredita-debiti/SKILL.md) — Inherited debts with accept-or-renounce paths.
 - [mantenimento-figli](../skills/mantenimento-figli/SKILL.md) — Child maintenance criteria without verdicts.
+- [percorso-lutto](../skills/percorso-lutto/SKILL.md) — Guided bereavement path, funeral to succession. Use when asked lutto cosa fare, death procedures path Italy, funerale successione passi.
 - [successioni-info](../skills/successioni-info/SKILL.md) — Italian inheritance with allowances and deadlines.
 - [testamento-biologico-dat](../skills/testamento-biologico-dat/SKILL.md) — Advance directives with forms and trustee.
 - [testamento-olografo](../skills/testamento-olografo/SKILL.md) — Holographic wills with validity rules.
 - [testamento-pubblico](../skills/testamento-pubblico/SKILL.md) — Notarial wills vs holographic with costs.
 
-## Lavoro (44)
+## Lavoro (46)
 
 - [apprendistato](../skills/apprendistato/SKILL.md) — Apprenticeships with types and protections.
 - [aspettativa-lavoro](../skills/aspettativa-lavoro/SKILL.md) — Unpaid leave with contribution effects.
@@ -102,6 +103,8 @@
 - [naspi-guida](../skills/naspi-guida/SKILL.md) — NASpI unemployment benefit requirements and math.
 - [orario-riposi](../skills/orario-riposi/SKILL.md) — Work hours with daily and weekly rest.
 - [part-time](../skills/part-time/SKILL.md) — Part-time forms with pay and conversion rules.
+- [percorso-assunzione-domestica](../skills/percorso-assunzione-domestica/SKILL.md) — Guided hiring path for domestic workers. Use when asked assumere colf badante passo passo, hire domestic worker path Italy.
+- [percorso-busta-controllo](../skills/percorso-busta-controllo/SKILL.md) — Guided payslip audit path, contract to balances. Use when asked controllare busta paga percorso, payslip audit path Italy, stipendio verifiche.
 - [periodo-prova](../skills/periodo-prova/SKILL.md) — Trial periods with duration and exit rules.
 - [permessi-studio-150](../skills/permessi-studio-150/SKILL.md) — 150-hour study leave with eligibility.
 - [reperibilita-lavoro](../skills/reperibilita-lavoro/SKILL.md) — On-call rules with pay and refusal rights.
@@ -119,7 +122,7 @@
 - [videosorveglianza-lavoro](../skills/videosorveglianza-lavoro/SKILL.md) — Explain workplace cameras with agreement rules. Use when asked videosorveglianza lavoro, workplace cameras Italy.
 - [welfare-aziendale](../skills/welfare-aziendale/SKILL.md) — Fringe benefits with thresholds and traps.
 
-## Impresa (21)
+## Impresa (22)
 
 - [agenti-rappresentanti](../skills/agenti-rappresentanti/SKILL.md) — Sales agents with Enasarco and FIRR.
 - [agevolazioni-assunzioni](../skills/agevolazioni-assunzioni/SKILL.md) — Italian hiring incentives with requirements checklist.
@@ -138,12 +141,13 @@
 - [libri-contabili](../skills/libri-contabili/SKILL.md) — Explain mandatory books with retention. Use when asked libri contabili, accounting books Italy.
 - [marchi-info](../skills/marchi-info/SKILL.md) — Trademarks vs patents with filing paths.
 - [nota-spese](../skills/nota-spese/SKILL.md) — Italian expense reports with receipts and totals.
+- [percorso-apri-partita-iva](../skills/percorso-apri-partita-iva/SKILL.md) — Guided path from idea to first invoice. Use when asked open partita IVA start to finish, avvio attività percorso, freelance from zero Italy.
 - [preventivo-it](../skills/preventivo-it/SKILL.md) — Italian quotes with items, validity and terms.
 - [sicurezza-lavoro](../skills/sicurezza-lavoro/SKILL.md) — Workplace safety duties with DVR and training.
 - [startup-innovativa](../skills/startup-innovativa/SKILL.md) — Innovative startup perks with registry rules.
 - [whistleblowing-info](../skills/whistleblowing-info/SKILL.md) — Explain reporting channels with anti-retaliation. Use when asked whistleblowing Italy.
 
-## Casa (25)
+## Casa (26)
 
 - [affitto-breve](../skills/affitto-breve/SKILL.md) — Short rentals with cedolare and CIN rules.
 - [affitto-check](../skills/affitto-check/SKILL.md) — Italian rental contracts with red flags and costs.
@@ -163,6 +167,7 @@
 - [morosita-condominiale](../skills/morosita-condominiale/SKILL.md) — Condo arrears with recovery paths.
 - [multiproprieta-diritti](../skills/multiproprieta-diritti/SKILL.md) — Explain timeshare rights with exit paths. Use when asked multiproprietà, timeshare Italy.
 - [mutuo-tassi](../skills/mutuo-tassi/SKILL.md) — Mortgages compared with TAN/TAEG and total cost.
+- [percorso-casa-compravendita](../skills/percorso-casa-compravendita/SKILL.md) — Guided home-buying path, offer to taxes. Use when asked comprare casa passo passo, buy home path Italy, mutuo to IMU.
 - [prima-casa-agevolazioni](../skills/prima-casa-agevolazioni/SKILL.md) — First-home tax breaks with residence rules.
 - [riscaldamento-contabilizzazione](../skills/riscaldamento-contabilizzazione/SKILL.md) — Heat metering splits with millesimi.
 - [spese-notarili](../skills/spese-notarili/SKILL.md) — Notary quotes with taxes vs fees split.

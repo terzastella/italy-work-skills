@@ -26,9 +26,15 @@ GOLDEN = ["imu-calcolo", "irpef-scaglioni", "acconti-calcolo", "regime-forfettar
           "email-formale-it", "pec-bozza", "cv-europass", "bandi-pmi",
           "colf-badanti", "partita-iva-apri", "isee-guida", "hello-agent"]
 
-YEAR_REQUIRED = set(GOLDEN) - {"hello-agent", "email-formale-it", "pec-bozza", "cv-europass"}
-LINK_REQUIRED = set(GOLDEN) - {"hello-agent"}
-GOODBAD_REQUIRED = set(GOLDEN) - {"hello-agent"}
+PERCORSI = ["percorso-apri-partita-iva", "percorso-assunzione-domestica",
+            "percorso-casa-compravendita", "percorso-lutto",
+            "percorso-busta-controllo"]
+
+GUIDED = GOLDEN + PERCORSI
+
+YEAR_REQUIRED = set(GUIDED) - {"hello-agent", "email-formale-it", "pec-bozza", "cv-europass"}
+LINK_REQUIRED = set(GUIDED) - {"hello-agent"}
+GOODBAD_REQUIRED = set(GUIDED) - {"hello-agent"}
 
 DELICATE = ["accertamento-info", "adozioni-info", "affido-familiare",
             "appalti-pubblici-info", "assicurazione-vita-info", "cittadinanza",
@@ -64,9 +70,9 @@ def read_skill(name):
 
 
 def main():
-    # --- Golden protocols + static guards ---
-    for name in GOLDEN:
-        proto = TESTS / name
+    # --- Golden + percorsi protocols + static guards ---
+    for name in GUIDED:
+        proto = (TESTS / name) if name in GOLDEN else (REPO / "tests" / "percorsi" / name)
         for f, minimum in (("input.md", 2), ("expect.md", 3)):
             p = proto / f
             if not p.exists():
@@ -109,7 +115,7 @@ def main():
                 if not neg.search(ctx):
                     fail(f"{name}: banned pattern affirmative: {pat!r} (...)")
 
-    print(f"behavior: {'FAIL' if fails else 'OK'} ({len(GOLDEN)} golden, {len(DELICATE)} delicate)")
+    print(f"behavior: {'FAIL' if fails else 'OK'} ({len(GUIDED)} guided, {len(DELICATE)} delicate)")
     return 2 if fails else 0
 
 

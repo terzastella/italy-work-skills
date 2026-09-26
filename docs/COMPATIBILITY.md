@@ -28,7 +28,7 @@ One `SKILL.md` for all. Differences only in the loader, not the format.
 | OpenCode | `.opencode/skills/` | `~/.config/opencode/skills/` | also reads `.claude/`, `.agents/skills/`; permissions in `opencode.json` |
 | Windsurf | `.windsurf/skills/` | `~/.codeium/windsurf/skills/` | also reads `.agents/skills/`; invoke explicitly with `@skill-name` |
 
-## Test status — all untested (273 entries, real agent tests deferred)
+## Test status — all untested (278 entries, real agent tests deferred)
 
 | Skill | Claude | Codex | Grok | Last test |
 |-------|--------|-------|------|-----------|
@@ -42,7 +42,7 @@ One `SKILL.md` for all. Differences only in the loader, not the format.
 | doc-polish-it | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 | case-study | ⚠️ untested | ⚠️ untested | ⚠️ untested | — |
 
-Full list: 249 ours + 24 vendors = 273 entries in `catalog/skills.json` (per-theme catalog in `docs/CATALOG.md`). All rows are untested until real install tests on Claude/Codex/Grok are recorded with date + agent version.
+Full list: 254 ours + 24 vendors = 278 entries in `catalog/skills.json` (per-theme catalog in `docs/CATALOG.md`). All rows are untested until real install tests on Claude/Codex/Grok are recorded with date + agent version.
 Only Claude/Codex/Grok columns are tracked; all 9 agents are supported by `scripts/install.py`.
 
 Archived generic skills (35 in `archive/`) are not tested or installed.

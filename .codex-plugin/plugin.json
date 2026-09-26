@@ -1,7 +1,7 @@
 {
   "name": "ai-skills-hub",
-  "description": "Italian Work Skills Hub for codex (249 originals + 24 pinned third-party).",
-  "version": "1.15.0",
+  "description": "Italian Work Skills Hub for codex (254 originals + 24 pinned third-party).",
+  "version": "1.16.0",
   "author": {
     "name": "ai-skills-hub"
   },
@@ -256,6 +256,11 @@
     "skills/assegni-bancari",
     "skills/contratto-base-check",
     "skills/ferie-permessi",
+    "skills/percorso-apri-partita-iva",
+    "skills/percorso-assunzione-domestica",
+    "skills/percorso-casa-compravendita",
+    "skills/percorso-lutto",
+    "skills/percorso-busta-controllo",
     "vendors/anthropics-skills/brand-guidelines",
     "vendors/anthropics-skills/canvas-design",
     "vendors/anthropics-skills/claude-api",

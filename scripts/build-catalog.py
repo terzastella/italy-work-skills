@@ -109,6 +109,11 @@ def classify(name, desc):
         "scuola-privata-paritaria": "Scuola e giovani",
         "revisione-auto": "Trasporti e viaggi",
         "ferie-permessi": "Lavoro",
+        "percorso-apri-partita-iva": "Impresa",
+        "percorso-assunzione-domestica": "Lavoro",
+        "percorso-casa-compravendita": "Casa",
+        "percorso-lutto": "Successioni e donazioni",
+        "percorso-busta-controllo": "Lavoro",
     }
     if name in overrides:
         return overrides[name]
