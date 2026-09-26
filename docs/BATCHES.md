@@ -129,6 +129,15 @@ Batch gate: `validate.py` zero FAIL (vendor-only structural issues are warnings)
 `security-check.py` clean, `install.py --all` + `--all --source vendors` ok,
 `sync-vendors.py` pinned and current.
 
+## Vendor resync ✅ 2026-09-26 (superpowers 5bf4e78 → 8ca22db)
+
+CI drift job flagged `obra/superpowers` moved (release v6.4.2, "leaner plans").
+Re-copied the 8 pinned trees byte-identical: only `writing-plans/SKILL.md`
+reworked upstream + `plan-document-reviewer-prompt.md` deleted upstream
+(no dangling refs). Other trees + all frontmatter descriptions unchanged.
+`--include-vendors` security hits are pre-existing upstream-doc placeholders.
+Lock + manifest + NOTICES bumped; drift check green.
+
 ## Batch 11-IT - school, condo, money ✅ 2026-09-23 (227 active)
 
 20 skills, each `SKILL.md` + `references/` + `examples/` (fake data always marked).
