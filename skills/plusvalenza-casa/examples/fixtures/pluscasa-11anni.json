@@ -1,0 +1,4 @@
+{
+  "input": {"acquisto": 2015, "vendita": 2026, "gain": 40000, "sostitutiva": 26, "year": 2026},
+  "expected": {"anni_possesso": 11, "imponibile": false, "sostitutiva": 0.0, "irpef_stimata": null}
+}

@@ -3,8 +3,8 @@ name: straordinari-info
 description: Explain overtime with pay rules and banca ore. Use when asked straordinari, overtime Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
-allowed-tools: Read Write
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+allowed-tools: Read Write Bash
 argument-hint: "[contract]"
 user-invocable: true
 disable-model-invocation: false
@@ -22,7 +22,9 @@ Overtime decoded: limits, premiums, banca ore alternative.
 ## Workflow
 
 1. Limits: annual caps (law + CCNL, year-stated) + daily/weekly rest interplay.
-2. Pay: premiums by CCNL table (cited, never generic %) + banca ore option (time instead of money).
+2. Pay with the bundled script (preferred, reproducible): premiums by CCNL table (cited input, never generic %):
+   `python skills/straordinari-info/scripts/straord.py --ore 20 --paga-oraria 12 --maggiorazione 25`
+   + banca ore option (time instead of money).
 3. Consent/refusal rules + part-time specifics (supplementare distinction, see `part-time`).
 4. Output: situation check + pay math + questions for employer.
 
@@ -31,6 +33,11 @@ Overtime decoded: limits, premiums, banca ore alternative.
 - Premiums only with CCNL cited; never generic percentages as law.
 - Unpaid systematic overtime: mismatch flag + referral.
 - Banca ore mechanics explained (accrue/use/expiry).
+
+## Scripts
+
+- `scripts/straord.py` — overtime pay math (premium is a CCNL-cited input).
+  Fixtures with expected outputs in `examples/fixtures/`.
 
 ## Examples
 

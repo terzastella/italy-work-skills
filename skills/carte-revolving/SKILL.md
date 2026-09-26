@@ -3,8 +3,8 @@ name: carte-revolving
 description: Explain revolving cards with real TAEG math. Use when asked carta revolving, revolving credit Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
-allowed-tools: Read Write
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+allowed-tools: Read Write Bash
 argument-hint: "[offer]"
 user-invocable: true
 disable-model-invocation: false
@@ -31,6 +31,11 @@ Revolving decoded: minimum-payment trap, real TAEG, exit math.
 - TAEG with year; minimum-payment trap stated bluntly with numbers.
 - No product endorsement; no "good debt" framing.
 - Usury-threshold cross-check note (see `usura-tassi`).
+
+## Scripts
+
+- `scripts/revolving.py` — 12-month cost simulation + exit math (TAEG is an input).
+  Fixtures with expected outputs in `examples/fixtures/`. Minimums shown as trap, with numbers.
 
 ## Examples
 

@@ -1,0 +1,4 @@
+{
+  "input": {"capitale": 180000, "anni": 20, "taeg-a": 3.1, "tan-b": 2.6, "shock": 2.0},
+  "expected": {"rata_a": 1007.31, "totale_a": 241754.4, "rata_b": 962.62, "totale_b": 231028.8, "rata_b_shock": 1148.51, "totale_b_shock": 275642.4}
+}

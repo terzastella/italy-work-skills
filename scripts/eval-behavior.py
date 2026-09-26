@@ -31,7 +31,14 @@ GOLDEN = ["imu-calcolo", "irpef-scaglioni", "acconti-calcolo", "regime-forfettar
           "apprendistato", "conto-corrente-costi", "tari-tassa",
           "bollette-energia", "spid-cie-guida", "domanda-bando",
           "maternita-congedi", "pensione-guida", "successioni-info",
-          "donazioni-info", "testamento-olografo"]
+          "donazioni-info", "testamento-olografo",
+          "ravvedimento-operoso", "compensazioni-f24", "spese-mediche-detrazioni",
+          "plusvalenza-casa", "rateizzazione-debiti", "dichiarazione-integrativa",
+          "straordinari-info", "collaborazioni-occasionali", "orario-riposi",
+          "congedo-matrimoniale", "condominio-spese", "mutuo-tassi",
+          "conti-deposito", "carte-revolving", "buoni-fruttiferi",
+          "riscaldamento-contabilizzazione", "voli-ritardi",
+          "conciliazione-paritetica", "affitto-concordato", "universita-tasse"]
 
 PERCORSI = ["percorso-apri-partita-iva", "percorso-assunzione-domestica",
             "percorso-casa-compravendita", "percorso-lutto",

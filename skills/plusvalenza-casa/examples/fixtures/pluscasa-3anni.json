@@ -1,0 +1,4 @@
+{
+  "input": {"acquisto": 2023, "vendita": 2026, "gain": 40000, "sostitutiva": 26, "marginale": 35, "year": 2026},
+  "expected": {"anni_possesso": 3, "imponibile": true, "sostitutiva": 10400.0, "irpef_stimata": 14000.0}
+}

@@ -3,8 +3,8 @@ name: mutuo-tassi
 description: Compare mortgages with TAN/TAEG and total cost. Use when asked mutuo, mortgage Italy, TAN TAEG, surroga.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
-allowed-tools: Read Write
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+allowed-tools: Read Write Bash
 argument-hint: "[offers]"
 user-invocable: true
 disable-model-invocation: false
@@ -29,9 +29,14 @@ Mortgages compared on total cost: TAN vs TAEG, fees, insurance, fine print.
 
 ## Rules
 
-- TAEG is the comparison number; TAN alone never decides.
+- TAEG is the comparison number (offers year-stated); TAN alone never decides.
 - Insurance costs included in math when mandatory.
 - No bank endorsement; no "take it now" pushes.
+
+## Scripts
+
+- `scripts/mutuo.py` — TAEG-based totals + variable shock scenario (rates are inputs).
+  Fixtures with expected outputs in `examples/fixtures/`. Compare on TAEG, never TAN alone.
 
 ## Examples
 

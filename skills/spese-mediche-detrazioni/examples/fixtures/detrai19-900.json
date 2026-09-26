@@ -1,0 +1,4 @@
+{
+  "input": {"spese": 900, "franchigia": 129.11, "year": 2026},
+  "expected": {"base": 770.89, "detrazione": 146.47}
+}

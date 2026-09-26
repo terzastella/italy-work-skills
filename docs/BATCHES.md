@@ -36,6 +36,20 @@ Batch gate: `validate.py` 279 OK (278 entries + template),
 `security-check.py` clean, `install.py --all` dry-run ok (254 ours × 9 agents),
 `eval-behavior.py` OK (25 guided: 20 golden + 5 percorsi).
 
+## Golden-3 - depth wave three ✅ 2026-09-25 (no version bump)
+
+20 more skills to 0.2 with Good/Bad examples, year markers, out-links:
+fisco (ravvedimento-operoso, compensazioni-f24, spese-mediche-detrazioni,
+plusvalenza-casa, rateizzazione-debiti, dichiarazione-integrativa), lavoro
+(straordinari-info, collaborazioni-occasionali, orario-riposi,
+congedo-matrimoniale), soldi/casa (condominio-spese, mutuo-tassi,
+conti-deposito, carte-revolving, buoni-fruttiferi), tutele/casa/scuola
+(riscaldamento-contabilizzazione, voli-ritardi, conciliazione-paritetica,
+affitto-concordato, universita-tasse).
+12 new neutral scripts (ravvedimento, compensa, detrai19, pluscasa, rateizza,
+straord, occasionali, riparto, mutuo, deposito, revolving, bpf): fixtures
+48/48 green. Behavior guards extended to 65 guided.
+
 ## Golden-2 - depth wave two ✅ 2026-09-25 (no version bump)
 
 20 more skills to 0.2 with Good/Bad examples, year markers, out-links:

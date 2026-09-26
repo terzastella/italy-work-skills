@@ -1,0 +1,4 @@
+{
+  "input": {"imposta": 2000, "giorni": 40, "sanzione-pct": 1.5, "tasso-legale": 2.0, "year": 2026},
+  "expected": {"sanzione": 30.0, "interessi": 4.38, "totale": 2034.38}
+}

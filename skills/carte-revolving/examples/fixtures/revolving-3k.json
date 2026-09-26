@@ -1,0 +1,4 @@
+{
+  "input": {"saldo": 3000, "taeg": 16, "rata": 200},
+  "expected": {"interessi_12m": 332.74, "residuo": 932.74}
+}

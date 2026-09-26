@@ -1,0 +1,4 @@
+{
+  "input": {"lordo": 4000, "ritenuta": 20, "franchigia-inps": 5000, "year": 2026},
+  "expected": {"ritenuta": 800.0, "netto": 3200.0, "inps_dovuta": false}
+}

@@ -1,5 +1,10 @@
 # Release Notes (cumulative — newest first)
 
+## Unreleased — Golden-3 depth wave (no version bump)
+
+20 more skills to 0.2 (Good/Bad, year markers, links) + 12 neutral scripts
+with fixtures 48/48 green. Behavior guards cover 65 guided + 36 delicate.
+
 ## Unreleased — Golden-2 depth wave (no version bump)
 
 20 more skills to 0.2 (Good/Bad, year markers, links) + 4 neutral scripts

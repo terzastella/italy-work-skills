@@ -3,7 +3,7 @@ name: riscaldamento-contabilizzazione
 description: Explain heat metering splits with millesimi. Use when asked riscaldamento contabilizzazione, heat metering Italy, spese riscaldamento.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[bill]"
 user-invocable: true

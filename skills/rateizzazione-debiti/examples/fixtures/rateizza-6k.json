@@ -1,0 +1,4 @@
+{
+  "input": {"debito": 6000, "n-rate": 24, "interesse": 4, "year": 2026},
+  "expected": {"interessi": 240.0, "totale": 6240.0, "rata": 260.0}
+}

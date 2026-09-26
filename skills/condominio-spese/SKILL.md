@@ -3,8 +3,8 @@ name: condominio-spese
 description: Read condo statements with millesimi and disputes. Use when asked condominio, spese condominiali, millesimi, assemblea.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
-allowed-tools: Read Write
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+allowed-tools: Read Write Bash
 argument-hint: "[statement]"
 user-invocable: true
 disable-model-invocation: false
@@ -30,8 +30,13 @@ Condo money decoded: rendiconto, millesimi, riparti, what to contest and how.
 ## Rules
 
 - Math recomputed from given figures only.
-- Impugnazione terms stated with year; missed terms = say so plainly.
+- Impugnazione terms stated with year (year-stated); missed terms = say so plainly.
 - No legality verdicts on delibere: anomalies + professional referral.
+
+## Scripts
+
+- `scripts/riparto.py` — expected share vs charged, gap as a question.
+  Fixtures with expected outputs in `examples/fixtures/`. Math first, accusations never.
 
 ## Examples
 
