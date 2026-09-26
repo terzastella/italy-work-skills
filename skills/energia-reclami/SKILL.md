@@ -3,7 +3,7 @@ name: energia-reclami
 description: Write energy complaints with ARERA desk path. Use when asked reclamo energia, luce gas complaint, sportello ARERA.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[issue]"
 user-invocable: true
@@ -29,7 +29,7 @@ Energy complaints that move: supplier first, ARERA desk second.
 ## Rules
 
 - POD/PDR redacted in drafts where sensitive.
-- Supplier-first order mandatory.
+- Supplier-first order mandatory (terms year-stated).
 - Disconnection threats (morosità): fast action + rules stated urgently.
 
 ## Examples

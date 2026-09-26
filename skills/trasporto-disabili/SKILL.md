@@ -3,7 +3,7 @@ name: trasporto-disabili
 description: Explain disability transport permits and parking. Use when asked contrassegno disabili, disabled parking Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -30,7 +30,7 @@ Permits and parking decoded: contrassegno, ZTL access, reserved stalls.
 
 - Personal permit (person, not car): transfer rules stated.
 - ZTL with permit: many cities require passage notification — flag it.
-- Abuse (lending the permit): sanctions stated bluntly.
+- Abuse (lending the permit): sanctions stated bluntly (rules year-stated).
 
 ## Examples
 

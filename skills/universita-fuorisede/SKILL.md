@@ -3,7 +3,7 @@ name: universita-fuorisede
 description: Guide out-of-town university life with housing and aid. Use when asked università fuorisede, student housing Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[city]"
 user-invocable: true
@@ -29,7 +29,7 @@ Study away decoded: housing, DSU aid, transport, GP transfer.
 ## Rules
 
 - Scam patterns named (advance without visit, no contract) + never pay blind.
-- Deadlines with year (ERSU calls close early).
+- Deadlines year-stated (ERSU calls close early).
 - No city "best" verdicts: criteria + questions only.
 
 ## Examples

@@ -3,7 +3,7 @@ name: telefonia-reclami
 description: Write telecom complaints with conciliaweb path. Use when asked reclamo operatore, telefonia reclamo, conciliaweb AGCOM.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[issue]"
 user-invocable: true

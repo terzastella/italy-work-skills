@@ -36,6 +36,17 @@ Batch gate: `validate.py` 279 OK (278 entries + template),
 `security-check.py` clean, `install.py --all` dry-run ok (254 ours × 9 agents),
 `eval-behavior.py` OK (25 guided: 20 golden + 5 percorsi).
 
+## Golden-7 - depth wave seven ✅ 2026-09-25 (no version bump)
+
+20 more skills to 0.2 with Good/Bad examples, year markers, out-links:
+auto/trasporti (bonus-casa, canone-rai, auto-bollo, rc-auto,
+compravendita-auto, patente-punti, revisione-auto, ztl-permessi,
+trasporto-disabili), tutele/scuola/salute (energia-reclami,
+telefonia-reclami, vacanze-pacchetto, bagagli-smarriti, erasmus-info,
+universita-fuorisede, dsa-bes-scuola, sanita-digitale, medico-base,
+guardia-medica-turisti, mensa-scolastica). Text-only wave.
+Behavior guards extended to 136 guided.
+
 ## Golden-6 - depth wave six ✅ 2026-09-25 (no version bump)
 
 20 more skills to 0.2 with Good/Bad examples, year markers, out-links:

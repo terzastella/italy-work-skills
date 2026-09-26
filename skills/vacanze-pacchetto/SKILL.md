@@ -3,7 +3,7 @@ name: vacanze-pacchetto
 description: Explain package travel rights with assistance and refunds. Use when asked vacanza pacchetto, package travel Italy, tour operator.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[trip/issue]"
 user-invocable: true
@@ -30,7 +30,7 @@ Package holidays protected: organizer duties, assistance, price and refund rules
 
 - Package vs DIY first: most "no-right" answers come from wrong classification.
 - Price increases capped with passenger exit right — state the mechanism.
-- Insolvency: guarantee fund mention + referral, no panic.
+- Insolvency: guarantee fund mention + referral, no panic (fund rules year-stated).
 
 ## Examples
 
