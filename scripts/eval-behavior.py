@@ -4,7 +4,7 @@
 Deterministic static checks, no LLM, no network. Exit 2 on any failure.
 CI runs this alongside eval-golden.py.
 
-- Golden (20): run protocol present (input.md + expect.md, non-trivial),
+- Golden (136: run protocol present (input.md + expect.md, non-trivial),
   >=1 out-link in SKILL.md, Good+Bad examples, year markers where required.
 - Delicate (36, mirror of docs/AUDITS.md): no scripts/ dir, referral marker
   present, banned verdict patterns (tests/patterns-ban.txt) never affirmative.

@@ -37,7 +37,7 @@ where it matters. See [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md) for the philo
 5. **Honest boundaries**: 36 sensitive skills are info-only + professional referral
    (audited in `docs/AUDITS.md`); delicate topics never ship code
 6. **Verified locally**: `validate.py` + `security-check.py` + deterministic
-   `eval-golden.py` (23/23 fixtures green) + index coherence checks in CI
+   `eval-golden.py` (51/51 fixtures green) + index coherence checks in CI
 
 ## Destinations
 
@@ -142,6 +142,7 @@ Status: **v1.16 — 254 ours + 24 pinned third-party = 278 entries** (batches in
 - [x] Golden-4: 20 more deepened + 2 neutral scripts (85 guided, 51/51 fixtures)
 - [x] Golden-5: 20 more deepened, text-only (105 guided)
 - [x] Golden-6: 20 more deepened, text-only (116 guided)
+- [x] Golden-7: 20 more deepened, text-only (136 guided)
 - [x] Golden-7: 20 more deepened, text-only (136 guided)
 - [x] Fiducia-1: evals, 36 sensitive audits, 5×3 test plan (account runs pending)
 - [x] Percorsi-1.16: 5 guided paths (open VAT number, domestic hire, home buy, bereavement, payslip audit)
