@@ -36,6 +36,18 @@ Batch gate: `validate.py` 279 OK (278 entries + template),
 `security-check.py` clean, `install.py --all` dry-run ok (254 ours × 9 agents),
 `eval-behavior.py` OK (25 guided: 20 golden + 5 percorsi).
 
+## Golden-2 - depth wave two ✅ 2026-09-25 (no version bump)
+
+20 more skills to 0.2 with Good/Bad examples, year markers, out-links:
+fisco (fattura-elettronica-it, ritenuta-acconto, cedolare-secca), math
+(tredicesima-info, riscatto-laurea), lavoro (contratto-tipi, periodo-prova,
+dimissioni-procedura, malattia-certificato, apprendistato), soldi/casa/PA
+(conto-corrente-costi, tari-tassa, bollette-energia, spid-cie-guida,
+domanda-bando), info/delicate text-only (maternita-congedi, pensione-guida,
+successioni-info, donazioni-info, testamento-olografo — no scripts, ever).
+5 new neutral scripts (ritenuta, cedolare, tredicesima, riscatto + eval branches):
+fixtures 32/32 green. Behavior guards extended to 45 guided.
+
 ## Superpowers-2 - hooks, versions, multi-harness ✅ 2026-09-25 (no version bump)
 
 - `hooks/session-start.md`: Italian-work router + per-harness wiring (text only, no executables).

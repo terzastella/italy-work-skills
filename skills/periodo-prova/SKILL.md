@@ -3,7 +3,7 @@ name: periodo-prova
 description: Explain trial periods with duration and exit rules. Use when asked periodo di prova, trial period Italy, prova lavoro.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[contract]"
 user-invocable: true
@@ -21,7 +21,7 @@ Trial periods decoded: how long, who can exit, what happens after.
 
 ## Workflow
 
-1. Duration from CCNL + level (6 months legal max, lower levels less) — cite contract.
+1. Duration from CCNL + level (6 months legal max, year-stated; lower levels less) — cite contract.
 2. During: either side exits freely, no notice (state it); duties must match hired mansioni.
 3. After: automatic confirmation, seniority counts from day one.
 4. Output: duration check + exit rules + mismatch flags.

@@ -3,7 +3,7 @@ name: spid-cie-guida
 description: Explain SPID/CIE levels and recovery without touching credentials. Use when asked SPID, CIE, identità digitale, access public services Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[problem]"
 user-invocable: true
@@ -22,7 +22,7 @@ Digital identity without disasters: levels, where it works, recovery — credent
 ## Workflow
 
 1. Identify need: access service (AdE precompilata, INPS, INL) vs get identity vs recover.
-2. Explain levels (SPID L1/L2/L3, CIE + PIN/PUK) and which service needs what.
+2. Explain levels (SPID L1/L2/L3, CIE + PIN/PUK, requirements year-stated) and which service needs what.
 3. Recovery path: official provider helpdesk steps, never "send me codes".
 4. Close with security rules (see `references/sicurezza.md`).
 

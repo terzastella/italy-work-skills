@@ -3,7 +3,7 @@ name: contratto-tipi
 description: Compare Italian work contract types without legal advice. Use when asked contratto tipi, co.co.co vs subordinato, P.IVA vs dipendente.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[offer]"
 user-invocable: true
@@ -31,7 +31,7 @@ Subordinato vs co.co.co vs P.IVA: what changes in protections, pay, risk — no 
 
 - Bogus self-employment: describe legal test factors, never declare fraud.
 - No "sign/don't sign" verdicts: information + questions + referral.
-- CCNL-specific numbers only with source.
+- CCNL-specific numbers only with source. Thresholds year-stated where cited (see `regime-forfettario` 85k/100k gates).
 
 ## Examples
 

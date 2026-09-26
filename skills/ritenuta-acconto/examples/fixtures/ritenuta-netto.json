@@ -1,0 +1,4 @@
+{
+  "input": {"netto": 800, "aliquota": 20},
+  "expected": {"direzione": "netto->lordo", "lordo": 1000.0, "ritenuta": 200.0}
+}

@@ -1,0 +1,4 @@
+{
+  "input": {"retribuzione": 1800, "mesi": 8},
+  "expected": {"rateo_mensile": 150.0, "maturato": 1200.0}
+}
