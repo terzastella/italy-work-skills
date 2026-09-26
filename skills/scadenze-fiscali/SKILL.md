@@ -18,7 +18,7 @@ Tax deadlines read correctly: balance vs advance, extensions, and the golden rul
 
 - "scadenze fiscali", "versamenti", "acconto/saldo", "when to pay taxes Italy".
 - Do not use for computing amounts owed (method + calendar only).
-  Splits live in `acconti-calcolo`, regime math in `regime-forfettario` — this skill dates them.
+  Splits: see `acconti-calcolo`; regime math: see `regime-forfettario` — this skill dates them.
 
 ## Workflow
 

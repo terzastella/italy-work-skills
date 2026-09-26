@@ -1,6 +1,6 @@
 # colf-badanti cases
 
-## Badante convivente hiring
+## Good: badante convivente hiring
 
 Input: non-self-sufficient elder, convivente badante [sample data].
 

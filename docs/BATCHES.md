@@ -7,6 +7,16 @@ All skill content in English. Only `README-IT.md` stays in Italian (`README.md` 
 Generic batches below are archived (`archive/`, 35 skills, frozen).
 Active: 249 skills in `skills/` + 24 pinned vendor skills in `vendors/`.
 
+## Superpowers-1 - behavior harness ✅ 2026-09-25 (no version bump)
+
+- `tests/` drill-style harness: README + `patterns-ban.txt` + 20 Golden run
+  protocols (`input.md` + `expect.md` each).
+- `scripts/eval-behavior.py`: static guards — Golden out-links/Good-Bad/year
+  markers, delicate scripts-ban + referral + no-affirmative-verdicts (CI step).
+  Fixed real gaps on first run (missing Good cases, missing year markers,
+  dead link filename `mu-cases.md` was Golden-1).
+- Workflow docs reference the new gates (`AGENTS.md`, PR template).
+
 ## Fiducia-1 - evals + audits + test plan ✅ 2026-09-25 (no content change)
 
 - `scripts/eval-golden.py`: deterministic runner over all Golden-1 fixtures

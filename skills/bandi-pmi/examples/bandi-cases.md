@@ -1,6 +1,6 @@
 # bandi-pmi cases
 
-## Regional digital grant
+## Good: regional digital grant
 
 Input: call text, SME, Milan, website project [sample data].
 

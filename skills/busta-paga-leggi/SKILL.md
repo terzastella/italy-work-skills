@@ -32,6 +32,7 @@ Payslips decoded: gross → withholdings → net, every line explained.
 ## Rules
 
 - Math only on given figures; never invent CCNL tables from memory — cite level + source.
+- INPS/IRPEF figures year-stated; contribution rules move — verify yearly.
 - Anomalies phrased as checks ("verify with payroll"), never fraud claims.
 - Privacy: suggest redacting name/fiscal code before sharing.
 

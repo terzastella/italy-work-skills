@@ -1,6 +1,6 @@
 # isee-guida cases
 
-## Family of 4, first DSU
+## Good: family of 4, first DSU
 
 Input: 2 employees + 2 minors, 1 home, 2 accounts [sample data].
 

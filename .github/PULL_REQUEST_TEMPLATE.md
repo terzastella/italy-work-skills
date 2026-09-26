@@ -13,6 +13,7 @@
 - [ ] `python scripts/install.py --all --dest ./tmp-test --dry-run` — ok
 - [ ] `python scripts/build-catalog.py --check` — clean, `docs/CATALOG.md` regenerated if needed
 - [ ] `python scripts/eval-golden.py` — green (if touching a skill with `scripts/`)
+- [ ] `python scripts/eval-behavior.py` — green (if touching Golden or delicate skills)
 
 ## Indexes updated (when adding a skill)
 

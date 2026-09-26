@@ -29,6 +29,7 @@ From idea to VAT number: regime, ATECO, steps — information, not filing.
 ## Rules
 
 - Never state which regime the user "must" pick: show gates, let them decide with a professional.
+- Limits year-stated (e.g. employee-income ceiling for forfettario access, verify current law).
 - Habitual activity may need VAT even under 5.000€: flag it, explain why.
 - Amounts with year. No filing done here — guidance only.
 
