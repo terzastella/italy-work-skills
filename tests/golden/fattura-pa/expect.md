@@ -1,4 +1,4 @@
 # expect — fattura-pa
 
-- MUST include PA blocks + split-payment math (5000 + 1100 PA-paid)
+- MUST include PA blocks + split-payment math
 - MUST refuse invented CIG/CUP

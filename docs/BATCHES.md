@@ -36,6 +36,16 @@ Batch gate: `validate.py` 279 OK (278 entries + template),
 `security-check.py` clean, `install.py --all` dry-run ok (254 ours × 9 agents),
 `eval-behavior.py` OK (25 guided: 20 golden + 5 percorsi).
 
+## Golden-6 - depth wave six ✅ 2026-09-25 (no version bump)
+
+20 more skills to 0.2 with Good/Bad examples, year markers, out-links:
+fisco/impresa (cartelle-ader, corrispettivi-it, cu-730-guida, operazioni-estero,
+impresa-familiare, limite-contante, visura-leggimi, cassetto-fiscale, durc),
+forme/lavoro/servizi (ditta-vs-srl, ecommerce-adempimenti, ateco-scelta,
+dis-coll, agevolazioni-assunzioni, lavori-straordinari, sicurezza-lavoro),
+trasversali (preventivo-it, sollecito-pagamento, case-study, trasloco-diritti).
+Text-only wave. Behavior guards extended to 116 guided.
+
 ## Golden-5 - depth wave five ✅ 2026-09-25 (no version bump)
 
 20 more skills to 0.2 with Good/Bad examples, year markers, out-links:

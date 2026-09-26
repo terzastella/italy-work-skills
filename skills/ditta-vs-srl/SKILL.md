@@ -3,7 +3,7 @@ name: ditta-vs-srl
 description: Compare Italian business forms with costs and liability. Use when asked ditta individuale vs SRL, business form Italy, open company Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[activity/size]"
 user-invocable: true
@@ -30,7 +30,7 @@ Choose the vehicle with eyes open: liability, costs, taxes, admin load.
 ## Rules
 
 - Liability differences stated plainly (unlimited vs limited, with standard caveats).
-- Costs as ranges with year, never exact promises.
+- Costs as ranges with year (year-stated), never exact promises.
 - No "open it tomorrow" pushes on SRLs: notary + capital realities stated.
 
 ## Examples

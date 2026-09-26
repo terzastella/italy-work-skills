@@ -3,7 +3,7 @@ name: case-study
 description: Write case studies with problem, solution and real results. Use when asked case study, client story, customer success.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[client/project]"
 user-invocable: true
@@ -28,7 +28,7 @@ Stories that convince: real problem, concrete solution, real numbers.
 
 ## Rules
 
-- Results with real numbers or `[number to confirm]`: never invented metrics.
+- Results with real numbers or `[number to confirm]` (periods year-stated): never invented metrics.
 - Quotes only real or `[quote to collect]`.
 - Named client only with permission: default sector + size ("5-person firm").
 

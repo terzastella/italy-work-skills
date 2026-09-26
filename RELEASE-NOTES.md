@@ -1,5 +1,10 @@
 # Release Notes (cumulative — newest first)
 
+## Unreleased — Golden-6 depth wave (no version bump)
+
+20 more skills to 0.2 (Good/Bad, year markers, links), text-only wave.
+Behavior guards cover 116 guided + 36 delicate.
+
 ## Unreleased — Golden-5 depth wave (no version bump)
 
 20 more skills to 0.2 (Good/Bad, year markers, links), text-only wave.

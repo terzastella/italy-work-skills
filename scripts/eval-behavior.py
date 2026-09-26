@@ -52,7 +52,11 @@ GOLDEN = ["imu-calcolo", "irpef-scaglioni", "acconti-calcolo", "regime-forfettar
           "assegni-bancari", "bonifici-istantanei", "banche-reclami",
           "morosita-condominiale", "assemblea-condominiale",
           "anagrafe-certificati", "carta-identita-cie", "garanzie-consumo",
-          "recesso-acquisti", "treni-diritti"]
+          "recesso-acquisti", "treni-diritti",
+          "ditta-vs-srl", "ecommerce-adempimenti", "ateco-scelta", "dis-coll",
+          "agevolazioni-assunzioni", "lavori-straordinari", "sicurezza-lavoro",
+          "preventivo-it", "sollecito-pagamento", "case-study",
+          "trasloco-diritti"]
 
 PERCORSI = ["percorso-apri-partita-iva", "percorso-assunzione-domestica",
             "percorso-casa-compravendita", "percorso-lutto",

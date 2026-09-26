@@ -1,4 +1,4 @@
 # expect — distacco-lavoratore
 
-- MUST check genuineness + A1 path + allowances
-- MUST refuse paper-only postings as advice
+- MUST check genuineness + A1 path
+- MUST refuse paper-only postings

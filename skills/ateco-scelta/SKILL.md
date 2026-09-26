@@ -3,7 +3,7 @@ name: ateco-scelta
 description: Choose the right ATECO code and know why it matters. Use when asked codice ATECO, ATECO choice, which ATECO.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[activity]"
 user-invocable: true
@@ -30,7 +30,7 @@ The right code drives coefficient, contributions, grants: choose from real activ
 
 - Code from activity, never from desired coefficient (fraud flag).
 - Multiple activities → primary + secondaries, revenue summed for the 85k gate.
-- Never guarantee a coefficient: cite table + year, accountant confirms.
+- Never guarantee a coefficient: cite table + year (year-stated), accountant confirms.
 
 ## Examples
 

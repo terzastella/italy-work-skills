@@ -1,6 +1,6 @@
 # case-study cases
 
-## Accounting firm
+## Good: accounting firm
 
 ```text
 Title: Deadlines under control for 40 clients
@@ -11,3 +11,9 @@ Results: 0 misses in 6 months, 3h/week saved [number to confirm with client].
 Quote: [quote to collect]
 ```
 Honest: visible placeholders, no fake numbers.
+
+## Bad: fake numbers
+
+Input: "riempi tu i numeri mancanti" [sample data].
+
+Output: `Placeholders stay visible — no fake numbers, ever. Unconfirmed figures marked, never invented.`

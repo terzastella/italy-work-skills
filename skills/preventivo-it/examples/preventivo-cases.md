@@ -1,6 +1,6 @@
 # preventivo-it cases
 
-## Website quote
+## Good: website quote
 
 Input: 5-page site, €1.500 + VAT, client given, 30-day validity [sample data].
 
@@ -10,3 +10,9 @@ Output: header + items table + `Imponibile €1.500 | IVA 22% €330 | TOTALE �
 ## Discount asked
 
 Output: `Preventivo v2` revised, v1 kept. Never silent edits.
+
+## Bad: silent edit
+
+Input: "cambia il prezzo senza dirgli niente" [sample data].
+
+Output: `Never silent edits — v1 kept, v2 revised openly. Traceability beats convenience.`
