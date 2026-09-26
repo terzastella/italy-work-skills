@@ -56,7 +56,14 @@ GOLDEN = ["imu-calcolo", "irpef-scaglioni", "acconti-calcolo", "regime-forfettar
           "ditta-vs-srl", "ecommerce-adempimenti", "ateco-scelta", "dis-coll",
           "agevolazioni-assunzioni", "lavori-straordinari", "sicurezza-lavoro",
           "preventivo-it", "sollecito-pagamento", "case-study",
-          "trasloco-diritti"]
+          "trasloco-diritti",
+          "bonus-casa", "canone-rai", "auto-bollo", "rc-auto",
+          "compravendita-auto", "patente-punti", "revisione-auto",
+          "ztl-permessi", "trasporto-disabili", "energia-reclami",
+          "telefonia-reclami", "vacanze-pacchetto", "bagagli-smarriti",
+          "erasmus-info", "universita-fuorisede", "dsa-bes-scuola",
+          "sanita-digitale", "medico-base", "guardia-medica-turisti",
+          "mensa-scolastica"]
 
 PERCORSI = ["percorso-apri-partita-iva", "percorso-assunzione-domestica",
             "percorso-casa-compravendita", "percorso-lutto",

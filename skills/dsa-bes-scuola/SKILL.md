@@ -3,7 +3,7 @@ name: dsa-bes-scuola
 description: Explain DSA and BES plans with PDP tools. Use when asked DSA BES, PDP scuola, learning disorders Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -30,7 +30,7 @@ Learning disorders at school: diagnosis, PDP, tools that help — procedure, not
 
 - No diagnosis here, ever: specialists certify.
 - Tools examples (audiobooks, extra time, concept maps) as categories, not prescriptions.
-- Exams (maturità included) keep adaptations: state the continuity.
+- Exams (maturità included) keep adaptations: state the continuity (rules year-stated).
 
 ## Examples
 

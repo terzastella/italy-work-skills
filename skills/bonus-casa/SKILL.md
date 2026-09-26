@@ -3,7 +3,7 @@ name: bonus-casa
 description: Explain Italian home bonuses with requirements and papers. Use when asked bonus casa, ristrutturazione detrazione, ecobonus, bonus mobili.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[works planned]"
 user-invocable: true

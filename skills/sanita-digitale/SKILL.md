@@ -3,7 +3,7 @@ name: sanita-digitale
 description: Guide FSE, IO app and health bookings in Italy. Use when asked fascicolo sanitario, IO app, CUP booking, tessera sanitaria.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[need]"
 user-invocable: true
@@ -29,7 +29,7 @@ Health services online: FSE records, IO app, CUP bookings, card status.
 ## Rules
 
 - Never handle health data content: admin navigation only.
-- Region always asked first: Lombardy ≠ Sicily procedures.
+- Region always asked first: Lombardy versus Sicily procedures (portals year-stated).
 - No medical interpretation of records, ever.
 
 ## Examples
