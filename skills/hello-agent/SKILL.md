@@ -25,6 +25,12 @@ Verifies in 10 seconds that skills are visible to the current agent.
 2. Reply with the table below filled for the current environment.
 3. If you do not know the skill path in use, write `unknown` — do not invent.
 
+## Rules
+
+- Never invent paths, versions, or agent names: `unknown` beats a guess.
+- Max 10 lines unless the user asks for more.
+- No file reads, no tool calls: this test is output-only.
+
 ## Required output
 
 ```markdown

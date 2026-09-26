@@ -2,7 +2,7 @@
 name: skill-starter
 description: TEMPLATE - replace with what the skill does and when to use it. Use when <trigger>.
 license: MIT
-compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Gemini
+compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
 metadata: {author: your-name, version: "0.1", lang: "en"}
 allowed-tools: Read Write Bash
 argument-hint: "[file or argument]"
