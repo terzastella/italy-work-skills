@@ -36,6 +36,18 @@ Batch gate: `validate.py` 279 OK (278 entries + template),
 `security-check.py` clean, `install.py --all` dry-run ok (254 ours × 9 agents),
 `eval-behavior.py` OK (25 guided: 20 golden + 5 percorsi).
 
+## Golden-4 - depth wave four ✅ 2026-09-25 (no version bump)
+
+20 more skills to 0.2 with Good/Bad examples, year markers, out-links:
+fisco (contributi-inps, imposta-bollo, rimborsi-fiscali, ivafe-ivie,
+addizionali-regionali), lavoro (cassa-integrazione, lavoro-notturno,
+festivi-lavorati, somministrazione, usura-tassi), casa/scuola/PA
+(prima-casa-agevolazioni, spese-notarili, usufrutto-nuda, affitto-breve,
+utenze-voltura, asilo-nido-bonus, scuola-iscrizioni, ticket-esenzioni,
+passaporto-procedura, residenza-cambio).
+2 new neutral scripts (contributi, bollo): fixtures 51/51 green.
+Behavior guards extended to 85 guided.
+
 ## Golden-3 - depth wave three ✅ 2026-09-25 (no version bump)
 
 20 more skills to 0.2 with Good/Bad examples, year markers, out-links:

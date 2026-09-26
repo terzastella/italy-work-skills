@@ -139,6 +139,7 @@ Status: **v1.16 — 254 ours + 24 pinned third-party = 278 entries** (batches in
 - [x] Golden-1: 20 skills deepened + 10 neutral scripts with fixtures + deterministic evals
 - [x] Golden-2: 20 more deepened + 4 neutral scripts (40 guided, 32/32 fixtures)
 - [x] Golden-3: 20 more deepened + 12 neutral scripts (65 guided, 48/48 fixtures)
+- [x] Golden-4: 20 more deepened + 2 neutral scripts (85 guided, 51/51 fixtures)
 - [x] Fiducia-1: evals, 36 sensitive audits, 5×3 test plan (account runs pending)
 - [x] Percorsi-1.16: 5 guided paths (open VAT number, domestic hire, home buy, bereavement, payslip audit)
 - [x] Local-tests-1: first real runs (OpenCode + qwen3:8b, 7/9 ✅, log in docs/)

@@ -3,7 +3,7 @@ name: usura-tassi
 description: Explain usury thresholds with verification paths. Use when asked usura, tassi soglia, usury Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[loan]"
 user-invocable: true

@@ -1,0 +1,4 @@
+{
+  "input": {"reddito": 40000, "aliquota": 26.07, "split": "40,40,20", "year": 2026},
+  "expected": {"totale": 10428.0, "rate": [4171.2, 4171.2, 2085.6]}
+}
