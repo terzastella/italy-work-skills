@@ -14,3 +14,15 @@ Verdict: GO — prepare quotes first (scoring weight).
 Official link: [call URL from user]
 ```
 Facts cited with article numbers, no winning promised.
+
+## Bad: win promised
+
+Input: "will I get the funds?" [sample data].
+
+Output: no promise. `Scores and funds are competitive — verdict is GO/NO-GO on applying, never on winning.`
+
+## Bad: expired call computed
+
+Input: call closed 6 months ago [sample data].
+
+Output: `Expired — say so first, then find the replacement edition. Never build a dossier on a dead call.`

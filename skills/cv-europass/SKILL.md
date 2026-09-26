@@ -3,7 +3,7 @@ name: cv-europass
 description: Build Europass CVs with measured experience and clean layout. Use when asked CV, curriculum, europass, resume Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[profile]"
 user-invocable: true
@@ -25,6 +25,7 @@ CVs recruiters finish: 1-2 pages, measured results, zero filler.
 2. Structure: header + profile 2 lines + experience (reverse order, bullets with measures) + education + skills + languages.
 3. Rule: <10 years → 1 page; every bullet starts with an action verb + number where possible.
 4. Output full CV draft + "to strengthen" list (missing numbers, gaps to explain).
+   Every skill claim needs proof nearby (project, date, or measure) or a `[TODO]`.
 
 ## Rules
 

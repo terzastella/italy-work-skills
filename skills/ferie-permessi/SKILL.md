@@ -3,8 +3,8 @@ name: ferie-permessi
 description: Explain holidays and permits with accrual rules. Use when asked ferie permessi, holidays permits Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
-allowed-tools: Read Write
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+allowed-tools: Read Write Bash
 argument-hint: "[situation]"
 user-invocable: true
 disable-model-invocation: false
@@ -21,7 +21,9 @@ Holidays and permits decoded: accrual, use deadlines, permits overview.
 
 ## Workflow
 
-1. Accrual: monthly ratei logic + part-time pro-rata math on user figures.
+1. Accrual with the bundled script (preferred, reproducible): entitlement comes from
+   the CCNL (explicit input, never generic) + part-time pro-rata on user figures:
+   `python skills/ferie-permessi/scripts/ratei.py --spettanza 26 --mese 7 --fruiti 10`
 2. Use: yearly fruition deadlines (year-stated) + employer scheduling vs worker choice balance.
 3. Permits: ROL/ex-festivita overview + 104 permits mentioned only (dedicated paths elsewhere).
 4. Output: balance math + deadlines + request steps.
@@ -31,6 +33,11 @@ Holidays and permits decoded: accrual, use deadlines, permits overview.
 - Day counts only with CCNL cited; never generic "you get N days".
 - Unused holidays: no cash-out during employment (exceptions stated), stated plainly.
 - Sickness during holidays: suspension path + certificate rule (see `malattia-certificato`).
+
+## Scripts
+
+- `scripts/ratei.py` — monthly accrual + balance math (entitlement is a CCNL-cited input).
+  Fixtures with expected outputs in `examples/fixtures/`.
 
 ## Examples
 

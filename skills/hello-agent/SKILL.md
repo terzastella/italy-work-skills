@@ -3,7 +3,7 @@ name: hello-agent
 description: 10-second smoke test to verify the agent sees and loads skills. Use when asked to test skills, hello, verify installation.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read
 argument-hint: ""
 user-invocable: true
@@ -42,7 +42,7 @@ Verifies in 10 seconds that skills are visible to the current agent.
 | Status | OK |
 ```
 
-Then one line: `Next test: try /invoice-it or /doc-polish-it`.
+Then one line: `Next test: try /invoice-it or /doc-polish-it` (see `invoice-it`, `doc-polish-it`).
 
 ## Output per agent (same format, different paths)
 

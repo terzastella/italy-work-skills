@@ -1,0 +1,4 @@
+{
+  "input": {"fatturato": 60000, "coeff": 0.78, "contributi": 8000, "aliquota": 15, "year": 2026},
+  "expected": {"reddito": 46800.0, "base_imponibile": 38800.0, "imposta_15pct": 5820.0}
+}

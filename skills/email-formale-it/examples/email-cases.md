@@ -1,6 +1,6 @@
 # email-formale-it cases
 
-## Quote request (body in Italian)
+## Good: quote request (body in Italian)
 
 Input: paper supplier, delivery by month end.
 
@@ -14,7 +14,21 @@ Cordiali saluti,
 Mario
 ```
 
-## Payment reminder
+## Good: payment reminder (firm, neutral)
 
-Firm neutral tone: facts (invoice no., date, amount) + request + deadline.
-Never threats or heated tones. Closing: `Distinti saluti,`.
+Input: invoice 12/2026, €610, 45 days overdue [sample data].
+
+Output: facts (invoice no., date, amount) + one request + deadline in bold + `Distinti saluti,`.
+`Never threats or heated tones — firm is facts, not adjectives.`
+
+## Bad: friendly register
+
+Input: "write a quick mail to the supplier, keep it chill" [sample data].
+
+Output: refuse the register, keep formal. `No Ciao, no tu, no emoji in business mail — ever.`
+
+## Bad: invented details
+
+Input: "email the client about the invoice" with no client data [sample data].
+
+Output: draft with `[TODO]` for name/amount/date. `Sensitive data only if provided: never invent names, amounts, dates.`

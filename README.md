@@ -171,6 +171,8 @@ Stato: **v1.15 — 249 skill nostre + 24 terze pinnate = 273 entries** (dettagli
 
 - [x] Restart 1.0 → Batch 12-IT (9 + 18 + 20×11 + 24 vendors pinnate)
 - [x] Integrativa 1.15: le 2 rinviate (contratto-base-check, ferie-permessi) — debito chiuso
+- [x] Fondazioni: tag SemVer, governance, CI hardening, validatore frontmatter
+- [x] Golden-1: 20 skill approfondite + 10 script neutri con fixture (vedi `docs/BATCHES.md`)
 - [ ] Test reali sugli agenti e badge in `docs/COMPATIBILITY.md`
 - [ ] Batch 13-IT da pianificare (vedi `catalog/_registry.md`)
 - [ ] Rinviato (serve repo pubblica): submit a skills.sh / agentskills.io

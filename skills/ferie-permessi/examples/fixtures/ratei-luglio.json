@@ -1,0 +1,4 @@
+{
+  "input": {"spettanza": 26, "mese": 7, "fruiti": 10},
+  "expected": {"rateo_mensile": 2.17, "maturato": 15.17, "residuo": 5.17}
+}

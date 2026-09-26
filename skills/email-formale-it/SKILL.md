@@ -3,7 +3,7 @@ name: email-formale-it
 description: Write formal Italian business emails with right subject, structure and tone. Use when asked formal email, write email, work email, payment reminder.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[recipient/purpose]"
 user-invocable: true
@@ -17,7 +17,7 @@ Italian business emails: clear subject, 3 paragraphs, correct closing. Replies i
 ## When to use
 
 - "formal email", "write email", "work email", "payment reminder" (Italian).
-- Do not use for informal/friendly messages.
+- Do not use for informal/friendly messages. Need certified legal value? See `pec-bozza`.
 
 ## Workflow
 

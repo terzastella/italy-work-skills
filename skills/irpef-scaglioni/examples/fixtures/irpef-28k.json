@@ -1,0 +1,4 @@
+{
+  "input": {"reddito": 28000, "scaglioni": "examples/scaglioni-2025.json", "year": 2025},
+  "expected": {"imposta": 6440.0, "aliquota_media_pct": 23.0, "aliquota_marginale_pct": 23.0}
+}

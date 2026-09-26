@@ -1,0 +1,4 @@
+{
+  "input": {"accantonato": 10000, "inflazione": 5.0, "year": 2025},
+  "expected": {"tasso_pct": 5.25, "rivalutazione": 525.0}
+}
