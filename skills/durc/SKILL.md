@@ -3,7 +3,7 @@ name: durc
 description: Explain DURC compliance proof with validity and checks. Use when asked DURC, regolarità contributiva, DURC online.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[company]"
 user-invocable: true

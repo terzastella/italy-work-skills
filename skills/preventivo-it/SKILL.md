@@ -3,7 +3,7 @@ name: preventivo-it
 description: Write Italian quotes with items, validity and terms. Use when asked preventivo, quote, quotazione, estimate Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[client/work]"
 user-invocable: true
@@ -28,7 +28,7 @@ Quotes that get signed: itemized work, validity date, payment terms.
 
 ## Rules
 
-- Validity always dated (default 30 days from issue).
+- Validity always dated (default 30 days from issue, year-stated on the document).
 - Payment terms explicit (e.g. 30% upfront, balance on delivery) only as agreed/proposed.
 - Never invent client data; `[TODO]` placeholders.
 - Note: signed quote = contract-ish — suggest review for big amounts.

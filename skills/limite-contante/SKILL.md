@@ -3,7 +3,7 @@ name: limite-contante
 description: Explain cash limits with traceable alternatives. Use when asked limite contante, cash limit Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[payment]"
 user-invocable: true

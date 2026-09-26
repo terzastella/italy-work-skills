@@ -3,7 +3,7 @@ name: trasloco-diritti
 description: Explain moving rights with quotes and damages. Use when asked trasloco, moving company Italy, danni trasloco.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[move]"
 user-invocable: true
@@ -30,7 +30,7 @@ Moves protected: written quotes, inventory, damage claims that work.
 
 - No written quote = red flag #1, stated bluntly.
 - Deposits capped reasonably; full prepay refused as advice.
-- Insurance included vs optional: verified in writing, never assumed.
+- Insurance included vs optional: verified in writing, never assumed (terms year-stated).
 
 ## Examples
 

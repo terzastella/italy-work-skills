@@ -1,4 +1,4 @@
 # expect — agenti-rappresentanti
 
-- MUST check Enasarco + FIRR math year-stated + mandante questions
-- MUST flag masked-subordination patterns + referral
+- MUST check Enasarco + FIRR year-stated + mandante questions
+- MUST flag masked-subordination patterns

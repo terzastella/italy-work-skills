@@ -3,7 +3,7 @@ name: sollecito-pagamento
 description: Write 3-level payment reminders, polite to formal. Use when asked payment reminder, unpaid invoice, sollecito, chase payment Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[invoice data]"
 user-invocable: true
@@ -30,7 +30,7 @@ Three levels, escalating only if ignored: polite → firm → formal with intere
 
 - Every reminder cites exact invoice data, never "your debt" generically.
 - One escalation per ignored message; state next step calmly.
-- Amounts/dates only as provided.
+- Amounts/dates only as provided (invoice dates year-stated).
 
 ## Examples
 

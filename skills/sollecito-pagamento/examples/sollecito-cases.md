@@ -1,6 +1,6 @@
 # sollecito-pagamento cases
 
-## L1 first reminder
+## Good: L1 first reminder
 
 Input: invoice 7/2026 €1.220, 20 days overdue, no prior reminders [sample data].
 
@@ -17,3 +17,9 @@ Cordiali saluti, ...
 
 Input: client disputes the amount. Output: no L3 — clarification draft instead:
 `Chiedo dettaglio contestazione prima di procedere.`
+
+## Bad: threats escalation
+
+Input: "minacciali che li denuncio" [sample data].
+
+Output: `Firm, never threatening — L1/L2/L3 ladder with facts. Threats refused; disputed amounts get clarification drafts.`
