@@ -1,5 +1,12 @@
 # Release Notes (cumulative — newest first)
 
+## v1.16.0 — Percorsi: 5 guided paths (2026-09-25)
+
+254 originals + 24 pinned third-party = 278 entries. Tag `v1.16.0` (after merge).
+
+- `user-invocable` hubs: open VAT number, domestic hire, home buy, bereavement
+  (delicate), payslip audit. Handoff context, end-to-end cases, run protocols.
+
 ## v1.15.0 — Integrativa: deferred closed (2026-09-25)
 
 249 originals + 24 pinned third-party = 273 entries. Tag `v1.15.0` (first tag).

@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.16 (Percorsi, 254 active + 35 archived, +24 vendors)
+
+- 5 guided hub skills (`user-invocable` entry points): percorso-apri-partita-iva,
+  percorso-assunzione-domestica, percorso-casa-compravendita, percorso-lutto
+  (delicate, sober tone), percorso-busta-controllo. Handoff context, no
+  duplicated questions; 2 end-to-end cases each + run protocols in `tests/percorsi/`.
+- Indexes: `skills.json` 1.16.0 (278 entries: 254 ours + 24 vendors), all harness
+  manifests 1.16.0 (claude/codex/cursor/gemini).
+
 ## 1.15 (Integrativa, 249 active + 35 archived, +24 vendors)
 
 - 2 skills (historic deferred, now closed): lavoro (contratto-base-check,

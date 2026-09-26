@@ -1,6 +1,6 @@
 {
   "name": "ai-skills-hub",
-  "version": "1.15.0",
+  "version": "1.16.0",
   "spec": "https://agentskills.io/specification",
   "skills": [
     {
@@ -3232,6 +3232,71 @@
       "name": "ferie-permessi",
       "path": "skills/ferie-permessi/SKILL.md",
       "description": "Explain holidays and permits with accrual rules. Use when asked ferie permessi, holidays permits Italy.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "percorso-apri-partita-iva",
+      "path": "skills/percorso-apri-partita-iva/SKILL.md",
+      "description": "Guided path from idea to first invoice. Use when asked open partita IVA start to finish, avvio attività percorso, freelance from zero Italy.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "percorso-assunzione-domestica",
+      "path": "skills/percorso-assunzione-domestica/SKILL.md",
+      "description": "Guided hiring path for domestic workers. Use when asked assumere colf badante passo passo, hire domestic worker path Italy.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "percorso-casa-compravendita",
+      "path": "skills/percorso-casa-compravendita/SKILL.md",
+      "description": "Guided home-buying path, offer to taxes. Use when asked comprare casa passo passo, buy home path Italy, mutuo to IMU.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "percorso-lutto",
+      "path": "skills/percorso-lutto/SKILL.md",
+      "description": "Guided bereavement path, funeral to succession. Use when asked lutto cosa fare, death procedures path Italy, funerale successione passi.",
+      "license": "MIT",
+      "compatibility": [
+        "claude",
+        "codex",
+        "grok",
+        "cursor",
+        "copilot"
+      ]
+    },
+    {
+      "name": "percorso-busta-controllo",
+      "path": "skills/percorso-busta-controllo/SKILL.md",
+      "description": "Guided payslip audit path, contract to balances. Use when asked controllare busta paga percorso, payslip audit path Italy, stipendio verifiche.",
       "license": "MIT",
       "compatibility": [
         "claude",

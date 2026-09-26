@@ -102,7 +102,9 @@
 - Batch 12-IT, scuola/fine-vita/soldi (5): scuola-privata-paritaria, universita-estero-laurea,
   servizi-cimiteriali-funebri, fido-scoperto, assegni-bancari.
 - Integrativa 1.15, lavoro (2): contratto-base-check, ferie-permessi.
-Details in catalog/skills.json (v1.15.0, 273 entries: 249 ours + 24 vendors).
+- Percorsi 1.16, guided paths (5): percorso-apri-partita-iva, percorso-assunzione-domestica,
+  percorso-casa-compravendita, percorso-lutto, percorso-busta-controllo.
+Details in catalog/skills.json (v1.16.0, 278 entries: 254 ours + 24 vendors).
 Archived generic skills in archive/ (not installed).
 Pinned third-party skills in vendors/ (24, opt-in via --source vendors, see vendors/README.md):
 anthropics-skills (10), mattpocock-skills (6), superpowers (8) — detail in docs/CATALOG.md.

@@ -175,3 +175,10 @@ Total: 247 active. Deferred still pending: contratto-base-check, ferie-permessi.
 - IT-Lavoro-15: contratto-base-check, ferie-permessi
 
 Total: 249 active. No deferred left.
+
+## Percorsi 1.16 - guided paths (5) - 2026-09-25
+
+- IT-Percorsi: percorso-apri-partita-iva, percorso-assunzione-domestica,
+  percorso-casa-compravendita, percorso-lutto, percorso-busta-controllo
+
+Total: 254 active. No deferred left.

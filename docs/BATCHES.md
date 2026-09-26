@@ -5,7 +5,24 @@ All skill content in English. Only `README-IT.md` stays in Italian (`README.md` 
 ## RESTART 2026-09-23 - Italian Work Skills Hub
 
 Generic batches below are archived (`archive/`, 35 skills, frozen).
-Active: 249 skills in `skills/` + 24 pinned vendor skills in `vendors/`.
+Active: 254 skills in `skills/` + 24 pinned vendor skills in `vendors/`.
+
+## Percorsi-1.16 - guided paths ✅ 2026-09-25 (254 active)
+
+5 hub skills (`user-invocable` entry points) orchestrating existing skills with
+handoff context, no duplicated questions. Each: SKILL.md + `references/tappe.md` +
+`examples/percorso-cases.md` (2 end-to-end Good + 1 Bad) + run protocol in
+`tests/percorsi/` + behavior guards.
+
+- Impresa: percorso-apri-partita-iva (idea→ATECO→regime+script→INPS→scadenze→prima fattura)
+- Lavoro: percorso-assunzione-domestica (profilo→contratto→paga→contributi→permessi→prima busta),
+  percorso-busta-controllo (contratto→netto+script→TFR+script→ferie+script)
+- Casa: percorso-casa-compravendita (budget→rogito→notaio→IMU+script→TARI)
+- Successioni: percorso-lutto (delicate, sober tone, debts-before-assets, referrals every tappa)
+
+Batch gate: `validate.py` 279 OK (278 entries + template),
+`security-check.py` clean, `install.py --all` dry-run ok (254 ours × 9 agents),
+`eval-behavior.py` OK (25 guided: 20 golden + 5 percorsi).
 
 ## Superpowers-2 - hooks, versions, multi-harness ✅ 2026-09-25 (no version bump)
 
