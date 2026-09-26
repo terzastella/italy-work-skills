@@ -1,0 +1,6 @@
+{
+  "version": "1.15.0",
+  "scheme": "semver (major.minor.patch): patch = fixes, minor = new skills, major = breaking layout",
+  "bump_with": "python scripts/bump-version.py --patch|--minor|--major [-m note]",
+  "managed_files": ["catalog/skills.json", ".claude-plugin/plugin.json", ".codex-plugin/plugin.json", ".cursor-plugin/plugin.json", "gemini-extension.json"]
+}

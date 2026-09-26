@@ -108,7 +108,7 @@ ai-skills/
   templates/skill-starter/   # new-skill template
   catalog/                   # skills.json (273 entries) + manifests + _registry.md
   docs/                      # CATALOG, METHODOLOGY, AUDITS, BATCHES, COMPATIBILITY, ...
-  scripts/                   # install + validate + security-check + build-catalog + eval-golden + ...
+  scripts/                   # install + validate + security + catalog + evals + versioning
 ```
 
 Rule: **edit only in `skills/`**, the rest is generated/copied.

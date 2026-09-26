@@ -7,6 +7,15 @@ All skill content in English. Only `README-IT.md` stays in Italian (`README.md` 
 Generic batches below are archived (`archive/`, 35 skills, frozen).
 Active: 249 skills in `skills/` + 24 pinned vendor skills in `vendors/`.
 
+## Superpowers-2 - hooks, versions, multi-harness ✅ 2026-09-25 (no version bump)
+
+- `hooks/session-start.md`: Italian-work router + per-harness wiring (text only, no executables).
+- `.version-bump.json` + `scripts/bump-version.py` (tested: 1.15.0→1.15.1→reverted).
+- `scripts/build-plugins.py`: generates `.codex-plugin/`, `.cursor-plugin/`,
+  `gemini-extension.json` from `skills.json` (273 skills each) + CI sync check.
+- `GEMINI.md` twin of `AGENTS.md`; cumulative `RELEASE-NOTES.md`
+  (absorbs `RELEASE-NOTES-1.15.md`).
+
 ## Superpowers-1 - behavior harness ✅ 2026-09-25 (no version bump)
 
 - `tests/` drill-style harness: README + `patterns-ban.txt` + 20 Golden run
