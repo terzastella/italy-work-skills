@@ -1,6 +1,6 @@
 # partita-iva-apri cases
 
-## Freelance dev opening
+## Good: freelance dev opening
 
 Input: employee resigning, same-sector clients, expected 50k€ [sample data].
 

@@ -30,7 +30,7 @@ Calls read like contracts: eligibility, fundable costs, deadlines, scores — th
 ## Rules
 
 - Every fact with call article/page number cited.
-- Deadlines with year + time + timezone; "check for extensions" note.
+- Deadlines year-stated (date + time + timezone); "check for extensions" note.
 - De minimis cumulation flagged when relevant (ask accountant).
 - Expired calls → say expired + find the replacement edition.
 

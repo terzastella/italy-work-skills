@@ -24,7 +24,7 @@ ISEE without errors: household, DSU documents, current vs ordinary.
 1. Household: who counts (residence + family status rules, see `references/nucleo.md`).
 2. DSU documents checklist: incomes, assets (bank balances at 31/12!), properties, vehicles.
 3. Ordinary vs corrente (current-year income drop cases).
-4. Output: personalized checklist + where to file (INPS online, CAF, patronato) + validity.
+4. Output: personalized checklist + where to file (INPS online, CAF, patronato) + validity (calendar year, year-stated).
 
 ## Rules
 

@@ -37,6 +37,7 @@ python scripts/security-check.py
 python scripts/check-indexes.py
 python scripts/build-catalog.py --check
 python scripts/eval-golden.py  # if you touched a skill with scripts/
+python scripts/eval-behavior.py  # if you touched Golden skills or delicate ones
 ```
 
 Update indexes: `catalog/skills.json`, `llms.txt`, `.claude-plugin/plugin.json`,

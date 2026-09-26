@@ -1,0 +1,32 @@
+# Banned verdict patterns (eval-behavior.py)
+
+One regex per line, matched case-insensitively against SKILL.md +
+references/ + examples/ of delicate skills. These phrases must never
+appear as affirmative statements — our texts only quote them inside
+refusals ("never ..."), so any match here is either a quoted refusal
+(allowed, see allow-list below) or a real violation.
+
+Patterns:
+hai diritto a [\d€]
+avrai diritto
+ti spettano [\d€]
+you will receive [\d€]
+diagnosi:.*
+ti prescrivo
+investi in \w+ fondo
+sottoscrivi (il|la|questo)
+denuncia tuo datore
+licenzia il tuo
+non pagare (le tasse|l'iva)
+evadi (le tasse|l'iva)
+firma qui
+sei idoneo al 100%
+approvato garantito
+guaranteed approval
+
+Allow-list (quoted inside refusals — matched with surrounding "never/no/non"):
+never.*you qualify
+never.*verdict
+no.*verdicts
+mai.*verdetto
+non.*verdetti

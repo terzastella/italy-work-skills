@@ -41,6 +41,7 @@ Missing data: <list or "none">
 
 - Never invent VAT IDs, tax codes, existing invoice numbers: only given data.
 - Totals always recomputed and shown, never just the final figure.
+- VAT rates year-stated (see `references/vat.md`); rates move — verify yearly.
 - Disclaimer: not tax advice, draft document only.
 
 ## Scripts

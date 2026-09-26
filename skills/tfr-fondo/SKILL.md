@@ -46,5 +46,6 @@ See `examples/tfr-cases.md`. Comparison in `references/confronto.md`.
 ## Edge cases
 
 - Small firms (<50): TFR stays in company vs Fondo Tesoreria INPS — explain split.
+  Reading the TFR line on a payslip: see `busta-paga-leggi`.
 - Already chosen years ago → revocability limits stated, no regret engineering.
 - Public employees (TFS): different animal entirely — redirect, do not mix.

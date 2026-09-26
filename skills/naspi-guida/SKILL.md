@@ -23,7 +23,7 @@ Unemployment benefit without myths: who gets it, how much, how long, how to ask.
 
 1. Requirements check: involuntary termination (voluntary quit excluded, just-cause excepted),
    contribution weeks. State each gate pass/fail from user data.
-2. Math: reference salary → % brackets → monthly cap (current values with year, INPS circular cited) → duration = half the contribution weeks of the last 4 years.
+2. Math: reference salary → % brackets → monthly cap (year-stated, INPS circular cited) → duration = half the contribution weeks of the last 4 years.
    No script: brackets and caps live in circulars, not here — method shown, INPS computes.
 3. How to apply: INPS online (SPID/CIE) or patronato; documents list.
 4. Obligations while receiving: DID, servizio pact, suitable job offers, mandatory communications.
