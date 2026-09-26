@@ -1,0 +1,9 @@
+{
+  "year": 2025,
+  "note": "VERIFY LIVE — reforms move brackets. Dated table, valid only for 2025.",
+  "scaglioni": [
+    {"fino": 28000, "aliquota": 0.23},
+    {"fino": 50000, "aliquota": 0.25},
+    {"fino": "inf", "aliquota": 0.43}
+  ]
+}

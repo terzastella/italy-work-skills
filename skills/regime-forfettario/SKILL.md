@@ -3,8 +3,8 @@ name: regime-forfettario
 description: Explain Italy's flat-rate scheme with thresholds and calculations. Use when asked forfettario, flat rate, 85.000, 5 percent, coefficiente.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
-allowed-tools: Read Write
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+allowed-tools: Read Write Bash
 argument-hint: "[situation]"
 user-invocable: true
 disable-model-invocation: false
@@ -25,7 +25,9 @@ Italy’s flat-rate scheme explained with current thresholds: who qualifies, wha
    employee costs ≤20.000€, employee/pension income within limit, no exclusion causes.
 2. Two-threshold logic: ≤85.000€ stay · 85.001–100.000€ exit next year ·
    >100.000€ immediate exit with VAT from the breaching invoice.
-3. Show the math: revenue × coefficient − social contributions = base × 15% (or 5% startup).
+3. Show the math with the bundled script (preferred, reproducible):
+   `python skills/regime-forfettario/scripts/forfettario.py --fatturato 60000 --coeff 0.78 --contributi 8000 --aliquota 15 --year 2026`
+   revenue × coefficient − social contributions = base × 15% (or 5% startup).
 4. Always close with: verify with accountant; rules change yearly (checked 2026-09-23).
 
 ## Rules
@@ -34,6 +36,11 @@ Italy’s flat-rate scheme explained with current thresholds: who qualifies, wha
 - Professionals: threshold on takings; firms: on accrual — say which applies.
 - Never declare eligibility ("you qualify"): list gates, let the accountant decide.
 - 5% startup: only with all L.190/2014 art.1 c.65 conditions (new activity, prior 3 years, no continuity).
+
+## Scripts
+
+- `scripts/forfettario.py` — tax math + threshold status (coefficient, thresholds, rate are inputs).
+  Fixtures with expected outputs in `examples/fixtures/`. The script never declares eligibility.
 
 ## Examples
 

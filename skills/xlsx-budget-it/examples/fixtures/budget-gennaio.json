@@ -1,0 +1,4 @@
+{
+  "input": {"month": "2026-01", "income": 2000, "spese": ["affitto:800", "spesa:350", "trasporti:120"]},
+  "expected": {"spese": 1270.0, "saldo": 730.0, "quote_pct": {"affitto": 63.0, "spesa": 27.6, "trasporti": 9.4}}
+}

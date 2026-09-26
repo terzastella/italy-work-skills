@@ -1,0 +1,4 @@
+{
+  "input": "examples/items-miste.json",
+  "expected": {"imponibile": 400.0, "iva_per_aliquota": {"22.0": 44.0, "10.0": 20.0}, "totale": 464.0}
+}

@@ -7,6 +7,27 @@ All skill content in English. Only `README.md` stays in Italian.
 Generic batches below are archived (`archive/`, 35 skills, frozen).
 Active: 249 skills in `skills/` + 24 pinned vendor skills in `vendors/`.
 
+## Golden-1 - depth program ✅ 2026-09-25 (20 skills deepened, no version bump)
+
+20 most-used skills deepened in place (`metadata.version` 0.1→0.2): expanded
+SKILL.md, split references, good/bad examples, cross-links (no Golden left
+without an out-link). 10 neutral stdlib scripts added (math only, rates and
+tables are explicit dated inputs, never bundled truth):
+
+- imu-calcolo (`imu.py`, 3 fixtures), irpef-scaglioni (`irpef.py` + dated tables,
+  3 fixtures), acconti-calcolo (`acconti.py`, explicit split, 3 fixtures),
+  regime-forfettario (`forfettario.py`, 3 fixtures), invoice-it (`totals.py`,
+  2 fixtures), busta-paga-leggi (`payslip_check.py`, 3 fixtures),
+  ferie-permessi (`ratei.py`, 2 fixtures), tfr-fondo (`rivalutazione.py`, 2 fixtures),
+  assegno-unico (`fasce.py` + dated tables, 1 fixture), xlsx-budget-it (`budget.py`, 1 fixture).
+- Text-only deep-dives (no script by design): scadenze-fiscali, naspi-guida
+  (typos fixed), email-formale-it, pec-bozza, cv-europass, bandi-pmi,
+  colf-badanti, partita-iva-apri, isee-guida, hello-agent (`## Rules` added).
+
+Delicate/info-only skills are excluded from scripts, permanently.
+Gate: `validate.py` full OK (hardened: frontmatter + sections + references/examples),
+every script run against its fixtures with matching outputs, `security-check.py` clean.
+
 ## Integrativa 1.15 - deferred closed ✅ 2026-09-25 (249 active)
 
 2 skills (the historic deferred), each `SKILL.md` + `references/` + `examples/`.

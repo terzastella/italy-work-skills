@@ -1,0 +1,4 @@
+{
+  "input": "examples/items-610.json",
+  "expected": {"imponibile": 500.0, "iva_per_aliquota": {"22.0": 110.0}, "totale": 610.0}
+}

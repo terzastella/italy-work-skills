@@ -1,0 +1,4 @@
+{
+  "input": {"isee": 25000, "minori": 2, "tabella": "examples/importi-2025.json", "year": 2025},
+  "expected": {"per_minore": 150.0, "mensile": 300.0}
+}

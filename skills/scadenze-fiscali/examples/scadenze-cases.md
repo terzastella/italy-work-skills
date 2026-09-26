@@ -1,6 +1,6 @@
 # scadenze-fiscali cases
 
-## Forfettario 2026 payments (method)
+## Good: forfettario 2026 payments (method)
 
 Input: 2025 balance due 5.820€ (from return), profile forfettario.
 
@@ -12,6 +12,20 @@ Late option: +30 days with +0.80% (by 20/08)
 VERIFY on agenziaentrate.gov.it before paying — extensions move.
 ```
 
-## Employee profile
+## Good: employee profile routed
 
-Output: CU → 730 path, different calendar, no advance payments. Ask profile first.
+Input: employee, no business income [sample data].
+
+Output: CU → 730 path, different calendar, no advance payments. `Ask profile first — wrong calendar is worse than none.`
+
+## Bad: timeless deadline
+
+Input: "quando si paga il saldo?" with no year [sample data].
+
+Output: no date. `Never state a deadline without year — ask year + profile first.`
+
+## Bad: screenshot extension
+
+Input: forwarded message "proroga al 30/09!!!" [sample data].
+
+Output: `Decree number + AdE notice date, or it didn't happen. Never trust forwarded screenshots alone.`

@@ -3,7 +3,7 @@ name: scadenze-fiscali
 description: Read Italian tax deadlines and build payment calendars. Use when asked scadenze fiscali, versamenti, acconto saldo, tax deadlines Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[year/profile]"
 user-invocable: true
@@ -18,6 +18,7 @@ Tax deadlines read correctly: balance vs advance, extensions, and the golden rul
 
 - "scadenze fiscali", "versamenti", "acconto/saldo", "when to pay taxes Italy".
 - Do not use for computing amounts owed (method + calendar only).
+  Splits live in `acconti-calcolo`, regime math in `regime-forfettario` — this skill dates them.
 
 ## Workflow
 

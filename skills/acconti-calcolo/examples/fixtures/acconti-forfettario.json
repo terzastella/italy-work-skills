@@ -1,0 +1,4 @@
+{
+  "input": {"imposta": 5820, "split": "100", "year": 2026},
+  "expected": {"metodo": "storico", "base": 5820, "acconto_dovuto": true, "rate": [5820.0]}
+}

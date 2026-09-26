@@ -1,0 +1,4 @@
+{
+  "input": {"rendita": 1200, "moltiplicatore": 160, "aliquota-per-mille": 10.6, "detrazione": 200, "mesi": 12, "year": 2026},
+  "expected": {"base_imponibile": 201600.0, "imposta_dovuta": 1936.96, "acconto_giugno": 968.48, "saldo_dicembre": 968.48}
+}

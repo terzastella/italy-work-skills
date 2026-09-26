@@ -1,0 +1,4 @@
+{
+  "input": {"lordo": 975, "inps": 87.75, "irpef": 120, "detrazioni": 60, "netto": 827.25},
+  "expected": {"netto_ricalcolato": 827.25, "gap": 0.0, "esito": "match"}
+}

@@ -1,0 +1,4 @@
+{
+  "input": {"soglia-check": 97000, "year": 2026},
+  "expected": {"stato_soglie": "esci prossimo anno: oltre 85k, forfettario fino al 31/12, ordinario dal 1/1"}
+}

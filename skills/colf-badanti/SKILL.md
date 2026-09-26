@@ -3,7 +3,7 @@ name: colf-badanti
 description: Guide domestic work contracts with levels and contributions. Use when asked colf badante, domestic worker Italy, contratto domestico.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -41,3 +41,4 @@ See `examples/colf-cases.md`. Level table in `references/livelli.md`.
 - Badante night shifts: presence vs active hours rules flagged.
 - Dismissal of domestic worker: preavviso + TFR + specific terms, no generic licenziamento mix.
 - Bonus/assegni linked (e.g. asilo): cross-links stated, amounts with year.
+- Reading their payslip → see `busta-paga-leggi`; their holidays → see `ferie-permessi`.

@@ -1,0 +1,10 @@
+{
+  "year": 2025,
+  "note": "VERIFY LIVE against the current INPS circular — illustrative bands, valid only for 2025. Disabled children and maggiorazioni need the full tables.",
+  "fasce": [
+    {"isee_max": 17500, "per_minore": 200.0},
+    {"isee_max": 25000, "per_minore": 150.0},
+    {"isee_max": 45000, "per_minore": 60.0},
+    {"isee_max": "inf", "per_minore": 30.0}
+  ]
+}
