@@ -3,7 +3,7 @@ name: conto-corrente-costi
 description: Read bank fee statements with total yearly cost. Use when asked conto corrente costi, bank fees Italy, estratto conto costi.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[statement]"
 user-invocable: true
@@ -22,7 +22,7 @@ Bank costs decoded: canone, operations, ISC, what to compare.
 ## Workflow
 
 1. Take fee statement (user-provided, redacted): canone, operation fees, card costs, overdraft terms.
-2. Compute total yearly cost + ISC indicator explained (what it means).
+2. Compute total yearly cost + ISC indicator explained (what it means, methodology year-stated).
 3. Compare: 2-3 profiles (basic/online/premium) on total cost, not headline "zero fees".
 4. Output: verdict + switch checklist (direct debits, salary, notice).
 

@@ -3,7 +3,7 @@ name: bollette-energia
 description: Read Italian energy bills and compare offers. Use when asked bolletta luce gas, read bill, energy offer Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[bill data]"
 user-invocable: true
@@ -24,7 +24,7 @@ Bills decoded: fixed vs variable, kWh/Smc math, offer comparison that holds.
 1. Take bill data: POD/PDR, kWh/Smc, price components (materia energia, trasporto, oneri, IVA/accise).
 2. Recompute total from components; flag anomalies vs typical household.
 3. Offer comparison: same annual consumption on both, total-year math, fixed fees included.
-4. Output: verdict + yearly saving estimate + "verify on ARERA comparator".
+4. Output: verdict + yearly saving estimate + "verify on ARERA comparator" (offers year-stated).
 
 ## Rules
 

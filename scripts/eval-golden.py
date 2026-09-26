@@ -52,8 +52,26 @@ def argv(skill_dir, script, inp):
               "--fruiti", str(inp.get("fruiti", 0))]
         if "part-time" in inp:
             a += ["--part-time", str(inp["part-time"])]
+    elif script == "ritenuta.py":
+        if "lordo" in inp:
+            a += ["--lordo", str(inp["lordo"])]
+        if "netto" in inp:
+            a += ["--netto", str(inp["netto"])]
+        a += ["--aliquota", str(inp.get("aliquota", 20))]
+        if inp.get("forfettario"):
+            a += ["--forfettario"]
     elif script == "rivalutazione.py":
         a += ["--accantonato", str(inp["accantonato"]), "--inflazione", str(inp["inflazione"]),
+              "--year", str(inp["year"])]
+    elif script == "cedolare.py":
+        a += ["--canone", str(inp["canone"]), "--cedolare", str(inp.get("cedolare", 21)),
+              "--marginale", str(inp["marginale"])]
+    elif script == "tredicesima.py":
+        a += ["--retribuzione", str(inp["retribuzione"]), "--mesi", str(inp["mesi"])]
+        if "part-time" in inp:
+            a += ["--part-time", str(inp["part-time"])]
+    elif script == "riscatto.py":
+        a += ["--anni", str(inp["anni"]), "--tariffa", str(inp["tariffa"]),
               "--year", str(inp["year"])]
     elif script == "fasce.py":
         a += ["--isee", str(inp["isee"]), "--minori", str(inp["minori"]),

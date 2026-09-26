@@ -3,8 +3,8 @@ name: riscatto-laurea
 description: Explain degree buyback costs and convenience check. Use when asked riscatto laurea, degree buyback Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
-allowed-tools: Read Write
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+allowed-tools: Read Write Bash
 argument-hint: "[situation]"
 user-invocable: true
 disable-model-invocation: false
@@ -22,7 +22,9 @@ Buy back degree years: cost methods, convenience test, application path.
 ## Workflow
 
 1. Requirements: degree completed, uncovered years (no contributions overlapping).
-2. Cost methods: ordinary (income-based) vs agevolato flat (conditions + year-stated).
+2. Cost methods with the bundled script (preferred, reproducible): years × year-stated tariff
+   (ordinary income-based vs agevolato flat — tariff is the input, method table in `references/metodi.md`):
+   `python skills/riscatto-laurea/scripts/riscatto.py --anni 5 --tariffa 6000 --year 2026`
 3. Convenience test: years needed for target path vs cost vs tax deduction benefit.
 4. Output: method comparison + documents + INPS/patronato route. No purchase advice as fact.
 
@@ -31,6 +33,11 @@ Buy back degree years: cost methods, convenience test, application path.
 - Costs with year and method; flat-rate windows are temporary — verify live.
 - Deductibility note (from income) with current rules cited.
 - Inoccupati periods: separate favorable track flagged.
+
+## Scripts
+
+- `scripts/riscatto.py` — cost math (tariff is a year-stated input).
+  Fixtures with expected outputs in `examples/fixtures/`. Method choice with numbers, never advice as fact.
 
 ## Examples
 

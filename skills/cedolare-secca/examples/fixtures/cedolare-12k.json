@@ -1,0 +1,4 @@
+{
+  "input": {"canone": 12000, "cedolare": 21, "marginale": 35},
+  "expected": {"costo_cedolare": 2520.0, "costo_irpef_stimato": 4200.0, "vince": "cedolare"}
+}

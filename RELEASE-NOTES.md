@@ -1,5 +1,11 @@
 # Release Notes (cumulative — newest first)
 
+## Unreleased — Golden-2 depth wave (no version bump)
+
+20 more skills to 0.2 (Good/Bad, year markers, links) + 4 neutral scripts
+(ritenuta, cedolare, tredicesima, riscatto) with fixtures 32/32 green.
+Behavior guards cover 45 guided + 36 delicate.
+
 ## v1.16.0 — Percorsi: 5 guided paths (2026-09-25)
 
 254 originals + 24 pinned third-party = 278 entries. Tag `v1.16.0` (after merge).

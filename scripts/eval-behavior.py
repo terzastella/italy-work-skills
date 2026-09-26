@@ -24,7 +24,14 @@ GOLDEN = ["imu-calcolo", "irpef-scaglioni", "acconti-calcolo", "regime-forfettar
           "invoice-it", "busta-paga-leggi", "ferie-permessi", "tfr-fondo",
           "assegno-unico", "xlsx-budget-it", "scadenze-fiscali", "naspi-guida",
           "email-formale-it", "pec-bozza", "cv-europass", "bandi-pmi",
-          "colf-badanti", "partita-iva-apri", "isee-guida", "hello-agent"]
+          "colf-badanti", "partita-iva-apri", "isee-guida", "hello-agent",
+          "fattura-elettronica-it", "ritenuta-acconto", "cedolare-secca",
+          "tredicesima-info", "riscatto-laurea", "contratto-tipi",
+          "periodo-prova", "dimissioni-procedura", "malattia-certificato",
+          "apprendistato", "conto-corrente-costi", "tari-tassa",
+          "bollette-energia", "spid-cie-guida", "domanda-bando",
+          "maternita-congedi", "pensione-guida", "successioni-info",
+          "donazioni-info", "testamento-olografo"]
 
 PERCORSI = ["percorso-apri-partita-iva", "percorso-assunzione-domestica",
             "percorso-casa-compravendita", "percorso-lutto",

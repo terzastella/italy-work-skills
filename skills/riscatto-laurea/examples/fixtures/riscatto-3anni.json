@@ -1,0 +1,4 @@
+{
+  "input": {"anni": 3, "tariffa": 6000, "year": 2026},
+  "expected": {"costo": 18000.0}
+}

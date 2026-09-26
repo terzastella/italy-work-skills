@@ -3,7 +3,7 @@ name: domanda-bando
 description: Draft grant applications with attachments checklist. Use when asked domanda bando, application, candidatura contributo.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[call + company data]"
 user-invocable: true
@@ -25,7 +25,7 @@ Applications that survive evaluation: complete, consistent, on time.
 2. Draft per required sections, mirroring evaluation criteria order.
 3. Attachments checklist with status (have/missing/[TODO]) + formats required.
 4. Consistency pass: numbers identical everywhere (budget = narrative = forms).
-5. Output draft + "before sending" checklist + deadline countdown.
+5. Output draft + "before sending" checklist + deadline countdown (dates year-stated, extensions verified).
 
 ## Rules
 

@@ -3,7 +3,7 @@ name: apprendistato
 description: Explain apprenticeships with types and protections. Use when asked apprendistato, apprenticeship Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -21,7 +21,7 @@ Real apprenticeships: types, training duty, pay path, protections.
 
 ## Workflow
 
-1. Type: professionalizzante vs alta formazione/duale (age/goal differ).
+1. Type: professionalizzante vs alta formazione/duale (age/goal differ, limits year-stated).
 2. Must-haves: written training plan (PFI), tutor, progressive pay path.
 3. Protections: same as employees + confirmation rules at the end.
 4. Output: situation check + questions for employer + union referral if violated.

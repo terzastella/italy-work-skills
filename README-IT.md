@@ -178,6 +178,7 @@ Stato: **v1.16 — 254 skill nostre + 24 terze pinnate = 278 entries** (dettagli
 - [x] Integrativa 1.15: le 2 rinviate (contratto-base-check, ferie-permessi) — debito chiuso
 - [x] Fondazioni: tag SemVer, governance, CI hardening, validatore frontmatter
 - [x] Golden-1: 20 skill approfondite + 10 script neutri con fixture (vedi `docs/BATCHES.md`)
+- [x] Golden-2: altre 20 approfondite + 4 script neutri (40 guided, 32/32 fixture)
 - [x] Fiducia-1: evals deterministici (23/23) + audits 36 delicate + piano test 5×3
 - [x] Superpowers 1-2: harness behavior, hooks, version-bump, manifest multi-harness
 - [x] Percorsi-1.16: 5 percorsi guidati (P.IVA, domestica, casa, lutto, busta)
