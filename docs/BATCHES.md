@@ -7,6 +7,18 @@ All skill content in English. Only `README-IT.md` stays in Italian (`README.md` 
 Generic batches below are archived (`archive/`, 35 skills, frozen).
 Active: 254 skills in `skills/` + 24 pinned vendor skills in `vendors/`.
 
+## Local-tests-1 - first real-agent runs ✅ 2026-09-26 (no version bump)
+
+- OpenCode + Ollama `qwen3:8b` (qwen3.6 too slow on this hardware, recorded):
+  9 runs, 7 ✅ (hello-agent, invoice-it, frontend-design, tdd, imu-calcolo,
+  irpef-scaglioni, acconti-calcolo), 2 model-limit ❌ (implicit trigger miss,
+  brainstorming methodology fail). Zero skill-content bugs.
+- `opencode.json` (Ollama provider) committed; skills installed to
+  `.opencode/skills/` (gitignored). Log: `docs/TEST-PLAN-LOCAL.md`,
+  results: `docs/COMPATIBILITY.md` local-track section.
+- Lesson logged: agents write outputs into installed skill dirs — check
+  `git status` after every agent session. Fixed: `hello-agent` table version 0.1→0.2.
+
 ## Percorsi-1.16 - guided paths ✅ 2026-09-25 (254 active)
 
 5 hub skills (`user-invocable` entry points) orchestrating existing skills with

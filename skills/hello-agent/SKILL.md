@@ -37,7 +37,7 @@ Verifies in 10 seconds that skills are visible to the current agent.
 | Item | Value |
 |------|-------|
 | Agent | <Claude Code / Codex / Grok / Cursor / Copilot / other> |
-| Active skill | hello-agent 0.1 |
+| Active skill | hello-agent 0.2 (match `metadata.version` above; update both together) |
 | Skill path | <path you were loaded from, or unknown> |
 | Status | OK |
 ```
