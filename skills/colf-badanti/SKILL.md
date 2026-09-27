@@ -3,7 +3,7 @@ name: colf-badanti
 description: Guide domestic work contracts with levels and contributions. Use when asked colf badante, domestic worker Italy, contratto domestico.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -13,18 +13,43 @@ disable-model-invocation: false
 # Colf e Badanti
 
 Domestic work in order: contract level, pay, contributions, permits.
+Flagship skill: profiling funnel, convivente logic, cost picture with tables.
 
 ## When to use
 
 - "colf badante", "domestic worker Italy", "contratto domestico".
 - Do not use for company employees (different CCNL).
 
-## Workflow
+## Workflow (tappe with formal in/out)
 
-1. Profile: mansioni (colf vs badante vs baby-sitter), hours (convivente or not), level per CCNL domestico.
-2. Pay: minimum tables (year-stated) + 13a + TFR accrual + ferie.
-3. Contributions: INPS quarterly (F24), rates + minimal (year-stated); INAIL for domestics.
-4. Permits for non-EU workers: hiring-decreto flows flagged + referral, never DIY on quotas.
+### Tappa 1 — Profile (no figures before this)
+
+Mansioni: colf vs badante vs baby-sitter. Hours: convivente or not.
+Level per CCNL domestico (year-stated tables — see `references/livelli.md`).
+Non-EU worker → permits flag now (hiring-decree flows + referral, never DIY on quotas).
+
+### Tappa 2 — Pay picture
+
+Minimum tables (year-stated, CCNL cited) + 13a + TFR accrual + ferie.
+Convivente: vitto/alloggio counting stated, never folded silently.
+Badante nights: presence vs active-hours rules flagged.
+
+### Tappa 3 — Contributions + permits
+
+INPS quarterly via F24 (rates + minimal, year-stated) + INAIL for domestics.
+Dismissal terms: preavviso + TFR + domestic-specific rules (no generic licenziamento mix).
+
+### Tappa 4 — Close with links
+
+Payslip reading (see `busta-paga-leggi`), holidays (see `ferie-permessi`),
+linked benefits (e.g. asilo: amounts with year). Irregular work: risks stated
+plainly for both sides + regularization path.
+
+## Multi-turn protocol
+
+Turn 1 (profile): mansioni + hours + convivente — figures wait.
+Turn 2 (contract + pay): level + full cost picture. Turn 3 (admin):
+contributions + permits + first-payslip verification.
 
 ## Rules
 
@@ -34,11 +59,15 @@ Domestic work in order: contract level, pay, contributions, permits.
 
 ## Examples
 
-See `examples/colf-cases.md`. Level table in `references/livelli.md`.
+Good and bad cases in `examples/colf-cases.md`. Level table in `references/livelli.md`.
+Night-shift rules in `references/notti.md`.
 
-## Edge cases
+## Edge cases (priority order)
 
-- Badante night shifts: presence vs active hours rules flagged.
-- Dismissal of domestic worker: preavviso + TFR + specific terms, no generic licenziamento mix.
-- Bonus/assegni linked (e.g. asilo): cross-links stated, amounts with year.
-- Reading their payslip → see `busta-paga-leggi`; their holidays → see `ferie-permessi`.
+| # | Case | Action |
+|---|---|---|
+| 1 | Non-EU, no permit | hiring-decree referral, never DIY |
+| 2 | Night shifts | presence vs active hours flagged |
+| 3 | Dismissal | preavviso + TFR domestic terms |
+| 4 | Irregular work | risks both sides + regularization |
+| 5 | Bonus linked | cross-links, amounts with year |

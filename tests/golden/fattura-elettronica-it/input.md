@@ -1,3 +1,5 @@
 # input — fattura-elettronica-it
 
-Draft a B2B e-invoice: seller and buyer VAT IDs given, 2 items, recipient code ABC1234.
+Fattura B2B: venditore e cliente con P.IVA date, 2 voci, codice destinatario ABC1234.
+
+Follow-up turn 2: scartata, codice errore 00404.

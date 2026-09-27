@@ -52,6 +52,18 @@ cases: protocols are procedural info-seeking prompts.
 Behavior guards extended to 245 guided (215 + 30). Zero skills left at 0.1
 outside the 5 percorsi (guided, versioned separately).
 
+## Golden-12 - flagship XL ✅ 2026-09-25 (no version bump)
+
+10 flagship skills to long guides (100-150 SKILL lines, tappe + multi-turn +
+priority edge tables, split references, 0.3): imu-calcolo (tappe, special
+cases, payment notes, 5 fixtures), irpef-scaglioni (tappe, detrazioni layer,
+5 fixtures), regime-forfettario (gates-first tappe, esclusioni file,
+5 fixtures), busta-paga-leggi (section walk, 5 fixtures), scadenze-fiscali
+(profile calendars), partita-iva-apri (cost preview), fattura-elettronica-it
+(recipient routing), naspi-guida (duties file), colf-badanti (nights file),
+successioni-info (debts-first file). Multi-turn protocols extended.
+Gate: fixtures 63/63 green.
+
 ## Golden-11 - depth wave eleven ✅ 2026-09-25 (no version bump)
 
 19 remaining neutral skills to 0.2 (last neutrals: only 30 delicate + 5 percorsi

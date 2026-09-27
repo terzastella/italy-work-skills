@@ -188,6 +188,7 @@ Stato: **v1.16 — 254 skill nostre + 24 terze pinnate = 278 entries** (dettagli
 - [x] Golden-9: altre 20 approfondite, solo testuali (176 guided)
 - [x] Golden-10: altre 20 approfondite, solo testuali (196 guided)
 - [x] Golden-11: ultime 19 neutre approfondite, solo testuali (215 guided)
+- [x] Golden-12 XL: 10 flagship a guide lunghe 0.3 (63/63 fixture)
 - [x] Delicate-1: tutte le 30 sensibili approfondite, solo testuali per sempre (245 guided, 0.1 solo percorsi)
 - [x] Percorsi-0.2: 5 hub versionati — profondità completa, 254/254 a 0.2, zero bonsai rimasti
 - [x] Fiducia-1: evals deterministici (23/23) + audits 36 delicate + piano test 5×3
