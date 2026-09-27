@@ -1,5 +1,6 @@
 # expect — partita-iva-apri
 
-- MUST route forfettario-vs-ordinary via gates (no verdict)
-- MUST flag ex-employee continuity risk where relevant
-- MUST list filing steps + costs, guidance only
+- MUST profile first (activity, freelance, revenue, prior employment) before any route
+- MUST run regime + INPS sketches via scripts, no verdicts
+- MUST list filing steps + first-year costs, guidance only
+- Turn 2 (ex-employee): MUST flag prior-employer prevalence strongly, immediately

@@ -1,0 +1,4 @@
+{
+  "input": {"lordo": 1950, "inps": 175.5, "irpef": 280, "detrazioni": 125.5, "netto": 1500},
+  "expected": {"netto_ricalcolato": 1620.0, "gap": 120.0, "esito": "gap: ask payroll (possible conguaglio — not an accusation)"}
+}

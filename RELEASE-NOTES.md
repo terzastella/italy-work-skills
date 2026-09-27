@@ -1,5 +1,10 @@
 # Release Notes (cumulative — newest first)
 
+## Unreleased — Golden-12 XL flagships (no version bump)
+
+10 flagship skills to 100-150-line guides (tappe, multi-turn, edge tables,
+split references, 0.3) with 63/63 fixtures green. First 0.3 skills in repo.
+
 ## Unreleased — Percorsi-0.2: depth complete (no version bump)
 
 The 5 guided hubs versioned 0.2. Nothing left at 0.1 anywhere:

@@ -1,0 +1,4 @@
+{
+  "input": {"soglia-check": 100001, "year": 2026},
+  "expected": {"stato_soglie": "esci subito: oltre 100k, IVA dalla fattura di sforamento + ordinario immediato"}
+}

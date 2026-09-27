@@ -1,0 +1,4 @@
+{
+  "input": {"soglia-check": 85000, "year": 2026},
+  "expected": {"stato_soglie": "resta: entro soglia, regime confermato quest'anno e prossimo (verifica altri gate)"}
+}

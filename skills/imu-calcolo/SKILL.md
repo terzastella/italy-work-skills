@@ -3,7 +3,7 @@ name: imu-calcolo
 description: Explain IMU property tax with base and rate method. Use when asked IMU, property tax Italy, seconda casa tax.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
 allowed-tools: Read Write Bash
 argument-hint: "[property data]"
 user-invocable: true
@@ -13,7 +13,8 @@ disable-model-invocation: false
 # IMU Calcolo
 
 IMU without surprises: who pays, on what base, at which rate, when — with a
-neutral calculator for the math.
+neutral calculator for the math. Flagship skill: deep method, dated tables,
+verified fixtures, special cases mapped.
 
 ## When to use
 
@@ -21,18 +22,44 @@ neutral calculator for the math.
 - Do not use for income taxes (see `irpef-scaglioni`), registration taxes,
   or TARI waste tax (see `tari-tassa`).
 
-## Workflow
+## Workflow (tappe with formal in/out)
 
-1. Qualify the property: main home (abitazione principale)? Seconda casa?
-   Land (agricolo/edificabile)? Pertinenze (C/2, C/6, C/7 — one per category)?
-2. Collect inputs (never compute from thin air): rendita catastale, categoria,
-   comune, months of possession. Rate comes from the comune delibera for the
-   tax year — ask the user for it or state it as given, never from memory.
-3. Run the math with the bundled script (preferred, reproducible):
-   `python skills/imu-calcolo/scripts/imu.py --rendita 850 --moltiplicatore 160 --aliquota-per-mille 10.6 --year 2026`
-   Fallback by hand: rendita × 1.05 × multiplier → base; base × rate − deductions.
-4. Output: base + annual tax + June advance + December balance (F24 codes noted)
-   + "verify rate on comune delibera YEAR before paying" + accountant/comune check.
+### Tappa 1 — Qualify the property
+
+Input: free-text description. Output: one of main-home / seconda-casa /
+agricultural-land / buildable-area / pertinenza (+ category letter).
+Main home (non-luxury) → exempt, stop here with the rule cited.
+Land → agricultural vs edificabile fork (see `references/casi-particolari.md`).
+
+### Tappa 2 — Collect inputs (never compute from thin air)
+
+Required: rendita catastale, categoria, comune, tax year, months of possession.
+Rate comes from the comune delibera for the year — ask the user for it or state
+it as given, never from memory. Missing any item → ask, do not proceed with gaps.
+
+### Tappa 3 — Run the math (script preferred, reproducible)
+
+`python skills/imu-calcolo/scripts/imu.py --rendita 850 --moltiplicatore 160 --aliquota-per-mille 10.6 --year 2026`
+Fallback by hand: rendita × 1.05 × multiplier → base; base × rate − deductions.
+Multiplier from `references/tabelle.md` by categoria (never guessed).
+
+### Tappa 4 — Output the statement
+
+Base + annual tax + June advance + December balance (F24 codes noted)
++ "verify rate on comune delibera YEAR before paying" + accountant/comune check.
+
+### Tappa 5 — Special cases sweep
+
+Run the checklist in `references/casi-particolari.md` (inagibile, comodato,
+terreni, pertinenze oltre una, ex-pat, comproprietà). Any hit → mapped path,
+never silent.
+
+## Multi-turn protocol
+
+Turn 1 (qualify): one question max — "prima o seconda casa?" Turn 2 (inputs):
+ask missing items in one batch, with examples of where to find them
+(visura: rendita + categoria). Turn 3 (verify): read back rate + year +
+comune for confirmation before computing. Never compute on turn 1.
 
 ## Rules
 
@@ -48,18 +75,25 @@ neutral calculator for the math.
 ## Scripts
 
 - `scripts/imu.py` — pure math: base, annual tax, advance/balance split.
-  Fixtures with expected outputs in `examples/fixtures/`. Run:
+  Fixtures with expected outputs in `examples/fixtures/` (5 cases). Run:
   `python skills/imu-calcolo/scripts/imu.py --help`
 
 ## Examples
 
 Good and bad cases in `examples/imu-cases.md`. Method in `references/metodo.md`.
 Tables (multipliers, deductions) in `references/tabelle.md`.
+Special cases in `references/casi-particolari.md`.
+Payment notes (F24, deadlines, late paths) in `references/versamento.md`.
 
-## Edge cases
+## Edge cases (priority order)
 
-- Sold mid-year → `--mesi` split; acconto already paid needs conguaglio math, stated.
-- Rate changed by comune mid-year → recompute with the new delibera, never average silently.
-- Ex-pat owner of Italian property → same math, payment-from-abroad paths flagged + referral.
-- Co-owned property → split by ownership share first, then run per share.
-- Pertinenze beyond one-per-category → taxable as separate units, flagged.
+| # | Case | Action |
+|---|---|---|
+| 1 | Sold mid-year | `--mesi` split; paid acconto → conguaglio math, stated |
+| 2 | Co-owned | split by share first, then run per share |
+| 3 | Rate changed mid-year | recompute with new delibera, never average silently |
+| 4 | Inagibile 50% | conditions + comune proof, flag (see casi-particolari) |
+| 5 | Pertinenze oltre una | taxable as separate units, flagged |
+| 6 | Ex-pat owner | same math + payment-from-abroad paths + referral |
+| 7 | Comodato relatives | reductions map, verify current, never promise |
+| 8 | Agricultural land | farmer/mountain lists map only + referral |

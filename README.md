@@ -147,6 +147,7 @@ Status: **v1.16 — 254 ours + 24 pinned third-party = 278 entries** (batches in
 - [x] Golden-9: 20 more deepened, text-only (176 guided)
 - [x] Golden-10: 20 more deepened, text-only (196 guided)
 - [x] Golden-11: last 19 neutrals deepened, text-only (215 guided)
+- [x] Golden-12 XL: 10 flagships to long guides 0.3 (63/63 fixtures)
 - [x] Delicate-1: all 30 sensitive deepened, text-only forever (245 guided, 0 at 0.1 outside percorsi)
 - [x] Percorsi-0.2: 5 hubs versioned — depth complete, 254/254 at 0.2, zero bonsai left
 - [x] Fiducia-1: evals, 36 sensitive audits, 5×3 test plan (account runs pending)
