@@ -61,6 +61,11 @@ Explicit invocation; model ollama 0.32.13 `qwen3:8b` (qwen3.6 too slow on this h
 | irpef-scaglioni | ✅ | dated table, slices + 8190 exact |
 | acconti-calcolo | ✅ | threshold + split stated (minor: split presented as rule) |
 
+### CPU-only micro-track — llama3.2:3b, num_gpu:0 (2026-09-26, weak signal)
+
+Training-safe runs (no VRAM): hello-agent ✅, invoice-it ❌ (math), imu-calcolo ❌ (no compute).
+Detail: `docs/TEST-PLAN-LOCAL.md`. Zero skill-content bugs; 3b limits only.
+
 Archived generic skills (35 in `archive/`) are not tested or installed.
 
 How to test (local only):

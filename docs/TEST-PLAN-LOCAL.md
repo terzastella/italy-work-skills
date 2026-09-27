@@ -29,6 +29,23 @@ This file logs the local track: first real-agent runs anywhere in this repo.
 
 Score: **7/9 ✅** (2 model-limit ❌, 0 skill-content bugs).
 
+## CPU-only run — llama3.2:3b, num_gpu:0 (2026-09-26, training-safe)
+
+Same machine was training (RTX 3060 busy) → qwen runs suspended. Direct
+Ollama API with `num_gpu: 0` (no server restart, no VRAM touched, ~20s/cell
+on CPU). Skill text pasted in-prompt (harness auto-load already proven).
+Weak signal by design: 3b models can't operationalize long instructions.
+
+| # | Skill | Result | Notes |
+|---|---|---|---|
+| 1 | hello-agent | ✅ | Correct table, agent, path 0.2 — better than 8b run |
+| 2 | invoice-it | ❌ | Structure followed, math failed (10×50=50, total 61 vs 610) — model limit |
+| 3 | imu-calcolo | ❌ | Tappe echoed, zero computation — model limit, no numbers produced |
+
+CPU-track: **1/3 ✅**, 0 skill-content bugs. Scripts only help inside agentic
+harnesses (the model can't run them here) — qwen3:8b+opencode cells stay
+the reference for script skills.
+
 ## Observations for skill design
 
 1. Agents write outputs INTO installed skill dirs (and once into repo `tests/`).
