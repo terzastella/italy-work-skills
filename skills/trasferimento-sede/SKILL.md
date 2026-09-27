@@ -3,7 +3,7 @@ name: trasferimento-sede
 description: Explain employer transfers with allowance and refusal. Use when asked trasferimento sede, work transfer Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -29,7 +29,7 @@ Transfers decoded: proven reasons, allowances, refusal paths.
 ## Rules
 
 - Punitive transfers (post-complaint) flagged as retaliation patterns + referral.
-- Allowance/timing per CCNL cited, never generic.
+- Allowance/timing per CCNL cited, year-stated; never generic.
 - No "accept/refuse" verdicts: facts + referral.
 
 ## Examples

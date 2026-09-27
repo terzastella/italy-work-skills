@@ -3,7 +3,7 @@ name: certificati-estero
 description: Guide legalization and apostille for use abroad. Use when asked legalizzazione, apostille, certificati estero.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[document/country]"
 user-invocable: true
@@ -30,7 +30,7 @@ Documents valid abroad: apostille vs legalization, sworn translations.
 
 - Hague list changes: verify destination status live, never from memory.
 - Sworn translations (asseverazioni) via tribunale path explained.
-- No "express" promises: timelines are ranges.
+- No "express" promises: timelines are ranges, year-stated.
 
 ## Examples
 

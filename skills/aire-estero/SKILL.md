@@ -3,7 +3,7 @@ name: aire-estero
 description: Guide AIRE registration with voting and services. Use when asked AIRE, italiani estero, vote abroad Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -31,7 +31,7 @@ Move abroad right: AIRE within 12 months, vote by mail, keep services straight.
 
 - Fictitious AIRE (living in Italy) is fraud: stated when relevant.
 - Return to Italy: cancellazione + re-registration path explained.
-- Tax residence ≠ AIRE alone: flag the distinction + commercialista.
+- Tax residence is not AIRE alone: flag the distinction + commercialista (rules year-stated).
 
 ## Examples
 

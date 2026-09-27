@@ -3,7 +3,7 @@ name: conti-cointestati
 description: Explain joint accounts with shares and blocks. Use when asked conto cointestato, joint account Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -30,7 +30,7 @@ Joint accounts decoded: disgiunta vs congiunta, shares, death blocks.
 
 - 50/50 is a presumption, not destiny: proof decides, stated plainly.
 - Never advise emptying joint accounts in disputes.
-- Seizure of one holder: other share protected path flagged + referral.
+- Seizure of one holder: other share protected path flagged + referral (rules year-stated).
 
 ## Examples
 

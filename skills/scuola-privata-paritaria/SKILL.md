@@ -3,7 +3,7 @@ name: scuola-privata-paritaria
 description: Explain private parity schools with costs and value. Use when asked scuola privata, paritaria Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[level/city]"
 user-invocable: true

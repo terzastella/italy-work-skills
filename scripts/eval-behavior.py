@@ -70,7 +70,14 @@ GOLDEN = ["imu-calcolo", "irpef-scaglioni", "acconti-calcolo", "regime-forfettar
           "lavoro-spettacolo", "trasferte-lavoro", "reperibilita-lavoro",
           "sciopero-diritti", "assemblea-sindacale", "rsu-rls",
           "videosorveglianza-lavoro", "stagionali-turismo", "smart-working",
-          "aspettativa-lavoro"]
+          "aspettativa-lavoro",
+          "amministratore-condominio", "volture-catastali",
+          "trasferimento-sede", "trasferta-estero", "infortuni-lavoro",
+          "concorsi-pubblici", "welfare-aziendale", "multiproprieta-diritti",
+          "officina-diritti", "noleggio-auto-diritti", "carta-prepagata",
+          "conti-cointestati", "bonus-cultura-18app", "scuola-privata-paritaria",
+          "animali-viaggi", "aire-estero", "certificati-estero",
+          "elezioni-voto", "assistenza-anziani", "cure-termali"]
 
 PERCORSI = ["percorso-apri-partita-iva", "percorso-assunzione-domestica",
             "percorso-casa-compravendita", "percorso-lutto",

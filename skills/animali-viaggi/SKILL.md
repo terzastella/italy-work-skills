@@ -3,7 +3,7 @@ name: animali-viaggi
 description: Guide pet travel documents with microchip and vaccines. Use when asked animali viaggi, pet travel Italy, passaporto animali.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[pet/destination]"
 user-invocable: true
@@ -28,7 +28,7 @@ Pets across borders: microchip, vaccines, pet passport, airline rules.
 
 ## Rules
 
-- 21-day post-vaccine wait stated (classic trip-killer).
+- 21-day post-vaccine wait stated, year-stated (classic trip-killer).
 - Banned breeds/destinations flagged (UK quirks, airline bans).
 - Commercial movements (breeders): different rules, referral.
 
