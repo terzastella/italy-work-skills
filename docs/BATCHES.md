@@ -19,6 +19,15 @@ Active: 254 skills in `skills/` + 24 pinned vendor skills in `vendors/`.
 - Lesson logged: agents write outputs into installed skill dirs — check
   `git status` after every agent session. Fixed: `hello-agent` table version 0.1→0.2.
 
+## Matrix-codex-1 - codex + ollama-local ✅ 2026-09-26 (no version bump)
+
+- `codex exec` + provider `ollama-local` (`~/.codex/config.toml`, no login):
+  5 cells, 3 ✅ (hello-agent via file-read, frontend-design, brainstorming con
+  riserva), 1 grave invention ❌ (invoice-it invented IBAN/SWIFT), 1 harness ❌
+  (sandbox blocked all writes on tdd). Claude CLI reinstalled (was broken shim).
+- Auto-load does NOT trigger on qwen3:8b — explicit file-read priming required.
+- Log: `docs/TEST-PLAN-LOCAL.md` codex section; results: `docs/COMPATIBILITY.md`.
+
 ## Percorsi-1.16 - guided paths ✅ 2026-09-25 (254 active)
 
 5 hub skills (`user-invocable` entry points) orchestrating existing skills with

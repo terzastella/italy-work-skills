@@ -66,6 +66,12 @@ Explicit invocation; model ollama 0.32.13 `qwen3:8b` (qwen3.6 too slow on this h
 Training-safe runs (no VRAM): hello-agent ✅, invoice-it ❌ (math), imu-calcolo ❌ (no compute).
 Detail: `docs/TEST-PLAN-LOCAL.md`. Zero skill-content bugs; 3b limits only.
 
+### Codex track — codex exec + ollama-local/qwen3:8b (2026-09-26, 3/5 ✅)
+
+hello-agent ✅ · invoice-it ❌ (invented IBAN/SWIFT) · frontend-design ✅ ·
+tdd ❌ (sandbox blocked all writes) · brainstorming ✅ con riserva (repo-context bleed).
+Detail: `docs/TEST-PLAN-LOCAL.md`. Zero skill-file defects; model/harness limits only.
+
 Archived generic skills (35 in `archive/`) are not tested or installed.
 
 How to test (local only):
