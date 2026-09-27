@@ -3,7 +3,7 @@ name: fallimento-crisi-info
 description: Explain business crisis tools with alert duties. Use when asked crisi impresa, codice crisi, fallimento Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -29,7 +29,7 @@ Crisis mapped: alert signals, negotiated tools, court paths — information, spe
 ## Rules
 
 - Delicate skill: early referral, no DIY restructuring.
-- Timeliness stressed: delay worsens everything — stated bluntly.
+- Timeliness stressed: delay worsens everything — stated bluntly. (terms year-stated).
 - No creditor-harm advice, ever.
 
 ## Examples

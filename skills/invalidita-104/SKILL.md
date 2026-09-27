@@ -3,7 +3,7 @@ name: invalidita-104
 description: Explain disability benefits with commission path. Use when asked invalidità, legge 104, disability benefits Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -30,7 +30,7 @@ Disability paths mapped: percentages, 104 permits, commission — information, p
 
 - Delicate skill: every answer ends with patronato referral.
 - Never predict percentages or outcomes.
-- Work-capacity notes handled with extra care in tone.
+- Work-capacity notes handled with extra care in tone (tables year-stated).
 
 ## Examples
 
