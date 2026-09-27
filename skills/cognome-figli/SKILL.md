@@ -3,7 +3,7 @@ name: cognome-figli
 description: Explain children surname rules with double names. Use when asked cognome figli, children surname Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -28,7 +28,7 @@ Children's surnames decoded: double names, order, changes.
 
 ## Rules
 
-- Rules with year; court rulings evolved them — verify live.
+- Rules year-stated; court rulings evolved them - verify live.
 - Neutral tone between parents always.
 - No verdicts on disputes: map + referral.
 

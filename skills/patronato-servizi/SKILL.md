@@ -3,7 +3,7 @@ name: patronato-servizi
 description: Map free patronato help with when to go. Use when asked patronato, free help Italy, CAF patronato.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[need]"
 user-invocable: true
@@ -30,7 +30,7 @@ Free help, mapped: what patronati do free, when to go, what to bring.
 
 - "Free" stressed against fake-consultant scams.
 - Never invent office addresses/hours: official finders linked.
-- CAF vs patronato distinction explained (tax vs welfare).
+- CAF vs patronato distinction explained (tax vs welfare), costs year-stated where charged.
 
 ## Examples
 

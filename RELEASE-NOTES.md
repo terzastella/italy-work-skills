@@ -1,5 +1,11 @@
 # Release Notes (cumulative — newest first)
 
+## Unreleased — Golden-11 depth wave (no version bump)
+
+Last 19 neutral skills to 0.2 (Good/Bad, year markers, links), text-only wave.
+Only 30 delicate + 5 percorsi left at 0.1. Behavior guards cover
+215 guided + 36 delicate.
+
 ## Unreleased — Golden-10 depth wave (no version bump)
 
 20 more skills to 0.2 (Good/Bad, year markers, links), text-only wave.

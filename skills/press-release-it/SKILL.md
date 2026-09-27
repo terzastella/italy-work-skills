@@ -3,7 +3,7 @@ name: press-release-it
 description: Write press releases with journalistic structure. Use when asked press release.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[news]"
 user-invocable: true
@@ -29,7 +29,7 @@ Releases journalists use: news first, details after, real contacts.
 ## Rules
 
 - Lead with the 5Ws, no creative intros.
-- Verified facts: dates, names, numbers only as provided.
+- Verified facts: dates, names, numbers only as provided (dates year-stated).
 - Company boilerplate max 3 lines, contacts with real name+phone/email.
 - Never "market leader" without a source.
 

@@ -36,6 +36,18 @@ Batch gate: `validate.py` 279 OK (278 entries + template),
 `security-check.py` clean, `install.py --all` dry-run ok (254 ours × 9 agents),
 `eval-behavior.py` OK (25 guided: 20 golden + 5 percorsi).
 
+## Golden-11 - depth wave eleven ✅ 2026-09-25 (no version bump)
+
+19 remaining neutral skills to 0.2 (last neutrals: only 30 delicate + 5 percorsi
+left at 0.1): abbonamenti-palestra, cognome-figli, colloquio-prep-it,
+doc-polish-it, lettera-presentazione, matrimonio-civile, matrimonio-estero,
+patronato-servizi, press-release-it, privacy-informativa, pronto-soccorso-ticket,
+ricetta-elettronica, screening-prevenzione, servizi-cimiteriali-funebri,
+servizio-civile, skill-creator-it, translate-it-en, universita-estero-laurea,
+verbale-riunione-it. Good/Bad + year markers + out-links; toolchain skills
+(doc-polish-it, skill-creator-it) get *-cases.md protocols. Text-only wave.
+Behavior guards extended to 215 guided.
+
 ## Golden-10 - depth wave ten ✅ 2026-09-25 (no version bump)
 
 20 more skills to 0.2 with Good/Bad examples, year markers, out-links:

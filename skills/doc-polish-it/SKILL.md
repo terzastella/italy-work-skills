@@ -3,7 +3,7 @@ name: doc-polish-it
 description: Improve READMEs and docs with sober tone, structure and correct code blocks. Also translates IT to EN. Use when asked to improve docs, rewrite readme, fix text, polish docs.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[file.md]"
 user-invocable: true
@@ -32,7 +32,7 @@ Improves technical documentation without distorting it. Sober tone, correct code
 
 - Single H1, H2/H3 hierarchy without jumps.
 - Sentences <25 words, active voice, imperative for instructions.
-- Code blocks always with language (`bash`, `python`, ...).
+- Code blocks always with language (`bash`, `python`, ...) — year-stated tool versions where relevant.
 - Paths/files in backticks, e.g. `skills/invoice-it/SKILL.md`.
 - For IT→EN translation: keep structure and code unchanged, translate prose only.
 - Broken links or `<your-username>` placeholders -> flag, do not invent URLs.

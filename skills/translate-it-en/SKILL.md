@@ -3,7 +3,7 @@ name: translate-it-en
 description: Translate IT-EN texts preserving structure, code and tone. Use when asked translate, English version, Italian version.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[file] [--to en|it]"
 user-invocable: true
@@ -30,7 +30,7 @@ Faithful translations: same structure, same tone, code untouched.
 
 - Faithfulness > elegance: no additions, no cuts.
 - Standard tech terms unchanged (`commit`, `pull request`, `build`).
-- Quotes and markdown formatting preserved.
+- Quotes and markdown formatting preserved (formulas year-stated where domain-cited).
 - Never translate secrets/tokens/URLs.
 
 ## Examples
