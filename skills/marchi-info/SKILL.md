@@ -3,7 +3,7 @@ name: marchi-info
 description: Explain trademarks vs patents with filing paths. Use when asked marchio, brevetto, trademark Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[idea/brand]"
 user-invocable: true
@@ -29,7 +29,7 @@ IP basics: trademark vs patent vs design, where to file, what it costs.
 ## Rules
 
 - No clearance searches here: similarity = attorney's job.
-- Never promise registrability.
+- Never promise registrability (classes year-stated).
 - Domain names ≠ trademarks: stated plainly.
 
 ## Examples

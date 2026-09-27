@@ -3,7 +3,7 @@ name: contratto-base-check
 description: Read base contracts with clause checklist. Use when asked check contratto lavoro, employment contract Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[contract type]"
 user-invocable: true
@@ -30,7 +30,7 @@ Read your contract guided: what each clause means, which red flags to spot.
 
 - Never declare a clause valid or void: mapping only, professionals decide.
 - Blank resignations or under-CCNL pay patterns: illegality stated plainly + referral now.
-- Figures only with CCNL cited; never generic thresholds.
+- Figures only with CCNL cited, year-stated; never generic thresholds.
 
 ## Examples
 

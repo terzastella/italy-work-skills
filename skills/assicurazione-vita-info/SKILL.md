@@ -3,7 +3,7 @@ name: assicurazione-vita-info
 description: Explain life policies with surrender math. Use when asked assicurazione vita, life policy Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[policy]"
 user-invocable: true
@@ -30,7 +30,7 @@ Life policies decoded: TCM vs vita intera vs unit, surrender math.
 
 - No product endorsement; no "sign it" pushes.
 - Unit-linked risks stated bluntly (capital not guaranteed).
-- Succession interplay flagged + notary referral for big estates.
+- Succession interplay flagged + notary referral for big estates (rules year-stated).
 
 ## Examples
 

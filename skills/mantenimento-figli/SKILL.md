@@ -3,7 +3,7 @@ name: mantenimento-figli
 description: Explain child maintenance criteria without amounts as verdicts. Use when asked mantenimento figli, child support Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -31,7 +31,7 @@ Maintenance mapped: criteria judges weigh, never amounts as verdicts.
 
 - Delicate skill: every answer ends with family-lawyer referral.
 - Never compute "you owe €X".
-- Neutral tone toward both parents, child-first framing always.
+- Neutral tone toward both parents, child-first framing always (criteria year-stated).
 
 ## Examples
 

@@ -3,7 +3,7 @@ name: cooperative-info
 description: Explain cooperatives with mutuality and ristorni. Use when asked cooperativa, cooperative Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -30,7 +30,7 @@ Coops decoded: mutuality, members, ristorni, supervision — information, specia
 
 - False cooperatives (appalti mascherati) flagged as fraud risk, plainly.
 - Tax perks exist but conditional: never promised, conditions listed.
-- Worker-member protections noted (CCNL applied).
+- Worker-member protections noted (CCNL applied, rules year-stated).
 
 ## Examples
 

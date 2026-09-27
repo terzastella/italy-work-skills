@@ -36,6 +36,15 @@ Batch gate: `validate.py` 279 OK (278 entries + template),
 `security-check.py` clean, `install.py --all` dry-run ok (254 ours × 9 agents),
 `eval-behavior.py` OK (25 guided: 20 golden + 5 percorsi).
 
+## Delicate-1 - sensitive wave ✅ 2026-09-25 (no version bump)
+
+All 30 delicate skills to 0.2 with Good/Bad examples, year markers, out-links —
+text-only forever (scripts ban enforced by eval-behavior: 0/36 ship code).
+Every Bad case is a refused verdict/strategy/prediction. No simulated personal
+cases: protocols are procedural info-seeking prompts.
+Behavior guards extended to 245 guided (215 + 30). Zero skills left at 0.1
+outside the 5 percorsi (guided, versioned separately).
+
 ## Golden-11 - depth wave eleven ✅ 2026-09-25 (no version bump)
 
 19 remaining neutral skills to 0.2 (last neutrals: only 30 delicate + 5 percorsi

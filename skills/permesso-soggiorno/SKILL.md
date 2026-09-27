@@ -3,7 +3,7 @@ name: permesso-soggiorno
 description: Explain residence permits with kit and renewal timing. Use when asked permesso di soggiorno, residence permit Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -30,7 +30,7 @@ Permits mapped: types, kit, renewals — information, patronato/CAF referral for
 
 - Delicate skill: every answer ends with patronato/CAF referral.
 - Never advise overstaying or irregular paths, explicitly.
-- EU citizens: different regime (no permesso), redirect immediately.
+- EU citizens: different regime (no permesso), redirect immediately (rules year-stated).
 
 ## Examples
 
