@@ -3,7 +3,7 @@ name: edilizia-cila-scia
 description: Map building permits from free works to permesso. Use when asked CILA SCIA, permessi edilizi, ristrutturazione permessi.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[works]"
 user-invocable: true
@@ -29,7 +29,7 @@ Which permit for which works: free, CILA, SCIA, permesso di costruire.
 
 ## Rules
 
-- Municipal/regional variance: comune rules checked, never generalized blindly.
+- Municipal/regional variance: comune rules checked year-stated, never generalized blindly.
 - Start-works-before-permit = abuse: stated bluntly.
 - Bonus links (bonus-casa papers) cross-referenced.
 

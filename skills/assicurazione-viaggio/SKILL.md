@@ -3,7 +3,7 @@ name: assicurazione-viaggio
 description: Explain travel insurance with claim steps. Use when asked assicurazione viaggio, travel insurance Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[trip]"
 user-invocable: true
@@ -29,7 +29,7 @@ Trip cover decoded: medical, baggage, cancellation — claim steps that work.
 ## Rules
 
 - Exclusions read BEFORE price comparison — stated as rule #1.
-- EHIC vs policy split in EU: what each covers.
+- EHIC vs policy split in EU: what each covers (rules year-stated).
 - No product endorsement.
 
 ## Examples

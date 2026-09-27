@@ -3,7 +3,7 @@ name: farmaci-equivalenti
 description: Explain generic drugs with substitution rules. Use when asked farmaci equivalenti, generic drugs Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[medicine]"
 user-invocable: true
@@ -29,7 +29,7 @@ Generics decoded: same active ingredient, when substitution applies, ticket link
 ## Rules
 
 - No drug recommendations, ever.
-- Lists with year; products change — verify live.
+- Lists year-stated; products change — verify live.
 - Doctor's non-substitution respected, never bypassed.
 
 ## Examples

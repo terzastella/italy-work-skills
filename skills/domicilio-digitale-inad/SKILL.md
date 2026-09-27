@@ -3,7 +3,7 @@ name: domicilio-digitale-inad
 description: Register digital domicile in INAD with effects. Use when asked domicilio digitale, INAD, PEC address registry Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[subject]"
 user-invocable: true
@@ -30,7 +30,7 @@ One certified address for all PA mail: register, effects, keep it alive.
 
 - Monitoring duty stated bluntly: registered = deemed delivered.
 - Never handle anyone's SPID/PEC credentials.
-- Professionals: albo-linked obligations flagged.
+- Professionals: albo-linked obligations flagged (rules year-stated).
 
 ## Examples
 

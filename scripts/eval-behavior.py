@@ -77,7 +77,14 @@ GOLDEN = ["imu-calcolo", "irpef-scaglioni", "acconti-calcolo", "regime-forfettar
           "officina-diritti", "noleggio-auto-diritti", "carta-prepagata",
           "conti-cointestati", "bonus-cultura-18app", "scuola-privata-paritaria",
           "animali-viaggi", "aire-estero", "certificati-estero",
-          "elezioni-voto", "assistenza-anziani", "cure-termali"]
+          "elezioni-voto", "assistenza-anziani", "cure-termali",
+          "ape-certificazione", "assicurazione-casa", "assicurazione-sanitaria",
+          "assicurazione-viaggio", "case-popolari-erp", "comodato-uso",
+          "diffida-legale", "domicilio-digitale-inad", "donazione-organi",
+          "donazione-sangue", "edilizia-cila-scia", "esami-intramoenia",
+          "farmaci-equivalenti", "farmaci-estero", "firma-digitale",
+          "impegnativa-visite", "its-academy", "lavoro-minorile",
+          "maturita-esame", "pagopa-guida"]
 
 PERCORSI = ["percorso-apri-partita-iva", "percorso-assunzione-domestica",
             "percorso-casa-compravendita", "percorso-lutto",

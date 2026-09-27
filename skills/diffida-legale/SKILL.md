@@ -3,7 +3,7 @@ name: diffida-legale
 description: Structure formal warnings with tracked sending. Use when asked diffida, formal warning Italy, lettera di diffida.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -29,7 +29,7 @@ Warnings that count later: facts, request, deadline, tracked sending — no thre
 ## Rules
 
 - Never threats ("or else..."): requests + deadlines only.
-- Facts only as provided; dates/amounts exact.
+- Facts only as provided; dates/amounts exact (terms year-stated).
 - Lawyer review recommended before sending in disputes.
 
 ## Examples

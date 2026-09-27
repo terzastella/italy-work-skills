@@ -3,7 +3,7 @@ name: pagopa-guida
 description: Guide pagoPA payments with notice codes and receipts. Use when asked pagoPA, pay PA online, avviso pagamento, IUV code.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[notice]"
 user-invocable: true
@@ -29,7 +29,7 @@ Pay the PA without errors: notice codes, channels, receipts that prove payment.
 ## Rules
 
 - Amounts from the notice only, never recomputed.
-- Receipt (RT) kept as file + print for important matters.
+- Receipt (RT) kept as file + print for important matters (retention year-stated).
 - Never handle payment credentials: guide the clicks, user pays.
 
 ## Examples

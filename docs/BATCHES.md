@@ -36,6 +36,17 @@ Batch gate: `validate.py` 279 OK (278 entries + template),
 `security-check.py` clean, `install.py --all` dry-run ok (254 ours × 9 agents),
 `eval-behavior.py` OK (25 guided: 20 golden + 5 percorsi).
 
+## Golden-10 - depth wave ten ✅ 2026-09-25 (no version bump)
+
+20 more skills to 0.2 with Good/Bad examples, year markers, out-links:
+casa/tutele (ape-certificazione, assicurazione-casa, assicurazione-sanitaria,
+assicurazione-viaggio, case-popolari-erp, comodato-uso, diffida-legale),
+PA/salute (domicilio-digitale-inad, donazione-organi, donazione-sangue,
+edilizia-cila-scia, esami-intramoenia, farmaci-equivalenti, farmaci-estero,
+firma-digitale, impegnativa-visite), scuola/lavoro/PA (its-academy,
+lavoro-minorile, maturita-esame, pagopa-guida). Text-only wave.
+Behavior guards extended to 196 guided.
+
 ## Golden-9 - depth wave nine ✅ 2026-09-25 (no version bump)
 
 20 more skills to 0.2 with Good/Bad examples, year markers, out-links:

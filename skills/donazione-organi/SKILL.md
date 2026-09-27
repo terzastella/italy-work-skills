@@ -3,7 +3,7 @@ name: donazione-organi
 description: Explain organ donation will with AIDO paths. Use when asked donazione organi, organ donation Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -30,7 +30,7 @@ Donation wills recorded right: AIDO, comune, CIE paths — sober information.
 
 - Sober tone, no pressure rhetoric either way.
 - Family conversation advised (practical, not moralizing).
-- No medical content beyond procedure.
+- No medical content beyond procedure (paths year-stated).
 
 ## Examples
 

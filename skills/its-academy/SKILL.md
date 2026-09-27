@@ -3,7 +3,7 @@ name: its-academy
 description: Explain ITS post-diploma paths with placement. Use when asked ITS, academy post diploma Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[sector]"
 user-invocable: true

@@ -3,7 +3,7 @@ name: assicurazione-casa
 description: Explain home insurance with coverage and claims. Use when asked assicurazione casa, home insurance Italy, polizza casa.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[home/needs]"
 user-invocable: true
@@ -30,7 +30,7 @@ Home policies decoded: fire/theft/liability, deductibles, claim steps.
 
 - No insurer endorsement; comparison criteria only.
 - Underinsurance (sottoassicurazione) proportional rule explained plainly.
-- Mortgage-linked policies: check overlap before doubling.
+- Mortgage-linked policies: check overlap before doubling (terms year-stated).
 
 ## Examples
 

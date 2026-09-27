@@ -3,7 +3,7 @@ name: esami-intramoenia
 description: Explain intramoenia exams with costs and waits. Use when asked intramoenia, private exams public hospital Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[exam]"
 user-invocable: true
@@ -28,7 +28,7 @@ Paying to skip the queue, decoded: costs, waits, receipts that count.
 
 ## Rules
 
-- Prices per structure + year; never national figures as law.
+- Prices per structure, year-stated; never national figures as law.
 - Receipts kept for detrazioni — stated as step, not tip.
 - No doctor endorsements.
 
