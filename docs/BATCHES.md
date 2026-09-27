@@ -36,6 +36,13 @@ Batch gate: `validate.py` 279 OK (278 entries + template),
 `security-check.py` clean, `install.py --all` dry-run ok (254 ours × 9 agents),
 `eval-behavior.py` OK (25 guided: 20 golden + 5 percorsi).
 
+## Percorsi-0.2 - guided paths versioned ✅ 2026-09-25 (no version bump)
+
+The 5 `percorso-*` hubs bumped 0.1→0.2 (they already met the Golden bar:
+tappe + end-to-end Good/Bad + run protocols + behavior guards).
+**Nothing left at 0.1: 254/254 skills at 0.2.** Depth program complete:
+Golden-1..11 (219) + Delicate-1 (30) + Percorsi (5).
+
 ## Delicate-1 - sensitive wave ✅ 2026-09-25 (no version bump)
 
 All 30 delicate skills to 0.2 with Good/Bad examples, year markers, out-links —

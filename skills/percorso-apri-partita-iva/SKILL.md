@@ -3,7 +3,7 @@ name: percorso-apri-partita-iva
 description: Guided path from idea to first invoice. Use when asked open partita IVA start to finish, avvio attività percorso, freelance from zero Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[activity]"
 user-invocable: true
