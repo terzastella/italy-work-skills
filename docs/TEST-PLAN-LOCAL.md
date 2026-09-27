@@ -46,6 +46,26 @@ CPU-track: **1/3 ✅**, 0 skill-content bugs. Scripts only help inside agentic
 harnesses (the model can't run them here) — qwen3:8b+opencode cells stay
 the reference for script skills.
 
+## Codex track — codex exec + ollama-local/qwen3:8b (2026-09-26)
+
+Config: `~/.codex/config.toml` provider `ollama-local` (localhost:11434, no login).
+Skills installed to `.agents/skills/` + `~/.agents/skills/`. Explicit file-read
+invocation (`Read .agents/skills/<name>/SKILL.md and follow it`) — auto-load
+does NOT trigger on qwen3:8b. One cell at a time; tree verified clean after each.
+
+| # | Skill | Result | Notes |
+|---|---|---|---|
+| 1 | hello-agent | ✅ (via file read; implicit miss first) | Correct table, agent, path 0.2 — same pattern as opencode |
+| 2 | invoice-it | ❌ | Math right (€610) BUT invented IBAN + SWIFT + payment method — grave invention violation |
+| 3 | frontend-design | ✅ | Voice/tone guidance reflected, brand-aware draft |
+| 4 | tdd | ❌ (harness) | Sandbox blocked ALL shell/file ops (45k tokens wasted fighting policy) — skill content never reached |
+| 5 | brainstorming | ✅ con riserva | Questions first ✅ BUT repo-context bleed ("shopping-list skill", AGENTS.md, metadata.version) |
+
+Codex track: **3/5 ✅** (1 partial counted), 1 grave invention ❌, 1 harness ❌.
+Bugs are model/harness behavior, zero skill-file defects found.
+Lesson: codex sandbox defaults need loosening for skill writes
+(sandbox/approvals config); small models need explicit file-read priming.
+
 ## Observations for skill design
 
 1. Agents write outputs INTO installed skill dirs (and once into repo `tests/`).
