@@ -66,6 +66,24 @@ Bugs are model/harness behavior, zero skill-file defects found.
 Lesson: codex sandbox defaults need loosening for skill writes
 (sandbox/approvals config); small models need explicit file-read priming.
 
+## Claude track — ollama launch claude + qwen3:8b (2026-09-26)
+
+Launch: `ollama launch claude --model qwen3:8b` accepts piped prompts
+(non-interactive works). Skills installed to `~/.claude/skills/` only
+(no repo dest for claude). Prompts must use ABSOLUTE skill paths —
+relative `.claude/skills/...` fails (launched cwd differs). One cell at a time.
+
+| # | Skill | Result | Notes |
+|---|---|---|---|
+| 1 | hello-agent | ✅ | Correct table, agent self-ID right, path honest "unknown" |
+| 2 | invoice-it | ✅ con riserva | €500/€110/€610 exact + placeholders; invented invoice number INV-20260927-001 (minor) |
+| 3 | frontend-design | ✅ | Intentional palette + typography, brand voice followed |
+| 4 | tdd | ❌ | Test-after in one block, no RED step shown — methodology not demonstrated |
+| 5 | brainstorming | ✅ | Questions first, app-scoped (no skill-confusion unlike opencode run) |
+
+Claude track: **4/5 ✅**. Tree clean (told it not to write files — obeyed).
+Lesson: absolute skill paths in prompts; `ollama launch` needs no login.
+
 ## Observations for skill design
 
 1. Agents write outputs INTO installed skill dirs (and once into repo `tests/`).

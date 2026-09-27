@@ -72,6 +72,12 @@ hello-agent ✅ · invoice-it ❌ (invented IBAN/SWIFT) · frontend-design ✅ �
 tdd ❌ (sandbox blocked all writes) · brainstorming ✅ con riserva (repo-context bleed).
 Detail: `docs/TEST-PLAN-LOCAL.md`. Zero skill-file defects; model/harness limits only.
 
+### Claude track — ollama launch claude + qwen3:8b (2026-09-26, 4/5 ✅)
+
+hello-agent ✅ · invoice-it ✅ con riserva (invented invoice number) ·
+frontend-design ✅ · tdd ❌ (no RED step) · brainstorming ✅.
+Detail: `docs/TEST-PLAN-LOCAL.md`. Piped prompts work, absolute skill paths required.
+
 Archived generic skills (35 in `archive/`) are not tested or installed.
 
 How to test (local only):
