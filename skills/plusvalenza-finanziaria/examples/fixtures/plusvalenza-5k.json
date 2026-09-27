@@ -1,0 +1,4 @@
+{
+  "input": {"gain": 5000, "minus": 0, "aliquota": 26, "year": 2026},
+  "expected": {"base": 5000.0, "imposta": 1300.0}
+}

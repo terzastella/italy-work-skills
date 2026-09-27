@@ -3,7 +3,7 @@ name: compravendita-casa
 description: Guide home buying from proposal to deed with costs. Use when asked comprare casa, rogito, notaio costs Italy, proposta acquisto.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[stage]"
 user-invocable: true
@@ -30,7 +30,7 @@ Buy a home in order: proposal, preliminare, checks, rogito — costs at every st
 
 - Caparra confirmatoria vs penitenziale difference stated (money consequences differ).
 - Never skip urban/catasto conformity: the classic disaster.
-- Prima casa benefits noted with conditions (residenza timing), verify current.
+- Prima casa benefits noted with conditions (residenza timing), verify current year rules (year-stated).
 
 ## Examples
 

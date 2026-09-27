@@ -1,0 +1,4 @@
+{
+  "input": {"spese": 2000, "profilo": "dipendente"},
+  "expected": {"target_min": 6000.0, "target_max": 12000.0}
+}

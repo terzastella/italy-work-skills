@@ -3,8 +3,8 @@ name: fondo-emergenza
 description: Build emergency funds with size and placement method. Use when asked fondo emergenza, emergency fund Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
-allowed-tools: Read Write
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+allowed-tools: Read Write Bash
 argument-hint: "[expenses]"
 user-invocable: true
 disable-model-invocation: false
@@ -21,7 +21,9 @@ Safety cash, methodically: size, placement, build-up — method, not personal ad
 
 ## Workflow
 
-1. Size: 3-6 months essential expenses (freelancers: 6+, stated reason).
+1. Size with the bundled script (preferred, reproducible): 3-6 months essential expenses
+   (freelancers 6x/12x, profile is the input) + build-up plan from surplus:
+   `python skills/fondo-emergenza/scripts/fondo.py --spese 2000 --profilo dipendente`
 2. Placement: instant liquidity only (conto vs deposit-free part) — never invested.
 3. Build-up: monthly amount from surplus math (user figures only).
 4. Output: target + placement + monthly plan. No personal verdicts.
@@ -31,6 +33,11 @@ Safety cash, methodically: size, placement, build-up — method, not personal ad
 - Method only: numbers from user expenses, never assumed lifestyles.
 - Liquid means liquid: no funds/ETFs/crypto for this money — stated bluntly.
 - Rebuild-after-use rule included.
+
+## Scripts
+
+- `scripts/fondo.py` — target range + build-up plan (profile is an input).
+  Fixtures with expected outputs in `examples/fixtures/`. Method, not personal advice.
 
 ## Examples
 

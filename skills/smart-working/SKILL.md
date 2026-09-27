@@ -3,7 +3,7 @@ name: smart-working
 description: Explain lavoro agile with agreement and disconnection. Use when asked smart working, lavoro agile Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -29,7 +29,7 @@ Agile work with rules: individual agreement, disconnection, tools, injuries.
 ## Rules
 
 - No agreement = red flag: state it.
-- Buoni pasto in agile: debated area — present positions, no verdict.
+- Buoni pasto in agile: debated area — present positions, no verdict (rules year-stated).
 - Fragile workers/agile priority rights mentioned where relevant.
 
 ## Examples

@@ -3,7 +3,7 @@ name: rsu-rls
 description: Explain worker reps with elections and hours. Use when asked RSU RLS, worker representatives Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[company]"
 user-invocable: true
@@ -28,7 +28,7 @@ Worker reps decoded: RSU bargaining, RLS safety watchdog.
 
 ## Rules
 
-- Thresholds with year (15+ units); never generic "all firms".
+- Thresholds year-stated (15+ units); never generic "all firms".
 - RLS access rights (documents, inspections) listed plainly.
 - Retaliation protections stated + referral.
 

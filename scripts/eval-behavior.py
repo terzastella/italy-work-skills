@@ -63,7 +63,14 @@ GOLDEN = ["imu-calcolo", "irpef-scaglioni", "acconti-calcolo", "regime-forfettar
           "telefonia-reclami", "vacanze-pacchetto", "bagagli-smarriti",
           "erasmus-info", "universita-fuorisede", "dsa-bes-scuola",
           "sanita-digitale", "medico-base", "guardia-medica-turisti",
-          "mensa-scolastica"]
+          "mensa-scolastica",
+          "fondo-emergenza", "plusvalenza-finanziaria", "leasing-finanziamento",
+          "affitto-check", "compravendita-casa", "fattura-proforma",
+          "libri-contabili", "isa-check", "part-time", "permessi-studio-150",
+          "lavoro-spettacolo", "trasferte-lavoro", "reperibilita-lavoro",
+          "sciopero-diritti", "assemblea-sindacale", "rsu-rls",
+          "videosorveglianza-lavoro", "stagionali-turismo", "smart-working",
+          "aspettativa-lavoro"]
 
 PERCORSI = ["percorso-apri-partita-iva", "percorso-assunzione-domestica",
             "percorso-casa-compravendita", "percorso-lutto",

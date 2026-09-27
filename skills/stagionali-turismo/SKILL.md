@@ -3,7 +3,7 @@ name: stagionali-turismo
 description: Explain seasonal contracts with recall rights. Use when asked stagionali turismo, seasonal work Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -28,7 +28,7 @@ Seasonal work decoded: fixed terms, recall rights, NASpI between seasons.
 
 ## Rules
 
-- Recall rights with contract cited; never generic promises.
+- Recall rights with contract cited, year-stated; never generic promises.
 - Off-season unemployment: file promptly, stated as step one.
 - Housing/food provided: payslip checks (in-kind valuation flagged).
 
