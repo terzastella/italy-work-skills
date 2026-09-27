@@ -3,7 +3,7 @@ name: abbonamenti-palestra
 description: Explain gym contracts with withdrawal and freezes. Use when asked abbonamento palestra, gym contract Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[contract]"
 user-invocable: true
@@ -29,7 +29,7 @@ Gym contracts decoded: tacit renewal, freezes, withdrawal that works.
 ## Rules
 
 - Contract text decides: read it before advising anything.
-- Unfair terms flagged generally + consumer association referral.
+- Unfair terms flagged generally + consumer association referral (rules year-stated).
 - No "stop paying and disappear" advice, ever.
 
 ## Examples

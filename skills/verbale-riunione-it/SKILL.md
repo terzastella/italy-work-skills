@@ -3,7 +3,7 @@ name: verbale-riunione-it
 description: Write Italian meeting minutes with decisions and owners. Use when asked verbale, meeting minutes, riunione notes.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[meeting notes]"
 user-invocable: true
@@ -30,7 +30,7 @@ Minutes that work: who decided what, who does what, by when.
 
 - Decisions quoted with who proposed/seconded when relevant (condominio/assemblies).
 - Opinions attributed, facts plain. Never invent attendees or decisions.
-- Dates in DD/MM/YYYY, times with timezone if remote.
+- Dates in DD/MM/YYYY, times with timezone if remote (formats year-stated).
 
 ## Examples
 

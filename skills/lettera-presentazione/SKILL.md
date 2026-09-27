@@ -3,7 +3,7 @@ name: lettera-presentazione
 description: Write Italian cover letters tied to the job ad. Use when asked cover letter, lettera di presentazione, lettera motivazionale.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[job ad]"
 user-invocable: true
@@ -30,7 +30,7 @@ Letters that get interviews: ad-specific, 4 paragraphs, 1 page.
 
 - Every claim traceable to CV: never new jobs here.
 - Company name + role spelled exactly as in the ad.
-- No salary talk unless the ad asks.
+- No salary talk unless the ad asks (figures year-stated when cited).
 
 ## Examples
 

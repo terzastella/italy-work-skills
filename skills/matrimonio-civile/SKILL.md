@@ -3,7 +3,7 @@ name: matrimonio-civile
 description: Guide civil weddings with publications and witnesses. Use when asked matrimonio civile, civil wedding Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -30,7 +30,7 @@ Civil wedding steps: publications, documents, witnesses, day-of.
 
 - Foreign spouse: nulla osta rules vary by country — verify consulate, never generalize.
 - Regime choice consequences summarized, notary for the deed.
-- Dates with year for fees/timelines.
+- Dates year-stated for fees/timelines.
 
 ## Examples
 

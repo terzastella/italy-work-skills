@@ -13,4 +13,5 @@ Files created:
 Gates: `validate.py --skill csv-translator` OK, `security-check.py` clean,
 `install.py --skill csv-translator --dest ./tmp-test --dry-run` ok.
 Indexes: row in `catalog/skills.json`, `llms.txt`, `plugin.json`,
-`README.md` and `COMPATIBILITY.md` tables. Final summary with commands run.
+`docs/COMPATIBILITY.md`, regenerate `docs/CATALOG.md` (`build-catalog.py`),
+`check-indexes.py` green. Final summary with commands run.
