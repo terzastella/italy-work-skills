@@ -3,7 +3,7 @@ name: percorso-busta-controllo
 description: Guided payslip audit path, contract to balances. Use when asked controllare busta paga percorso, payslip audit path Italy, stipendio verifiche.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true

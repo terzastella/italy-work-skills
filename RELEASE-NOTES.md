@@ -1,5 +1,10 @@
 # Release Notes (cumulative — newest first)
 
+## Unreleased — Percorsi-0.2: depth complete (no version bump)
+
+The 5 guided hubs versioned 0.2. Nothing left at 0.1 anywhere:
+254/254 skills deepened. Behavior guards cover 245 guided + 36 delicate.
+
 ## Unreleased — Delicate-1 sensitive wave (no version bump)
 
 All 30 delicate skills to 0.2 (Good/Bad refusals, year markers, links),

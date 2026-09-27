@@ -148,6 +148,7 @@ Status: **v1.16 — 254 ours + 24 pinned third-party = 278 entries** (batches in
 - [x] Golden-10: 20 more deepened, text-only (196 guided)
 - [x] Golden-11: last 19 neutrals deepened, text-only (215 guided)
 - [x] Delicate-1: all 30 sensitive deepened, text-only forever (245 guided, 0 at 0.1 outside percorsi)
+- [x] Percorsi-0.2: 5 hubs versioned — depth complete, 254/254 at 0.2, zero bonsai left
 - [x] Fiducia-1: evals, 36 sensitive audits, 5×3 test plan (account runs pending)
 - [x] Percorsi-1.16: 5 guided paths (open VAT number, domestic hire, home buy, bereavement, payslip audit)
 - [x] Local-tests-1: first real runs (OpenCode + qwen3:8b, 7/9 ✅, log in docs/)
