@@ -28,6 +28,15 @@ Active: 254 skills in `skills/` + 24 pinned vendor skills in `vendors/`.
 - Auto-load does NOT trigger on qwen3:8b — explicit file-read priming required.
 - Log: `docs/TEST-PLAN-LOCAL.md` codex section; results: `docs/COMPATIBILITY.md`.
 
+## Matrix-claude-1 - ollama launch claude + qwen3:8b ✅ 2026-09-26 (no version bump)
+
+- `ollama launch claude --model qwen3:8b` accepts piped prompts, no login needed.
+  Skills installed to `~/.claude/skills/` (no repo dest for claude); prompts
+  need ABSOLUTE skill paths (launched cwd differs).
+- 5 cells, 4 ✅ (hello-agent, invoice-it con riserva, frontend-design,
+  brainstorming), 1 methodology ❌ (tdd showed test-after, no RED).
+  Claude CLI reinstalled earlier (was broken shim) — healthy now.
+
 ## Percorsi-1.16 - guided paths ✅ 2026-09-25 (254 active)
 
 5 hub skills (`user-invocable` entry points) orchestrating existing skills with

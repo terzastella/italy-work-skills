@@ -154,5 +154,6 @@ Status: **v1.16 — 254 ours + 24 pinned third-party = 278 entries** (batches in
 - [x] Percorsi-1.16: 5 guided paths (open VAT number, domestic hire, home buy, bereavement, payslip audit)
 - [x] Local-tests-1: first real runs (OpenCode + qwen3:8b, 7/9 ✅, log in docs/)
 - [x] Matrix-codex-1: codex + ollama-local (3/5 ✅, 1 invention ❌, 1 sandbox ❌)
+- [x] Matrix-claude-1: ollama launch claude + qwen3:8b (4/5 ✅, tdd methodology ❌)
 - [ ] Real-agent tests on Claude/Codex/Grok (`docs/TEST-PLAN.md` ready, badges to follow)
 - [ ] Public repo + skills.sh/marketplace submit (the finish line — then maintenance only)
