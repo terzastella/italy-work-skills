@@ -3,7 +3,7 @@ name: isa-check
 description: Explain ISA reliability indexes with score reading. Use when asked ISA, indici affidabilità, ISA score, pagella fiscale.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[activity]"
 user-invocable: true
@@ -29,7 +29,7 @@ ISA scores decoded: what the 1-10 number means and which benefits it unlocks.
 ## Rules
 
 - Never compute/predict a score: reading only.
-- Benefits list with year — regimes change.
+- Benefits list year-stated — regimes change.
 - No gaming advice: legitimate data quality only, never figure-tweaking.
 
 ## Examples

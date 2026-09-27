@@ -3,7 +3,7 @@ name: part-time
 description: Explain part-time forms with pay and conversion rules. Use when asked part-time Italy, orario ridotto.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -30,7 +30,7 @@ Reduced hours, full clarity: forms, pay math, extra-work clauses, conversions.
 
 - Overtime on part-time (supplementare vs straordinario): distinction stated.
 - Consent for elastic changes: worker agreement required — state it.
-- CCNL specifics cited, never generic percentages as law.
+- CCNL specifics cited, never generic percentages as law (figures year-stated).
 
 ## Examples
 

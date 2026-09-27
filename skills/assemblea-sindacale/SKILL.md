@@ -3,7 +3,7 @@ name: assemblea-sindacale
 description: Explain union meetings with paid hours. Use when asked assemblea sindacale, union meeting Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -28,7 +28,7 @@ Union meetings decoded: paid hours, convocation, attendance rights.
 
 ## Rules
 
-- Hours only with contract cited; caps move by CCNL.
+- Hours only with contract cited, year-stated; caps move by CCNL.
 - Employer obstruction patterns + referral, documented.
 - No organizing advice beyond rights.
 

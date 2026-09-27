@@ -3,7 +3,7 @@ name: libri-contabili
 description: Explain mandatory books with retention. Use when asked libri contabili, accounting books Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[company]"
 user-invocable: true
@@ -30,7 +30,7 @@ Books in order: which ones, how kept, 10-year retention.
 
 - Forfettari/minimi simplifications stated (fewer books), never assumed exempt from all.
 - Electronic conservation ≠ simple PDF dump: rules noted.
-- Missing years: reconstruct with accountant now, stated as urgent.
+- Missing years: reconstruct with accountant now, stated as urgent (retention year-stated: 10 years).
 
 ## Examples
 

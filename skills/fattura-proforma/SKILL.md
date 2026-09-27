@@ -3,7 +3,7 @@ name: fattura-proforma
 description: Explain proforma invoices with no tax value. Use when asked fattura proforma, proforma invoice Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -30,7 +30,7 @@ Quotes that look like invoices, without tax value: uses and limits.
 
 - Never present proforma as invoice toPA/banks: fraud-adjacent, refused plainly.
 - Numbering separate from invoices (no sequence mixing).
-- Foreign trade: proforma + packing interplay noted briefly.
+- Foreign trade: proforma + packing interplay noted briefly (customs rules year-stated).
 
 ## Examples
 

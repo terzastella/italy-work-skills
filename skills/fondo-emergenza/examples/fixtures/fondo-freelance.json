@@ -1,0 +1,4 @@
+{
+  "input": {"spese": 2000, "profilo": "freelance", "surplus": 750},
+  "expected": {"target_min": 12000.0, "target_max": 24000.0, "mesi_per_target_medio": 24}
+}

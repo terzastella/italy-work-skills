@@ -36,6 +36,18 @@ Batch gate: `validate.py` 279 OK (278 entries + template),
 `security-check.py` clean, `install.py --all` dry-run ok (254 ours × 9 agents),
 `eval-behavior.py` OK (25 guided: 20 golden + 5 percorsi).
 
+## Golden-8 - depth wave eight ✅ 2026-09-25 (no version bump)
+
+20 more skills to 0.2 with Good/Bad examples, year markers, out-links:
+soldi (fondo-emergenza, plusvalenza-finanziaria, leasing-finanziamento),
+casa/fisco (affitto-check, compravendita-casa, fattura-proforma,
+libri-contabili, isa-check), lavoro (part-time, permessi-studio-150,
+lavoro-spettacolo, trasferte-lavoro, reperibilita-lavoro), sindacati
+(sciopero-diritti, assemblea-sindacale, rsu-rls, videosorveglianza-lavoro,
+stagionali-turismo, smart-working, aspettativa-lavoro).
+2 new neutral scripts (fondo, plusvalenza): fixtures 55/55 green.
+Behavior guards extended to 156 guided.
+
 ## Golden-7 - depth wave seven ✅ 2026-09-25 (no version bump)
 
 20 more skills to 0.2 with Good/Bad examples, year markers, out-links:

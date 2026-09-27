@@ -120,6 +120,13 @@ def argv(skill_dir, script, inp):
     elif script == "bollo.py":
         a += ["--importo", str(inp["importo"]), "--soglia", str(inp["soglia"]),
               "--bollo", str(inp.get("bollo", 2)), "--year", str(inp["year"])]
+    elif script == "fondo.py":
+        a += ["--spese", str(inp["spese"]), "--profilo", str(inp.get("profilo", "dipendente"))]
+        if "surplus" in inp:
+            a += ["--surplus", str(inp["surplus"])]
+    elif script == "plusvalenza.py":
+        a += ["--gain", str(inp["gain"]), "--minus", str(inp.get("minus", 0)),
+              "--aliquota", str(inp["aliquota"]), "--year", str(inp["year"])]
     elif script == "fasce.py":
         a += ["--isee", str(inp["isee"]), "--minori", str(inp["minori"]),
               "--tabella", rel(inp["tabella"]), "--year", str(inp["year"])]

@@ -3,7 +3,7 @@ name: aspettativa-lavoro
 description: Explain unpaid leave with contribution effects. Use when asked aspettativa, unpaid leave Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -29,7 +29,7 @@ Time off unpaid, done right: types, contributions gap, return rights.
 ## Rules
 
 - Contribution gap stressed first: the hidden cost of aspettativa.
-- CCNL specifics cited, never generic durations as law.
+- CCNL specifics cited, never generic durations as law (figures year-stated).
 - Refusal: legitimate reasons listed, appeal paths + referral.
 
 ## Examples

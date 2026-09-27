@@ -3,7 +3,7 @@ name: lavoro-spettacolo
 description: Explain entertainment work with ex-ENPALS rules. Use when asked lavoro spettacolo, entertainment workers Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true
@@ -30,7 +30,7 @@ Entertainment work decoded: ex-ENPALS contributions, intermittents, protections.
 
 - Gig-by-gig contributions: days counted, stated as the key metric.
 - Undeclared gigs ("alla romana"): illegality + lost protections, stated plainly.
-- Rates with year; verify live.
+- Rates year-stated; verify live.
 
 ## Examples
 

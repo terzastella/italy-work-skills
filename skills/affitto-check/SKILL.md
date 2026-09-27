@@ -3,7 +3,7 @@ name: affitto-check
 description: Read Italian rental contracts with red flags and costs. Use when asked affitto, rental contract Italy, canone, caparra.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[contract data]"
 user-invocable: true
@@ -31,7 +31,7 @@ Rental contracts read before signing: type, costs, red flags — information, no
 
 - Never declare a contract "legal/illegal": flags + professional referral.
 - Registration (AdE, 30 days) always mentioned with duty split.
-- Amounts/dates only as provided.
+- Amounts/dates only as provided (caps year-stated).
 
 ## Examples
 
