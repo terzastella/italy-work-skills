@@ -3,7 +3,7 @@ name: trasferta-estero
 description: Guide business trips abroad with per-diem and papers. Use when asked trasferta estero, business travel abroad Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[trip]"
 user-invocable: true
@@ -30,7 +30,7 @@ Work trips abroad covered: per-diem vs receipts, documents, insurance.
 
 - A1 form for EU postings flagged early (classic miss).
 - Insurance never assumed: verify coverage before flying.
-- Per-diem tax treatment overview, no personal tax verdicts.
+- Per-diem tax treatment overview, no personal tax verdicts (rules year-stated).
 
 ## Examples
 

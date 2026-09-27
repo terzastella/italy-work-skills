@@ -3,7 +3,7 @@ name: officina-diritti
 description: Explain mechanic rights with written quotes. Use when asked officina, mechanic rights Italy, riparazione auto.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[repair]"
 user-invocable: true
@@ -29,7 +29,7 @@ Repairs without surprises: written quotes, old parts back, warranty on work.
 ## Rules
 
 - No authorization = no payment for extras: stated bluntly.
-- Estimates vs preventivi vincolanti: difference explained.
+- Estimates vs preventivi vincolanti: difference explained (validity year-stated).
 - No mechanic endorsement.
 
 ## Examples

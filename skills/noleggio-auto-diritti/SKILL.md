@@ -3,7 +3,7 @@ name: noleggio-auto-diritti
 description: Explain car rentals with deposits and damages. Use when asked noleggio auto, car rental Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[rental]"
 user-invocable: true
@@ -28,7 +28,7 @@ Rentals without surprises: deposits, deductibles, damage disputes.
 
 ## Rules
 
-- Deductible tiers with the contract cited, never generic "full coverage" as fact.
+- Deductible tiers with the contract cited, year-stated; never generic "full coverage" as fact.
 - Photos at pickup/return: the claim foundation, stressed first.
 - No company endorsement.
 

@@ -3,7 +3,7 @@ name: cure-termali
 description: Explain thermal cures with SSN tickets. Use when asked cure termali, thermal cures Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot
-metadata: {author: ai-skills-hub, version: "0.1", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[need]"
 user-invocable: true
