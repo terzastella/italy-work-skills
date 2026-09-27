@@ -11,10 +11,12 @@ flat-rate tax math, Europass CVs, public grants — plus 24 pinned third-party s
 Installable on Claude, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode
 and Windsurf with one command. Spec: [Agent Skills open standard](https://agentskills.io).
 
+New here? Start with [`docs/USER-GUIDE.md`](docs/USER-GUIDE.md) · Installing: [`docs/INSTALL.md`](docs/INSTALL.md) · Questions: [`docs/FAQ.md`](docs/FAQ.md).
+
 ```bash
 git clone https://github.com/terzastella/AI-Skills.git
 cd AI-Skills
-python scripts/install.py --all                          # ours only (default)
+python scripts/install.py --all                          # original skills (default)
 python scripts/install.py --skill invoice-it --agent claude
 ```
 
@@ -30,14 +32,13 @@ where it matters. See [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md) for the philo
 
 1. **Real installable skills** in `skills/` (universal `SKILL.md` format)
 2. **Universal installer** — 1 command for 9 agents
-3. **Depth**: `SKILL.md` + `references/` + `examples/` + (Golden-1) neutral `scripts/` with fixtures
-4. **Executable where safe**: 10 stdlib calculators (IMU, IRPEF slices, advances,
-   forfettario, invoice totals, payslip check, holiday accrual, TFR, allowance bands,
+3. **Depth**: `SKILL.md` + `references/` + `examples/` + neutral `scripts/` with fixtures
+4. **Executable where safe**: 30 stdlib calculators (tax totals, instalments, accruals,
    budgets) — rates and tables are dated inputs, never bundled truth
 5. **Honest boundaries**: 36 sensitive skills are info-only + professional referral
    (audited in `docs/AUDITS.md`); delicate topics never ship code
 6. **Verified locally**: `validate.py` + `security-check.py` + deterministic
-   `eval-golden.py` (51/51 fixtures green) + index coherence checks in CI
+   `eval-golden.py` (all calculation checks green) + index coherence checks in CI
 
 ## Destinations
 
@@ -89,7 +90,7 @@ Install: `python scripts/install.py --skill <name> --all` (full table in `docs/C
 * **Anthropic** (10, Apache-2.0) · **Matt Pocock** (6, MIT) · **Superpowers** (8, MIT)
 
 ```bash
-python scripts/install.py --all --source vendors         # ours + third-party
+python scripts/install.py --all --source vendors         # originals + third-party
 python scripts/install.py --skill tdd --source vendors   # one third-party skill
 ```
 
@@ -106,8 +107,8 @@ ai-skills/
   archive/                   # frozen pre-restart generics (not installed)
   vendors/                   # 24 pinned third-party (never hand-edit)
   templates/skill-starter/   # new-skill template
-  catalog/                   # skills.json (273 entries) + manifests + _registry.md
-  docs/                      # CATALOG, METHODOLOGY, AUDITS, BATCHES, COMPATIBILITY, ...
+  catalog/                   # skills.json (278 entries) + manifests + _registry.md
+  docs/                      # USER-GUIDE, INSTALL, FAQ, GLOSSARY, CATALOG, METHODOLOGY, ...
   scripts/                   # install + validate + security + catalog + evals + versioning
 ```
 
@@ -133,27 +134,10 @@ Full guide: `docs/CREATE-SKILL.md`. For Italy skills: official sources + profess
 
 ## Roadmap
 
-Status: **v1.16 — 254 ours + 24 pinned third-party = 278 entries** (batches in `docs/BATCHES.md`).
+Status: **v1.16 — 254 originals + 24 pinned third-party = 278 entries** (history in `CHANGELOG.md`).
 
-- [x] Restart 1.0 → Batch 12-IT + deferred closed + foundations (SemVer tags, governance, hardened CI)
-- [x] Golden-1: 20 skills deepened + 10 neutral scripts with fixtures + deterministic evals
-- [x] Golden-2: 20 more deepened + 4 neutral scripts (40 guided, 32/32 fixtures)
-- [x] Golden-3: 20 more deepened + 12 neutral scripts (65 guided, 48/48 fixtures)
-- [x] Golden-4: 20 more deepened + 2 neutral scripts (85 guided, 51/51 fixtures)
-- [x] Golden-5: 20 more deepened, text-only (105 guided)
-- [x] Golden-6: 20 more deepened, text-only (116 guided)
-- [x] Golden-7: 20 more deepened, text-only (136 guided)
-- [x] Golden-8: 20 more deepened + 2 neutral scripts (156 guided, 55/55 fixtures)
-- [x] Golden-9: 20 more deepened, text-only (176 guided)
-- [x] Golden-10: 20 more deepened, text-only (196 guided)
-- [x] Golden-11: last 19 neutrals deepened, text-only (215 guided)
-- [x] Golden-12 XL: 10 flagships to long guides 0.3 (63/63 fixtures)
-- [x] Delicate-1: all 30 sensitive deepened, text-only forever (245 guided, 0 at 0.1 outside percorsi)
-- [x] Percorsi-0.2: 5 hubs versioned — depth complete, 254/254 at 0.2, zero bonsai left
-- [x] Fiducia-1: evals, 36 sensitive audits, 5×3 test plan (account runs pending)
-- [x] Percorsi-1.16: 5 guided paths (open VAT number, domestic hire, home buy, bereavement, payslip audit)
-- [x] Local-tests-1: first real runs (OpenCode + qwen3:8b, 7/9 ✅, log in docs/)
-- [x] Matrix-codex-1: codex + ollama-local (3/5 ✅, 1 invention ❌, 1 sandbox ❌)
-- [x] Matrix-claude-1: ollama launch claude + qwen3:8b (4/5 ✅, tdd methodology ❌)
+- [x] 254 skills complete and deepened, 30 calculators verified (63/63 checks green)
+- [x] Sensitive topics audited: information + professional referral, never verdicts
+- [x] First real-agent runs logged (`docs/TEST-PLAN-LOCAL.md`)
 - [ ] Real-agent tests on Claude/Codex/Grok (`docs/TEST-PLAN.md` ready, badges to follow)
 - [ ] Public repo + skills.sh/marketplace submit (the finish line — then maintenance only)

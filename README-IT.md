@@ -121,19 +121,11 @@ Non duplichiamo codice altrui per licenza e manutenzione. Vedi `catalog/vendors-
 ```
 ai-skills/
   README.md + LICENSE + llms.txt  # root essenziale
-  skills/                    # SOURCE OF TRUTH nostre: 254 skill (9 + batch 1-12 IT + 2 rinviate + 5 percorsi)
-    tooling + cuore (9) + batch1-11 IT (218, dettaglio in docs/BATCHES.md)
-    batch12-IT sindacati/lavoro: sciopero-diritti/ assemblea-sindacale/ rsu-rls/
-      stagionali-turismo/ videosorveglianza-lavoro/
-    batch12-IT impresa/fisco: libri-contabili/ whistleblowing-info/ fattura-proforma/
-      irap-info/ lavoro-spettacolo/
-    batch12-IT casa/famiglia/salute: multiproprieta-diritti/ affido-familiare/
-      matrimonio-estero/ salute-mentale-info/ cure-termali/
-    batch12-IT scuola/fine-vita/soldi: scuola-privata-paritaria/ universita-estero-laurea/
-      servizi-cimiteriali-funebri/ fido-scoperto/ assegni-bancari/
+  skills/                    # SOURCE OF TRUTH: 254 skill originali
+    tooling + cuore (9) + skill per temi fiscali/lavoro/casa/salute/scuola/PA
+    + 5 percorsi guidati multi-tappa (vedi sotto)
     (ognuna: SKILL.md + references/ + examples/ — catalogo per temi in docs/CATALOG.md)
-    integrativa-1.15 lavoro: contratto-base-check/ ferie-permessi/
-    percorsi-1.16: percorso-apri-partita-iva/ percorso-assunzione-domestica/
+    percorsi guidati: percorso-apri-partita-iva/ percorso-assunzione-domestica/
       percorso-casa-compravendita/ percorso-lutto/ percorso-busta-controllo/
   archive/                   # skill generiche pre-restart (non installate)
     batch1-generic/ (17) + batch2-seo/ (18)
@@ -141,14 +133,14 @@ ai-skills/
     anthropics-skills/ (10) + mattpocock-skills/ (6) + superpowers/ (8)
     + upstreams.lock.json + third-party/ + README.md
   templates/skill-starter/   # modello per nuove skill
-  catalog/                   # skills.json (271 entries) + vendors-manifest.json + _registry.md
+  catalog/                   # skills.json (278 entries) + vendors-manifest.json + _registry.md
   .agents/skills/README.md   # standard Codex/Cursor/Copilot
   .claude/README.md          # adapter Claude Code (+ .claude-plugin/plugin.json)
   .grok/README.md            # adapter Grok Code
   .github/skills/README.md   # adapter Copilot + Copilot CLI
   .opencode/skills/README.md # adapter OpenCode
   .windsurf/skills/README.md # adapter Windsurf (invocazione @nome)
-  docs/                      # CATALOG, METHODOLOGY, AUDITS, COMPATIBILITY, CREATE-SKILL, BATCHES, TEST-PLAN...
+  docs/                      # USER-GUIDE, INSTALL, FAQ, GLOSSARY, CATALOG, METHODOLOGY...
   scripts/install.py + validate.py + security-check.py + build-catalog.py + sync-vendors.py
 ```
 
@@ -170,30 +162,12 @@ Guida completa: `docs/CREATE-SKILL.md`. Per skill Italia: aggiungi fonti ufficia
 * Skill ufficiali linkate in `catalog/vendors-manifest.json`: restano dei rispettivi proprietari. In particolare `docx/pdf/pptx/xlsx` di Anthropic sono **source-available, non open-source** — non copiarle, linkale (vedi `docs/THIRD-PARTY-NOTICES.md`).
 * Le skill fisco/legge sono bozze informative, non consulenza professionale.
 
-## Roadmap (repo GitHub privata, sviluppo per batch)
+## Roadmap
 
-Stato: **v1.16 — 254 skill nostre + 24 terze pinnate = 278 entries** (dettaglio batch in `docs/BATCHES.md`, changelog in `CHANGELOG.md`).
+Stato: **v1.16 — 254 skill nostre + 24 terze pinnate = 278 entries** (storia in `CHANGELOG.md`).
 
-- [x] Restart 1.0 → Batch 12-IT (9 + 18 + 20×11 + 24 vendors pinnate)
-- [x] Integrativa 1.15: le 2 rinviate (contratto-base-check, ferie-permessi) — debito chiuso
-- [x] Fondazioni: tag SemVer, governance, CI hardening, validatore frontmatter
-- [x] Golden-1: 20 skill approfondite + 10 script neutri con fixture (vedi `docs/BATCHES.md`)
-- [x] Golden-2: altre 20 approfondite + 4 script neutri (40 guided, 32/32 fixture)
-- [x] Golden-3: altre 20 approfondite + 12 script neutri (65 guided, 48/48 fixture)
-- [x] Golden-4: altre 20 approfondite + 2 script neutri (85 guided, 51/51 fixture)
-- [x] Golden-5: altre 20 approfondite, solo testuali (105 guided)
-- [x] Golden-6: altre 20 approfondite, solo testuali (116 guided)
-- [x] Golden-7: altre 20 approfondite, solo testuali (136 guided)
-- [x] Golden-8: altre 20 approfondite + 2 script neutri (156 guided, 55/55 fixture)
-- [x] Golden-9: altre 20 approfondite, solo testuali (176 guided)
-- [x] Golden-10: altre 20 approfondite, solo testuali (196 guided)
-- [x] Golden-11: ultime 19 neutre approfondite, solo testuali (215 guided)
-- [x] Golden-12 XL: 10 flagship a guide lunghe 0.3 (63/63 fixture)
-- [x] Delicate-1: tutte le 30 sensibili approfondite, solo testuali per sempre (245 guided, 0.1 solo percorsi)
-- [x] Percorsi-0.2: 5 hub versionati — profondità completa, 254/254 a 0.2, zero bonsai rimasti
-- [x] Fiducia-1: evals deterministici (23/23) + audits 36 delicate + piano test 5×3
-- [x] Superpowers 1-2: harness behavior, hooks, version-bump, manifest multi-harness
-- [x] Percorsi-1.16: 5 percorsi guidati (P.IVA, domestica, casa, lutto, busta)
+- [x] 254 skill complete e approfondite, 30 calcoli verificati (63/63 controlli verdi)
+- [x] Temi sensibili blindati: solo informazioni + rinvio al professionista, mai verdetti
+- [x] Primi test reali registrati (`docs/TEST-PLAN-LOCAL.md`)
 - [ ] Test reali sugli agenti e badge in `docs/COMPATIBILITY.md`
-- [ ] Batch 13-IT da pianificare (vedi `catalog/_registry.md`)
 - [ ] Rinviato (serve repo pubblica): submit a skills.sh / agentskills.io

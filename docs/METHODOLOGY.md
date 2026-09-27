@@ -17,7 +17,7 @@ Skills explain and compute; they never replace the professional. Two tiers:
 
 ## 2. Neutral calculators, never bundled truth
 
-Golden-1 scripts compute pure math from explicit dated inputs: rates, brackets,
+The bundled scripts compute pure math from explicit dated inputs: rates, brackets,
 tables, thresholds. What they never do:
 
 - Bundle a rate, table, or deadline as timeless truth.
@@ -45,7 +45,7 @@ related skills, regime hubs (`contratto-tipi`, `busta-paga-leggi`,
 ## 5. Evidence over claims
 
 - Fiscal figures always carry their year. Examples use marked fake data.
-- Fixtures with expected outputs live next to every script; `eval-golden.py`
+- Worked examples with expected results live next to every script; `eval-golden.py`
   re-runs them deterministically in CI.
 - Real-agent installs are recorded dated (`docs/TEST-PLAN.md` →
   `docs/COMPATIBILITY.md`). Untested is declared, never implied.

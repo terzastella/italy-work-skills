@@ -1,4 +1,6 @@
-# Contributing (local only for now)
+# Contributing — technical entrypoint (local only for now)
+
+Human version: `docs/CONTRIBUTING.md`. Automation rules: `AGENTS.md`.
 
 ## How to propose a skill (in English)
 
@@ -28,7 +30,7 @@
 ## Rules
 
 - Single source of truth: `skills/`. Never duplicate into `.claude/`, `.grok/`, `.agents/`.
-- `vendors/` is read-only: never hand-edit, never add ours there. Updates via
+- `vendors/` is read-only: never hand-edit, never add originals there. Updates via
   `scripts/sync-vendors.py` flow (re-copy, verify hashes, bump lock).
 - No secrets, tokens, personal absolute paths, PII.
 - English everywhere. Sober tone, no emoji.

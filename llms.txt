@@ -15,96 +15,96 @@
 - press-release-it: skills/press-release-it/SKILL.md — Press releases.
 - doc-polish-it: skills/doc-polish-it/SKILL.md — Improve README/docs.
 - case-study: skills/case-study/SKILL.md — Case studies with real numbers.
-- Batch 1-IT, tax (4): fattura-elettronica-it, regime-forfettario, scadenze-fiscali, corrispettivi-it.
-- Batch 1-IT, formal (5): pec-bozza, sollecito-pagamento, verbale-riunione-it, preventivo-it, nota-spese.
-- Batch 1-IT, jobs (4): cv-europass, lettera-presentazione, colloquio-prep-it, dimissioni-procedura.
-- Batch 1-IT, calls/PA (5): bandi-pmi, domanda-bando, spid-cie-guida, privacy-informativa, visura-leggimi.
-- Batch 2-IT, tax-2 (8): partita-iva-apri, ateco-scelta, acconti-calcolo, ritenuta-acconto,
+- Tax (4): fattura-elettronica-it, regime-forfettario, scadenze-fiscali, corrispettivi-it.
+- Formal letters and payments (5): pec-bozza, sollecito-pagamento, verbale-riunione-it, preventivo-it, nota-spese.
+- Jobs (4): cv-europass, lettera-presentazione, colloquio-prep-it, dimissioni-procedura.
+- Grants and public services (5): bandi-pmi, domanda-bando, spid-cie-guida, privacy-informativa, visura-leggimi.
+- Tax and VAT numbers (8): partita-iva-apri, ateco-scelta, acconti-calcolo, ritenuta-acconto,
   operazioni-estero, fattura-pa, imu-calcolo, cu-730-guida.
-- Batch 2-IT, jobs-2 (3): busta-paga-leggi, naspi-guida, tirocinio-guida.
+- Pay and benefits (3): busta-paga-leggi, naspi-guida, tirocinio-guida.
   Casa (5): isee-guida, bollette-energia, bonus-casa, sanita-digitale, affitto-check.
-- Batch 2-IT, PA/tutele (4): pagopa-guida, garanzie-consumo, recesso-acquisti, isa-check.
-- Batch 3-IT, fisco/impresa (6): nota-credito, contributi-inps, agevolazioni-assunzioni,
+- Payments and consumer rights (4): pagopa-guida, garanzie-consumo, recesso-acquisti, isa-check.
+- Business and contributions (6): nota-credito, contributi-inps, agevolazioni-assunzioni,
   ditta-vs-srl, camera-commercio, durc.
-- Batch 3-IT, lavoro (4): maternita-congedi, malattia-certificato, apprendistato, contratto-tipi.
-- Batch 3-IT, casa (5): condominio-spese, mutuo-tassi, compravendita-casa, auto-bollo, assegno-unico.
-- Batch 3-IT, PA/tutele (5): anagrafe-certificati, passaporto-procedura, voli-ritardi,
+- Work (4): maternita-congedi, malattia-certificato, apprendistato, contratto-tipi.
+- Home and car (5): condominio-spese, mutuo-tassi, compravendita-casa, auto-bollo, assegno-unico.
+- Documents and travel rights (5): anagrafe-certificati, passaporto-procedura, voli-ritardi,
   banche-reclami, vacanze-pacchetto.
-- Batch 4-IT, fisco/famiglia (4): tari-tassa, canone-rai, successioni-info, donazioni-info.
-- Batch 4-IT, lavoro (4): periodo-prova, licenziamento-info, smart-working, part-time.
-- Batch 4-IT, casa/auto (3): utenze-voltura, affitto-breve, compravendita-auto.
-- Batch 4-IT, scuola/salute (5): scuola-iscrizioni, universita-tasse, medico-base,
+- Local tax and inheritance (4): tari-tassa, canone-rai, successioni-info, donazioni-info.
+- Work contracts (4): periodo-prova, licenziamento-info, smart-working, part-time.
+- Home and rentals (3): utenze-voltura, affitto-breve, compravendita-auto.
+- School and health (5): scuola-iscrizioni, universita-tasse, medico-base,
   ticket-esenzioni, invalidita-104.
-- Batch 4-IT, PA/documenti (4): residenza-cambio, carta-identita-cie, patente-punti, permesso-soggiorno.
-- Batch 5-IT, lavoro/pensioni (5): colf-badanti, collaborazioni-occasionali, pensione-guida,
+- IDs and residence (4): residenza-cambio, carta-identita-cie, patente-punti, permesso-soggiorno.
+- Domestic work and pensions (5): colf-badanti, collaborazioni-occasionali, pensione-guida,
   riscatto-laurea, tfr-fondo.
-- Batch 5-IT, casa/soldi (5): prima-casa-agevolazioni, affitto-concordato, conto-corrente-costi,
+- Home and money (5): prima-casa-agevolazioni, affitto-concordato, conto-corrente-costi,
   rc-auto, criptovalute-fisco.
-- Batch 5-IT, famiglia/estero (5): spese-mediche-detrazioni, unioni-convivenze, asilo-nido-bonus,
+- Family and living abroad (5): spese-mediche-detrazioni, unioni-convivenze, asilo-nido-bonus,
   testamento-olografo, aire-estero.
-- Batch 5-IT, tutele (5): certificati-estero, telefonia-reclami, energia-reclami,
+- Consumer protection (5): certificati-estero, telefonia-reclami, energia-reclami,
   assicurazione-casa, animali-viaggi.
-- Batch 6-IT, fisco (5): ravvedimento-operoso, cartelle-ader, rateizzazione-debiti,
+- Fixing tax mistakes (5): ravvedimento-operoso, cartelle-ader, rateizzazione-debiti,
   cedolare-secca, firma-digitale.
-- Batch 6-IT, lavoro/impresa (5): cassa-integrazione, welfare-aziendale,
+- Work safety and business (5): cassa-integrazione, welfare-aziendale,
   ecommerce-adempimenti, sicurezza-lavoro, marchi-info.
-- Batch 6-IT, casa/digitali (5): ape-certificazione, edilizia-cila-scia,
+- Home and digital IDs (5): ape-certificazione, edilizia-cila-scia,
   amministratore-condominio, domicilio-digitale-inad, cassetto-fiscale.
-- Batch 6-IT, PA/salute (5): elezioni-voto, multe-ricorso, assicurazione-sanitaria,
+- Fines and health coverage (5): elezioni-voto, multe-ricorso, assicurazione-sanitaria,
   dis-coll, pensione-reversibilita.
-- Batch 7-IT, fisco/lavoro (5): accertamento-info, compensazioni-f24, rimborsi-fiscali,
+- Tax checks and young workers (5): accertamento-info, compensazioni-f24, rimborsi-fiscali,
   somministrazione, lavoro-minorile.
-- Batch 7-IT, impresa/casa (5): startup-innovativa, fallimento-crisi-info, franchising-info,
+- Business and property (5): startup-innovativa, fallimento-crisi-info, franchising-info,
   usufrutto-nuda, spese-notarili.
-- Batch 7-IT, famiglia/salute (5): mantenimento-figli, matrimonio-civile, cittadinanza,
+- Family and health (5): mantenimento-figli, matrimonio-civile, cittadinanza,
   assistenza-anziani, bonus-cultura-18app.
-- Batch 7-IT, PA/tutele (5): patronato-servizi, concorsi-pubblici, leasing-finanziamento,
+- Jobs and moving house (5): patronato-servizi, concorsi-pubblici, leasing-finanziamento,
   trasloco-diritti, riscaldamento-contabilizzazione.
-- Batch 8-IT, giustizia/successioni (5): giudice-di-pace, conciliazione-paritetica,
+- Courts and wills (5): giudice-di-pace, conciliazione-paritetica,
   diffida-legale, mediazione-civile, testamento-pubblico.
-- Batch 8-IT, eredità/lavoro (5): eredita-debiti, volture-catastali, trasferta-estero,
+- Inheritance and work trips (5): eredita-debiti, volture-catastali, trasferta-estero,
   infortuni-lavoro, reperibilita-lavoro.
-- Batch 8-IT, trasporti/salute (5): revisione-auto, ztl-permessi, trasporto-disabili,
+- Cars and health (5): revisione-auto, ztl-permessi, trasporto-disabili,
   vaccini-obbligatori, donazione-sangue.
-- Batch 8-IT, soldi/lavoro (5): pronto-soccorso-ticket, straordinari-info, conti-deposito,
+- Overtime and savings (5): pronto-soccorso-ticket, straordinari-info, conti-deposito,
   fondo-emergenza, trasferte-lavoro.
-- Batch 9-IT, fisco/lavoro (5): irpef-scaglioni, addizionali-regionali, imposta-bollo,
+- Income tax and leave (5): irpef-scaglioni, addizionali-regionali, imposta-bollo,
   aspettativa-lavoro, trasferimento-sede.
-- Batch 9-IT, casa/impresa (5): plusvalenza-casa, case-popolari-erp, agenti-rappresentanti,
+- Housing and agencies (5): plusvalenza-casa, case-popolari-erp, agenti-rappresentanti,
   appalti-pubblici-info, congedo-matrimoniale.
-- Batch 9-IT, famiglia/salute (5): mensa-scolastica, impegnativa-visite, donazione-organi,
+- School and family (5): mensa-scolastica, impegnativa-visite, donazione-organi,
   adozioni-info, separazione-divorzio.
-- Batch 9-IT, PA/soldi (5): servizio-civile, tredicesima-info, buoni-fruttiferi,
+- Civic life and money (5): servizio-civile, tredicesima-info, buoni-fruttiferi,
   treni-diritti, noleggio-auto-diritti.
-- Batch 10-IT, fisco/lavoro (5): plusvalenza-finanziaria, ivafe-ivie, dichiarazione-integrativa,
+- Investments and hours (5): plusvalenza-finanziaria, ivafe-ivie, dichiarazione-integrativa,
   orario-riposi, permessi-studio-150.
-- Batch 10-IT, impresa/casa (5): impresa-familiare, cooperative-info, comodato-uso,
+- Family business and debts (5): impresa-familiare, cooperative-info, comodato-uso,
   cognome-figli, pignoramento-conto.
-- Batch 10-IT, salute/scuola (5): farmaci-equivalenti, ricetta-elettronica, guardia-medica-turisti,
+- Medicines and school exams (5): farmaci-equivalenti, ricetta-elettronica, guardia-medica-turisti,
   maturita-esame, testamento-biologico-dat.
-- Batch 10-IT, soldi/tutele (5): carte-revolving, usura-tassi, assicurazione-viaggio,
+- Credit and travel (5): carte-revolving, usura-tassi, assicurazione-viaggio,
   officina-diritti, bagagli-smarriti.
-- Batch 11-IT, scuola/condominio (5): dsa-bes-scuola, universita-fuorisede, erasmus-info,
+- School and condo meetings (5): dsa-bes-scuola, universita-fuorisede, erasmus-info,
   its-academy, assemblea-condominiale.
-- Batch 11-IT, condominio/lavoro (5): morosita-condominiale, lavori-straordinari,
+- Condo arrears and night work (5): morosita-condominiale, lavori-straordinari,
   distacco-lavoratore, lavoro-notturno, festivi-lavorati.
-- Batch 11-IT, buoni/salute (5): buoni-pasto, esami-intramoenia, screening-prevenzione,
+- Meal vouchers and checkups (5): buoni-pasto, esami-intramoenia, screening-prevenzione,
   farmaci-estero, abbonamenti-palestra.
-- Batch 11-IT, soldi (5): assicurazione-vita-info, conti-cointestati, limite-contante,
+- Bank accounts and cash (5): assicurazione-vita-info, conti-cointestati, limite-contante,
   bonifici-istantanei, carta-prepagata.
 
-- Batch 12-IT, sindacati/lavoro (5): sciopero-diritti, assemblea-sindacale, rsu-rls,
+- Unions and seasonal work (5): sciopero-diritti, assemblea-sindacale, rsu-rls,
   stagionali-turismo, videosorveglianza-lavoro.
-- Batch 12-IT, impresa/fisco (5): libri-contabili, whistleblowing-info, fattura-proforma,
+- Company books and invoices (5): libri-contabili, whistleblowing-info, fattura-proforma,
   irap-info, lavoro-spettacolo.
-- Batch 12-IT, casa/famiglia/salute (5): multiproprieta-diritti, affido-familiare,
+- Home, family and health (5): multiproprieta-diritti, affido-familiare,
   matrimonio-estero, salute-mentale-info, cure-termali.
-- Batch 12-IT, scuola/fine-vita/soldi (5): scuola-privata-paritaria, universita-estero-laurea,
+- School, funerals and money (5): scuola-privata-paritaria, universita-estero-laurea,
   servizi-cimiteriali-funebri, fido-scoperto, assegni-bancari.
-- Integrativa 1.15, lavoro (2): contratto-base-check, ferie-permessi.
-- Percorsi 1.16, guided paths (5): percorso-apri-partita-iva, percorso-assunzione-domestica,
+- Work basics (2): contratto-base-check, ferie-permessi.
+- Step-by-step paths (5): percorso-apri-partita-iva, percorso-assunzione-domestica,
   percorso-casa-compravendita, percorso-lutto, percorso-busta-controllo.
-Details in catalog/skills.json (v1.16.0, 278 entries: 254 ours + 24 vendors).
+Details in catalog/skills.json (v1.16.0, 278 entries: 254 originals + 24 third-party).
 Archived generic skills in archive/ (not installed).
 Pinned third-party skills in vendors/ (24, opt-in via --source vendors, see vendors/README.md):
 anthropics-skills (10), mattpocock-skills (6), superpowers (8) — detail in docs/CATALOG.md.
