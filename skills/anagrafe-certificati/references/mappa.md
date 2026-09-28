@@ -1,5 +1,7 @@
 # ANPR certificate map (anagrafe-certificati)
 
+last-verified: 2026-09-28
+
 Online via ANPR (SPID/CIE): residenza, stato famiglia, nascita, matrimonio,
 esistenza in vita — free, immediate. Counter fallback when portal fails.
 Autocertificazione FIRST (DPR 445/2000): PA + public-service managers must accept

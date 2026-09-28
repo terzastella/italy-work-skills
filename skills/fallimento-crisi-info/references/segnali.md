@@ -1,5 +1,7 @@
 # Crisis signals (fallimento-crisi-info, DELICATE)
 
+last-verified: 2026-09-28
+
 Equity erosion · cash gaps · tax/social arrears patterns · supplier stretching.
 Tools ladder: negotiated composition → concordato overview → court tracks named.
 Directors: timely-action duty (liability grows with delay). Specialist NOW.

@@ -1,5 +1,7 @@
 # Patronato services (patronato-servizi)
 
+last-verified: 2026-09-28
+
 Free: pensions, NASpI/DIS-COLL, invalidità, ISEE, assegno unico, maternity, injury claims.
 Paid/never: legal representation beyond assistance (lawyer referral).
 Bring: IDs, fiscal codes, relevant records. Booking: offices fill — book ahead.

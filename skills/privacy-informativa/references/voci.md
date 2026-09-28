@@ -1,5 +1,7 @@
 # Mandatory notice items (privacy-informativa)
 
+last-verified: 2026-09-28
+
 Controller (name+contacts) · purposes + legal basis each · data categories ·
 retention times · recipients · rights (access/rectify/erase/object/portability/complain to Garante) ·
 rights contact · source if not collected directly · updates date.

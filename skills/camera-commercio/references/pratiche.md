@@ -1,5 +1,7 @@
 # Registro pratiche map (camera-commercio)
 
+last-verified: 2026-09-28
+
 Iscrizione (new firms via ComUnica) · variazioni (sede, attività, cariche, PEC) ·
 cancellazione · deposito bilanci (terms + late sanctions) · albi/artigiani first-track.
 Channel: ComUnica/Starweb + digital signature mandatory. Fees: year-stated, slight

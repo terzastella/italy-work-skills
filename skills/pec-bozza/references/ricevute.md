@@ -1,5 +1,7 @@
 # PEC receipts — what to keep (pec-bozza)
 
+last-verified: 2026-09-28
+
 - **Accettazione** (acceptance): your provider took the message. Proves sending time.
 - **Consegna** (delivery): recipient mailbox got it. Proves delivery; legal value = PEC-to-PEC + BOTH receipts.
 - Keep both as files + print PDF for disputes. Retention: same as the matter (years for contracts/tax).

@@ -1,5 +1,7 @@
 # Verbale template
 
+last-verified: 2026-09-28
+
 ```text
 VERBALE RIUNIONE — <date DD/MM/YYYY>
 Presenti: ... | Assenti: ...

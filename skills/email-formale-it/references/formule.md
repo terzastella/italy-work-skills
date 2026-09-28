@@ -1,5 +1,7 @@
 # Formal Italian email formulas (IT, domain vocabulary)
 
+last-verified: 2026-09-28
+
 Openings: `Egregio Sig. Rossi,` · `Gentile Dott.ssa Bianchi,` · `Spett.le Azienda,` · `Egregi Signori,`
 Closings: `Cordiali saluti,` (standard) · `Distinti saluti,` (more formal/distant) ·
 `In attesa di un Suo cortese riscontro, porgo cordiali saluti,` (waiting on them) ·

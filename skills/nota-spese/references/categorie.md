@@ -1,5 +1,7 @@
 # nota-spese categories
 
+last-verified: 2026-09-28
+
 Vitto (meals, receipts) · Alloggio (hotel invoice) · Viaggi (train/plane/taxi tickets,
 fuel + tolls with km) · Carburante e pedaggi · Parcheggi · Clienti (hospitality, note who) ·
 Kilometric: km × rate (rate from user/policy, math shown).

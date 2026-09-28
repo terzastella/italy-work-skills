@@ -1,5 +1,7 @@
 # DURC validity (durc)
 
+last-verified: 2026-09-28
+
 Single INPS/INAIL/Casse document · validity window (year-stated, verify current) ·
 needed for public contracts, incentives, many private clients · subcontracting:
 each link needs its own · irregularity: unpaid/declarations → regularization path +

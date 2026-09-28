@@ -1,5 +1,7 @@
 # Reading grid (bandi-pmi)
 
+last-verified: 2026-09-28
+
 Extract in order: 1) eligible subjects (ATECO/size/region) 2) fundable vs excluded costs
 3) aid intensity % + de minimis note 4) deadlines (submit + spend + report) 5) scoring weights
 6) mandatory attachments 7) info desk contacts.

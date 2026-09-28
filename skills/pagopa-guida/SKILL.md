@@ -3,7 +3,7 @@ name: pagopa-guida
 description: Guide pagoPA payments with notice codes and receipts. Use when asked pagoPA, pay PA online, avviso pagamento, IUV code.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en", last_verified: "2026-09-28"}
 allowed-tools: Read Write
 argument-hint: "[notice]"
 user-invocable: true

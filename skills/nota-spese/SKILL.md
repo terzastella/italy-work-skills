@@ -3,7 +3,7 @@ name: nota-spese
 description: Build Italian expense reports with receipts and totals. Use when asked nota spese, expense report, rimborsi, trasferta.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en", last_verified: "2026-09-28"}
 allowed-tools: Read Write
 argument-hint: "[trip/period]"
 user-invocable: true

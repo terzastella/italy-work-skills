@@ -1,5 +1,7 @@
 # Tappe (percorso-apri-partita-iva)
 
+last-verified: 2026-09-28
+
 ## 1. Idea → partita-iva-apri
 
 Ask: activity (what, really) · employee or freelance · expected revenue · prior employment.
