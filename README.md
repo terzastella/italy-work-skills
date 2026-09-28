@@ -2,7 +2,7 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Spec: agentskills.io](https://img.shields.io/badge/Spec-agentskills.io-blue.svg)
-![Gates: local](https://img.shields.io/badge/Gates-validate%20%7C%20security%20%7C%20evals-yellow.svg)
+![Gates: CI](https://img.shields.io/badge/Gates-validate%20%7C%20security%20%7C%20evals%20%7C%20freshness-green.svg)
 
 > 🇮🇹 Italiano? Leggi [`README-IT.md`](README-IT.md).
 
@@ -141,4 +141,5 @@ Status: **v1.16 — 254 originals + 24 pinned third-party = 278 entries** (histo
 - [x] Sensitive topics audited: information + professional referral, never verdicts
 - [x] First real-agent runs logged (`docs/TEST-PLAN-LOCAL.md`)
 - [ ] Real-agent tests on Claude/Codex/Grok (`docs/TEST-PLAN.md` ready, badges to follow)
-- [ ] Public repo + skills.sh/marketplace submit (the finish line — then maintenance only)
+- [x] Public repo
+- [ ] skills.sh/marketplace submit (then maintenance only)

@@ -7,7 +7,7 @@
 ![Spec: agentskills.io](https://img.shields.io/badge/Spec-agentskills.io-blue.svg)
 ![Validate: local](https://img.shields.io/badge/Validate-local-yellow.svg)
 
-Il primo hub sistematico di **Agent Skills per il lavoro italiano**: fatture con IVA, email formali, budget, comunicati, traduzioni IT-EN. Skill vere e installabili su Claude, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode e Windsurf con un comando.
+Un hub open di **Agent Skills per il lavoro e la burocrazia italiana**: fatture con IVA, email formali, budget, comunicati, traduzioni IT-EN. Skill vere e installabili su Claude, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode e Windsurf con un comando.
 
 Repo pubblica, sviluppo per branch e tag. Dettaglio avanzamento in `CHANGELOG.md`.
 

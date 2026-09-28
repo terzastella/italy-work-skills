@@ -22,10 +22,9 @@ python scripts/check-freshness.py           # report only, exit 0
 python scripts/check-freshness.py --check   # exit 2 if anything is stale/missing
 ```
 
-- Missing header → reported (pilot skills only for now; full rollout later).
+- Missing header → reported for every skill (rollout complete: 254/254).
 - Older than 12 months → STALE, must be re-verified or renewed.
-- This check is advisory, not a CI gate — a stale source is a maintenance
-  debt, not a broken build. Promote to gate once the rollout is complete.
+- This check is CI-blocking — a stale source fails the build until renewed.
 
 ## Rollout
 

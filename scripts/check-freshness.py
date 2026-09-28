@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Report references/ files missing last-verified or older than 12 months.
+"""Enforce last-verified freshness on SKILL.md + references/ (254/254).
 
 Usage:
   python scripts/check-freshness.py           # report only, exit 0
+  python scripts/check-freshness.py --check   # exit 2 if anything is stale/missing (CI-blocking)
   python scripts/check-freshness.py --stamp <skill>...  # stamp + version bump
 
-Advisory only (see docs/FRESHNESS.md). Rolled out: pilot trio + tax cluster;
-full rollout is theme by theme.
+See docs/FRESHNESS.md. STAMP dates always come from today (never hardcoded).
 """
 import datetime as dt
 import re

@@ -35,20 +35,29 @@ PATTERNS = [
 SKIP_DIRS = {".git", "__pycache__", "tmp-test", "tmp-test-install",
              "node_modules", ".venv", "outputs"}
 
-# Known-safe hits: (path suffix or substring, label). Each entry is reviewed,
-# never a live secret — loopback endpoints, example placeholders, our own docs
-# citing the patterns this scanner looks for.
+# Known-safe hits: (path prefix, label or None for any label). Tight by
+# default: whole-file allows exist only where the file MUST contain
+# pattern-like strings (scanner definitions, security docs). Reviewed
+# 2026-09-28 — every entry below maps to a verified false positive.
 ALLOW = [
     ("docs/TEST-PLAN", "localhost-ref"),      # local Ollama endpoint logs
     ("docs/COMPATIBILITY.md", "localhost-ref"),
     ("docs/BATCHES.md", "localhost-ref"),
-    ("scripts/security-check.py", None),      # pattern definitions themselves
-    ("scripts/validate.py", None),
-    ("scripts/check-diff.py", None),
-    ("docs/SECURITY.md", None),               # documents the same patterns
-    ("SECURITY.md", None),
+    ("docs/TEST-PLAN-LOCAL-MATRIX.md", "localhost-ref"),
+    ("scripts/security-check.py", "win-user-path"),    # own pattern defs
+    ("scripts/security-check.py", "linux-home-path"),
+    ("scripts/security-check.py", "mac-home-path"),
+    ("scripts/security-check.py", "localhost-ref"),    # allow-listed log paths
+    ("scripts/security-check.py", "email-pii"),        # fake-sample comment
+    ("scripts/validate.py", "win-user-path"),          # own pattern def
+    ("scripts/validate.py", "linux-home-path"),
+    ("scripts/validate.py", "mac-home-path"),
+    ("docs/SECURITY.md", "win-user-path"),             # documents the pattern
+    ("docs/SECURITY.md", "linux-home-path"),
+    ("SECURITY.md", "win-user-path"),
+    ("SECURITY.md", "linux-home-path"),
     ("press-release-it/examples/press-cases.md", "email-pii"),  # john@example.com [sample data]
-    ("catalog/vendors-manifest.json", "xai-key"),  # skill name "xai-grok-builtin", not a key
+    ("catalog/vendors-manifest.json", "xai-key"),  # vendor skill name false hit, not a key
 ]
 
 # Generated install copies (gitignored, byte-copies of skills/ or vendors/).
