@@ -23,6 +23,18 @@ Fill in the template (`.github/PULL_REQUEST_TEMPLATE.md`). Automated checks
 run on every PR: file validation, security scan, index coherence, install
 dry-run, and example checks. Green on all of them is required.
 
+## Quality gate for new skills (classify first)
+
+Find your level in `docs/RISK-MATRIX.md`, then satisfy its row:
+
+- **L0 informative** — structure, sources, no invented data, examples.
+- **L1 operative** — L0 + mandatory inputs, deterministic output, edge cases,
+  Good/Bad examples, year markers.
+- **L2 calculator** — L1 + neutral script, fixtures with expected outputs,
+  hand-computed oracle in `tests/oracles/`, invariants where they apply.
+- **L3 delicate** — L1 + info-only + professional referral, never scripts/,
+  never verdicts/strategies, `last_verified` from day one.
+
 ## Ground rules
 
 - English everywhere in skill content (Italian survives only inside example
