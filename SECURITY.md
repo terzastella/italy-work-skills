@@ -17,5 +17,5 @@ python scripts/security-check.py
 
 ## Reporting
 
-Repo still private/local: report verbally to the owner with file:suspicious line.
-Once on public GitHub, open a `security` issue without including the secret.
+Open a `security` issue without including the secret (file + line only).
+Never post credentials, tokens, or personal data — not even redacted samples.

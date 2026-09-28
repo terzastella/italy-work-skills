@@ -52,5 +52,5 @@ or follow `CONTRIBUTING.md` and send a pull request.
 
 ## Who maintains this?
 
-A small team, privately for now. Every change passes automated gates
+A small team — issues and pull requests welcome. Every change passes automated gates
 (validation, security, coherence, install dry-run, example checks) before merge.

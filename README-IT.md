@@ -9,7 +9,7 @@
 
 Il primo hub sistematico di **Agent Skills per il lavoro italiano**: fatture con IVA, email formali, budget, comunicati, traduzioni IT-EN. Skill vere e installabili su Claude, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode e Windsurf con un comando.
 
-Sviluppo su repo GitHub privata + branch per batch. Pubblicazione pubblica e marketplace rinviati.
+Repo pubblica, sviluppo per branch e tag. Dettaglio avanzamento in `CHANGELOG.md`.
 
 > Skill tutte in inglese (`-it` = dominio Italia o origine italiana).
 > Solo questa pagina (`README-IT.md`) resta in italiano.

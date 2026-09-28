@@ -8,11 +8,11 @@ Second independent run after docs-public-1 (no skill files changed since
 ## Method
 
 - Claude: `ollama launch claude --model qwen3:8b` with piped prompts,
-  absolute skill paths (`C:\Users\tanta\.claude\skills\<name>\SKILL.md`),
+  absolute skill paths (`~/.claude/skills/<name>/SKILL.md`),
   reply-only (no file writes).
 - Codex: `codex exec '...'` (OpenAI Codex v0.145.0, provider `ollama-local`,
   sandbox read-only), explicit file-read of
-  `D:\Projects\AI-Toolkit\ai-skills\.agents\skills\<name>\SKILL.md`.
+  `<repo>/.agents/skills/<name>/SKILL.md`.
 - One cell at a time; tree verified clean after the run (`git status` empty).
 
 ## Claude track — 5/5 ✅ (was 4/5 on 2026-09-26)
