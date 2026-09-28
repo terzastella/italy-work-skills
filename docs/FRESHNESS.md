@@ -29,7 +29,10 @@ python scripts/check-freshness.py --check   # exit 2 if anything is stale/missin
 
 ## Rollout
 
-- Pilot (2026-09-28): `invoice-it`, `imu-calcolo`, `regime-forfettario`.
-- Next: theme by theme (tax first), one skill per change with a version bump,
-  as usual. Delicate skills get priority after tax.
+- Done (2026-09-28): pilot trio + full tax cluster — 35 skills, 47 refs
+  (`invoice-it`, `imu-calcolo`, `regime-forfettario` + `Fisco e tasse` theme).
+  Stamp tool: `python scripts/check-freshness.py --stamp <skills...>`
+  (stamps headers + bumps versions, one theme per change).
+- Next: lavoro theme, then salute/diritto. Delicate skills get priority
+  after tax.
 - `last-verified` never replaces the year next to each figure — both stay.

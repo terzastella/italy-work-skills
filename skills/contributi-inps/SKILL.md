@@ -3,7 +3,7 @@ name: contributi-inps
 description: Explain INPS contributions by track with minimal rates. Use when asked contributi INPS, gestione separata, minimal contributions Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
 allowed-tools: Read Write Bash
 argument-hint: "[activity]"
 user-invocable: true

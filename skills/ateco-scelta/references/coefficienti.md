@@ -1,5 +1,7 @@
 # ATECO coefficients note (ateco-scelta)
 
+last-verified: 2026-09-28
+
 Coefficient = % of revenue taxed under forfettario. Varies by activity
 (e.g. professional services commonly 78% — verify current table per ATECO).
 Code follows ACTIVITY, never desired rate. Multiple ATECO: revenues summed

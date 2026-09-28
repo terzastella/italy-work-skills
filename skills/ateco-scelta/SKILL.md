@@ -3,7 +3,7 @@ name: ateco-scelta
 description: Choose the right ATECO code and know why it matters. Use when asked codice ATECO, ATECO choice, which ATECO.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[activity]"
 user-invocable: true

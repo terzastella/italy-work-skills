@@ -1,5 +1,7 @@
 # Plan table (rateizzazione-debiti)
 
+last-verified: 2026-09-28
+
 Ordinary (up to threshold, year-stated): simple request, standard instalments.
 Extraordinary (above): documented hardship, longer plans. Lapse: missed-instalment
 count (year-stated) kills the plan — stated FIRST. Re-apply limits after lapse.

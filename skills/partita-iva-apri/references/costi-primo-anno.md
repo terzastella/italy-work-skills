@@ -1,5 +1,7 @@
 # First-year costs preview (partita-iva-apri)
 
+last-verified: 2026-09-28
+
 Patterns with user figures only — never price lists as law. Amounts year-stated.
 
 ## Freelance forfettario sketch (60k pattern)

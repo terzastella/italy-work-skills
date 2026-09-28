@@ -1,5 +1,7 @@
 # Penalty bands (ravvedimento-operoso)
 
+last-verified: 2026-09-28
+
 Sprint (days) → mini · short (months) → reduced · yearly → higher reduced ·
 beyond → ordinary + interest. Exact % with YEAR — bands move.
 Legal interest per day on tax due. F24: tax + penalty + interest separate codes.

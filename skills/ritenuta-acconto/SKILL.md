@@ -3,7 +3,7 @@ name: ritenuta-acconto
 description: Explain Italian withholding tax with forfettari and EU cases. Use when asked ritenuta d'acconto, withholding tax Italy, 20 percent.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
 allowed-tools: Read Write Bash
 argument-hint: "[situation]"
 user-invocable: true

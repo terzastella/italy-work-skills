@@ -1,5 +1,7 @@
 # ISA indicators note (isa-check)
 
+last-verified: 2026-09-28
+
 Score 1-10 from coherence/profitability indicators on filed data.
 Benefits cluster at high scores (fewer controls, faster refunds, compensation
 without visto) — current list with year. Forfettari and some starters: ISA does

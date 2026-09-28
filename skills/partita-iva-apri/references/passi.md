@@ -1,5 +1,7 @@
 # Opening steps (partita-iva-apri)
 
+last-verified: 2026-09-28
+
 1. Activity + expected revenue + prior employment check (ex-employee continuity = key risk).
 2. Regime route (forfettario gates vs ordinary) — see regime-forfettario. No verdicts here.
 3. ATECO choice — see ateco-scelta. Coefficient follows the code.

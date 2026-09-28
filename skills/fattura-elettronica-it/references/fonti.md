@@ -1,5 +1,7 @@
 # Official sources — fattura elettronica (verified 2026-09-23)
 
+last-verified: 2026-09-28
+
 - AdE e-invoicing portal: https://www.agenziaentrate.gov.it/portale/fatturazione-elettronica
 - AdE technical specs (SdI, v1.9.x, XAdES enveloped XML): https://www.agenziaentrate.gov.it/portale/specifiche-tecniche
 - developers.italia.it FatturaPA: https://developers.italia.it/it/fatturapa

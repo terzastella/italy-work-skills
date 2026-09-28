@@ -3,7 +3,7 @@ name: dichiarazione-integrativa
 description: Fix filed returns with integrativa paths. Use when asked dichiarazione integrativa, amend return Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[return/error]"
 user-invocable: true

@@ -1,5 +1,7 @@
 # After slices: detrazioni + addizionali (irpef-scaglioni)
 
+last-verified: 2026-09-28
+
 Order is everything: slices first, credits after, addizionali on top.
 
 ## Detrazioni (tax credits)

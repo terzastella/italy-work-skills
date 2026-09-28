@@ -3,7 +3,7 @@ name: rateizzazione-debiti
 description: Explain tax debt instalments with lapse rules. Use when asked rateizzare cartella, instalment plan AdER, dilazione debiti.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
 allowed-tools: Read Write Bash
 argument-hint: "[debt]"
 user-invocable: true

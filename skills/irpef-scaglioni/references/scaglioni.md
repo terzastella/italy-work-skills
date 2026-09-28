@@ -1,5 +1,7 @@
 # IRPEF brackets (irpef-scaglioni)
 
+last-verified: 2026-09-28
+
 Slice principle: each income slice pays its own rate. Total = sum of slices.
 Average rate = total / income. Marginal rate = rate of the top slice.
 

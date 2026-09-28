@@ -3,7 +3,7 @@ name: cedolare-secca
 description: Compare flat rental tax vs IRPEF with break-even. Use when asked cedolare secca, flat rental tax Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
 allowed-tools: Read Write Bash
 argument-hint: "[rent]"
 user-invocable: true

@@ -3,7 +3,7 @@ name: cu-730-guida
 description: Explain CU and 730 paths for employees and freelancers. Use when asked CU, 730, precompilata, dichiarazione redditi.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[profile]"
 user-invocable: true

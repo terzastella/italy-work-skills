@@ -1,5 +1,7 @@
 # Withholding decision table (ritenuta-acconto)
 
+last-verified: 2026-09-28
+
 | Payer | Payee | Rule |
 |-------|-------|------|
 | Business/professional (sostituto) | ordinary professional | 20% withheld |

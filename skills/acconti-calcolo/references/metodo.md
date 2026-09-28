@@ -1,5 +1,7 @@
 # Advance method table (acconti-calcolo)
 
+last-verified: 2026-09-28
+
 - Base: prior-year due tax (return line, e.g. LM42 for forfettari). Previsionale:
   current-year estimate instead — allowed, but underpayment penalties apply.
 - Threshold: no advance if ≤52€ (verify year).

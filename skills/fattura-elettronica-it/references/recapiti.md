@@ -1,5 +1,7 @@
 # Recipient routing (fattura-elettronica-it)
 
+last-verified: 2026-09-28
+
 Wrong recipient = certain rejection. Route BEFORE drafting.
 
 ## B2B with SdI code

@@ -1,5 +1,7 @@
 # Cedolare vs IRPEF (cedolare-secca)
 
+last-verified: 2026-09-28
+
 21% flat (26% additional units, year-stated) vs marginal IRPEF + addizionali.
 Break-even: compare on user rent + marginal rate (asked, never assumed).
 Option: contract/extension/yearly mechanics. Under cedolare: no ISTAT increases.

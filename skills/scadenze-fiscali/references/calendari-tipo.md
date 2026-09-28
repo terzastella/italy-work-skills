@@ -1,5 +1,7 @@
 # Profile calendars (scadenze-fiscali) — patterns, years always attached
 
+last-verified: 2026-09-28
+
 These are STRUCTURES with 2026 examples. Every date below is an example for
 its year — verify on agenziaentrate.gov.it before paying, every year.
 

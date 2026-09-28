@@ -3,7 +3,7 @@ name: plusvalenza-finanziaria
 description: Explain capital gains on stocks with regimes. Use when asked plusvalenza azioni, capital gains Italy, 26 percent.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
 allowed-tools: Read Write Bash
 argument-hint: "[investment]"
 user-invocable: true

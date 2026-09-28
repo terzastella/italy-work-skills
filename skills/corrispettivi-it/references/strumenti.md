@@ -1,5 +1,7 @@
 # RT vs software vs special flows
 
+last-verified: 2026-09-28
+
 | Case | Tool | Note |
 |------|------|------|
 | Shop/bar/retail | Registratore telematico | daily transmission |

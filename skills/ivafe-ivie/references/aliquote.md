@@ -1,5 +1,7 @@
 # IVAFE/IVIE rates (ivafe-ivie)
 
+last-verified: 2026-09-28
+
 Financial abroad (IVAFE) vs property abroad (IVIE): bases + rates (year-stated) ·
 RW monitoring always alongside · foreign-tax credits (treaties overview) ·
 AIRE vs resident duties differ (verify case) · crypto abroad: RW + fiscal track.

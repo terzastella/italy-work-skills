@@ -3,7 +3,7 @@ name: tari-tassa
 description: Explain TARI waste tax with base and reductions. Use when asked TARI, tassa rifiuti, waste tax Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[municipality]"
 user-invocable: true
