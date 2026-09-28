@@ -15,6 +15,7 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
 PAT = re.compile(r"^last-verified:\s*(\d{4})-(\d{2})-(\d{2})", re.M)
+SEM_PAT = re.compile(r"^## Sources \(verified (\d{4})-(\d{2})-(\d{2})\)", re.M)
 STALE_DAYS = 365
 PILOT = {"invoice-it", "imu-calcolo", "regime-forfettario"}
 TAX = {"accertamento-info", "acconti-calcolo", "addizionali-regionali",
@@ -87,6 +88,18 @@ def bump_version(skill_dir):
     return True
 
 
+def ref_date(text):
+    """(date, kind) from a references file. Semantic `## Sources` headers
+    count exactly like `last-verified:` lines — one date per file, no duals."""
+    m = PAT.search(text)
+    if m:
+        return (m.group(1), m.group(2), m.group(3)), "stamped"
+    m = SEM_PAT.search(text)
+    if m:
+        return (m.group(1), m.group(2), m.group(3)), "semantic"
+    return None, None
+
+
 def stamp_skill_meta(skill_dir):
     """Insert or renew last_verified in SKILL.md metadata + bump version."""
     p = skill_dir / "SKILL.md"
@@ -117,7 +130,10 @@ def stamp(skills):
         refs = sorted((d / "references").glob("*.md")) if (d / "references").is_dir() else []
         n_refs = 0
         for ref in refs:
-            lines = ref.read_text(encoding="utf-8").splitlines()
+            text = ref.read_text(encoding="utf-8")
+            if SEM_PAT.search(text):
+                continue  # semantic file: single date lives in its header
+            lines = text.splitlines()
             idx = next((i for i, l in enumerate(lines[:4])
                         if l.startswith("last-verified:")), None)
             if idx is None:
@@ -147,18 +163,18 @@ def main():
     missing, stale = [], []
     for ref in sorted((REPO / "skills").glob("*/references/*.md")):
         skill = ref.parts[-3]
-        m = PAT.search(ref.read_text(encoding="utf-8"))
-        if not m:
+        got, kind = ref_date(ref.read_text(encoding="utf-8"))
+        if not got:
             if skill in rolled():
                 missing.append(f"{skill}/{ref.name}")
             continue
         try:
-            seen = dt.date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+            seen = dt.date(int(got[0]), int(got[1]), int(got[2]))
         except ValueError:
             missing.append(f"{skill}/{ref.name} (bad date)")
             continue
         if (today - seen).days > STALE_DAYS:
-            stale.append(f"{skill}/{ref.name} ({m.group(0).split(': ', 1)[1]})")
+            stale.append(f"{skill}/{ref.name} ({seen.isoformat()}, {kind})")
     for m in missing:
         print(f"[MISSING] {m}")
     for s in stale:
