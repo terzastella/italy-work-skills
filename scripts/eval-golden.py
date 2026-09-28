@@ -169,35 +169,35 @@ def main():
         fx = sorted(fixtures.glob("*.json"))
         if not py or not fx:
             continue
-        script = py[0].name
-        for f in fx:
-            total += 1
-            data = json.loads(f.read_text(encoding="utf-8"))
-            try:
-                r = subprocess.run(argv(skill_dir, script, data["input"]),
-                                   capture_output=True, text=True, timeout=60, cwd=REPO)
-            except Exception as e:  # noqa: BLE001
-                print(f"[FAIL] {skill_dir.name}/{f.name}: runner error {e}")
-                failed += 1
-                continue
-            if r.returncode != 0:
-                print(f"[FAIL] {skill_dir.name}/{f.name}: exit {r.returncode}: {r.stderr.strip()[:200]}")
-                failed += 1
-                continue
-            try:
-                out = json.loads(r.stdout)
-            except ValueError:
-                print(f"[FAIL] {skill_dir.name}/{f.name}: not JSON output")
-                failed += 1
-                continue
-            errs = close_enough(out, data["expected"])
-            if errs:
-                print(f"[FAIL] {skill_dir.name}/{f.name}:")
-                for e in errs:
-                    print(f"  - {e}")
-                failed += 1
-            else:
-                print(f"[ok] {skill_dir.name}/{f.name}")
+        for script in (p.name for p in py):
+            for f in fx:
+                total += 1
+                data = json.loads(f.read_text(encoding="utf-8"))
+                try:
+                    r = subprocess.run(argv(skill_dir, script, data["input"]),
+                                       capture_output=True, text=True, timeout=60, cwd=REPO)
+                except Exception as e:  # noqa: BLE001
+                    print(f"[FAIL] {skill_dir.name}/{script}/{f.name}: runner error {e}")
+                    failed += 1
+                    continue
+                if r.returncode != 0:
+                    print(f"[FAIL] {skill_dir.name}/{script}/{f.name}: exit {r.returncode}: {r.stderr.strip()[:200]}")
+                    failed += 1
+                    continue
+                try:
+                    out = json.loads(r.stdout)
+                except ValueError:
+                    print(f"[FAIL] {skill_dir.name}/{script}/{f.name}: not JSON output")
+                    failed += 1
+                    continue
+                errs = close_enough(out, data["expected"])
+                if errs:
+                    print(f"[FAIL] {skill_dir.name}/{script}/{f.name}:")
+                    for e in errs:
+                        print(f"  - {e}")
+                    failed += 1
+                else:
+                    print(f"[ok] {skill_dir.name}/{script}/{f.name}")
     print(f"eval: {total - failed}/{total} fixtures green")
     return 2 if failed else 0
 

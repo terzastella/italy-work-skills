@@ -7,7 +7,8 @@ CI runs this alongside eval-golden.py.
 - Golden (136: run protocol present (input.md + expect.md, non-trivial),
   >=1 out-link in SKILL.md, Good+Bad examples, year markers where required.
 - Delicate (36, mirror of docs/AUDITS.md): no scripts/ dir, referral marker
-  present, banned verdict patterns (tests/patterns-ban.txt) never affirmative.
+  present, banned verdict patterns (tests/patterns-ban.txt) never affirmative
+  in SKILL.md + references/ + examples/.
 
 Usage:
   python scripts/eval-behavior.py
@@ -144,6 +145,8 @@ def read_skill(name):
     texts = [(d / "SKILL.md").read_text(encoding="utf-8")]
     if (d / "references").is_dir():
         texts += [p.read_text(encoding="utf-8") for p in sorted((d / "references").glob("*")) if p.is_file()]
+    if (d / "examples").is_dir():
+        texts += [p.read_text(encoding="utf-8") for p in sorted((d / "examples").glob("*")) if p.is_file()]
     return d, "\n".join(texts)
 
 
