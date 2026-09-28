@@ -35,9 +35,8 @@ jobs:
         run: python scripts/check-invariants.py
       - name: Behavior guards (golden links/cases, delicate ban)
         run: python scripts/eval-behavior.py
-      - name: Freshness report (advisory until rollout complete)
-        continue-on-error: true
-        run: python scripts/check-freshness.py
+      - name: Freshness gate (blocking, 254/254 stamped)
+        run: python scripts/check-freshness.py --check
       - name: Plugins sync (codex/cursor/gemini manifests)
         run: python scripts/build-plugins.py && git diff --exit-code .codex-plugin .cursor-plugin gemini-extension.json
       - name: Install dry-run (all skills, all agents)

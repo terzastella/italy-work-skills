@@ -29,10 +29,12 @@ python scripts/check-freshness.py --check   # exit 2 if anything is stale/missin
 
 ## Rollout
 
-- Done (2026-09-28): pilot trio + tax cluster (35 skills, 47 refs),
-  lavoro theme (46 skills), salute theme (20 skills) — 101 skills total.
+- Done (2026-09-28): full rollout — 254/254 skills, 269 refs
+  (pilot trio, fisco, lavoro, salute, casa+diritto, impresa+PA,
+  soldi+famiglia+tutele, trasporti+scuola+scrittura+tooling).
   Stamp tool: `python scripts/check-freshness.py --stamp <skills...>`
   (stamps headers + bumps versions, one theme per change).
-- Next: casa, diritto/giustizia, pensioni/successioni. Delicate skills get
-  priority (salute-mentale-info, licenziamento-info already stamped).
+- Enforcement: `check-freshness.py --check` is CI-blocking. A date older
+  than 12 months fails the build until renewed — stale content cannot
+  silently ship.
 - `last-verified` never replaces the year next to each figure — both stay.

@@ -51,6 +51,18 @@ SALUTE = {"assicurazione-sanitaria", "assistenza-anziani", "cure-termali",
           "salute-mentale-info", "sanita-digitale", "screening-prevenzione",
           "spese-mediche-detrazioni", "ticket-esenzioni", "vaccini-obbligatori"}
 ROLLED = PILOT | TAX | LAVORO | SALUTE
+CASA = set()  # filled below from theme batches; kept for history
+# Full coverage: every skill with references/ or SKILL.md is checked.
+# Theme sets above document the rollout order; enforcement is universal.
+ALL_SKILLS = None
+
+
+def rolled():
+    global ALL_SKILLS
+    if ALL_SKILLS is None:
+        ALL_SKILLS = {p.name for p in (REPO / "skills").iterdir()
+                      if p.is_dir() and (p / "SKILL.md").is_file()}
+    return ALL_SKILLS
 
 
 def today_stamp():
@@ -137,7 +149,7 @@ def main():
         skill = ref.parts[-3]
         m = PAT.search(ref.read_text(encoding="utf-8"))
         if not m:
-            if skill in ROLLED:
+            if skill in rolled():
                 missing.append(f"{skill}/{ref.name}")
             continue
         try:
@@ -151,7 +163,7 @@ def main():
         print(f"[MISSING] {m}")
     for s in stale:
         print(f"[STALE] {s}")
-    for name in sorted(ROLLED):
+    for name in sorted(rolled()):
         p = REPO / "skills" / name / "SKILL.md"
         if not p.is_file():
             continue
@@ -169,10 +181,9 @@ def main():
         if (today - seen).days > STALE_DAYS:
             stale.append(f"{name}/SKILL.md ({m.group(0)})")
             print(f"[STALE] {name}/SKILL.md ({m.group(0)})")
-    pilot_refs = sum(1 for _ in (REPO / "skills").glob("*/references/*.md")
-                     if _.parts[-3] in ROLLED)
+    pilot_refs = sum(1 for _ in (REPO / "skills").glob("*/references/*.md"))
     print(f"freshness: {len(missing)} missing, {len(stale)} stale "
-          f"(rolled out: {len(ROLLED)} skills, {pilot_refs} refs)")
+          f"({len(rolled())} skills, {pilot_refs} refs)")
     if check and (missing or stale):
         return 2
     return 0
