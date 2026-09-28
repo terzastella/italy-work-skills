@@ -24,6 +24,8 @@ jobs:
         run: python scripts/build-catalog.py --check
       - name: Golden eval (deterministic script fixtures)
         run: python scripts/eval-golden.py
+      - name: Independent oracles (hand-computed calculator checks)
+        run: python scripts/check-oracles.py
       - name: Behavior guards (golden links/cases, delicate ban)
         run: python scripts/eval-behavior.py
       - name: Plugins sync (codex/cursor/gemini manifests)
