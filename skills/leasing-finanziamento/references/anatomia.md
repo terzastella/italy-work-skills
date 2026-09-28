@@ -1,5 +1,7 @@
 # Lease anatomy (leasing-finanziamento)
 
+last-verified: 2026-09-28
+
 TAN vs TAEG-equivalent · duration · anticipo · maxi-rata/riscatto · fees + tied
 insurance · total-cost math both options · business deductibility flagged +
 accountant. Riscatto scenarios: keep vs return (sunk framing honest).

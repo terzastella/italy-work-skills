@@ -1,5 +1,7 @@
 # Household rules (isee-guida)
 
+last-verified: 2026-09-28
+
 Who counts: residents on same stato di famiglia + fiscal dependents rules.
 Tricky cases (dedicated DSU paths, flag them):
 - Separated spouses: same home vs different homes = different DSUs.

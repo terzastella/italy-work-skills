@@ -3,7 +3,7 @@ name: sollecito-pagamento
 description: Write 3-level payment reminders, polite to formal. Use when asked payment reminder, unpaid invoice, sollecito, chase payment Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en", last_verified: "2026-09-28"}
 allowed-tools: Read Write
 argument-hint: "[invoice data]"
 user-invocable: true

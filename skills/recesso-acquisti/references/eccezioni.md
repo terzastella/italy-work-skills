@@ -1,5 +1,7 @@
 # Withdrawal exceptions (recesso-acquisti)
 
+last-verified: 2026-09-28
+
 NO right: in-store purchases · sealed hygiene opened · custom/personalized ·
 perishable · newspapers · digital content with prior consent + acknowledgment ·
 services fully rendered with consent · urgent repairs at home · auctions.

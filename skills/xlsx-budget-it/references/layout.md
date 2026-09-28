@@ -1,5 +1,7 @@
 # xlsx-budget-it sheet layout
 
+last-verified: 2026-09-28
+
 `Income` sheet: `Date | Item | Amount`
 `Expenses` sheet: `Date | Category | Item | Amount`
 `Summary` sheet:

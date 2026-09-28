@@ -1,5 +1,7 @@
 # ARERA desk path (energia-reclami)
 
+last-verified: 2026-09-28
+
 1. Written reclamo to supplier first (mandatory order).
 2. No/unfair reply → Sportello ARERA conciliation + documents.
 3. Wrong-bill cases: conguaglio verification first (see bollette-energia).

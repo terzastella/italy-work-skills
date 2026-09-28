@@ -1,5 +1,7 @@
 # Warranty ladder (garanzie-consumo)
 
+last-verified: 2026-09-28
+
 1. Report defect to seller promptly (2-month discovery rule, year-stated).
 2. Repair OR replace (seller chooses, reasonable time, no cost).
 3. If impossible/disproportionate: price reduction OR full refund.

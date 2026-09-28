@@ -3,7 +3,7 @@ name: trasloco-diritti
 description: Explain moving rights with quotes and damages. Use when asked trasloco, moving company Italy, danni trasloco.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en", last_verified: "2026-09-28"}
 allowed-tools: Read Write
 argument-hint: "[move]"
 user-invocable: true
