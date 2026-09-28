@@ -1,5 +1,7 @@
 # NASpI gates (naspi-guida)
 
+last-verified: 2026-09-28
+
 ## Entry gates (all must pass, stated pass/fail from user data)
 
 - Involuntary termination: dismissal, fixed-term expiry, consensual termination

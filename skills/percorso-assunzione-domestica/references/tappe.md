@@ -1,5 +1,7 @@
 # Tappe (percorso-assunzione-domestica)
 
+last-verified: 2026-09-28
+
 ## 1. Profile → colf-badanti
 
 Ask: mansioni · hours · convivente? Output: CCNL level + pay base. Flag permits early if non-EU.

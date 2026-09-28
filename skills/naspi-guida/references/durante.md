@@ -1,5 +1,7 @@
 # While receiving NASpI (naspi-guida)
 
+last-verified: 2026-09-28
+
 The benefit has strings attached. All of them, in order.
 
 ## DID + pact

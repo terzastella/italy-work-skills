@@ -1,5 +1,7 @@
 # Tappe (percorso-busta-controllo)
 
+last-verified: 2026-09-28
+
 ## 1. Contract → contratto-base-check
 
 Clause map (level, duties, prova, preavviso). Info-only. Handoff: CCNL + level.

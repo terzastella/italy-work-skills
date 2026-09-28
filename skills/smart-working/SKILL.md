@@ -3,7 +3,7 @@ name: smart-working
 description: Explain lavoro agile with agreement and disconnection. Use when asked smart working, lavoro agile Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true

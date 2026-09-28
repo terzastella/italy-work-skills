@@ -3,7 +3,7 @@ name: sciopero-diritti
 description: Explain strike rights with notice and minimums. Use when asked sciopero, strike rights Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[sector]"
 user-invocable: true

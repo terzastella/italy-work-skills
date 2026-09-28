@@ -3,7 +3,7 @@ name: periodo-prova
 description: Explain trial periods with duration and exit rules. Use when asked periodo di prova, trial period Italy, prova lavoro.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[contract]"
 user-invocable: true

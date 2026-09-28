@@ -3,7 +3,7 @@ name: orario-riposi
 description: Explain work hours with daily and weekly rest. Use when asked orario lavoro, riposi settimanali Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[contract]"
 user-invocable: true
