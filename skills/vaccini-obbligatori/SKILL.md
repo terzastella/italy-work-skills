@@ -3,7 +3,7 @@ name: vaccini-obbligatori
 description: Explain mandatory vaccines with schedule info. Use when asked vaccini obbligatori, mandatory vaccines Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[age]"
 user-invocable: true

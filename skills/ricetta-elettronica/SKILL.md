@@ -3,7 +3,7 @@ name: ricetta-elettronica
 description: Explain e-prescriptions with validity and use. Use when asked ricetta elettronica, e-prescription Italy, NRE.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true

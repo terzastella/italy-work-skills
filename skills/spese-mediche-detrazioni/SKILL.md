@@ -3,7 +3,7 @@ name: spese-mediche-detrazioni
 description: Explain medical expense deductions with documents. Use when asked spese mediche detrazione, 19 percent health, scontrini farmacia.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
 allowed-tools: Read Write Bash
 argument-hint: "[expenses]"
 user-invocable: true

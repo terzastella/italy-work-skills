@@ -1,5 +1,7 @@
 # Access map (sanita-digitale)
 
+last-verified: 2026-09-28
+
 FSE: regional portal (Lombardia/Sicilia differ!) + SPID/CIE · IO app: national services
 +PagoPA inside · CUP: regional online/phone/counter · Tessera: expiry check + replacement
 request · Minors/elderly: delegation paths. Region asked FIRST, always.

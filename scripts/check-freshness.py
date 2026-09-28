@@ -28,6 +28,29 @@ TAX = {"accertamento-info", "acconti-calcolo", "addizionali-regionali",
        "ravvedimento-operoso", "rimborsi-fiscali", "ritenuta-acconto",
        "scadenze-fiscali", "tari-tassa"}
 ROLLED = PILOT | TAX
+LAVORO = {"apprendistato", "aspettativa-lavoro", "assemblea-sindacale",
+          "buoni-pasto", "busta-paga-leggi", "cassa-integrazione",
+          "colf-badanti", "collaborazioni-occasionali", "colloquio-prep-it",
+          "congedo-matrimoniale", "contratto-base-check", "contratto-tipi",
+          "cv-europass", "dimissioni-procedura", "dis-coll",
+          "distacco-lavoratore", "ferie-permessi", "festivi-lavorati",
+          "infortuni-lavoro", "lavoro-minorile", "lavoro-notturno",
+          "lavoro-spettacolo", "licenziamento-info", "malattia-certificato",
+          "maternita-congedi", "naspi-guida", "orario-riposi", "part-time",
+          "percorso-assunzione-domestica", "percorso-busta-controllo",
+          "periodo-prova", "permessi-studio-150", "reperibilita-lavoro",
+          "rsu-rls", "sciopero-diritti", "smart-working", "somministrazione",
+          "stagionali-turismo", "straordinari-info", "tirocinio-guida",
+          "trasferimento-sede", "trasferta-estero", "trasferte-lavoro",
+          "tredicesima-info", "videosorveglianza-lavoro", "welfare-aziendale"}
+SALUTE = {"assicurazione-sanitaria", "assistenza-anziani", "cure-termali",
+          "donazione-organi", "donazione-sangue", "esami-intramoenia",
+          "farmaci-equivalenti", "farmaci-estero", "guardia-medica-turisti",
+          "impegnativa-visite", "invalidita-104", "medico-base",
+          "pronto-soccorso-ticket", "ricetta-elettronica",
+          "salute-mentale-info", "sanita-digitale", "screening-prevenzione",
+          "spese-mediche-detrazioni", "ticket-esenzioni", "vaccini-obbligatori"}
+ROLLED = PILOT | TAX | LAVORO | SALUTE
 STAMP = "last-verified: 2026-09-28"
 
 

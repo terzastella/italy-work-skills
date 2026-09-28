@@ -29,10 +29,10 @@ python scripts/check-freshness.py --check   # exit 2 if anything is stale/missin
 
 ## Rollout
 
-- Done (2026-09-28): pilot trio + full tax cluster — 35 skills, 47 refs
-  (`invoice-it`, `imu-calcolo`, `regime-forfettario` + `Fisco e tasse` theme).
+- Done (2026-09-28): pilot trio + tax cluster (35 skills, 47 refs),
+  lavoro theme (46 skills), salute theme (20 skills) — 101 skills total.
   Stamp tool: `python scripts/check-freshness.py --stamp <skills...>`
   (stamps headers + bumps versions, one theme per change).
-- Next: lavoro theme, then salute/diritto. Delicate skills get priority
-  after tax.
+- Next: casa, diritto/giustizia, pensioni/successioni. Delicate skills get
+  priority (salute-mentale-info, licenziamento-info already stamped).
 - `last-verified` never replaces the year next to each figure — both stay.
