@@ -30,6 +30,11 @@ jobs:
         run: python scripts/build-plugins.py && git diff --exit-code .codex-plugin .cursor-plugin gemini-extension.json
       - name: Install dry-run (all skills, all agents)
         run: python scripts/install.py --all --dest ./tmp-test --dry-run
+      - name: Upstream spec check (advisory, skills-ref is demo-only)
+        continue-on-error: true
+        run: |
+          python -m pip install "git+https://github.com/agentskills/agentskills.git#subdirectory=skills-ref"
+          python scripts/check-spec.py
 
   vendors-drift:
     runs-on: ubuntu-latest

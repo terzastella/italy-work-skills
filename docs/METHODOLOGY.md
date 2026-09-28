@@ -53,5 +53,15 @@ related skills, regime hubs (`contratto-tipi`, `busta-paga-leggi`,
 ## 6. Maintenance over mass
 
 Italian rules change yearly; every skill is a yearly liability. We prefer
-249 deep skills to 400 shallow ones. New skills need a hole they fill
+254 deep skills to 400 shallow ones. New skills need a hole they fill
 (see `.github/ISSUE_TEMPLATE/new-skill.md`); duplicates merge into hubs.
+
+## 7. Spec compliance, with one documented divergence
+
+Our frontmatter follows the Agent Skills standard (name, description,
+license, compatibility, metadata) plus harness extensions (`argument-hint`,
+`user-invocable`, `disable-model-invocation`). One intentional divergence:
+`metadata` uses flow style (`{author: ..., version: ...}`), which upstream
+`skills-ref` (strictyaml) rejects — uniformly across all skills, by design,
+not by accident. `scripts/check-spec.py` runs upstream validation as an
+advisory CI step; our own `scripts/validate.py` stays the binding gate.
