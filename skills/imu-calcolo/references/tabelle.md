@@ -1,4 +1,6 @@
-# IMU tables (imu-calcolo) — verify every year, never from memory
+﻿# IMU tables (imu-calcolo) â€” verify every year, never from memory
+
+last-verified: 2026-09-28
 
 ## Moltiplicatori per categoria (standard nazionali, verificare anno)
 
@@ -13,12 +15,12 @@
 | D (opifici, esclusa D/5) | 65 |
 | D/5 (banche/assicurazioni) | 80 |
 
-Source: national multipliers — confirm against AdE guidance for the tax year.
+Source: national multipliers â€” confirm against AdE guidance for the tax year.
 
 ## Detrazioni
 
-- Luxury main home (A/1, A/8, A/9): 200€/anno (year-stated), pro-rata mesi.
-- Inagibile/inabitabile con perizia: base −50% (comune proof required).
+- Luxury main home (A/1, A/8, A/9): 200â‚¬/anno (year-stated), pro-rata mesi.
+- Inagibile/inabitabile con perizia: base âˆ’50% (comune proof required).
 
 ## Scadenze tipo (verificare anno)
 
