@@ -36,4 +36,18 @@ python scripts/check-freshness.py --check   # exit 2 if anything is stale/missin
 - Enforcement: `check-freshness.py --check` is CI-blocking. A date older
   than 12 months fails the build until renewed — stale content cannot
   silently ship.
-- `last-verified` never replaces the year next to each figure — both stay.
+## Semantic layer (sources → claims)
+
+Timestamps prove a date, not a review. Rolled-out skills additionally carry
+`references/fonti-verificate.md` with a `## Sources (verified YYYY-MM-DD)`
+block: every bullet names an official source (URL), and maps it to the
+claims that depend on it via `claims:`. `scripts/check-sources.py --check`
+is CI-blocking on schema+dates; `--check-links` HEADs every URL (advisory).
+
+Pilot (2026-09-28, all HTTP 200 live): pensione-guida (INPS), successioni-info
+(AdE), salute-mentale-info (Ministero Salute), cittadinanza (Interno),
+separazione-divorzio (Normattiva L.898/1970), licenziamento-info (Lavoro).
+Rollout continues theme by theme; link monitoring and impact analysis
+build on this inventory.
+
+`last-verified` never replaces the year next to each figure — both stay.

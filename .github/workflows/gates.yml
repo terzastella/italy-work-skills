@@ -37,6 +37,11 @@ jobs:
         run: python scripts/eval-behavior.py
       - name: Freshness gate (blocking, 254/254 stamped)
         run: python scripts/check-freshness.py --check
+      - name: Semantic sources gate (blocking, pilot schema+dates)
+        run: python scripts/check-sources.py --check
+      - name: Source links liveness (advisory, network)
+        continue-on-error: true
+        run: python scripts/check-sources.py --check-links
       - name: Plugins sync (codex/cursor/gemini manifests)
         run: python scripts/build-plugins.py && git diff --exit-code .codex-plugin .cursor-plugin gemini-extension.json
       - name: Install dry-run (all skills, all agents)

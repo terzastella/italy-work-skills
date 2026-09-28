@@ -11,10 +11,10 @@ Gates green: 11/11.
 | indexes | green | INDEX CHECK OK |
 | catalog | green | OK: 278 skills classified, 19 themes. |
 | golden | green | eval: 63/63 fixtures green |
-| oracles | green | oracles: 5/5 independent checks green |
-| invariants | green | invariants: 10/10 hold |
+| oracles | green | oracles: 15/15 independent checks green |
+| invariants | green | invariants: 19/19 hold |
 | behavior | green | behavior: OK (245 guided, 36 delicate) |
-| freshness | green | freshness: 0 missing, 0 stale (254 skills, 269 refs) |
+| freshness | green | freshness: 6 missing, 0 stale (254 skills, 275 refs) |
 | vendors | green | hashes: 257 vendor files byte-identical to snapshot. |
 | risk-matrix | green | risk matrix: OK (254 skills) |
 
