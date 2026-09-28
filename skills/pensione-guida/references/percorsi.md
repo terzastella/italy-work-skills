@@ -1,5 +1,7 @@
 # Retirement paths (pensione-guida)
 
+last-verified: 2026-09-28
+
 Vecchiaia (age + minimum years, year-stated) · anticipata (years-based) ·
 quota schemes (temporary by nature — verify live, never plan on rumors) ·
 cumulo gratuito for mixed schemes · estratto conto check FIRST (missing weeks

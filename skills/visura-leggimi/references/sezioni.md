@@ -1,5 +1,7 @@
 # Visura sections (visura-leggimi)
 
+last-verified: 2026-09-28
+
 Anagrafica (name, VAT, REA, address) · Attività + ATECO · Cariche (who signs) ·
 Soci e capitale · Unità locali · Procedure in corso (flag neutrally) ·
 Variazioni recenti (2y focus) · Tipo: ordinaria vs storica.

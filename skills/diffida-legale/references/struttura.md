@@ -1,5 +1,7 @@
 # Warning structure (diffida-legale)
 
+last-verified: 2026-09-28
+
 Facts dated + general legal basis + precise request + reasonable deadline +
 tracked sending (raccomandata A/R or PEC — see pec-bozza). Firm, factual,
 zero threats (they backfire). Lawyer review before sending in disputes.

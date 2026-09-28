@@ -1,5 +1,7 @@
 # Tappe (percorso-casa-compravendita)
 
+last-verified: 2026-09-28
+
 ## 1. Budget → mutuo-tassi + xlsx-budget-it
 
 Input: income + savings. Output: ceiling instalment + budget file. Never stretch ratios silently.

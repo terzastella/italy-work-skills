@@ -1,5 +1,7 @@
 # Utility cases (utenze-voltura)
 
+last-verified: 2026-09-28
+
 Voltura (active): change holder, POD/PDR + ID + address; prior debts do NOT transfer.
 Subentro (closed): reopen, new contract, deposit possible. Allaccio (never connected):
 works + distributor quote, timing varies. Rented: tenant files, landlord cooperates.

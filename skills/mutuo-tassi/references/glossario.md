@@ -1,5 +1,7 @@
 # Rate glossary (mutuo-tassi)
 
+last-verified: 2026-09-28
+
 TAN: nominal rate (interest only). TAEG: all-in yearly cost — THE comparison number.
 Spread: bank margin over index. Euribor/IRS: variable/fixed indexes.
 Istruttoria/perizia: upfront fees in TAEG math. Mandatory insurance: in TAEG too.

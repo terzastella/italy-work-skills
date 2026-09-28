@@ -1,5 +1,7 @@
 # Permit thresholds (edilizia-cila-scia)
 
+last-verified: 2026-09-28
+
 Free: ordinary maintenance (paint, floors same, fixtures same) · CILA: light
 extraordinary (internal redistribution, no structure) · SCIA: heavy/cambio uso ·
 Permesso di costruire: new volumes, relevant restructuring. Tecnico abilitato

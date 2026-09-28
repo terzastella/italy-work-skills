@@ -1,5 +1,7 @@
 # Validity trio (testamento-olografo, DELICATE)
 
+last-verified: 2026-09-28
+
 Entirely HANDWRITTEN + dated + signed — typed/printed = void.
 Legitima forced shares (spouse/children quotas, year-stated) limit freedom.
 Custody + pubblicazione path after death. Notary owns validity; this skill

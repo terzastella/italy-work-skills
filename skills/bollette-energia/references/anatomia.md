@@ -1,5 +1,7 @@
 # Bill anatomy (bollette-energia)
 
+last-verified: 2026-09-28
+
 POD (electricity) / PDR (gas) IDs · consumption kWh/Smc · components:
 materia energia (your offer) + trasporto e gestione contatore + oneri di sistema +
 IVA/accise. Fixed fees (commercializzazione, per-point) vs variable.

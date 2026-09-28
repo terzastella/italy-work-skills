@@ -1,5 +1,7 @@
 # Debts first (successioni-info) — the tappa zero
 
+last-verified: 2026-09-28
+
 Before any allowance math, before any deadline talk: are there debts?
 
 ## The rule

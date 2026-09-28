@@ -1,5 +1,7 @@
 # Tappe (percorso-lutto) — DELICATE
 
+last-verified: 2026-09-28
+
 ## 1. First 24h → servizi-cimiteriali-funebri
 
 Medical report → comune → onoranze (no rush signatures). Sober tone.
