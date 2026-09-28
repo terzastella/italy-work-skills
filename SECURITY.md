@@ -17,5 +17,7 @@ python scripts/security-check.py
 
 ## Reporting
 
-Open a `security` issue without including the secret (file + line only).
+Use GitHub's **private vulnerability reporting** (Security tab →
+Report a vulnerability) so details stay private until fixed.
+Never open a public issue with secret content (file + line only, no values).
 Never post credentials, tokens, or personal data — not even redacted samples.

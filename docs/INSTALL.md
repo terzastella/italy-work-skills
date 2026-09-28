@@ -26,6 +26,12 @@ python scripts/install.py --skill invoice-it --agent codex
 Agent names: `claude`, `codex`, `grok`, `cursor`, `copilot`, `copilot-cli`,
 `gemini`, `opencode`, `windsurf`.
 
+Existing installs are kept by default; add `--force` to replace them:
+
+```bash
+python scripts/install.py --skill invoice-it --agent claude --force
+```
+
 ## Where skills land
 
 | Agent | Folder |

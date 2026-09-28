@@ -29,9 +29,9 @@ the official source cited next to it.
 
 ## Which agent should I use?
 
-Any of the 9 supported ones (see `INSTALL.md`). Skills are plain text plus
-small Python calculators, so behavior is the same everywhere; only the
-agent's own smarts differ.
+Any of the 9 supported ones (see `INSTALL.md`). Skills share the same format
+and core logic everywhere, but discovery, invocation, and tool permissions
+vary by host (see `COMPATIBILITY.md`); only the agent's own smarts differ.
 
 ## What are "vendors"?
 

@@ -7,6 +7,9 @@ Usage:
   python scripts/install.py --skill invoice-it --agent codex
   python scripts/install.py --skill invoice-it --all --dest ./tmp-test
   python scripts/install.py --all --source vendors --dry-run
+  python scripts/install.py --skill invoice-it --agent claude --force
+
+Existing installs are never overwritten unless --force is given.
 """
 import argparse
 import shutil
@@ -47,7 +50,7 @@ def available_skills(source):
                     found.setdefault(p.name, p)
     return found
 
-def install_skill(src, dests, dry=False):
+def install_skill(src, dests, dry=False, force=False):
     if not (src / "SKILL.md").exists():
         print(f"SKIP {src}: missing SKILL.md in {src}")
         return False
@@ -57,6 +60,9 @@ def install_skill(src, dests, dry=False):
         print(f"  -> {target}")
         if not dry:
             target.parent.mkdir(parents=True, exist_ok=True)
+            if target.exists() and not force:
+                print(f"     exists, kept (use --force to replace)")
+                continue
             if target.exists():
                 shutil.rmtree(target)
             shutil.copytree(src, target)
@@ -74,6 +80,8 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--source", default="ours", choices=["ours", "vendors", "all"],
                     help="ours only (default), vendors only, or all")
+    ap.add_argument("--force", action="store_true",
+                    help="replace already-installed skills (default: keep existing)")
     args = ap.parse_args()
 
     skills = available_skills(args.source)
@@ -99,7 +107,7 @@ def main():
             dests = [Path(args.dest) / ag] if args.dest else AGENTS[ag]
             if args.user_only:
                 dests = [d for d in dests if str(d).startswith(str(Path.home()))]
-            install_skill(src, dests, dry=args.dry_run)
+            install_skill(src, dests, dry=args.dry_run, force=args.force)
     print("Done.")
     return 0
 

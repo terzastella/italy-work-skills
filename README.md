@@ -22,7 +22,7 @@ python scripts/install.py --skill invoice-it --agent claude
 
 ## Why Italy
 
-Global skill repos cover US coding and marketing. Nobody covers Italian work:
+Global skill repos focus on coding and marketing. This hub focuses on Italian work:
 e-invoicing via SdI, PEC certified mail, the forfettario scheme, tax deadlines,
 Europass, public grants. Every skill here speaks those cases, cites official
 sources (AdE, INPS, EUR-Lex) and carries a "verify with a professional" disclaimer
@@ -135,6 +135,7 @@ Full guide: `docs/CREATE-SKILL.md`. For Italy skills: official sources + profess
 ## Roadmap
 
 Status: **v1.16 — 254 originals + 24 pinned third-party = 278 entries** (history in `CHANGELOG.md`).
+`main` may contain unreleased changes; use a tagged release for reproducible installs.
 
 - [x] 254 skills complete and deepened, 30 calculators verified (63/63 checks green)
 - [x] Sensitive topics audited: information + professional referral, never verdicts
