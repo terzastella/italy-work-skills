@@ -8,6 +8,12 @@ Local only for now. No data leaves the PC.
 - PII: emails, real names, private IPs, `C:\Users\<name>`, `/home/<name>` paths
 - Files >1MB or binaries without reason
 
+## Dependencies
+
+Zero runtime dependencies: all repo scripts use the Python standard library
+only (CI advisory steps may pip-install pinned tools into throwaway runners).
+No `requirements.txt` to audit because there is nothing to install.
+
 ## Local checks
 
 ```bash

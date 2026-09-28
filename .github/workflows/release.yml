@@ -1,0 +1,58 @@
+name: release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: "3.13"
+      - name: Full gates (same as CI)
+        run: |
+          python scripts/validate.py
+          python scripts/security-check.py
+          python scripts/check-indexes.py
+          python scripts/build-catalog.py --check
+          python scripts/eval-golden.py
+          python scripts/check-oracles.py
+          python scripts/check-invariants.py
+          python scripts/eval-behavior.py
+          python scripts/check-freshness.py --check
+          python scripts/build-plugins.py
+          git diff --exit-code .codex-plugin .cursor-plugin gemini-extension.json
+      - name: Checksums artifact
+        run: |
+          sha256sum catalog/skills.json .claude-plugin/plugin.json .codex-plugin/plugin.json .cursor-plugin/plugin.json gemini-extension.json catalog/vendors-manifest.json > CHECKSUMS.txt
+          cat CHECKSUMS.txt
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: manifests-${{ github.ref_name }}
+          path: CHECKSUMS.txt
+
+  publish:
+    needs: verify
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: manifests-${{ github.ref_name }}
+      - uses: softprops/action-gh-release@3bb12739c298aeb8a4eeaf626c5b8d85266b0e65 # v2
+        with:
+          files: CHECKSUMS.txt
+          generate_release_notes: true
