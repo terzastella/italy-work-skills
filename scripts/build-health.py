@@ -25,7 +25,7 @@ GATES = [
     ("oracles", [sys.executable, "scripts/check-oracles.py"]),
     ("invariants", [sys.executable, "scripts/check-invariants.py"]),
     ("behavior", [sys.executable, "scripts/eval-behavior.py"]),
-    ("freshness", [sys.executable, "scripts/check-freshness.py"]),
+    ("freshness", [sys.executable, "scripts/check-freshness.py", "--check"]),
     ("sources", [sys.executable, "scripts/check-sources.py", "--check"]),
     ("vendors", [sys.executable, "scripts/sync-vendors.py", "--verify-local"]),
     ("risk-matrix", [sys.executable, "scripts/build-risk-matrix.py", "--check"]),

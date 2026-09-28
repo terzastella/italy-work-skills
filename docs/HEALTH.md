@@ -14,7 +14,7 @@ Gates green: 12/12.
 | oracles | green | oracles: 15/15 independent checks green |
 | invariants | green | invariants: 19/19 hold |
 | behavior | green | behavior: OK (245 guided, 36 delicate) |
-| freshness | green | freshness: 6 missing, 0 stale (254 skills, 275 refs) |
+| freshness | green | freshness: 0 missing, 0 stale (254 skills, 275 refs) |
 | sources | green | sources: 6 /6 pilot skills schema-ok, 0 stale |
 | vendors | green | hashes: 257 vendor files byte-identical to snapshot. |
 | risk-matrix | green | risk matrix: OK (254 skills) |
