@@ -51,8 +51,14 @@ SALUTE = {"assicurazione-sanitaria", "assistenza-anziani", "cure-termali",
           "salute-mentale-info", "sanita-digitale", "screening-prevenzione",
           "spese-mediche-detrazioni", "ticket-esenzioni", "vaccini-obbligatori"}
 ROLLED = PILOT | TAX | LAVORO | SALUTE
-STAMP = "last-verified: 2026-09-28"
-SKILL_STAMP = 'last_verified: "2026-09-28"'
+
+
+def today_stamp():
+    return dt.date.today().isoformat()
+
+
+STAMP = None  # computed per-run, never hardcoded (see stamp())
+SKILL_STAMP = None
 META_PAT = re.compile(r'metadata: \{([^}]*)\}', re.S)
 SKILL_PAT = re.compile(r'last_verified: "(\d{4})-(\d{2})-(\d{2})"')
 
@@ -70,19 +76,20 @@ def bump_version(skill_dir):
 
 
 def stamp_skill_meta(skill_dir):
-    """Insert last_verified into SKILL.md metadata + bump version. Idempotent."""
+    """Insert or renew last_verified in SKILL.md metadata + bump version."""
     p = skill_dir / "SKILL.md"
     txt = p.read_text(encoding="utf-8")
-    if SKILL_PAT.search(txt):
-        return False
-    m = META_PAT.search(txt)
-    if not m:
-        print(f"[STAMP-SKIP] {skill_dir.name}: no metadata map found")
-        return False
-    inner = m.group(1).rstrip()
-    sep = "" if inner.endswith(",") or not inner else ", "
-    new_meta = "metadata: {" + inner + sep + SKILL_STAMP + "}"
-    txt = txt[:m.start()] + new_meta + txt[m.end():]
+    m = SKILL_PAT.search(txt)
+    if m:
+        txt = txt[:m.start()] + SKILL_STAMP + txt[m.end():]
+    else:
+        mm = META_PAT.search(txt)
+        if not mm:
+            print(f"[STAMP-SKIP] {skill_dir.name}: no metadata map found")
+            return False
+        inner = mm.group(1).rstrip()
+        sep = "" if inner.endswith(",") or not inner else ", "
+        txt = txt[:mm.start()] + "metadata: {" + inner + sep + SKILL_STAMP + "}" + txt[mm.end():]
     vm = re.search(r'version: "0\.(\d+)"', txt)
     if not vm:
         print(f"[STAMP-SKIP] {skill_dir.name}: no 0.x version found")
@@ -99,9 +106,14 @@ def stamp(skills):
         n_refs = 0
         for ref in refs:
             lines = ref.read_text(encoding="utf-8").splitlines()
-            if any(l.startswith("last-verified:") for l in lines[:4]):
-                continue
-            ref.write_text("\n".join([lines[0], "", STAMP] + lines[1:]) + "\n", encoding="utf-8")
+            idx = next((i for i, l in enumerate(lines[:4])
+                        if l.startswith("last-verified:")), None)
+            if idx is None:
+                ref.write_text("\n".join([lines[0], "", STAMP] + lines[1:]) + "\n",
+                               encoding="utf-8")
+            else:
+                lines[idx] = STAMP  # renew existing date
+                ref.write_text("\n".join(lines) + "\n", encoding="utf-8")
             n_refs += 1
         meta = stamp_skill_meta(d)
         if n_refs or meta:
@@ -112,6 +124,10 @@ def stamp(skills):
 
 def main():
     if "--stamp" in sys.argv:
+        global STAMP, SKILL_STAMP
+        today = dt.date.today().isoformat()
+        STAMP = f"last-verified: {today}"
+        SKILL_STAMP = f'last_verified: "{today}"'
         stamp([a for a in sys.argv[2:] if not a.startswith("--")])
         return 0
     check = "--check" in sys.argv
