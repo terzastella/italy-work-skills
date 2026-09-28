@@ -3,7 +3,7 @@ name: vacanze-pacchetto
 description: Explain package travel rights with assistance and refunds. Use when asked vacanza pacchetto, package travel Italy, tour operator.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en", last_verified: "2026-09-28"}
 allowed-tools: Read Write
 argument-hint: "[trip/issue]"
 user-invocable: true

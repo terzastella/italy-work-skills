@@ -1,5 +1,7 @@
 # Press release checklist
 
+last-verified: 2026-09-28
+
 - [ ] Title with news, ≤100 chars
 - [ ] 5W lead in 3 lines
 - [ ] 1 real quote (or placeholder)

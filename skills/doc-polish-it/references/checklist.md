@@ -1,5 +1,7 @@
 # doc-polish-it checklist
 
+last-verified: 2026-09-28
+
 ## Structure
 - [ ] Single H1 at the top
 - [ ] H2/H3 in order, no H1->H3 jumps

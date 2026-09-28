@@ -3,7 +3,7 @@ name: auto-bollo
 description: Explain car tax by region with deadlines and exemptions. Use when asked bollo auto, car tax Italy, superbollo.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en", last_verified: "2026-09-28"}
 allowed-tools: Read Write
 argument-hint: "[vehicle/region]"
 user-invocable: true

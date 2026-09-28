@@ -3,7 +3,7 @@ name: doc-polish-it
 description: Improve READMEs and docs with sober tone, structure and correct code blocks. Also translates IT to EN. Use when asked to improve docs, rewrite readme, fix text, polish docs.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en", last_verified: "2026-09-28"}
 allowed-tools: Read Write
 argument-hint: "[file.md]"
 user-invocable: true

@@ -1,5 +1,7 @@
 # Spec checklist for new skills
 
+last-verified: 2026-09-28
+
 Copied from the `agentskills.io` standard + repo conventions.
 
 - [ ] Folder `skills/<name>/` with mandatory `SKILL.md`
