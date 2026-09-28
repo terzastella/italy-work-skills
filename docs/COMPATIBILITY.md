@@ -2,6 +2,16 @@
 
 One `SKILL.md` for all. Differences only in the loader, not the format.
 
+Compatibility is claimed on three levels — do not mix them:
+
+- **Level A — structural** (all 278 entries): `validate.py` + official-format
+  fields. Every skill parses and installs everywhere.
+- **Level B — install** (all 278 × 9 adapters): `install.py --all --dry-run`
+  in CI proves every skill lands on every destination.
+- **Level C — behavioral** (sample only): real-agent runs on selected skills
+  (log below). "Installer for 9 agents" is proven; "278 verified on 9 agents"
+  is not claimed and never was.
+
 | Field | Required | Claude | Codex | Grok | Notes |
 |-------|----------|--------|-------|------|-------|
 | `name` | yes | ✅ | ✅ | ✅ | hyphen-case, == folder name, max 64 |
