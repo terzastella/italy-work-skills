@@ -3,7 +3,7 @@ name: lavoro-spettacolo
 description: Explain entertainment work with ex-ENPALS rules. Use when asked lavoro spettacolo, entertainment workers Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot
-metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.4", lang: "en", last_verified: "2026-09-28"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true

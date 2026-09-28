@@ -3,7 +3,7 @@ name: impegnativa-visite
 description: Guide specialist referrals with priority classes. Use when asked impegnativa, specialist referral Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.4", lang: "en", last_verified: "2026-09-28"}
 allowed-tools: Read Write
 argument-hint: "[need]"
 user-invocable: true

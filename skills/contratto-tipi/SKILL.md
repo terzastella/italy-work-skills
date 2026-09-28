@@ -3,7 +3,7 @@ name: contratto-tipi
 description: Compare Italian work contract types without legal advice. Use when asked contratto tipi, co.co.co vs subordinato, P.IVA vs dipendente.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.4", lang: "en", last_verified: "2026-09-28"}
 allowed-tools: Read Write
 argument-hint: "[offer]"
 user-invocable: true

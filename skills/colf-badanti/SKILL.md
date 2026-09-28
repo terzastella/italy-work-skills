@@ -3,7 +3,7 @@ name: colf-badanti
 description: Guide domestic work contracts with levels and contributions. Use when asked colf badante, domestic worker Italy, contratto domestico.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.4", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.5", lang: "en", last_verified: "2026-09-28"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true

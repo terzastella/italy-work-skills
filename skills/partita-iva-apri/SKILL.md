@@ -3,7 +3,7 @@ name: partita-iva-apri
 description: Guide opening an Italian VAT number with regime and ATECO choice. Use when asked open partita IVA, start freelance Italy, aprire partita IVA.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.4", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.5", lang: "en", last_verified: "2026-09-28"}
 allowed-tools: Read Write
 argument-hint: "[activity]"
 user-invocable: true

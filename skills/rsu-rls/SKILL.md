@@ -3,7 +3,7 @@ name: rsu-rls
 description: Explain worker reps with elections and hours. Use when asked RSU RLS, worker representatives Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot
-metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.4", lang: "en", last_verified: "2026-09-28"}
 allowed-tools: Read Write
 argument-hint: "[company]"
 user-invocable: true

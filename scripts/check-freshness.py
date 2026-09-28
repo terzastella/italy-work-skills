@@ -52,6 +52,9 @@ SALUTE = {"assicurazione-sanitaria", "assistenza-anziani", "cure-termali",
           "spese-mediche-detrazioni", "ticket-esenzioni", "vaccini-obbligatori"}
 ROLLED = PILOT | TAX | LAVORO | SALUTE
 STAMP = "last-verified: 2026-09-28"
+SKILL_STAMP = 'last_verified: "2026-09-28"'
+META_PAT = re.compile(r'metadata: \{([^}]*)\}', re.S)
+SKILL_PAT = re.compile(r'last_verified: "(\d{4})-(\d{2})-(\d{2})"')
 
 
 def bump_version(skill_dir):
@@ -66,20 +69,45 @@ def bump_version(skill_dir):
     return True
 
 
+def stamp_skill_meta(skill_dir):
+    """Insert last_verified into SKILL.md metadata + bump version. Idempotent."""
+    p = skill_dir / "SKILL.md"
+    txt = p.read_text(encoding="utf-8")
+    if SKILL_PAT.search(txt):
+        return False
+    m = META_PAT.search(txt)
+    if not m:
+        print(f"[STAMP-SKIP] {skill_dir.name}: no metadata map found")
+        return False
+    inner = m.group(1).rstrip()
+    sep = "" if inner.endswith(",") or not inner else ", "
+    new_meta = "metadata: {" + inner + sep + SKILL_STAMP + "}"
+    txt = txt[:m.start()] + new_meta + txt[m.end():]
+    vm = re.search(r'version: "0\.(\d+)"', txt)
+    if not vm:
+        print(f"[STAMP-SKIP] {skill_dir.name}: no 0.x version found")
+        return False
+    txt = txt[:vm.start(1)] + str(int(vm.group(1)) + 1) + txt[vm.end(1):]
+    p.write_text(txt, encoding="utf-8")
+    return True
+
+
 def stamp(skills):
     for name in skills:
         d = REPO / "skills" / name
         refs = sorted((d / "references").glob("*.md")) if (d / "references").is_dir() else []
-        if not refs:
-            print(f"[STAMP-SKIP] {name}: no references/")
-            continue
+        n_refs = 0
         for ref in refs:
             lines = ref.read_text(encoding="utf-8").splitlines()
             if any(l.startswith("last-verified:") for l in lines[:4]):
                 continue
             ref.write_text("\n".join([lines[0], "", STAMP] + lines[1:]) + "\n", encoding="utf-8")
-        bump_version(d)
-        print(f"[STAMPED] {name} ({len(refs)} refs)")
+            n_refs += 1
+        meta = stamp_skill_meta(d)
+        if n_refs or meta:
+            print(f"[STAMPED] {name} ({n_refs} refs, skill-meta={meta})")
+        elif refs:
+            print(f"[STAMP-SKIP] {name}: already stamped")
 
 
 def main():
@@ -107,6 +135,24 @@ def main():
         print(f"[MISSING] {m}")
     for s in stale:
         print(f"[STALE] {s}")
+    for name in sorted(ROLLED):
+        p = REPO / "skills" / name / "SKILL.md"
+        if not p.is_file():
+            continue
+        m = SKILL_PAT.search(p.read_text(encoding="utf-8"))
+        if not m:
+            missing.append(f"{name}/SKILL.md (no last_verified)")
+            print(f"[MISSING] {name}/SKILL.md (no last_verified)")
+            continue
+        try:
+            seen = dt.date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+        except ValueError:
+            missing.append(f"{name}/SKILL.md (bad date)")
+            print(f"[MISSING] {name}/SKILL.md (bad date)")
+            continue
+        if (today - seen).days > STALE_DAYS:
+            stale.append(f"{name}/SKILL.md ({m.group(0)})")
+            print(f"[STALE] {name}/SKILL.md ({m.group(0)})")
     pilot_refs = sum(1 for _ in (REPO / "skills").glob("*/references/*.md")
                      if _.parts[-3] in ROLLED)
     print(f"freshness: {len(missing)} missing, {len(stale)} stale "

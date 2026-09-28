@@ -3,7 +3,7 @@ name: isa-check
 description: Explain ISA reliability indexes with score reading. Use when asked ISA, indici affidabilità, ISA score, pagella fiscale.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.4", lang: "en", last_verified: "2026-09-28"}
 allowed-tools: Read Write
 argument-hint: "[activity]"
 user-invocable: true

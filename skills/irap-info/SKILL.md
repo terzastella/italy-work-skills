@@ -3,7 +3,7 @@ name: irap-info
 description: Explain IRAP with who pays and base. Use when asked IRAP Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot
-metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.4", lang: "en", last_verified: "2026-09-28"}
 allowed-tools: Read Write
 argument-hint: "[subject]"
 user-invocable: true

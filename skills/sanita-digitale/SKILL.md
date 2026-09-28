@@ -3,7 +3,7 @@ name: sanita-digitale
 description: Guide FSE, IO app and health bookings in Italy. Use when asked fascicolo sanitario, IO app, CUP booking, tessera sanitaria.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.4", lang: "en", last_verified: "2026-09-28"}
 allowed-tools: Read Write
 argument-hint: "[need]"
 user-invocable: true

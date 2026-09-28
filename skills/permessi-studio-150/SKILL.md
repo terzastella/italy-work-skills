@@ -3,7 +3,7 @@ name: permessi-studio-150
 description: Explain 150-hour study leave with eligibility. Use when asked permessi studio, 150 ore Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.4", lang: "en", last_verified: "2026-09-28"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true

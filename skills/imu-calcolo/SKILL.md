@@ -3,7 +3,7 @@ name: imu-calcolo
 description: Explain IMU property tax with base and rate method. Use when asked IMU, property tax Italy, seconda casa tax.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.4", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.5", lang: "en", last_verified: "2026-09-28"}
 allowed-tools: Read Write Bash
 argument-hint: "[property data]"
 user-invocable: true
