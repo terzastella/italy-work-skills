@@ -66,17 +66,25 @@ Explicit invocation; model ollama 0.32.13 `qwen3:8b` (qwen3.6 too slow on this h
 Training-safe runs (no VRAM): hello-agent ✅, invoice-it ❌ (math), imu-calcolo ❌ (no compute).
 Detail: `docs/TEST-PLAN-LOCAL.md`. Zero skill-content bugs; 3b limits only.
 
-### Codex track — codex exec + ollama-local/qwen3:8b (2026-09-26, 3/5 ✅)
+### Codex track — codex exec + ollama-local/qwen3:8b (2026-09-26, 3/5 ✅; re-run 2026-09-28, 5/5 ✅)
 
-hello-agent ✅ · invoice-it ❌ (invented IBAN/SWIFT) · frontend-design ✅ ·
-tdd ❌ (sandbox blocked all writes) · brainstorming ✅ con riserva (repo-context bleed).
-Detail: `docs/TEST-PLAN-LOCAL.md`. Zero skill-file defects; model/harness limits only.
+hello-agent ✅ · invoice-it ❌→✅ ([TODO] placeholders with anti-invention prompt) ·
+frontend-design ✅ · tdd ❌→✅ (reply-only prompt bypasses read-only sandbox) ·
+brainstorming ✅ (no bleed with explicit guard).
+Detail: `docs/TEST-PLAN-LOCAL.md` (first run), `docs/TEST-PLAN-LOCAL-MATRIX.md` (re-run).
+Zero skill-file defects; model/harness limits only.
 
-### Claude track — ollama launch claude + qwen3:8b (2026-09-26, 4/5 ✅)
+### Claude track — ollama launch claude + qwen3:8b (2026-09-26, 4/5 ✅; re-run 2026-09-28, 5/5 ✅)
 
-hello-agent ✅ · invoice-it ✅ con riserva (invented invoice number) ·
-frontend-design ✅ · tdd ❌ (no RED step) · brainstorming ✅.
-Detail: `docs/TEST-PLAN-LOCAL.md`. Piped prompts work, absolute skill paths required.
+hello-agent ✅ · invoice-it ✅ con riserva (invented invoice number, minor) ·
+frontend-design ✅ · tdd ❌→✅ (RED then GREEN shown) · brainstorming ✅.
+Detail: `docs/TEST-PLAN-LOCAL.md` (first run), `docs/TEST-PLAN-LOCAL-MATRIX.md` (re-run).
+Piped prompts work, absolute skill paths required.
+
+### Grok column — BLOCKED (2026-09-28, honest)
+
+No local launcher (`ollama launch` has no grok integration) and no subscription.
+Cells stay unrun, not faked. Re-test when an account or launcher exists.
 
 Archived generic skills (35 in `archive/`) are not tested or installed.
 
