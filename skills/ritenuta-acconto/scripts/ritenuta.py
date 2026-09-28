@@ -33,7 +33,7 @@ def main():
     if args.forfettario:
         base = args.lordo if args.lordo is not None else args.netto
         out = {"regime": "forfettario", "ritenuta": 0.0, "netto": base,
-               "nota": "Forfettari: NO withholding — state it on the invoice."}
+               "nota": "Forfettari: NO withholding - state it on the invoice."}
     elif args.lordo is not None:
         rit = round(args.lordo * args.aliquota / 100.0, 2)
         out = {"direzione": "lordo->netto", "lordo": args.lordo, "aliquota_pct": args.aliquota,

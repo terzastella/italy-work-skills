@@ -37,6 +37,16 @@ ORACLES = {
     "invoice-oracle.md": ("invoice-it", "totals.py"),
     "forfettario-oracle.md": ("regime-forfettario", "forfettario.py"),
     "acconti-oracle.md": ("acconti-calcolo", "acconti.py"),
+    "busta-oracle.md": ("busta-paga-leggi", "payslip_check.py"),
+    "mutuo-oracle.md": ("mutuo-tassi", "mutuo.py"),
+    "ritenuta-oracle.md": ("ritenuta-acconto", "ritenuta.py"),
+    "cedolare-oracle.md": ("cedolare-secca", "cedolare.py"),
+    "plusvalenza-oracle.md": ("plusvalenza-casa", "pluscasa.py"),
+    "tfr-oracle.md": ("tfr-fondo", "rivalutazione.py"),
+    "contributi-oracle.md": ("contributi-inps", "contributi.py"),
+    "tredicesima-oracle.md": ("tredicesima-info", "tredicesima.py"),
+    "riscatto-oracle.md": ("riscatto-laurea", "riscatto.py"),
+    "rateizzazione-oracle.md": ("rateizzazione-debiti", "rateizza.py"),
 }
 
 

@@ -30,7 +30,7 @@ def main():
 
     ricalcolato = round(args.lordo - args.inps - args.irpef + args.detrazioni, 2)
     gap = round(ricalcolato - args.netto, 2)
-    esito = "match" if abs(gap) <= args.tolleranza else "gap: ask payroll (possible conguaglio — not an accusation)"
+    esito = "match" if abs(gap) <= args.tolleranza else "gap: ask payroll (possible conguaglio - not an accusation)"
 
     if args.json:
         print(json.dumps({"lordo": args.lordo, "inps": args.inps, "irpef": args.irpef,

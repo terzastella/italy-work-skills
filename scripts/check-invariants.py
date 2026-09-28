@@ -91,7 +91,33 @@ def main():
     hold("acconti: sum(rate) == base",
          abs(sum(acc["rate"]) - acc["base"]) < TOL, str(acc))
 
-    print(f"invariants: {10 - len(fails)}/10 hold")
+    mut = run("mutuo-tassi", "mutuo.py",
+              {"capitale": 150000, "anni": 25, "taeg-a": 4.0,
+               "tan-b": 3.5, "shock": 2.0})
+    hold("mutuo: totale_a == rata_a*n",
+         abs(mut["totale_a"] - mut["rata_a"] * 300) < 0.05, str(mut))
+    hold("mutuo: shock peggiora la rata",
+         mut["rata_b_shock"] > mut["rata_b"] > 0, str(mut))
+
+    ced = run("cedolare-secca", "cedolare.py",
+              {"canone": 24000, "cedolare": 21, "marginale": 43})
+    hold("cedolare: costi == canone*aliquote",
+         abs(ced["costo_cedolare"] - 24000 * 0.21) < TOL
+         and abs(ced["costo_irpef_stimato"] - 24000 * 0.43) < TOL, str(ced))
+
+    bus = run("busta-paga-leggi", "payslip_check.py",
+              {"lordo": 1950, "inps": 180, "irpef": 120,
+               "detrazioni": 30, "netto": 1620})
+    hold("busta: gap == ricalcolato-netto",
+         abs(bus["gap"] - (bus["netto_ricalcolato"] - 1620)) < TOL, str(bus))
+
+    tfr = run("tfr-fondo", "rivalutazione.py",
+              {"accantonato": 20000, "inflazione": 4.0, "year": 2026})
+    hold("tfr: rivalutazione == accantonato*tasso/100",
+         abs(tfr["rivalutazione"] - 20000 * tfr["tasso_pct"] / 100) < TOL,
+         str(tfr))
+
+    print(f"invariants: {19 - len(fails)}/19 hold")
     return 2 if fails else 0
 
 
