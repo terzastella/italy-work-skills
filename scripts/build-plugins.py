@@ -44,7 +44,7 @@ def main():
     gemini = {
         "name": data["name"],
         "version": data["version"],
-        "description": "Italian Work Skills Hub for Gemini (249 originals + 24 pinned third-party).",
+        "description": f"Italian Work Skills Hub for Gemini ({len(ours)} originals + {len(vend)} pinned third-party).",
         "author": "ai-skills-hub",
         "license": "MIT",
         "skills": paths,
