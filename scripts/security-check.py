@@ -21,6 +21,7 @@ REPO = Path(__file__).resolve().parents[1]
 PATTERNS = [
     (r"(?i)aws_(secret_)?access_key_id\s*[:=]\s*AKIA[0-9A-Z]{16}", "aws-key"),
     (r"(?i)gh[pousr]_[A-Za-z0-9_]{20,}", "github-token"),
+    (r"github_pat_[A-Za-z0-9_]{20,}", "github-fine-grained-pat"),
     (r"xai-[A-Za-z0-9-]{10,}", "xai-key"),
     (r"sk-(proj-)?[A-Za-z0-9-]{10,}", "openai-key"),
     (r"(?i)(password|passwd|secret)\s*[:=]\s*.+", "password-assign"),

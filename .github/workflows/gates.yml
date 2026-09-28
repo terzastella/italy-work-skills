@@ -6,10 +6,10 @@ on:
 
 jobs:
   validate:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.13"
       - name: Validate SKILL.md files
@@ -28,6 +28,9 @@ jobs:
         run: python scripts/check-oracles.py
       - name: Behavior guards (golden links/cases, delicate ban)
         run: python scripts/eval-behavior.py
+      - name: Freshness report (advisory until rollout complete)
+        continue-on-error: true
+        run: python scripts/check-freshness.py
       - name: Plugins sync (codex/cursor/gemini manifests)
         run: python scripts/build-plugins.py && git diff --exit-code .codex-plugin .cursor-plugin gemini-extension.json
       - name: Install dry-run (all skills, all agents)
@@ -39,11 +42,11 @@ jobs:
           python scripts/check-spec.py
 
   vendors-drift:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     continue-on-error: true
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.13"
       - name: Vendor drift report (non-blocking, network)
