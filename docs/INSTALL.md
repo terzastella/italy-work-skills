@@ -9,8 +9,8 @@
 ## Install everything
 
 ```bash
-git clone https://github.com/terzastella/AI-Skills.git
-cd AI-Skills
+git clone https://github.com/terzastella/italy-work-skills.git
+cd italy-work-skills
 python scripts/install.py --all
 ```
 

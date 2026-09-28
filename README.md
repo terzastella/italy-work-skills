@@ -14,8 +14,8 @@ and Windsurf with one command. Spec: [Agent Skills open standard](https://agents
 New here? Start with [`docs/USER-GUIDE.md`](docs/USER-GUIDE.md) · Installing: [`docs/INSTALL.md`](docs/INSTALL.md) · Questions: [`docs/FAQ.md`](docs/FAQ.md).
 
 ```bash
-git clone https://github.com/terzastella/AI-Skills.git
-cd AI-Skills
+git clone https://github.com/terzastella/italy-work-skills.git
+cd italy-work-skills
 python scripts/install.py --all                          # original skills (default)
 python scripts/install.py --skill invoice-it --agent claude
 ```

@@ -31,8 +31,8 @@ I grandi repo mondiali (superpowers, mattpocock, ECC) coprono coding e marketing
 ## Quickstart
 
 ```bash
-git clone https://github.com/terzastella/AI-Skills.git
-cd AI-Skills
+git clone https://github.com/terzastella/italy-work-skills.git
+cd italy-work-skills
 
 # Installa tutto ovunque (9 agenti: claude, codex, grok, cursor, copilot, copilot-cli, gemini, opencode, windsurf)
 python scripts/install.py --all
