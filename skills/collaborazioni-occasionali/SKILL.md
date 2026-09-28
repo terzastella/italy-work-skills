@@ -3,7 +3,7 @@ name: collaborazioni-occasionali
 description: Explain occasional work with limits and withholding. Use when asked prestazione occasionale, occasional work Italy, ritenuta occasionali.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
 allowed-tools: Read Write Bash
 argument-hint: "[situation]"
 user-invocable: true

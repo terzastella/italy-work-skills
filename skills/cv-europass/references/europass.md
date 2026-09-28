@@ -1,5 +1,7 @@
 # Europass sections (cv-europass)
 
+last-verified: 2026-09-28
+
 Header (name, city, phone, email, LinkedIn) → Profile (2 lines, target role) →
 Experience (reverse order, bullets verb+number) → Education → Digital skills →
 Languages (CEFR A1-C2, honest) → Driving/other if relevant.

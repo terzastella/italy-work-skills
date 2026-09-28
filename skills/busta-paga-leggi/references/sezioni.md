@@ -1,5 +1,7 @@
 # Section walk (busta-paga-leggi)
 
+last-verified: 2026-09-28
+
 Read top to bottom. For each: what it is → source of the figure → what to compare.
 
 ## Testata

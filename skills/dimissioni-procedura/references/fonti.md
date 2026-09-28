@@ -1,5 +1,7 @@
 # Official sources — dimissioni (verified 2026-09-23)
 
+last-verified: 2026-09-28
+
 - INL online resignation portal (SPID/CIE access, assisted filing via patronati/unions).
 - Notice (preavviso): length from applicable CCNL + seniority — always cite CCNL.
 - NASpI: voluntary resignation generally loses NASpI (exceptions: just cause) — INPS rules.

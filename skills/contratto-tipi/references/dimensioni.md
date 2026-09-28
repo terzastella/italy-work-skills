@@ -1,5 +1,7 @@
 # Contract dimensions (contratto-tipi)
 
+last-verified: 2026-09-28
+
 Subordinato: direction + protections (malattia/ferie/TFR/NASpI) + notice.
 Co.co.co: coordination, no subordination, lighter protections, separate INPS.
 P.IVA: autonomy + own contributions + no protections + forfettario-exclusion risk

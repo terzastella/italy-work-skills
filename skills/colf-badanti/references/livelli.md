@@ -1,5 +1,7 @@
 # Domestic levels (colf-badanti)
 
+last-verified: 2026-09-28
+
 CCNL lavoro domestico levels (verify table + year): colf base → specialized →
 badante (assistenza tiers by self-sufficiency of the assisted person).
 Profile first: mansioni (colf vs badante vs baby-sitter), hours, convivente or not.

@@ -3,7 +3,7 @@ name: dis-coll
 description: Explain DIS-COLL benefit for collaborators with math. Use when asked DIS-COLL, disoccupazione collaboratori Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true

@@ -3,7 +3,7 @@ name: ferie-permessi
 description: Explain holidays and permits with accrual rules. Use when asked ferie permessi, holidays permits Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
 allowed-tools: Read Write Bash
 argument-hint: "[situation]"
 user-invocable: true

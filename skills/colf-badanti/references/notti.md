@@ -1,5 +1,7 @@
 # Night shifts (colf-badanti)
 
+last-verified: 2026-09-28
+
 The most misunderstood corner of domestic work. Year-stated, CCNL-cited.
 
 ## Presence vs active hours

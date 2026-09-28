@@ -3,7 +3,7 @@ name: dimissioni-procedura
 description: Explain Italy's online resignation procedure and notice. Use when asked dimissioni, resign Italy, notice period, preavviso.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[contract type]"
 user-invocable: true

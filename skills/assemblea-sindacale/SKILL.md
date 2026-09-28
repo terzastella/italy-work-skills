@@ -3,7 +3,7 @@ name: assemblea-sindacale
 description: Explain union meetings with paid hours. Use when asked assemblea sindacale, union meeting Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot
-metadata: {author: ai-skills-hub, version: "0.2", lang: "en"}
+metadata: {author: ai-skills-hub, version: "0.3", lang: "en"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true

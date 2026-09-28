@@ -1,5 +1,7 @@
 # Payslip lines (busta-paga-leggi)
 
+last-verified: 2026-09-28
+
 Gross side: paga base (CCNL level cited) · contingenza/EDR · superminimo ·
 straordinari (hours × rate) · premi · una tantum.
 Withholding side: INPS worker share (as stated, ~9% typical — verify CCNL) ·
