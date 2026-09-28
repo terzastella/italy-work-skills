@@ -26,6 +26,8 @@ jobs:
         run: python scripts/eval-golden.py
       - name: Independent oracles (hand-computed calculator checks)
         run: python scripts/check-oracles.py
+      - name: Structural invariants (calculator internal coherence)
+        run: python scripts/check-invariants.py
       - name: Behavior guards (golden links/cases, delicate ban)
         run: python scripts/eval-behavior.py
       - name: Freshness report (advisory until rollout complete)
