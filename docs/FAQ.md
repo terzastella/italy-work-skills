@@ -2,13 +2,16 @@
 
 ## Do I need a subscription?
 
-No. Installing and all checks run fully offline on your PC. You only need
+No. Installing and the skill calculators run fully offline on your PC.
+(Repo maintenance checks like upstream validator installs or vendor HEAD
+lookups may use the network.) You only need
 whatever account your chosen agent itself requires.
 
 ## Does it work offline?
 
-Yes. Skills are text files plus small local calculators. Nothing calls
-the internet — except the agent's own model, which is its business, not this repo's.
+Yes. Installed skills are text files plus small local calculators. Nothing
+in them calls the internet — except the agent's own model, which is its
+business, not this repo's.
 
 ## Where do my data go?
 

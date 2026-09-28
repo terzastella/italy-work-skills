@@ -17,7 +17,7 @@ Repo pubblica, sviluppo per branch e tag. Dettaglio avanzamento in `CHANGELOG.md
 
 ## Perché Italia
 
-I grandi repo mondiali (superpowers, mattpocock, ECC) coprono coding e marketing USA. Nessuno copre il lavoro italiano: fattura elettronica e IVA, PEC, email con il `Lei`, forfettario, scadenze, Europass, bandi. Qui ogni skill parla di questi casi, con fonti ufficiali (AdE, INPS, EUR-Lex) e disclaimer "verifica col professionista" dove serve.
+I grandi repo mondiali (superpowers, mattpocock, ecc.) puntano su coding e marketing USA. Questo hub punta sul lavoro italiano: fattura elettronica e IVA, PEC, email con il `Lei`, forfettario, scadenze, Europass, bandi. Qui ogni skill parla di questi casi, con fonti ufficiali (AdE, INPS, EUR-Lex) e disclaimer "verifica col professionista" dove serve.
 
 ## Perché questo repo è diverso
 

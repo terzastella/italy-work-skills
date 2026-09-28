@@ -67,4 +67,4 @@ If not: check the folder above exists and restart the agent.
 - **Agent doesn't see new skills** → restart the agent session; skills load at startup.
 - **Python errors** → check `python --version` (needs 3.10+) and run from the repo root.
 - **"Unknown skill"** → list names with `python scripts/install.py --all --dry-run`.
-- **Work without internet** → installing and all checks run fully offline.
+- **Work without internet** → installing and the skill calculators run fully offline.
