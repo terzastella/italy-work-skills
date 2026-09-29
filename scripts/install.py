@@ -37,22 +37,39 @@ def vendor_roots():
         return []
     return sorted([p for p in VENDORS.iterdir() if p.is_dir() and p.name != "third-party"])
 
+def has_symlink(p):
+    if p.is_symlink():
+        return True
+    if p.is_dir():
+        return any(q.is_symlink() for q in p.rglob("*"))
+    return False
+
+
 def available_skills(source):
     found = {}
     if source in ("ours", "all"):
         for p in SKILLS.iterdir():
             if (p / "SKILL.md").exists():
+                if p.is_symlink():
+                    print(f"SKIP {p.name}: symlinked skill dir rejected")
+                    continue
                 found.setdefault(p.name, p)
     if source in ("vendors", "all"):
         for root in vendor_roots():
             for p in root.iterdir():
                 if (p / "SKILL.md").exists():
+                    if p.is_symlink():
+                        print(f"SKIP {p.name}: symlinked skill dir rejected")
+                        continue
                     found.setdefault(p.name, p)
     return found
 
 def install_skill(src, dests, dry=False, force=False):
     if not (src / "SKILL.md").exists():
         print(f"SKIP {src}: missing SKILL.md in {src}")
+        return False
+    if has_symlink(src):
+        print(f"SKIP {src}: symlinks inside skill rejected (no partial copy)")
         return False
     ok = True
     for d in dests:
@@ -65,7 +82,7 @@ def install_skill(src, dests, dry=False, force=False):
                 continue
             if target.exists():
                 shutil.rmtree(target)
-            shutil.copytree(src, target)
+            shutil.copytree(src, target, symlinks=False)
     return ok
 
 def main():

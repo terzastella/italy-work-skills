@@ -46,6 +46,28 @@ jobs:
         run: python scripts/build-plugins.py && git diff --exit-code .codex-plugin .cursor-plugin gemini-extension.json
       - name: Install dry-run (all skills, all agents)
         run: python scripts/install.py --all --dest ./tmp-test --dry-run
+      - name: Installer rejects symlinked skills (attack simulation)
+        run: |
+          mkdir -p /tmp/evil-outside && echo stolen > /tmp/evil-outside/SKILL.md
+          ln -s /tmp/evil-outside /tmp/evilskill
+          python - <<'EOF'
+          import sys; sys.path.insert(0, 'scripts')
+          import importlib.util
+          from pathlib import Path
+          spec = importlib.util.spec_from_file_location('ins', 'scripts/install.py')
+          ins = importlib.util.module_from_spec(spec); spec.loader.exec_module(ins)
+          evil = Path('/tmp/evilskill')
+          assert evil.is_symlink(), "test setup failed"
+          assert ins.has_symlink(evil), "dir-symlink not detected"
+          assert ins.install_skill(evil, [Path('/tmp/evil-dest')], dry=True) is False
+          import os
+          os.makedirs('/tmp/innerskill', exist_ok=True)
+          Path('/tmp/innerskill/SKILL.md').write_text('x')
+          os.symlink('/tmp/evil-outside/SKILL.md', '/tmp/innerskill/leak.md')
+          assert ins.has_symlink(Path('/tmp/innerskill')), "inner symlink not detected"
+          assert ins.install_skill(Path('/tmp/innerskill'), [Path('/tmp/evil-dest')], dry=True) is False
+          print("symlink attack blocked")
+          EOF
       - name: Upstream spec check (advisory, skills-ref is demo-only)
         continue-on-error: true
         run: |
