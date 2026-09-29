@@ -28,7 +28,7 @@ python scripts/check-freshness.py --check   # exit 2 if anything is stale/missin
 
 ## Rollout
 
-- Done (2026-09-28): full rollout — 254/254 skills, 269 refs
+- Done (2026-09-28): full rollout — 254/254 skills, 309 refs
   (pilot trio, fisco, lavoro, salute, casa+diritto, impresa+PA,
   soldi+famiglia+tutele, trasporti+scuola+scrittura+tooling).
   Stamp tool: `python scripts/check-freshness.py --stamp <skills...>`
