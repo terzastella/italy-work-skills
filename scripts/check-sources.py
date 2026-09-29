@@ -18,6 +18,7 @@ import datetime as dt
 import re
 import sys
 from pathlib import Path
+from urllib.parse import urlparse
 
 REPO = Path(__file__).resolve().parents[1]
 STALE_DAYS = 365
@@ -29,6 +30,18 @@ OFFICIAL = ("inps.it", "agenziaentrate.gov.it", "salute.gov.it",
             "senato.it", "camera.it", "istat.it", "inail.it")
 HEAD = re.compile(r"^## Sources \(verified (\d{4})-(\d{2})-(\d{2})\)", re.M)
 URL = re.compile(r"https://[^\s)>\"]+")
+
+
+def official_host(url):
+    """True only for the domain itself or its subdomains. Substring tricks
+    (evil-inps.it, inps.it.evil.com, ?x=inps.it) fail: only the parsed
+    hostname counts."""
+    try:
+        host = urlparse(url).hostname or ""
+    except ValueError:
+        return False
+    host = host.lower()
+    return any(host == d or host.endswith("." + d) for d in OFFICIAL)
 
 
 def parse(skill):
@@ -52,8 +65,8 @@ def parse(skill):
         if not urls:
             errs.append(f"{skill}: bullet without URL: {b[:80]}")
             continue
-        if not any(d in u for u in urls for d in OFFICIAL):
-            errs.append(f"{skill}: non-official domain: {urls[0][:80]}")
+        if not official_host(urls[0]):
+            errs.append(f"{skill}: non-official host: {urls[0][:80]}")
         if "claims:" not in b:
             errs.append(f"{skill}: bullet without claims: {b[:80]}")
     stale = (dt.date.today() - seen).days > STALE_DAYS

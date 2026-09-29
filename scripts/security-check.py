@@ -123,6 +123,8 @@ def main():
             text = f.read_text(encoding="utf-8", errors="replace")
         except Exception as e:
             print(f"WARN: {f.relative_to(REPO)} unreadable: {e}")
+            hits.append((str(f.relative_to(REPO)), 0, "unreadable",
+                         "file could not be read: treated as failure"))
             continue
         for i, line in enumerate(text.splitlines(), 1):
             for pat, label in PATTERNS:
