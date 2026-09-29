@@ -4,6 +4,7 @@ on:
   push:
     tags:
       - "v*"
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -18,19 +19,8 @@ jobs:
       - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
         with:
           python-version: "3.13"
-      - name: Full gates (same as CI)
-        run: |
-          python scripts/validate.py
-          python scripts/security-check.py
-          python scripts/check-indexes.py
-          python scripts/build-catalog.py --check
-          python scripts/eval-golden.py
-          python scripts/check-oracles.py
-          python scripts/check-invariants.py
-          python scripts/eval-behavior.py
-          python scripts/check-freshness.py --check
-          python scripts/build-plugins.py
-          git diff --exit-code .codex-plugin .cursor-plugin gemini-extension.json
+      - name: Full gates (same script as CI — cannot drift)
+        run: python scripts/run-gates.py
       - name: Checksums artifact
         run: |
           sha256sum catalog/skills.json .claude-plugin/plugin.json .codex-plugin/plugin.json .cursor-plugin/plugin.json gemini-extension.json catalog/vendors-manifest.json > CHECKSUMS.txt

@@ -8,7 +8,7 @@ Usage:
   python scripts/build-health.py
 """
 import datetime as dt
-import re
+import importlib.util
 import subprocess
 import sys
 from pathlib import Path
@@ -16,20 +16,16 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parents[1]
 OUT = REPO / "docs" / "HEALTH.md"
 
-GATES = [
-    ("validate", [sys.executable, "scripts/validate.py"]),
-    ("security", [sys.executable, "scripts/security-check.py"]),
-    ("indexes", [sys.executable, "scripts/check-indexes.py"]),
-    ("catalog", [sys.executable, "scripts/build-catalog.py", "--check"]),
-    ("golden", [sys.executable, "scripts/eval-golden.py"]),
-    ("oracles", [sys.executable, "scripts/check-oracles.py"]),
-    ("invariants", [sys.executable, "scripts/check-invariants.py"]),
-    ("behavior", [sys.executable, "scripts/eval-behavior.py"]),
-    ("freshness", [sys.executable, "scripts/check-freshness.py", "--check"]),
-    ("sources", [sys.executable, "scripts/check-sources.py", "--check"]),
-    ("vendors", [sys.executable, "scripts/sync-vendors.py", "--verify-local"]),
-    ("risk-matrix", [sys.executable, "scripts/build-risk-matrix.py", "--check"]),
-]
+
+def _load_gates():
+    spec = importlib.util.spec_from_file_location(
+        "run_gates", REPO / "scripts" / "run-gates.py")
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return [(n, c) for n, c, b in mod.GATES if b]
+
+
+GATES = _load_gates()
 
 
 def run(cmd):
