@@ -44,27 +44,31 @@ def main():
     rows = []
     for name, cmd in GATES:
         rc, summary = run(cmd)
-        status = "green" if rc == 0 else "RED"
+        status = "green" if rc == 0 else ("SKIPPED" if rc == 3 else "RED")
         rows.append((name, status, summary))
         print(f"[{status}] {name}: {summary}")
     ok = sum(1 for _, s, _ in rows if s == "green")
+    skipped = sum(1 for _, s, _ in rows if s == "SKIPPED")
     lines = ["# Health snapshot — generated, do not hand-edit",
              "",
              f"Date: {today}. Regenerate with `python scripts/build-health.py`.",
              "",
-             f"Gates green: {ok}/{len(rows)}.",
+             f"Gates green: {ok}/{len(rows)}" + (f", {skipped} skipped." if skipped else "."),
              "",
              "| Gate | Status | Summary |",
              "|---|---|---|"]
     lines += [f"| {n} | {s} | {sm} |" for n, s, sm in rows]
     lines += ["",
-              "Green here means the deterministic gates pass. It does not mean",
-              "normative content is current (see freshness column) or that every",
-              "skill was agent-tested (see `docs/COMPATIBILITY.md`).",
+              "Green here means the deterministic gates pass. SKIPPED means the",
+              "environment cannot run that gate (it runs on CI Linux instead).",
+              "It does not mean normative content is current (see freshness",
+              "column) or that every skill was agent-tested",
+              "(`docs/COMPATIBILITY.md`).",
               ""]
     OUT.write_text("\n".join(lines), encoding="utf-8")
-    print(f"wrote docs/HEALTH.md: {ok}/{len(rows)} green")
-    return 0 if ok == len(rows) else 1
+    print(f"wrote docs/HEALTH.md: {ok}/{len(rows)} green"
+          + (f", {skipped} skipped" if skipped else ""))
+    return 0 if ok + skipped == len(rows) else 1
 
 
 if __name__ == "__main__":

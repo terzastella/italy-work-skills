@@ -61,13 +61,18 @@ def main():
             print(f"{'BLOCK' if blocking else 'advisory':8} {name}")
         return 0
     advisory_only = "--advisory" in args
-    failed = []
+    failed, skipped = [], []
     for name, argv, blocking in GATES:
         if advisory_only and blocking:
             continue
         rc, summary = run_one(name, argv)
         if rc == 0:
             print(f"[ok] {name}: {summary}")
+        elif rc == 3:
+            # SKIPPED: environment cannot run it (e.g. no symlink rights).
+            # Visible, never counted as green.
+            print(f"[SKIPPED] {name}: {summary}")
+            skipped.append(name)
         elif not blocking:
             print(f"[advisory-FAIL] {name}: {summary}")
         else:
@@ -76,7 +81,10 @@ def main():
     if failed:
         print(f"gates: {len(GATES) - len(failed)}/{len(GATES)} green, FAILED: {', '.join(failed)}")
         return 2
-    print(f"gates: all blocking green ({sum(1 for _, _, b in GATES if b)} gates)")
+    if skipped:
+        print(f"gates: all blocking green, SKIPPED: {', '.join(skipped)}")
+    else:
+        print(f"gates: all blocking green ({sum(1 for _, _, b in GATES if b)} gates)")
     return 0
 
 

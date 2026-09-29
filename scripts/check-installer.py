@@ -3,7 +3,10 @@
 
 Creates a fake evil skill (dir symlink + inner-file symlink) in the system
 temp dir, asserts install.py refuses both, cleans up. Needs symlink rights
-(Linux/macOS CI, Windows admin/dev-mode). Exit 2 on failure, 0 when blocked.
+(Linux/macOS CI, Windows admin/dev-mode).
+
+Exit codes: 0 blocked (attack refused), 2 failure (attack NOT blocked),
+3 SKIPPED (no symlink rights here — CI Linux runs it for real).
 
 Usage:
   python scripts/check-installer.py
@@ -38,9 +41,10 @@ def main():
         inner.mkdir()
         (inner / "SKILL.md").write_text("x")
         (inner / "leak.md").symlink_to(outside / "SKILL.md")
-    except OSError as e:
-        print(f"installer-attack-test: SKIP (no symlink rights: {e})")
-        return 0
+    except OSError:
+        # No path details: temp-dir names may contain the username.
+        print("installer-attack-test: SKIP (no symlink rights on this machine)")
+        return 3
     try:
         ins = load_installer()
         assert evil.is_symlink(), "test setup failed"

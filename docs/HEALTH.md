@@ -2,7 +2,7 @@
 
 Date: 2026-09-29. Regenerate with `python scripts/build-health.py`.
 
-Gates green: 16/16.
+Gates green: 15/16, 1 skipped.
 
 | Gate | Status | Summary |
 |---|---|---|
@@ -19,10 +19,12 @@ Gates green: 16/16.
 | sources | green | sources: 40 /40 pilot skills schema-ok, 0 stale |
 | plugins-sync | green | wrote gemini-extension.json: 278 skills, v1.16.0 |
 | install-dryrun | green | Done. |
-| installer-attack | green | installer-attack-test: SKIP (no symlink rights: [WinError 1314] Il privilegio richiesto non appartiene al client: 'C:\\Users\\tanta\\AppData\\Local\\Temp\\evils |
+| installer-attack | SKIPPED | installer-attack-test: SKIP (no symlink rights on this machine) |
 | vendors-verify | green | hashes: 268 vendor files byte-identical to snapshot. |
 | risk-matrix | green | risk matrix: OK (254 skills) |
 
-Green here means the deterministic gates pass. It does not mean
-normative content is current (see freshness column) or that every
-skill was agent-tested (see `docs/COMPATIBILITY.md`).
+Green here means the deterministic gates pass. SKIPPED means the
+environment cannot run that gate (it runs on CI Linux instead).
+It does not mean normative content is current (see freshness
+column) or that every skill was agent-tested
+(`docs/COMPATIBILITY.md`).
