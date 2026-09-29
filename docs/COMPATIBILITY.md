@@ -114,6 +114,14 @@ testamento ❌ same witnesses, licenziamento ❌ deadline salad). Detail:
 `docs/TEST-PLAN-LOCAL-MATRIX.md`. Systematic invention under open recall;
 zero skill-file defects.
 
+### Wave 4 — 6 mixed L3 × Claude/Codex, qwen3:8b (2026-09-29, 7/12)
+
+Claude 3/6 (accertamento ✅, unioni ✅ris, vaccini ✅; adozioni ❌ age rule,
+appalti ❌ fake norms, pignoramento ❌ flat 10k). Codex 4/6 (unioni ✅,
+adozioni/appalti/vaccini ✅ris; accertamento ❌ riesame, pignoramento ❌
+controrichiesta). Claude invents norms, Codex invents remedies; referrals
+always present. Corpus: 26/69 (38%).
+
 Archived generic skills (35 in `archive/`) are not tested or installed.
 
 How to test (local only):

@@ -1,9 +1,9 @@
 # Verified sources (mutuo-tassi)
 
-## Sources (verified 2026-09-28)
+## Sources (verified 2026-09-29)
 
-- source: Notariato — Area casa
-  url: https://www.notariato.it/en/casa-area
+- source: Banca d'Italia — Guide: mutuo ipotecario
+  url: https://www.bancaditalia.it/pubblicazioni/guide-bi
   claims:
-    - mutuo e garanzie
-    - ruolo del notaio
+    - mutuo ipotecario in parole semplici
+    - comparazione

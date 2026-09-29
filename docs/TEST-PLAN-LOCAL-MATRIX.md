@@ -109,6 +109,39 @@ At 8b, info-only discipline holds only when the model stays inside the
 skill text; open recall drifts into invention. Zero skill-file defects;
 all failures are model behavior, logged verbatim.
 
+## Wave 4 — 6 L3/intersection × 2 harnesses (2026-09-29, 7/12)
+
+Same protocol, `qwen3:8b`. Mix of procedure-heavy skills.
+
+### Claude track wave 4 — 3/6
+
+| # | Skill | Result | Notes |
+|---|---|---|---|
+| 33 | accertamento-info | ✅ | Options + 60-day deadlines, accountant referral, no strategy |
+| 34 | adozioni-info | ❌ | Invented "max 3-year parent age gap" rule |
+| 35 | appalti-pubblici-info | ❌ | Fabricated norms (DURC 6 mesi, D.Lgs 163/2014, SOA expansion, fake articles) |
+| 36 | pignoramento-conto | ❌ | Invented flat €10.000 exempt minimum |
+| 37 | unioni-convivenze | ✅ con riserva | Correct core (no automatic rights, contratto, testamento, notaio) |
+| 38 | vaccini-obbligatori | ✅ | 10 mandatory with schedule, no advice |
+
+### Codex track wave 4 — 4/6
+
+| # | Skill | Result | Notes |
+|---|---|---|---|
+| 39 | accertamento-info | ❌ | Invented 120-day "riesame" remedy |
+| 40 | adozioni-info | ✅ con riserva | Procedure + variable timelines, tribunal referral |
+| 41 | appalti-pubblici-info | ✅ con riserva | Generic but norm-free (odd "R.U.C." bleed, harmless) |
+| 42 | pignoramento-conto | ❌ | Invented 30-day "controrichiesta" remedy |
+| 43 | unioni-convivenze | ✅ | Correct core + notary referral |
+| 44 | vaccini-obbligatori | ✅ con riserva | Correct list; seasonal flu wrongly among mandatory |
+
+### Wave 4 lesson
+
+Procedure-heavy L3 split by harness temperament: Claude invents
+normative details (decrees, thresholds), Codex invents remedies and
+softens verdicts with hedges. Both stay referral-correct (lawyer/notary/
+accountant always named). Cumulative corpus: 26/69 skills (38%).
+
 ## Lessons
 
 1. Prompt guards matter at 8b: "never invent X, use [TODO]" and

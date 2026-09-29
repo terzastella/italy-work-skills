@@ -3,7 +3,7 @@ name: ravvedimento-operoso
 description: Fix late tax payments with reduced penalties by timing. Use when asked ravvedimento operoso, late payment fix Italy, sanzioni ridotte.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.4", lang: "en", last_verified: "2026-09-28"}
+metadata: {author: ai-skills-hub, version: "0.5", lang: "en", last_verified: "2026-09-28"}
 allowed-tools: Read Write Bash
 argument-hint: "[tax/delay]"
 user-invocable: true

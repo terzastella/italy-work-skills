@@ -45,6 +45,15 @@ PILOT = PILOT | CASA | {"accertamento-info", "adozioni-info",
          "multe-ricorso", "pensione-reversibilita", "permesso-soggiorno",
          "pignoramento-conto", "unioni-convivenze", "vaccini-obbligatori",
          "whistleblowing-info"}
+L2CALC = {"acconti-calcolo", "assegno-unico", "buoni-fruttiferi",
+          "carte-revolving", "cedolare-secca",
+          "collaborazioni-occasionali", "condominio-spese",
+          "conti-deposito", "contributi-inps", "fattura-elettronica-it",
+          "ferie-permessi", "irpef-scaglioni", "mutuo-tassi",
+          "plusvalenza-casa", "rateizzazione-debiti", "ravvedimento-operoso",
+          "riscatto-laurea", "ritenuta-acconto", "spese-mediche-detrazioni",
+          "tfr-fondo"}
+PILOT = PILOT | L2CALC
 OFFICIAL = ("inps.it", "agenziaentrate.gov.it", "salute.gov.it",
             "interno.gov.it", "lavoro.gov.it", "giustizia.it",
             "normattiva.it", "gazzettaufficiale.it", "europa.eu",
@@ -53,7 +62,8 @@ OFFICIAL = ("inps.it", "agenziaentrate.gov.it", "salute.gov.it",
             "notariato.it", "bancaditalia.it", "ivass.it",
             "arera.it", "enea.it", "mase.gov.it", "parlamento.it",
             "anticorruzione.it", "poliziadistato.it", "uibm.mise.gov.it",
-            "mise.gov.it")
+            "mise.gov.it", "poste.it",
+            "agenziaentrateriscossione.gov.it")
 HEAD = re.compile(r"^## Sources \(verified (\d{4})-(\d{2})-(\d{2})\)", re.M)
 URL = re.compile(r"https://[^\s)>\"]+")
 

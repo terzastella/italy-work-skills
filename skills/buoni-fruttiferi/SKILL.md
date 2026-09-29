@@ -3,7 +3,7 @@ name: buoni-fruttiferi
 description: Explain postal savings bonds with net returns. Use when asked buoni fruttiferi, postal bonds Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.3", lang: "en", last_verified: "2026-09-28"}
+metadata: {author: ai-skills-hub, version: "0.4", lang: "en", last_verified: "2026-09-28"}
 allowed-tools: Read Write Bash
 argument-hint: "[horizon]"
 user-invocable: true
