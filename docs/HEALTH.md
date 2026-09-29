@@ -15,8 +15,8 @@ Gates green: 15/16, 1 skipped.
 | oracles | green | oracles: 15/15 independent checks green |
 | invariants | green | invariants: 19/19 hold |
 | behavior | green | behavior: OK (245 guided, 36 delicate) |
-| freshness | green | freshness: 0 missing, 0 stale (254 skills, 309 refs) |
-| sources | green | sources: 40 /40 pilot skills schema-ok, 0 stale |
+| freshness | green | freshness: 0 missing, 0 stale (254 skills, 329 refs) |
+| sources | green | sources: 60 /60 pilot skills schema-ok, 0 stale |
 | plugins-sync | green | wrote gemini-extension.json: 278 skills, v1.16.0 |
 | install-dryrun | green | Done. |
 | installer-attack | SKIPPED | installer-attack-test: SKIP (no symlink rights on this machine) |

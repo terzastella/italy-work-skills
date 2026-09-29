@@ -37,13 +37,23 @@ CASA = {"affitto-breve", "affitto-check", "affitto-concordato",
         "testamento-biologico-dat", "testamento-olografo",
         "testamento-pubblico", "usufrutto-nuda", "utenze-voltura",
         "visura-leggimi", "volture-catastali"}
-PILOT = PILOT | CASA
+PILOT = PILOT | CASA | {"accertamento-info", "adozioni-info",
+         "affido-familiare", "appalti-pubblici-info",
+         "assicurazione-vita-info", "contratto-base-check", "contratto-tipi",
+         "criptovalute-fisco", "fallimento-crisi-info", "franchising-info",
+         "invalidita-104", "irap-info", "marchi-info", "maternita-congedi",
+         "multe-ricorso", "pensione-reversibilita", "permesso-soggiorno",
+         "pignoramento-conto", "unioni-convivenze", "vaccini-obbligatori",
+         "whistleblowing-info"}
 OFFICIAL = ("inps.it", "agenziaentrate.gov.it", "salute.gov.it",
             "interno.gov.it", "lavoro.gov.it", "giustizia.it",
             "normattiva.it", "gazzettaufficiale.it", "europa.eu",
             "senato.it", "camera.it", "istat.it", "inail.it",
             "arera.it", "enea.it", "mase.gov.it", "parlamento.it",
-            "notariato.it", "bancaditalia.it", "ivass.it")
+            "notariato.it", "bancaditalia.it", "ivass.it",
+            "arera.it", "enea.it", "mase.gov.it", "parlamento.it",
+            "anticorruzione.it", "poliziadistato.it", "uibm.mise.gov.it",
+            "mise.gov.it")
 HEAD = re.compile(r"^## Sources \(verified (\d{4})-(\d{2})-(\d{2})\)", re.M)
 URL = re.compile(r"https://[^\s)>\"]+")
 

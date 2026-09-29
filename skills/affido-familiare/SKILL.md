@@ -3,7 +3,7 @@ name: affido-familiare
 description: Explain foster care with types and allowances. Use when asked affido familiare, foster care Italy.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot
-metadata: {author: ai-skills-hub, version: "0.3", lang: "en", last_verified: "2026-09-28"}
+metadata: {author: ai-skills-hub, version: "0.4", lang: "en", last_verified: "2026-09-28"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true

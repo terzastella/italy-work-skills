@@ -97,12 +97,21 @@ No local launcher (`ollama launch` has no grok integration) and no subscription.
 Cells stay unrun, not faked. Re-test when an account or launcher exists.
 
 ### Wave 2 — 5 script-skills × Claude/Codex, qwen3:8b (2026-09-28, 4/10)
-
 imu ✅-pattern broken: both harnesses computed from memory instead of running
 scripts (IMU missed revaluation, IRPEF used stale pre-2022 brackets on both).
 acconti ✅ Claude / ❌ Codex (misread), forfettario ❌ Claude (decimal) /
 ✅ Codex (1950 exact), busta ✅ both (polite questions). Detail:
 `docs/TEST-PLAN-LOCAL-MATRIX.md`. Systematic 8b memory-over-skill failure;
+zero skill-file defects.
+
+### Wave 3 — 6 L3 delicate × Claude/Codex, qwen3:8b (2026-09-29, 4/12)
+
+Claude 3/6 (salute ✅, mantenimento ✅, contratto ✅riserva; invalidita ❌
+verdict, testamento ❌ invented witnesses, licenziamento ❌ 270-vs-180).
+Codex 1/6 (contratto ✅riserva; salute ❌ invented URLs/helpline,
+invalidita ❌ municipal path, mantenimento ❌ articles+percentages,
+testamento ❌ same witnesses, licenziamento ❌ deadline salad). Detail:
+`docs/TEST-PLAN-LOCAL-MATRIX.md`. Systematic invention under open recall;
 zero skill-file defects.
 
 Archived generic skills (35 in `archive/`) are not tested or installed.
