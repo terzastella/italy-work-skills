@@ -73,20 +73,29 @@ def parse(skill):
         seen = dt.date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
     except ValueError:
         return None, [f"{skill}: bad verified date"]
-    bullets = [ln for ln in txt.splitlines() if ln.startswith("- ")]
-    if not bullets:
-        errs.append(f"{skill}: no source bullets")
-    for b in bullets:
-        urls = URL.findall(b)
-        if not urls:
-            errs.append(f"{skill}: bullet without URL: {b[:80]}")
+    blocks, cur = [], None
+    for ln in txt.splitlines():
+        if ln.startswith("- source:"):
+            cur = {"source": ln[len("- source:"):].strip(), "url": None, "claims": []}
+            blocks.append(cur)
+        elif ln.startswith("  url:") and cur is not None:
+            cur["url"] = ln[len("  url:"):].strip()
+        elif ln.startswith("    - ") and cur is not None:
+            cur["claims"].append(ln[len("    - "):].strip())
+    if not blocks:
+        errs.append(f"{skill}: no source blocks (want '- source:' + url + claims)")
+    for b in blocks:
+        if not b["url"] or not URL.match(b["url"]):
+            errs.append(f"{skill}: block without valid URL: {b['source'][:60]}")
             continue
-        if not official_host(urls[0]):
-            errs.append(f"{skill}: non-official host: {urls[0][:80]}")
-        if "claims:" not in b:
-            errs.append(f"{skill}: bullet without claims: {b[:80]}")
+        if not official_host(b["url"]):
+            errs.append(f"{skill}: non-official host: {b['url'][:80]}")
+        real = [c for c in b["claims"] if len(c) >= 15]
+        if not real:
+            errs.append(f"{skill}: no meaningful claims (>=15 chars): {b['source'][:60]}")
     stale = (dt.date.today() - seen).days > STALE_DAYS
-    return (seen, stale, [URL.findall(b)[0] for b in bullets if URL.findall(b)]), errs
+    urls = [b["url"] for b in blocks if b["url"] and URL.match(b["url"])]
+    return (seen, stale, urls), errs
 
 
 def main():

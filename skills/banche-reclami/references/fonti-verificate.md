@@ -2,4 +2,9 @@
 
 ## Sources (verified 2026-09-28)
 
-- Banca d'Italia — Ricorso ABF: https://www.bancaditalia.it/servizi-cittadino/servizi/ricorso-abf/index.html — claims: reclamo preventivo; termini; portale ABF
+- source: Banca d'Italia — Ricorso ABF
+  url: https://www.bancaditalia.it/servizi-cittadino/servizi/ricorso-abf/index.html
+  claims:
+    - reclamo preventivo
+    - termini
+    - portale ABF

@@ -2,4 +2,9 @@
 
 ## Sources (verified 2026-09-28)
 
-- Agenzia delle Entrate — Scheda prima casa: https://www.agenziaentrate.gov.it/portale/schede/agevolazioni/scheda-acquisto-prima-casa/infogen-agevolazioni-acquisto-prima-casa-cittadini — claims: requisiti; imposte ridotte; decadenze
+- source: Agenzia delle Entrate — Scheda prima casa
+  url: https://www.agenziaentrate.gov.it/portale/schede/agevolazioni/scheda-acquisto-prima-casa/infogen-agevolazioni-acquisto-prima-casa-cittadini
+  claims:
+    - requisiti
+    - imposte ridotte
+    - decadenze
