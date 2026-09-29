@@ -49,6 +49,11 @@ is CI-blocking on schema+dates; `--check-links` HEADs every URL (advisory).
 Pilot (2026-09-28, all HTTP 200 live): pensione-guida (INPS), successioni-info
 (AdE), salute-mentale-info (Ministero Salute), cittadinanza (Interno),
 separazione-divorzio (Normattiva L.898/1970), licenziamento-info (Lavoro).
+Wave 2 (2026-09-28): 34 casa+diritto skills (AdE guide, Normattiva,
+ARERA, ENEA/MASE, Notariato, Bankitalia-ABF, IVASS) — 40 semantic skills
+total, 0 dead links. Queued (no verified official URL yet):
+case-popolari-erp (regional), riscaldamento-contabilizzazione,
+multiproprieta-diritti, conciliazione-paritetica, giudice-di-pace.
 Rollout continues theme by theme; link monitoring and impact analysis
 build on this inventory.
 
