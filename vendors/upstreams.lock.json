@@ -1,12 +1,12 @@
 {
   "version": "1.0.0",
-  "updated": "2026-09-26",
+  "updated": "2026-09-29",
   "policy": "Files are byte-identical copies pinned to the commit below. Never hand-edit; re-copy to update.",
   "upstreams": [
     {
       "repo": "anthropics/skills",
       "url": "https://github.com/anthropics/skills",
-      "commit": "33375500bcea98d610eb30ce10ac4e59b89c390d",
+      "commit": "8a1541c4a3ffa5a20a5a91de0dcf3f0bab1d1ef4",
       "license": "Apache-2.0 (per-skill LICENSE.txt; doc-coauthoring covered by repo README statement)",
       "local": "vendors/anthropics-skills",
       "skills": ["brand-guidelines", "canvas-design", "claude-api", "doc-coauthoring", "frontend-design", "internal-comms", "mcp-builder", "skill-creator", "theme-factory", "webapp-testing"],
@@ -15,7 +15,7 @@
     {
       "repo": "mattpocock/skills",
       "url": "https://github.com/mattpocock/skills",
-      "commit": "c55ee46073ed923f86ce59a5eb3b6d895095d1b7",
+      "commit": "d81f3a183412e71a5b1e84ca21bc1a35eea03a60",
       "license": "MIT (vendors/third-party/LICENSE-mattpocock.txt)",
       "local": "vendors/mattpocock-skills",
       "skills": ["code-review", "diagnosing-bugs", "prototype", "research", "tdd", "to-spec"],
