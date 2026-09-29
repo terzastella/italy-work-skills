@@ -65,3 +65,6 @@ license, compatibility, metadata) plus harness extensions (`argument-hint`,
 `skills-ref` (strictyaml) rejects — uniformly across all skills, by design,
 not by accident. `scripts/check-spec.py` runs upstream validation as an
 advisory CI step; our own `scripts/validate.py` stays the binding gate.
+This stays advisory permanently: promoting it would mean rewriting 254
+frontmatter blocks for a demo-only tool, with zero behavior gain —
+rejected as churn, not deferred as debt.
