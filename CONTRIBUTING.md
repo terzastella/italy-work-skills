@@ -1,6 +1,7 @@
-# Contributing — technical entrypoint (local only for now)
+# Contributing — technical entrypoint
 
-Human version: `docs/CONTRIBUTING.md`. Automation rules: `AGENTS.md`.
+Human version: `docs/CONTRIBUTING.md` (includes the L0–L3 quality gate).
+Automation rules: `AGENTS.md`.
 
 ## How to propose a skill (in English)
 
@@ -14,18 +15,26 @@ Human version: `docs/CONTRIBUTING.md`. Automation rules: `AGENTS.md`.
    - keep `license: MIT`, `compatibility`, `metadata: {author, version, lang: "en"}`
 3. Add depth: `scripts/` for code, `references/` for checklists,
    `assets/` for templates, `examples/` for before/after.
-4. Validate and test locally:
+4. Validate and test locally (all must pass):
    ```bash
-   python scripts/validate.py --skill <skill-name>
+   python scripts/validate.py
    python scripts/security-check.py
+   python scripts/check-indexes.py
+   python scripts/build-catalog.py --check
+   python scripts/eval-golden.py       # if you touched a skill with scripts/
+   python scripts/check-oracles.py     # same
+   python scripts/check-invariants.py  # same
+   python scripts/eval-behavior.py
+   python scripts/check-freshness.py --check
    python scripts/install.py --skill <skill-name> --dest ./tmp-test --all
    Remove-Item ./tmp-test -Recurse -Force
    ```
 5. Update indexes: `catalog/skills.json`, `llms.txt`,
    `.claude-plugin/plugin.json`, `docs/COMPATIBILITY.md` table.
-6. Regenerate the catalog: `python scripts/build-catalog.py` (never edit
-   `docs/CATALOG.md` by hand; fix `scripts/build-catalog.py` keywords or
-   overrides instead if a skill lands in the wrong theme).
+   Regenerate: `python scripts/build-catalog.py`, `python scripts/build-plugins.py`,
+   `python scripts/build-risk-matrix.py`, `python scripts/build-health.py`
+   (never hand-edit `docs/CATALOG.md`, manifests, `docs/RISK-MATRIX.md`,
+   `docs/HEALTH.md`; fix the generators instead).
 
 ## Rules
 

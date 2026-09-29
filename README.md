@@ -137,7 +137,7 @@ Full guide: `docs/CREATE-SKILL.md`. For Italy skills: official sources + profess
 Status: **v1.16 — 254 originals + 24 pinned third-party = 278 entries** (history in `CHANGELOG.md`).
 `main` may contain unreleased changes; use a tagged release for reproducible installs.
 
-- [x] 254 skills complete and deepened, 30 calculators verified (63/63 checks green)
+- [x] 254 skills complete and deepened, 30 calculators verified (63/63 golden + 15/15 oracles + 19/19 invariants green)
 - [x] Sensitive topics audited: information + professional referral, never verdicts
 - [x] First real-agent runs logged (`docs/TEST-PLAN-LOCAL.md`)
 - [ ] Real-agent tests on Claude/Codex/Grok (`docs/TEST-PLAN.md` ready, badges to follow)

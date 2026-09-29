@@ -22,6 +22,8 @@ that would be inappropriate in a professional setting.
 
 Instances of unacceptable behavior may be reported to the repository owner,
 who will review and take appropriate action, up to and including temporary
-or permanent bans from the project. This repo is currently developed by a
+or permanent bans from the project. Sensitive reports (doxxing, harassment
+with personal data) should use GitHub private vulnerability reporting
+instead of public issues. This repo is currently developed by a
 small team; enforcement is handled directly by the owner until the community
 grows enough to warrant a dedicated team.

@@ -166,8 +166,8 @@ Guida completa: `docs/CREATE-SKILL.md`. Per skill Italia: aggiungi fonti ufficia
 
 Stato: **v1.16 — 254 skill nostre + 24 terze pinnate = 278 entries** (storia in `CHANGELOG.md`).
 
-- [x] 254 skill complete e approfondite, 30 calcoli verificati (63/63 controlli verdi)
+- [x] 254 skill complete e approfondite, 30 calcoli verificati (63/63 golden + 15/15 oracoli + 19/19 invariants verdi)
 - [x] Temi sensibili blindati: solo informazioni + rinvio al professionista, mai verdetti
 - [x] Primi test reali registrati (`docs/TEST-PLAN-LOCAL.md`)
 - [ ] Test reali sugli agenti e badge in `docs/COMPATIBILITY.md`
-- [ ] Rinviato (serve repo pubblica): submit a skills.sh / agentskills.io
+- [ ] Submit a skills.sh / agentskills.io (repo già pubblica)

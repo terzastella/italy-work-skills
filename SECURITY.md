@@ -1,10 +1,11 @@
 # Security
 
-Local only for now. No data leaves the PC.
+Public repo. Skills run locally (no data leaves the PC); repo maintenance
+checks are described in `docs/INSTALL.md` and `docs/FAQ.md`.
 
 ## Never commit
 
-- Tokens/keys: `AKIA...`, `ghp_...`, `xai-...`, `sk-...`, assigned passwords
+- Tokens/keys: `AKIA...`, `ghp_...`, `github_pat_...`, `xai-...`, `sk-...`, assigned passwords
 - PII: emails, real names, private IPs, `C:\Users\<name>`, `/home/<name>` paths
 - Files >1MB or binaries without reason
 
