@@ -3,7 +3,7 @@ name: assicurazione-casa
 description: Explain home insurance with coverage and claims. Use when asked assicurazione casa, home insurance Italy, polizza casa.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.3", lang: "en", last_verified: "2026-09-28"}
+metadata: {author: ai-skills-hub, version: "0.4", lang: "en", last_verified: "2026-09-28"}
 allowed-tools: Read Write
 argument-hint: "[home/needs]"
 user-invocable: true

@@ -3,7 +3,7 @@ name: percorso-casa-compravendita
 description: Guided home-buying path, offer to taxes. Use when asked comprare casa passo passo, buy home path Italy, mutuo to IMU.
 license: MIT
 compatibility: Claude Code, Codex, Grok, Cursor, Copilot, Copilot CLI, Gemini, OpenCode, Windsurf
-metadata: {author: ai-skills-hub, version: "0.3", lang: "en", last_verified: "2026-09-28"}
+metadata: {author: ai-skills-hub, version: "0.4", lang: "en", last_verified: "2026-09-28"}
 allowed-tools: Read Write
 argument-hint: "[situation]"
 user-invocable: true

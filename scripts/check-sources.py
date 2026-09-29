@@ -24,10 +24,26 @@ REPO = Path(__file__).resolve().parents[1]
 STALE_DAYS = 365
 PILOT = {"pensione-guida", "successioni-info", "salute-mentale-info",
          "cittadinanza", "separazione-divorzio", "licenziamento-info"}
+CASA = {"affitto-breve", "affitto-check", "affitto-concordato",
+        "amministratore-condominio", "ape-certificazione",
+        "assemblea-condominiale", "assicurazione-casa", "banche-reclami",
+        "bollette-energia", "bonus-casa", "comodato-uso",
+        "compravendita-casa", "condominio-spese", "diffida-legale",
+        "donazioni-info", "edilizia-cila-scia", "eredita-debiti",
+        "lavori-straordinari", "mantenimento-figli", "mediazione-civile",
+        "morosita-condominiale", "multe-ricorso", "mutuo-tassi",
+        "percorso-casa-compravendita", "percorso-lutto",
+        "prima-casa-agevolazioni", "spese-notarili",
+        "testamento-biologico-dat", "testamento-olografo",
+        "testamento-pubblico", "usufrutto-nuda", "utenze-voltura",
+        "visura-leggimi", "volture-catastali"}
+PILOT = PILOT | CASA
 OFFICIAL = ("inps.it", "agenziaentrate.gov.it", "salute.gov.it",
             "interno.gov.it", "lavoro.gov.it", "giustizia.it",
             "normattiva.it", "gazzettaufficiale.it", "europa.eu",
-            "senato.it", "camera.it", "istat.it", "inail.it")
+            "senato.it", "camera.it", "istat.it", "inail.it",
+            "arera.it", "enea.it", "mase.gov.it", "parlamento.it",
+            "notariato.it", "bancaditalia.it", "ivass.it")
 HEAD = re.compile(r"^## Sources \(verified (\d{4})-(\d{2})-(\d{2})\)", re.M)
 URL = re.compile(r"https://[^\s)>\"]+")
 
@@ -83,15 +99,25 @@ def main():
             if not info:
                 continue
             for u in info[2]:
+                code, how = None, "HEAD"
                 try:
                     req = urllib.request.Request(u, method="HEAD",
                                                  headers={"User-Agent": "italy-work-skills-linkcheck"})
                     code = urllib.request.urlopen(req, timeout=20).status
-                    print(f"[{'ok' if code < 400 else 'DEAD'}] {skill}: {u[:90]} -> {code}")
-                    bad += code >= 400
-                except Exception as e:  # noqa: BLE001
-                    print(f"[DEAD] {skill}: {u[:90]} ({type(e).__name__})")
-                    bad += 1
+                except Exception:  # noqa: BLE001 - HEAD often blocked; try GET
+                    try:
+                        req = urllib.request.Request(u, method="GET",
+                                                     headers={"User-Agent": "Mozilla/5.0"})
+                        with urllib.request.urlopen(req, timeout=20) as r:
+                            r.read(4096)
+                            code = r.status
+                            how = "GET"
+                    except Exception as e2:  # noqa: BLE001
+                        print(f"[DEAD] {skill}: {u[:90]} ({type(e2).__name__})")
+                        bad += 1
+                        continue
+                print(f"[{'ok' if code < 400 else 'DEAD'}] {skill}: {u[:90]} -> {code} ({how})")
+                bad += code >= 400
         print(f"links: {bad} dead/unreachable (advisory)")
         return 0
     check = "--check" in args
